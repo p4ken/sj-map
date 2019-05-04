@@ -5,4 +5,6 @@ Structure.Load('structures.csv');
 Sound.Load('sounds.csv');
 Station.Load('stations.csv');
 Signal.Load('signals.csv');
-include 'track.bve';
+include 'map/station.bve';
+include 'map/track0.bve';
+include 'map/honsen.bve';

@@ -6,7 +6,7 @@ $right = 1;
 $underrun = -5;
 $overrun = 5;
 
-0;
+30;
 Station['nishiya'].Put($right, $underrun, $overrun);
 
 2700; # 相鉄JR直通線の整備区間 2.7km

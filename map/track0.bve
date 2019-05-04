@@ -1,0 +1,109 @@
+BveTs Map 2.02:UTF-8
+
+0;
+$track0 = 0;
+$tilt_none = 0;
+$tilt_gradient = 1;
+$tilt_cant = 2;
+$tilt_all = 3;
+
+0;
+Structure['BallastPC_K_5a'].Put0($track0, $tilt_all, 5);
+
+5;
+Structure['BallastPC_K_5b'].Put0($track0, $tilt_all, 5);
+
+10;
+Structure['BallastPC_K_5a'].Put0($track0, $tilt_all, 5);
+
+15;
+Structure['BallastPC_K_5b'].Put0($track0, $tilt_all, 5);
+
+20;
+Structure['BallastPC_K_5a'].Put0($track0, $tilt_all, 5);
+Gradient.Interpolate();
+
+25;
+Structure['BallastPC_K_5b'].Put0($track0, $tilt_all, 5);
+
+30;
+Structure['BallastPC_K_5a'].Put0($track0, $tilt_all, 5);
+Gradient.Interpolate(-33);
+
+35;
+Structure['BallastPC_K_5b'].Put0($track0, $tilt_all, 5);
+
+40;
+Structure['BallastPC_K_5a'].Put0($track0, $tilt_all, 5);
+
+45;
+Structure['BallastPC_K_5b'].Put0($track0, $tilt_all, 5);
+
+50;
+Structure['BallastPC_K_5a'].Put0($track0, $tilt_all, 5);
+
+55;
+Structure['Slab2S5m'].Put0($track0, $tilt_all, 5);
+
+60;
+Structure['Slab2S5m'].Put0($track0, $tilt_all, 5);
+
+65;
+Structure['Slab2S5m'].Put0($track0, $tilt_all, 5);
+
+70;
+Structure['Slab2S5m'].Put0($track0, $tilt_all, 5);
+
+75;
+Structure['Slab2S5m'].Put0($track0, $tilt_all, 5);
+
+80;
+Structure['Slab2S5m'].Put0($track0, $tilt_all, 5);
+
+85;
+Structure['Slab2S5m'].Put0($track0, $tilt_all, 5);
+
+90;
+Structure['Slab2S5m'].Put0($track0, $tilt_all, 5);
+
+95;
+Structure['Slab2S5m'].Put0($track0, $tilt_all, 5);
+
+100;
+Structure['Slab2S5m'].Put0($track0, $tilt_all, 5);
+
+105;
+Structure['Slab2S5m'].Put0($track0, $tilt_all, 5);
+
+110;
+Structure['Slab2S5m'].Put0($track0, $tilt_all, 5);
+
+115;
+Structure['Slab2S5m'].Put0($track0, $tilt_all, 5);
+
+120;
+Structure['Slab2S5m'].Put0($track0, $tilt_all, 5);
+
+125;
+Structure['Slab2S5m'].Put0($track0, $tilt_all, 5);
+
+130;
+Structure['Slab2S5m'].Put0($track0, $tilt_all, 5);
+
+135;
+Structure['Slab2S5m'].Put0($track0, $tilt_all, 5);
+
+140;
+Structure['Slab2S5m'].Put0($track0, $tilt_all, 5);
+
+145;
+Structure['Slab2S5m'].Put0($track0, $tilt_all, 5);
+
+150;
+Structure['Slab2S5m'].Put0($track0, $tilt_all, 5);
+Structure['1go_c1_Potal2'].Put0($track0, $tilt_all, 5);
+
+155;
+
+
+# 次の分岐器から別ファイルにする
