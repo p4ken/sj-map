@@ -1,0 +1,23 @@
+BveTs Map 2.02:UTF-8
+
+0;
+$left = -1;
+$right = 1;
+$underrun = -5;
+$overrun = 5;
+
+0;
+Station['nishiya'].Put($right, $underrun, $overrun);
+
+2700; # 相鉄JR直通線の整備区間 2.7km
+Station['hazawa'].Put($left, $underrun, $overrun);
+
+11500; # 横浜羽沢(貨)からの営業キロ 8.8km
+# 鶴見駅
+
+15400; # 鶴見からの営業キロ 3.9km
+Station['shin_tsurumi'].Put($left, $underrun, $overrun);
+
+# 新鶴見(信)からの営業キロ 3.9km
+19300;
+Station['musashi_kosugi'].Put($left, $underrun, $overrun);
