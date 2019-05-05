@@ -1,7 +1,23 @@
 BveTs Structure List 2.00:shift_jis
 
+Bg,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\BG\Bg.x
+Bg_fine_summer,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\BG\Bg_fine_summer.x
 BallastPC_K_5a,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Rail\Ballast01\BallastPC_K_5a.x
 BallastPC_K_5b,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Rail\Ballast01\BallastPC_K_5b.x
 Slab2S5m,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Rail\Slab01\Slab2S5m.x
 Slab8m,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Rail\Slab01\Slab8m.x
-1go_c1_Potal2,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Tunnel\1go_c1_Potal2.x
+road_045_a,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Road\road_045_a.x
+road_045_b,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Road\road_045_b.x
+road_045_c,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Road\road_045_c.x
+road_045_d,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Road\road_045_d.x
+2go_c1_Potal2,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Tunnel\2go_c1_Potal2.x
+
+dikep2,C:\Users\p4\Documents\BveTs\Scenarios\shuttle\fukutoshin\structures\wall\dikep2.x
+dikep3,C:\Users\p4\Documents\BveTs\Scenarios\shuttle\fukutoshin\structures\wall\dikep3.x
+end1l,C:\Users\p4\Documents\BveTs\Scenarios\shuttle\fukutoshin\structures\wall\end1l.x
+end1r,C:\Users\p4\Documents\BveTs\Scenarios\shuttle\fukutoshin\structures\wall\end1r.x
+shield2a,C:\Users\p4\Documents\BveTs\Scenarios\shuttle\fukutoshin\structures\wall\shield2a.x
+shield2b,C:\Users\p4\Documents\BveTs\Scenarios\shuttle\fukutoshin\structures\wall\shield2b.x
+walln1r15,C:\Users\p4\Documents\BveTs\Scenarios\shuttle\fukutoshin\structures\wall\walln1r15.x
+walln1l,C:\Users\p4\Documents\BveTs\Scenarios\shuttle\fukutoshin\structures\wall\walln1l.x
+walln1r,C:\Users\p4\Documents\BveTs\Scenarios\shuttle\fukutoshin\structures\wall\walln1r.x

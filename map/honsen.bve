@@ -32,12 +32,12 @@ Track[$track_honsen].Y.Interpolate(0);
 25;
 Structure['BallastPC_K_5b'].Put0($track_honsen, $tilt_all, 5);
 Structure['BallastPC_K_5b'].Put($track_honsen, 4,0,0, 0,0,0, $tilt_all, 5);
+Structure['Slab8m'].Put($track_honsen, -6.1,-5.8,0, 0,0,-90, $tilt_all, 5);
+Structure['Slab8m'].Put($track_honsen, -3.1,-5.8,0, 0,0,90, $tilt_all, 5);
 
 30;
 Structure['BallastPC_K_5a'].Put0($track_honsen, $tilt_all, 5);
 Structure['BallastPC_K_5a'].Put($track_honsen, 4,0,0, 0,0,0, $tilt_all, 5);
-Structure['Slab8m'].Put($track_honsen, -6.1,-5.8,0, 0,0,-90, $tilt_all, 5);
-Structure['Slab8m'].Put($track_honsen, -3.1,-5.8,0, 0,0,90, $tilt_all, 5);
 
 35;
 Structure['BallastPC_K_5b'].Put0($track_honsen, $tilt_all, 5);
@@ -46,42 +46,50 @@ Structure['BallastPC_K_5b'].Put($track_honsen, 4,0,0, 0,0,0, $tilt_all, 5);
 40;
 Structure['BallastPC_K_5a'].Put0($track_honsen, $tilt_all, 5);
 Structure['BallastPC_K_5a'].Put($track_honsen, 4,0,0, 0,0,0, $tilt_all, 5);
+Structure['road_045_a'].Put($track_honsen, -9,-1,0, 0,0,0, $tilt_all, 5);
 
 45;
 Structure['BallastPC_K_5b'].Put0($track_honsen, $tilt_all, 5);
 Structure['BallastPC_K_5b'].Put($track_honsen, 4,0,0, 0,0,0, $tilt_all, 5);
+Structure['road_045_b'].Put($track_honsen, -9,-1,0, 0,0,0, $tilt_all, 5);
 
 50;
 Structure['BallastPC_K_5a'].Put0($track_honsen, $tilt_all, 5);
 Structure['BallastPC_K_5a'].Put($track_honsen, 4,0,0, 0,0,0, $tilt_all, 5);
+Structure['Slab8m'].Put($track_honsen, -6.1,-5.8,0, 0,0,-90, $tilt_all, 5);
+Structure['Slab8m'].Put($track_honsen, -3.1,-5.8,0, 0,0,90, $tilt_all, 5);
+Structure['road_045_c'].Put($track_honsen, -9,-1,0, 0,0,0, $tilt_all, 5);
 
 55;
 Structure['BallastPC_K_5b'].Put0($track_honsen, $tilt_all, 5);
 Structure['BallastPC_K_5b'].Put($track_honsen, 4,0,0, 0,0,0, $tilt_all, 5);
-Structure['Slab8m'].Put($track_honsen, -6.1,-5.8,0, 0,0,-90, $tilt_all, 5);
-Structure['Slab8m'].Put($track_honsen, -3.1,-5.8,0, 0,0,90, $tilt_all, 5);
+Structure['road_045_d'].Put($track_honsen, -9,-1,0, 0,0,0, $tilt_all, 5);
 
 60;
 Structure['BallastPC_K_5a'].Put0($track_honsen, $tilt_all, 5);
 Structure['BallastPC_K_5a'].Put($track_honsen, 4,0,0, 0,0,0, $tilt_all, 5);
+Structure['road_045_a'].Put($track_honsen, -9,-1,0, 0,0,0, $tilt_all, 5);
 
 65;
 Structure['BallastPC_K_5b'].Put0($track_honsen, $tilt_all, 5);
 Structure['BallastPC_K_5b'].Put($track_honsen, 4,0,0, 0,0,0, $tilt_all, 5);
+Structure['road_045_b'].Put($track_honsen, -9,-1,0, 0,0,0, $tilt_all, 5);
 
 70;
 Structure['BallastPC_K_5a'].Put0($track_honsen, $tilt_all, 5);
 Structure['BallastPC_K_5a'].Put($track_honsen, 4,0,0, 0,0,0, $tilt_all, 5);
+Structure['road_045_c'].Put($track_honsen, -9,-1,0, 0,0,0, $tilt_all, 5);
 
 75;
 Structure['BallastPC_K_5b'].Put0($track_honsen, $tilt_all, 5);
 Structure['BallastPC_K_5b'].Put($track_honsen, 4,0,0, 0,0,0, $tilt_all, 5);
+Structure['Slab8m'].Put($track_honsen, -6.1,-5.8,0, 0,0,-90, $tilt_all, 5);
+Structure['Slab8m'].Put($track_honsen, -3.1,-5.8,0, 0,0,90, $tilt_all, 5);
+Structure['road_045_d'].Put($track_honsen, -9,-1,0, 0,0,0, $tilt_all, 5);
 
 80;
 Structure['BallastPC_K_5a'].Put0($track_honsen, $tilt_all, 5);
 Structure['BallastPC_K_5a'].Put($track_honsen, 4,0,0, 0,0,0, $tilt_all, 5);
-Structure['Slab8m'].Put($track_honsen, -6.1,-5.8,0, 0,0,-90, $tilt_all, 5);
-Structure['Slab8m'].Put($track_honsen, -3.1,-5.8,0, 0,0,90, $tilt_all, 5);
 
 85;
 Structure['BallastPC_K_5b'].Put0($track_honsen, $tilt_all, 5);
@@ -98,12 +106,12 @@ Structure['BallastPC_K_5b'].Put($track_honsen, 4,0,0, 0,0,0, $tilt_all, 5);
 100;
 Structure['BallastPC_K_5a'].Put0($track_honsen, $tilt_all, 5);
 Structure['BallastPC_K_5a'].Put($track_honsen, 4,0,0, 0,0,0, $tilt_all, 5);
+Structure['Slab8m'].Put($track_honsen, -6.1,-5.8,0, 0,0,-90, $tilt_all, 5);
+Structure['Slab8m'].Put($track_honsen, -3.1,-5.8,0, 0,0,90, $tilt_all, 5);
 
 105;
 Structure['BallastPC_K_5b'].Put0($track_honsen, $tilt_all, 5);
 Structure['BallastPC_K_5b'].Put($track_honsen, 4,0,0, 0,0,0, $tilt_all, 5);
-Structure['Slab8m'].Put($track_honsen, -6.1,-5.8,0, 0,0,-90, $tilt_all, 5);
-Structure['Slab8m'].Put($track_honsen, -3.1,-5.8,0, 0,0,90, $tilt_all, 5);
 
 110;
 Structure['BallastPC_K_5a'].Put0($track_honsen, $tilt_all, 5);
@@ -120,12 +128,12 @@ Structure['BallastPC_K_5a'].Put($track_honsen, 4,0,0, 0,0,0, $tilt_all, 5);
 125;
 Structure['BallastPC_K_5b'].Put0($track_honsen, $tilt_all, 5);
 Structure['BallastPC_K_5b'].Put($track_honsen, 4,0,0, 0,0,0, $tilt_all, 5);
+Structure['Slab8m'].Put($track_honsen, -6.1,-5.8,0, 0,0,-90, $tilt_all, 5);
+Structure['Slab8m'].Put($track_honsen, -3.1,-5.8,0, 0,0,90, $tilt_all, 5);
 
 130;
 Structure['BallastPC_K_5a'].Put0($track_honsen, $tilt_all, 5);
 Structure['BallastPC_K_5a'].Put($track_honsen, 4,0,0, 0,0,0, $tilt_all, 5);
-Structure['Slab8m'].Put($track_honsen, -6.1,-5.8,0, 0,0,-90, $tilt_all, 5);
-Structure['Slab8m'].Put($track_honsen, -3.1,-5.8,0, 0,0,90, $tilt_all, 5);
 
 135;
 Structure['BallastPC_K_5b'].Put0($track_honsen, $tilt_all, 5);

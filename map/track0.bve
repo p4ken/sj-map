@@ -8,6 +8,7 @@ $tilt_cant = 2;
 $tilt_all = 3;
 
 0;
+Background.Change('Bg_fine_summer');
 Structure['BallastPC_K_5a'].Put0($track0, $tilt_all, 5);
 
 5;
@@ -43,6 +44,7 @@ Structure['BallastPC_K_5b'].Put0($track0, $tilt_all, 5);
 Structure['BallastPC_K_5a'].Put0($track0, $tilt_all, 5);
 
 55;
+# ここからＵ型擁壁部 100m
 Structure['Slab2S5m'].Put0($track0, $tilt_all, 5);
 
 60;
@@ -101,9 +103,37 @@ Structure['Slab2S5m'].Put0($track0, $tilt_all, 5);
 
 150;
 Structure['Slab2S5m'].Put0($track0, $tilt_all, 5);
-Structure['1go_c1_Potal2'].Put0($track0, $tilt_all, 5);
+Structure['2go_c1_Potal2'].Put0($track0, $tilt_all, 5);
+# ここから西谷トンネル 1445m
+# ここから1層1径間 単線箱型トンネル 130m
+Background.Change();
+Structure['end1l'].Put0($track0, $tilt_all, 25);
+Structure['end1r'].Put0($track0, $tilt_all, 25);
 
-155;
+175;
+Repeater['箱型トンネルL'].Begin0($track0, $tilt_all, 25, 25, 'walln1l');
+Repeater['箱型トンネルR単線'].Begin0($track0, $tilt_all, 25, 25, 'walln1r');
+
+275;
+Repeater['箱型トンネルR単線'].End();
+# ここから1層2径間 複線箱型トンネル 20m
+Repeater['箱型トンネルR複線'].Begin($track0, 4,0,0, 0,0,0, $tilt_all, 25, 25, 'walln1r');
+Structure['dikep2'].Put0($track0, $tilt_all, 25);
+
+300;
+# Repeater['単線箱型トンネル'].End();
+# ここから複線箱型トンネル 100m
+
+400;
+Repeater['箱型トンネルL'].End();
+Repeater['箱型トンネルR複線'].End();
+# ここはシールド到達立坑
+Structure['dikep3'].Put($track0, -0.4,0,0, 0,0,0, $tilt_all, 0);
+Structure['walln1r'].Put($track0, 6,0,0, 0,0,0, $tilt_all, 0);
+
+425;
+# ここから複線シールドトンネル
+Repeater['複線シールドトンネル'].Begin0($track0, $tilt_all, 25, 25, 'shield2a', 'shield2b');
 
 
 # 次の分岐器から別ファイルにする
