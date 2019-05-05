@@ -98,9 +98,16 @@ Repeater['羽沢横浜国大駅ホーム床L'].End();
 Repeater['羽沢横浜国大駅ホーム端R'].End();
 Repeater['羽沢横浜国大駅コンクリートL'].End();
 Repeater['羽沢横浜国大駅コンクリートR'].End();
+Repeater['直結軌道上り'].Begin0($track0, $tilt_all, 5, 5, 'Slab2S5m');
+Repeater['直結軌道下り'].Begin($track0, 4,0,0, 0,0,0, $tilt_all, 5, 5, 'Slab2S5m');
+Repeater['コンクリート道床'].Begin($track0, 2,0,0, 0,0,0, $tilt_all, 25, 25, 'Slab8m');
+Structure['wallend'].Put($track0, -1,0,0, 0,0,0, $tilt_all, 0);
+Structure['wallend'].Put($track0, 5,0,0, 0,180,0, $tilt_all, 0);
+Repeater['擁壁L'].Begin($track0, -2.6,-1,0, 0,0,-90, $tilt_gradient, 25, 25, 'Slab8m');
+Repeater['擁壁R'].Begin($track0, 7,-1,0, 0,0,90, $tilt_gradient, 25, 25, 'Slab8m');
 
 $distance_hazawa_yokohama_kokudai + 20;
 Repeater['羽沢横浜国大駅ホームドアL'].End(); # 20m手前で終わる(直感に反する)
 Repeater['羽沢横浜国大駅ホームドアR'].End(); # 20m手前で終わる(直感に反する)
 
-# 次の分岐器から別ファイルにする
+# 分岐器。左：鶴見方面　右：新横浜方面
