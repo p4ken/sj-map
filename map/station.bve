@@ -6,18 +6,32 @@ $right = 1;
 $underrun = -5;
 $overrun = 5;
 
-30;
+$distance_nishiya = 30;
+$distance_nishiya;
 Station['nishiya'].Put($right, $underrun, $overrun);
 
-2700; # 相鉄JR直通線の整備区間 2.7km
-Station['hazawa'].Put($left, $underrun, $overrun);
+# 西谷～羽沢横浜国大の営業キロ 2.1km
+$distance_hazawa_yokohama_kokudai = distance + 2075;
 
-11500; # 横浜羽沢(貨)からの営業キロ 8.8km
+$distance_hazawa_yokohama_kokudai;
+Station['hazawa_yokohama_kokudai'].Put($left, $underrun, $overrun);
+
+# 航空写真で羽沢横浜国大～横浜羽沢(貨) 600m弱
+$distance_yokohama_hazawa = distance + 600;
+$distance_yokohama_hazawa;
+Station['yokohama_hazawa'].Put($left, $underrun, $overrun);
+
+# 横浜羽沢(貨)からの営業キロ 8.8km
+$distance_tsurumi = distance + 8800;
+$distance_tsurumi;
 # 鶴見駅
 
-15400; # 鶴見からの営業キロ 3.9km
+# 鶴見からの営業キロ 3.9km
+$distance_shin_tsurumi = distance + 3900;
+$distance_shin_tsurumi;
 Station['shin_tsurumi'].Put($left, $underrun, $overrun);
 
 # 新鶴見(信)からの営業キロ 3.9km
-19300;
-Station['musashi_kosugi'].Put($left, $underrun, $overrun);
+$distance_musashi_kosugi = distance + 3900;
+$distance_musashi_kosugi;
+Station['musashi_kosugi'].Put($right, $underrun, $overrun);
