@@ -110,4 +110,10 @@ $distance_hazawa_yokohama_kokudai + 20;
 Repeater['羽沢横浜国大駅ホームドアL'].End(); # 20m手前で終わる(直感に反する)
 Repeater['羽沢横浜国大駅ホームドアR'].End(); # 20m手前で終わる(直感に反する)
 
+$distance_hazawa_yokohama_kokudai + 25;
+Repeater['直結軌道下り'].End();
+Repeater['直結軌道上り'].End();
+Repeater['擁壁L'].End();
+Repeater['擁壁R'].End();
+
 # 分岐器。左：鶴見方面　右：新横浜方面

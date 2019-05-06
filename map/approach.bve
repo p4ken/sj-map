@@ -1,0 +1,35 @@
+BveTs Map 2.02:UTF-8
+
+# 新横浜線の上を跨いで、貨物線に接続する。
+
+0;
+$track_approach = 0;
+$tilt_none = 0;
+$tilt_gradient = 1;
+$tilt_cant = 2;
+$tilt_all = 3;
+
+$distance_hazawa_yokohama_kokudai + 25;
+Repeater['擁壁L'].Begin($track_approach, -2.6,-1,0, 0,0,-90, $tilt_gradient, 25, 25, 'Slab8m');
+Repeater['直結軌道上り'].Begin0($track_approach, $tilt_all, 5, 5, 'Slab2S5m');
+
+$distance_hazawa_yokohama_kokudai + 50;
+Curve.Interpolate();
+Curve.Interpolate(-308);
+
+$distance_hazawa_yokohama_kokudai + 75;
+Curve.Interpolate();
+Curve.Interpolate(0);
+# 舵角 -4.76度
+
+$distance_hazawa_yokohama_kokudai + 100;
+Curve.Interpolate(0, 0.02);
+Curve.Interpolate(920, 0.02);
+
+$distance_hazawa_yokohama_kokudai + 175;
+Curve.Interpolate(920, 0.02);
+Curve.Interpolate(0, 0.02);
+
+$distance_hazawa_yokohama_kokudai + 200;
+Curve.Interpolate(0, 0);
+
