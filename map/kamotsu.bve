@@ -1,8 +1,45 @@
-BveTs Map 2.02:UTF-8
+﻿BveTs Map 2.02:UTF-8
 
 0;
-$track_kamotsu = 1;
+$track_kamotsu = 3;
 $tilt_none = 0;
 $tilt_gradient = 1;
 $tilt_cant = 2;
 $tilt_all = 3;
+
+$distance_hazawa_yokohama_kokudai;
+Track[$track_kamotsu].Y.Interpolate(5);
+Track[$track_kamotsu].X.Interpolate(9);
+Repeater['貨物の外壁'].Begin($track_kamotsu, 4.7,0,0, 0,0,0, $tilt_all, 5, 5, 'Fence6L');
+Repeater['貨物上りのバラスト軌道'].Begin0($track_kamotsu, $tilt_all, 5, 5, 'BallastPC_K_5a');
+Repeater['貨物下りのバラスト軌道'].Begin($track_kamotsu, 4,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastPC_K_5a');
+
+$distance_hazawa_yokohama_kokudai + 50;
+Track[$track_kamotsu].X.Interpolate(9);
+
+$distance_hazawa_yokohama_kokudai + 175;
+# ここから接続線が直線で並行する
+Track[$track_kamotsu].X.Interpolate(15);
+
+$distance_yokohama_hazawa - 200;
+# ここから接続線が右カーブ
+$radius_kamotsu_right = 1 / (1 / 1000 - 1 / 300);
+Track[$track_kamotsu].Y.Interpolate(0);
+Track[$track_kamotsu].X.Interpolate(15, $radius_kamotsu_right);
+
+$distance_yokohama_hazawa - 150;
+# ここから接続線が直線で合流してくる
+Track[$track_kamotsu].X.Interpolate(12);
+Track[$track_kamotsu].X.Interpolate(12, 1000);
+Repeater['貨物の外壁'].End();
+
+$distance_yokohama_hazawa - 100;
+Track[$track_kamotsu].X.Interpolate(7);
+Track[$track_kamotsu].X.Interpolate(7, 0);
+
+$distance_yokohama_hazawa - 25;
+Track[$track_kamotsu].X.Interpolate(1, 300);
+
+$distance_yokohama_hazawa;
+Track[$track_kamotsu].X.Interpolate(0, 0);
+Repeater['防音壁L'].Begin0($track_kamotsu, $tilt_none, 25, 25, 'Wall_QN_L25m');

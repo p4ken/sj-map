@@ -45,3 +45,28 @@ Gradient.Interpolate();
 
 $distance_hazawa_yokohama_kokudai + 400;
 Gradient.Interpolate(0);
+
+$distance_yokohama_hazawa - 200;
+Curve.Interpolate();
+Curve.Interpolate(300, 0);
+
+$distance_yokohama_hazawa - 175;
+Curve.Interpolate(300, 0.04);
+
+$distance_yokohama_hazawa - 175;
+Curve.Interpolate(300, 0.04);
+
+$distance_yokohama_hazawa - 150;
+Curve.Interpolate(300, 0);
+Curve.Interpolate(0);
+
+$distance_yokohama_hazawa - 25;
+Curve.Interpolate();
+Curve.Interpolate(-308);
+
+$distance_yokohama_hazawa;
+Curve.Interpolate();
+Curve.Interpolate(0);
+Repeater['コンクリート道床上り'].End();
+Repeater['擁壁L'].End();
+Repeater['直結軌道上り'].End();

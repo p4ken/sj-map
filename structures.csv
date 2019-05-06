@@ -1,5 +1,6 @@
 BveTs Structure List 2.00:shift_jis
 
+Fence6L,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\ACCC\Station\Fence6L.x
 Bg,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\BG\Bg.x
 Bg_fine_summer,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\BG\Bg_fine_summer.x
 BallastPC_K_5a,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Rail\Ballast01\BallastPC_K_5a.x
@@ -11,6 +12,7 @@ road_045_b,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Road\road_
 road_045_c,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Road\road_045_c.x
 road_045_d,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Road\road_045_d.x
 2go_c1_Potal2,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Tunnel\2go_c1_Potal2.x
+Wall_QN_L25m,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Wall\Wall_QN_L25m.x
 
 end,C:\Users\p4\Documents\BveTs\Scenarios\shuttle\fukutoshin\structures\sta\end.x
 end2,C:\Users\p4\Documents\BveTs\Scenarios\shuttle\fukutoshin\structures\sta\end2.x
