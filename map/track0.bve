@@ -68,6 +68,7 @@ Structure['ent1r'].Put($track0, 6,0,0, 0,0,0, $tilt_all, 25);
 Repeater['複線シールドトンネル'].End();
 # （ここはシールド発進立坑）
 # ここから羽沢横浜国大駅
+Gradient.Interpolate(5);
 
 $distance_hazawa_yokohama_kokudai - 215;
 // $distance_hazawa_yokohama_kokudai - 195;
@@ -100,19 +101,16 @@ Repeater['羽沢横浜国大駅コンクリートL'].End();
 Repeater['羽沢横浜国大駅コンクリートR'].End();
 Repeater['直結軌道上り'].Begin0($track0, $tilt_all, 5, 5, 'Slab2S5m');
 Repeater['直結軌道下り'].Begin($track0, 4,0,0, 0,0,0, $tilt_all, 5, 5, 'Slab2S5m');
-Repeater['コンクリート道床'].Begin($track0, 2,0,0, 0,0,0, $tilt_all, 25, 25, 'Slab8m');
+Repeater['擁壁L'].Begin($track0, -2.6,-1,0, 0,0,-90, $tilt_none, 25, 25, 'Slab8m');
+Repeater['擁壁R'].Begin($track0, 7,-1,0, 0,0,90, $tilt_none, 25, 25, 'Slab8m');
 Structure['wallend'].Put($track0, -1,0,0, 0,0,0, $tilt_all, 0);
 Structure['wallend'].Put($track0, 5,0,0, 0,180,0, $tilt_all, 0);
-Repeater['擁壁L'].Begin($track0, -2.6,-1,0, 0,0,-90, $tilt_gradient, 25, 25, 'Slab8m');
-Repeater['擁壁R'].Begin($track0, 7,-1,0, 0,0,90, $tilt_gradient, 25, 25, 'Slab8m');
 
 $distance_hazawa_yokohama_kokudai + 20;
-Repeater['羽沢横浜国大駅ホームドアL'].End(); # 20m手前で終わる(直感に反する)
-Repeater['羽沢横浜国大駅ホームドアR'].End(); # 20m手前で終わる(直感に反する)
+Repeater['羽沢横浜国大駅ホームドアL'].End(); # この20m手前で終わる(直感に反する)
+Repeater['羽沢横浜国大駅ホームドアR'].End(); # この20m手前で終わる(直感に反する)
 
 $distance_hazawa_yokohama_kokudai + 25;
-Repeater['直結軌道下り'].End();
-Repeater['直結軌道上り'].End();
 Repeater['擁壁L'].End();
 Repeater['擁壁R'].End();
 

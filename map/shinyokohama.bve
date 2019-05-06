@@ -18,6 +18,9 @@ Repeater['新横浜線の直結軌道上り'].Begin0($track_shinyokohama, $tilt_
 
 $distance_hazawa_yokohama_kokudai + 75;
 Track[$track_shinyokohama].X.Interpolate(1, 0);
+# ここから縦曲線 L=117m R=3000m
+$radius_gradient_R3000 = 1 / (1 / -3000 - 1 / 3000);
+Track[$track_shinyokohama].Y.Interpolate(0, $radius_gradient_R3000);
 
 $distance_hazawa_yokohama_kokudai + 100;
 Track[$track_shinyokohama].X.Interpolate(3, 0);
@@ -26,3 +29,10 @@ Track[$track_shinyokohama].X.Interpolate(3, -920);
 $distance_hazawa_yokohama_kokudai + 175;
 Track[$track_shinyokohama].X.Interpolate(6, -920);
 Track[$track_shinyokohama].X.Interpolate(6, 0);
+Track[$track_shinyokohama].Y.Interpolate(-4, $radius_gradient_R3000);
+Track[$track_shinyokohama].Y.Interpolate(-4, 0);
+
+$distance_hazawa_yokohama_kokudai + 300;
+Track[$track_shinyokohama].Y.Interpolate(-12.5, 0);
+Repeater['新横浜線の直結軌道下り'].End();
+Repeater['新横浜線の直結軌道上り'].End();

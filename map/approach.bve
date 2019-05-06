@@ -9,8 +9,11 @@ $tilt_gradient = 1;
 $tilt_cant = 2;
 $tilt_all = 3;
 
+$distance_hazawa_yokohama_kokudai;
+Repeater['コンクリート道床上り'].Begin($track_approach, -3,0,0, 0,0,0, $tilt_all, 25, 25, 'Slab8m');
+
 $distance_hazawa_yokohama_kokudai + 25;
-Repeater['擁壁L'].Begin($track_approach, -2.6,-1,0, 0,0,-90, $tilt_gradient, 25, 25, 'Slab8m');
+Repeater['擁壁L'].Begin($track_approach, -2.6,-1,0, 0,0,-90, $tilt_none, 25, 25, 'Slab8m');
 Repeater['直結軌道上り'].Begin0($track_approach, $tilt_all, 5, 5, 'Slab2S5m');
 
 $distance_hazawa_yokohama_kokudai + 50;
@@ -18,9 +21,11 @@ Curve.Interpolate();
 Curve.Interpolate(-308);
 
 $distance_hazawa_yokohama_kokudai + 75;
+# 舵角 -4.76度
 Curve.Interpolate();
 Curve.Interpolate(0);
-# 舵角 -4.76度
+Gradient.Interpolate();
+# ここから縦曲線 84m
 
 $distance_hazawa_yokohama_kokudai + 100;
 Curve.Interpolate(0, 0.02);
@@ -29,7 +34,14 @@ Curve.Interpolate(920, 0.02);
 $distance_hazawa_yokohama_kokudai + 175;
 Curve.Interpolate(920, 0.02);
 Curve.Interpolate(0, 0.02);
+Gradient.Interpolate(33.0);
 
 $distance_hazawa_yokohama_kokudai + 200;
 Curve.Interpolate(0, 0);
 
+$distance_hazawa_yokohama_kokudai + 300;
+Gradient.Interpolate();
+# ここから縦曲線 84m
+
+$distance_hazawa_yokohama_kokudai + 400;
+Gradient.Interpolate(0);
