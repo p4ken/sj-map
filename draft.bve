@@ -16,3 +16,4 @@ include 'map/shinyokohama.bve';
 include 'map/approach.bve';
 include 'map/underpass.bve';
 include 'map/kamotsu.bve';
+include 'map/kouhoku.bve';

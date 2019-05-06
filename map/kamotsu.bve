@@ -42,4 +42,3 @@ Track[$track_kamotsu].X.Interpolate(1, 300);
 
 $distance_yokohama_hazawa;
 Track[$track_kamotsu].X.Interpolate(0, 0);
-Repeater['防音壁L'].Begin0($track_kamotsu, $tilt_none, 25, 25, 'Wall_QN_L25m');
