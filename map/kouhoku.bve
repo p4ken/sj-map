@@ -9,8 +9,8 @@ $tilt_all = 3;
 
 $distance_yokohama_hazawa + 50;
 Curve.Interpolate();
-Repeater['防音壁L'].Begin0($track_kamotsu, $tilt_none, 25, 25, 'Wall_QN_L25m');
-Repeater['防音壁R'].Begin($track_kamotsu, 4,0,0, 0,0,0, $tilt_none, 25, 25, 'Wall_QN_R25m');
+Repeater['防音壁L'].Begin0($track_kamotsu, $tilt_gradient, 25, 25, 'Wall_QN_L25m');
+Repeater['防音壁R'].Begin($track_kamotsu, 4,0,0, 0,0,0, $tilt_gradient, 25, 25, 'Wall_QN_R25m');
 
 $distance_yokohama_hazawa + 100;
 Curve.Interpolate(1000);
@@ -24,56 +24,110 @@ Curve.Interpolate(0);
 $distance_yokohama_hazawa + 700;
 Repeater['防音壁L'].End();
 Repeater['防音壁R'].End();
-Repeater['掘割L'].Begin0($track_kouhoku, $tilt_none, 10, 10, 'CrDike1La', 'CrDike1Lb');
-Repeater['掘割R'].Begin($track_kouhoku, 4,0,0, 0,0,0, $tilt_none, 10, 10, 'CrDike1Ra', 'CrDike1Rb');
+Repeater['掘割L'].Begin0($track_kouhoku, $tilt_gradient, 10, 10, 'CrDike1La', 'CrDike1Lb');
+Repeater['掘割R'].Begin($track_kouhoku, 4,0,0, 0,0,0, $tilt_gradient, 10, 10, 'CrDike1Ra', 'CrDike1Rb');
 
 $distance_yokohama_hazawa + 900;
 Repeater['掘割L'].End();
 Repeater['掘割R'].End();
 # ここから港北トンネル L=4038m
 # ここから篠原トンネル 4038m
-Structure['huku_c1_Potal1'].Put($track_kouhoku, 1.9,0,0, 0,0,0, $tilt_none, 0);
-Structure['huku_c1_ent'].Put($track_kouhoku, 1.9,0,0, 0,0,0, $tilt_none, 5);
+Structure['huku_c1_Potal1'].Put($track_kouhoku, 1.9,0,0, 0,0,0, $tilt_all, 0);
+Structure['huku_c1_ent'].Put($track_kouhoku, 1.9,0,0, 0,0,0, $tilt_all, 5);
 
 $distance_yokohama_hazawa + 905;
-Repeater['港北トンネル'].Begin($track_kouhoku, 1.9,0,0, 0,0,0, $tilt_none, 5, 5, 'huku_c1_lp');
+Repeater['港北トンネル'].Begin($track_kouhoku, 1.9,0,0, 0,0,0, $tilt_all, 5, 5, 'huku_c1_lp');
+
+$distance_tsurumi - 4952;
+Gradient.Interpolate();
+
+$distance_tsurumi - 4912;
+Gradient.Interpolate(10.0);
 
 // $distance_yokohama_hazawa + 4925;
 $distance_tsurumi - 3940;
 Repeater['港北トンネル'].End();
-Structure['huku_c1_ext'].Put($track_kouhoku, 1.9,0,0, 0,0,0, $tilt_none, 5);
+Structure['huku_c1_ext'].Put($track_kouhoku, 1.9,0,0, 0,0,0, $tilt_all, 5);
 # ここから地上
+
+$distance_tsurumi - 3900;
+Gradient.Interpolate();
+
+$distance_tsurumi - 3840;
+Gradient.Interpolate(-10.0);
 
 $distance_tsurumi - 3425;
 # ここから生見尾トンネル L=1882m
-Structure['huku_c1_Potal1'].Put($track_kouhoku, 1.9,0,0, 0,0,0, $tilt_none, 0);
-Structure['huku_c1_ent'].Put($track_kouhoku, 1.9,0,0, 0,0,0, $tilt_none, 5);
+Structure['huku_c1_Potal1'].Put($track_kouhoku, 1.9,0,0, 0,0,0, $tilt_all, 0);
+Structure['huku_c1_ent'].Put($track_kouhoku, 1.9,0,0, 0,0,0, $tilt_all, 5);
 
 $distance_tsurumi - 3420;
-Repeater['生見尾トンネル'].Begin($track_kouhoku, 1.9,0,0, 0,0,0, $tilt_none, 5, 5, 'huku_c1_lp');
+Repeater['生見尾トンネル'].Begin($track_kouhoku, 1.9,0,0, 0,0,0, $tilt_all, 5, 5, 'huku_c1_lp');
 
-$distance_tsurumi - 1800;
+$distance_tsurumi - 3001;
 Gradient.Interpolate();
 
-$distance_tsurumi - 1700;
-Gradient.Interpolate(9.7);
+$distance_tsurumi - 2999;
+Gradient.Interpolate(-9.7);
+
+$distance_tsurumi - 2119;
+Gradient.Interpolate();
+
+$distance_tsurumi - 2117;
+Gradient.Interpolate(-10.0);
+
+$distance_tsurumi - 2320;
+Gradient.Interpolate();
+
+$distance_tsurumi - 2316;
+Gradient.Interpolate(-9.0);
+
+$distance_tsurumi - 1942;
+Gradient.Interpolate();
+
+$distance_tsurumi - 1914;
+Gradient.Interpolate(-2.0);
+
+$distance_tsurumi - 1772;
+Gradient.Interpolate();
+
+$distance_tsurumi - 1740;
+Gradient.Interpolate(8.5);
+
+$distance_tsurumi - 1543;
+Gradient.Interpolate();
 
 $distance_tsurumi - 1540;
 Repeater['生見尾トンネル'].End();
 # ここから地上
 
-$distance_tsurumi - 900;
+$distance_tsurumi - 1539;
+Gradient.Interpolate(10.0);
+
+$distance_tsurumi - 966;
 Gradient.Interpolate();
 
-$distance_tsurumi - 800;
-Gradient.Interpolate(3.3);
+$distance_tsurumi - 946;
+Gradient.Interpolate(3.5);
+
+$distance_tsurumi - 711;
+Gradient.Interpolate();
 
 $distance_tsurumi - 710;
 # ここから高島線との併用区間
 # 左右に高島線がある
 
-$distance_tsurumi - 400;
+$distance_tsurumi - 705;
+Gradient.Interpolate(5.1);
+
+$distance_tsurumi - 536;
 Gradient.Interpolate();
 
-$distance_tsurumi - 300;
+$distance_tsurumi - 516;
 Gradient.Interpolate(0.4);
+
+$distance_tsurumi - 343;
+Gradient.Interpolate();
+
+$distance_tsurumi - 345;
+Gradient.Interpolate(0.0);

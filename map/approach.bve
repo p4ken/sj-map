@@ -60,6 +60,12 @@ $distance_yokohama_hazawa - 150;
 Curve.Interpolate(300, 0);
 Curve.Interpolate(0);
 
+$distance_yokohama_hazawa - 100;
+Gradient.Interpolate();
+
+$distance_yokohama_hazawa - 75;
+Gradient.Interpolate(-3.5);
+
 $distance_yokohama_hazawa - 25;
 Curve.Interpolate();
 Curve.Interpolate(-308);
