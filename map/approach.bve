@@ -60,6 +60,7 @@ $distance_yokohama_hazawa - 100;
 Gradient.Interpolate();
 
 $distance_yokohama_hazawa - 75;
+# 勾配標ではここまで *上り* 、ここから下り
 Gradient.Interpolate(-3.5);
 
 $distance_yokohama_hazawa - 25;

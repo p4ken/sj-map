@@ -11,29 +11,29 @@ $distance_nishiya;
 Station['nishiya'].Put($right, $underrun, $overrun);
 
 # 西谷～羽沢横浜国大の営業キロ 2.1km
-$distance_hazawa_yokohama_kokudai = distance + 2075;
+$distance_hazawa_yokohama_kokudai = $distance_nishiya + 2075;
 
 $distance_hazawa_yokohama_kokudai;
 Station['hazawa_yokohama_kokudai'].Put($left, $underrun, $overrun);
 
 # 貨物線の線路に接続する地点を yokohama_hazawa と定義する。
-# 9kmのキロポストから鶴見へ約75mの地点
-# 航空写真で羽沢横浜国大～横浜羽沢(貨) 600m弱
-$distance_yokohama_hazawa = distance + 600;
-$distance_yokohama_hazawa;
-Station['yokohama_hazawa'].Put($left, $underrun, $overrun);
+# 9kmのキロポストから鶴見へ約50mの地点
+# 航空写真で羽沢横浜国大から約600m弱
+$distance_yokohama_hazawa = $distance_hazawa_yokohama_kokudai + 600;
+$distance_yokohama_hazawa; # 直前の信号機を駅として表示してもいいかも。「次 新鶴見(信)」はイマイチなので。
+#Station['yokohama_hazawa'].Put($left, $underrun, $overrun);
 
 # 横浜羽沢(貨)からの営業キロ 8.8km
-$distance_tsurumi = distance + 8800;
+$distance_tsurumi = $distance_yokohama_hazawa + 8800;
 $distance_tsurumi;
 Station['tsurumi'].Put($left, $underrun, $overrun);
 
 # 鶴見からの営業キロ 3.9km
-$distance_shin_tsurumi = distance + 3900;
+$distance_shin_tsurumi = $distance_tsurumi + 3900;
 $distance_shin_tsurumi;
 Station['shin_tsurumi'].Put($left, $underrun, $overrun);
 
 # 新鶴見(信)からの営業キロ 3.9km
-$distance_musashi_kosugi = distance + 3900;
+$distance_musashi_kosugi = $distance_shin_tsurumi + 3900;
 $distance_musashi_kosugi;
 Station['musashi_kosugi'].Put($right, $underrun, $overrun);
