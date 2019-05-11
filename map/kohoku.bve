@@ -132,5 +132,7 @@ $distance_tsurumi - 345;
 Gradient.Interpolate(0.0);
 
 $distance_tsurumi;
+# 航空写真で擁壁終わりから測ると、ここは跨線橋から2つめの架線柱付近。
+# 右側の距離程標で見ると250mくらい
 Repeater['上りバラスト軌道'].End();
 Repeater['下りバラスト軌道'].End();

@@ -1,0 +1,25 @@
+﻿BveTs Map 2.02:UTF-8
+
+0;
+$track_tokaido = 2;
+
+$distance_tsurumi - 1540;
+Track[$track_tokaido].X.Interpolate();
+Track[$track_tokaido].X.Interpolate(-8);
+Track[$track_tokaido].Y.Interpolate();
+Track[$track_tokaido].Y.Interpolate(0);
+Repeater['東海道線下り'].Begin0($track_tokaido, $tilt_all, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
+Repeater['東海道線上り'].Begin($track_tokaido, -4,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
+
+$distance_tsurumi - 550;
+Track[$track_tokaido].X.Interpolate();
+
+$distance_tsurumi;
+Track[$track_tokaido].X.Interpolate(-4.5);
+
+$distance_shinagawa - 17280;
+Structure['Gp_DL'].Put($track_tokaido, 1.8,-0.3,0, 0,180,0, $tilt_none, 0);
+
+$distance_shinagawa - 17100;
+Structure['Gp_LD'].Put($track_tokaido, 1.8,-0.3,0, 0,180,0, $tilt_none, 0);
+

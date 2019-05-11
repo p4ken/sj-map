@@ -15,7 +15,7 @@ Repeater['高島線下り'].Begin($track_takashima, 13,0,0, 0,0,0, $tilt_all, 5,
 
 $distance_tsurumi - 750;
 # 高島線上りはここまで下り、ここから水平
-# 高島線上りに1キロポストあり
+# 高島線上りに1キロポストあり(鮮明)
 
 $distance_tsurumi - 711;
 Track[$track_takashima].Y.Interpolate(0);

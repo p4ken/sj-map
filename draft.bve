@@ -22,5 +22,7 @@ include 'map/shinyokohama.bve';
 include 'map/approach.bve';
 include 'map/underpass.bve';
 include 'map/hazawa.bve';
-include 'map/kouhoku.bve';
+include 'map/kohoku.bve';
 include 'map/takashima.bve';
+include 'map/hinkaku.bve';
+include 'map/tokaido.bve';
