@@ -2,13 +2,11 @@
 
 0;
 $track_shinyokohama = 1;
-$tilt_none = 0;
-$tilt_gradient = 1;
-$tilt_cant = 2;
-$tilt_all = 3;
 
 $distance_hazawa_yokohama_kokudai + 25;
+Track[$track_shinyokohama].Y.Interpolate();
 Track[$track_shinyokohama].Y.Interpolate(0);
+Track[$track_shinyokohama].X.Interpolate();
 Track[$track_shinyokohama].X.Interpolate(0);
 Repeater['新横浜線の直結軌道下り'].Begin($track_shinyokohama, 4,0,0, 0,0,0, $tilt_all, 5, 5, 'Slab2S5m');
 

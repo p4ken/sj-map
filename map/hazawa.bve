@@ -2,10 +2,6 @@
 
 0;
 $track_kamotsu = 3;
-$tilt_none = 0;
-$tilt_gradient = 1;
-$tilt_cant = 2;
-$tilt_all = 3;
 
 $distance_hazawa_yokohama_kokudai;
 Track[$track_kamotsu].Y.Interpolate(5);

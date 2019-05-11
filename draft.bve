@@ -1,6 +1,12 @@
 BveTs Map 2.02:UTF-8
 
 0;
+$tilt_none = 0;
+$tilt_gradient = 1;
+$tilt_cant = 2;
+$tilt_all = 3;
+
+0;
 Curve.SetGauge(1.067);
 Curve.SetFunction(1);
 
@@ -15,5 +21,6 @@ include 'map/honsen.bve';
 include 'map/shinyokohama.bve';
 include 'map/approach.bve';
 include 'map/underpass.bve';
-include 'map/kamotsu.bve';
+include 'map/hazawa.bve';
 include 'map/kouhoku.bve';
+include 'map/takashima.bve';

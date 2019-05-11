@@ -2,10 +2,6 @@
 
 0;
 $track_kouhoku = 0;
-$tilt_none = 0;
-$tilt_gradient = 1;
-$tilt_cant = 2;
-$tilt_all = 3;
 
 $distance_yokohama_hazawa + 50;
 Curve.Interpolate();
@@ -100,6 +96,7 @@ Gradient.Interpolate();
 $distance_tsurumi - 1540;
 Repeater['生見尾トンネル'].End();
 # ここから地上
+# 左右に高島線がある
 
 $distance_tsurumi - 1539;
 Gradient.Interpolate(10.0);
@@ -115,7 +112,6 @@ Gradient.Interpolate();
 
 $distance_tsurumi - 710;
 # ここから高島線との併用区間
-# 左右に高島線がある
 
 $distance_tsurumi - 705;
 Gradient.Interpolate(5.1);
