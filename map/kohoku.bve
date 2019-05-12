@@ -3,12 +3,14 @@
 0;
 $track_kohoku = 0;
 
-$distance_yokohama_hazawa + 50;
-Curve.Interpolate();
+$distance_yokohama_hazawa + 0;
 Repeater['防音壁L'].Begin0($track_kohoku, $tilt_gradient, 25, 25, 'Wall_QN_L25m');
 Repeater['上りバラスト軌道'].Begin0($track_kohoku, $tilt_all, 5, 5, 'BallastPC_K_5a');
 Repeater['下りバラスト軌道'].Begin($track_kohoku, 4,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastPC_K_5a');
 Repeater['防音壁R'].Begin($track_kohoku, 4,0,0, 0,0,0, $tilt_gradient, 25, 25, 'Wall_QN_R25m');
+
+$distance_yokohama_hazawa + 50;
+Curve.Interpolate();
 
 $distance_yokohama_hazawa + 100;
 Curve.Interpolate(1000);
@@ -108,7 +110,6 @@ Gradient.Interpolate();
 
 $distance_tsurumi - 960;
 # 航空写真で鶴見線鉄橋を基準に測った擁壁終了地点
-Station['kagetsuen_mae'].Put($left, $underrun, $overrun);
 
 $distance_tsurumi - 946;
 Gradient.Interpolate(3.5);

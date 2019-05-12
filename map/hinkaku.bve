@@ -10,6 +10,9 @@ Repeater['下りバラスト軌道'].Begin($track_hinkaku, 4,0,0, 0,0,0, $tilt_a
 $distance_shinagawa - 17600;
 Structure['kilopost36ky'].Put($track_hinkaku, 1.8,-0.3,0, 0,90,0, $tilt_none, 0);
 
+$distance_shinagawa - 17370;
+Structure['SigPole2'].Put($track_hinkaku, -2,0,0, 0,0,0, $tilt_none, 0);
+
 $distance_shinagawa - 17300;
 Structure['kilopost33ky'].Put($track_hinkaku, -1.8,-0.3,0, 0,90,0, $tilt_none, 0);
 
