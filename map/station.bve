@@ -25,13 +25,11 @@ Station['yokohama_hazawa'].Put($left, $underrun, $overrun);
 
 # 横浜羽沢(貨)からの営業キロ 8.8km
 $distance_tsurumi = $distance_yokohama_hazawa + 8800;
-$distance_tsurumi + 350; # 品鶴線終点(後述)
+$distance_tsurumi; # 品鶴線終点(後述)
 Station['tsurumi'].Put($left, $underrun, $overrun);
 
 # 品川起点の距離計算用
-# 品川起点17760mと鶴見起点0mの間が約350m開いている
-# ↑？？？
-$distance_shinagawa = $distance_tsurumi + 350 + 17760;
+$distance_shinagawa = $distance_tsurumi + 17760;
 
 # 鶴見からの営業キロ 3.9km
 $distance_shin_tsurumi = $distance_tsurumi + 3900;
