@@ -13,23 +13,20 @@ Repeater['羽沢線の擁壁L'].Begin($track_takashima, 3,-5.8,0, 0,0,-90, $tilt
 Repeater['羽沢線の擁壁R'].Begin($track_takashima, 10,-5.8,0, 0,0,90, $tilt_gradient, 25, 25, 'Slab8m');
 Repeater['高島線下り'].Begin($track_takashima, 13,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastPC_K_5b', 'BallastPC_K_5a');
 
-$distance_tsurumi - 750;
-# 高島線上りはここまで下り、ここから水平
-# 高島線上りに1キロポストあり(鮮明)
+$distance_tsurumi - 1000;
+Structure['kilopost1'].Put($track_takashima, 2.3,0,0, 0,180,0, $tilt_none, 0); # 1km
+Structure['Gp_UL'].Put($track_takashima, 1.8,-0.3,0, 0,180,0, $tilt_none, 0);
 
-$distance_tsurumi - 711;
+$distance_tsurumi - 966;
 Track[$track_takashima].Y.Interpolate(0);
 
-$distance_tsurumi - 710;
+$distance_tsurumi - 960;
+Repeater['高島線下り'].End(); # 左に合流させたい
 Repeater['羽沢線の擁壁L'].End();
 Repeater['羽沢線の擁壁R'].End();
-
-$distance_tsurumi - 600;
-# （／ 平面交差）
-# 先に羽沢線の左カーブを設定すること！！！
 Track[$track_takashima].X.Interpolate();
 
-$distance_tsurumi - 550;
+$distance_tsurumi - 800;
 # 羽沢線に合流
 Track[$track_takashima].X.Interpolate(0);
 Repeater['高島線上り'].End();

@@ -1,14 +1,14 @@
 ﻿BveTs Map 2.02:UTF-8
 
 0;
-$track_kouhoku = 0;
+$track_kohoku = 0;
 
 $distance_yokohama_hazawa + 50;
 Curve.Interpolate();
-Repeater['防音壁L'].Begin0($track_kouhoku, $tilt_gradient, 25, 25, 'Wall_QN_L25m');
-Repeater['上りバラスト軌道'].Begin0($track_kouhoku, $tilt_all, 5, 5, 'BallastPC_K_5a');
-Repeater['下りバラスト軌道'].Begin($track_kouhoku, 4,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastPC_K_5a');
-Repeater['防音壁R'].Begin($track_kouhoku, 4,0,0, 0,0,0, $tilt_gradient, 25, 25, 'Wall_QN_R25m');
+Repeater['防音壁L'].Begin0($track_kohoku, $tilt_gradient, 25, 25, 'Wall_QN_L25m');
+Repeater['上りバラスト軌道'].Begin0($track_kohoku, $tilt_all, 5, 5, 'BallastPC_K_5a');
+Repeater['下りバラスト軌道'].Begin($track_kohoku, 4,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastPC_K_5a');
+Repeater['防音壁R'].Begin($track_kohoku, 4,0,0, 0,0,0, $tilt_gradient, 25, 25, 'Wall_QN_R25m');
 
 $distance_yokohama_hazawa + 100;
 Curve.Interpolate(1000);
@@ -22,19 +22,19 @@ Curve.Interpolate(0);
 $distance_yokohama_hazawa + 700;
 Repeater['防音壁L'].End();
 Repeater['防音壁R'].End();
-Repeater['掘割L'].Begin0($track_kouhoku, $tilt_gradient, 10, 10, 'CrDike1La', 'CrDike1Lb');
-Repeater['掘割R'].Begin($track_kouhoku, 4,0,0, 0,0,0, $tilt_gradient, 10, 10, 'CrDike1Ra', 'CrDike1Rb');
+Repeater['掘割L'].Begin0($track_kohoku, $tilt_gradient, 10, 10, 'CrDike1La', 'CrDike1Lb');
+Repeater['掘割R'].Begin($track_kohoku, 4,0,0, 0,0,0, $tilt_gradient, 10, 10, 'CrDike1Ra', 'CrDike1Rb');
 
 $distance_yokohama_hazawa + 900;
 Repeater['掘割L'].End();
 Repeater['掘割R'].End();
 # ここから港北トンネル L=4038m
 # ここから篠原トンネル 4038m
-Structure['huku_c1_Potal1'].Put($track_kouhoku, 1.9,0,0, 0,0,0, $tilt_all, 0);
-Structure['huku_c1_ent'].Put($track_kouhoku, 1.9,0,0, 0,0,0, $tilt_all, 5);
+Structure['huku_c1_Potal1'].Put($track_kohoku, 1.9,0,0, 0,0,0, $tilt_all, 0);
+Structure['huku_c1_ent'].Put($track_kohoku, 1.9,0,0, 0,0,0, $tilt_all, 5);
 
 $distance_yokohama_hazawa + 905;
-Repeater['港北トンネル'].Begin($track_kouhoku, 1.9,0,0, 0,0,0, $tilt_all, 5, 5, 'huku_c1_lp');
+Repeater['港北トンネル'].Begin($track_kohoku, 1.9,0,0, 0,0,0, $tilt_all, 5, 5, 'huku_c1_lp');
 
 $distance_tsurumi - 4952;
 Gradient.Interpolate();
@@ -45,7 +45,7 @@ Gradient.Interpolate(10.0);
 // $distance_yokohama_hazawa + 4925;
 $distance_tsurumi - 3940;
 Repeater['港北トンネル'].End();
-Structure['huku_c1_ext'].Put($track_kouhoku, 1.9,0,0, 0,0,0, $tilt_all, 5);
+Structure['huku_c1_ext'].Put($track_kohoku, 1.9,0,0, 0,0,0, $tilt_all, 5);
 # ここから地上
 
 $distance_tsurumi - 3900;
@@ -56,11 +56,11 @@ Gradient.Interpolate(-10.0);
 
 $distance_tsurumi - 3425;
 # ここから生見尾トンネル L=1882m
-Structure['huku_c1_Potal1'].Put($track_kouhoku, 1.9,0,0, 0,0,0, $tilt_all, 0);
-Structure['huku_c1_ent'].Put($track_kouhoku, 1.9,0,0, 0,0,0, $tilt_all, 5);
+Structure['huku_c1_Potal1'].Put($track_kohoku, 1.9,0,0, 0,0,0, $tilt_all, 0);
+Structure['huku_c1_ent'].Put($track_kohoku, 1.9,0,0, 0,0,0, $tilt_all, 5);
 
 $distance_tsurumi - 3420;
-Repeater['生見尾トンネル'].Begin($track_kouhoku, 1.9,0,0, 0,0,0, $tilt_all, 5, 5, 'huku_c1_lp');
+Repeater['生見尾トンネル'].Begin($track_kohoku, 1.9,0,0, 0,0,0, $tilt_all, 5, 5, 'huku_c1_lp');
 
 $distance_tsurumi - 3001;
 Gradient.Interpolate();
@@ -106,6 +106,10 @@ Gradient.Interpolate(10.0);
 $distance_tsurumi - 966;
 Gradient.Interpolate();
 
+$distance_tsurumi - 960;
+# 航空写真で鶴見線鉄橋を基準に測った擁壁終了地点
+Station['kagetsuen_mae'].Put($left, $underrun, $overrun);
+
 $distance_tsurumi - 946;
 Gradient.Interpolate(3.5);
 
@@ -113,11 +117,14 @@ $distance_tsurumi - 711;
 Gradient.Interpolate();
 
 $distance_tsurumi - 708;
-# 右側に勾配標あり
-# 擁壁ここまで
+Structure['Gp_DU'].Put($track_kohoku, 5.8,-0.3,0, 0,180,0, $tilt_none, 0);
 
 $distance_tsurumi - 705;
 Gradient.Interpolate(5.1);
+
+$distance_tsurumi - 600;
+# 鶴見線と交差
+Structure['kilopost36ky'].Put($track_kohoku, 5.8,-0.3,0, 0,90,0, $tilt_none, 0);
 
 $distance_tsurumi - 536;
 Gradient.Interpolate();
@@ -125,14 +132,26 @@ Gradient.Interpolate();
 $distance_tsurumi - 516;
 Gradient.Interpolate(0.4);
 
+$distance_tsurumi - 400;
+Structure['kilopost34ky'].Put($track_kohoku, 1.8,-0.3,0, 0,90,0, $tilt_none, 0);
+
 $distance_tsurumi - 343;
 Gradient.Interpolate();
 
 $distance_tsurumi - 345;
 Gradient.Interpolate(0.0);
 
+$distance_tsurumi - 300;
+Structure['kilopost33ky'].Put($track_kohoku, 1.8,-0.3,0, 0,90,0, $tilt_none, 0);
+
+$distance_tsurumi - 200;
+Structure['kilopost32ky'].Put($track_kohoku, 1.8,-0.3,0, 0,90,0, $tilt_none, 0);
+
+$distance_tsurumi - 100;
+Structure['kilopost31ky'].Put($track_kohoku, 1.8,-0.3,0, 0,90,0, $tilt_none, 0);
+
 $distance_tsurumi;
-# 航空写真で擁壁終わりから測ると、ここは跨線橋から2つめの架線柱付近。
-# 右側の距離程標で見ると250mくらい
+# ゼロキロポスト(線路を4本挟んで右側)
+Structure['kilopost1'].Put($track_kohoku, 17.8,0,0, 0,180,0, $tilt_none, 0);
 Repeater['上りバラスト軌道'].End();
 Repeater['下りバラスト軌道'].End();

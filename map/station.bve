@@ -30,6 +30,7 @@ Station['tsurumi'].Put($left, $underrun, $overrun);
 
 # 品川起点の距離計算用
 # 品川起点17760mと鶴見起点0mの間が約350m開いている
+# ↑？？？
 $distance_shinagawa = $distance_tsurumi + 350 + 17760;
 
 # 鶴見からの営業キロ 3.9km

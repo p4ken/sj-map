@@ -10,12 +10,37 @@ Track[$track_tokaido].Y.Interpolate();
 Track[$track_tokaido].Y.Interpolate(0);
 Repeater['東海道線下り'].Begin0($track_tokaido, $tilt_all, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
 Repeater['東海道線上り'].Begin($track_tokaido, -4,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
+Repeater['京浜東北線下り'].Begin($track_tokaido, -8,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
+Repeater['京浜東北線上り'].Begin($track_tokaido, -12,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
 
-$distance_tsurumi - 550;
+$distance_tsurumi - 805;
+Structure['kilopost2'].Put($track_tokaido, 1.8,0,0, 0,180,0, $tilt_none, 0); # 22km
+
+$distance_tsurumi - 800;
 Track[$track_tokaido].X.Interpolate();
 
-$distance_tsurumi;
+$distance_tsurumi - 405;
+Structure['kilopost31ky'].Put($track_tokaido, 1.8,-0.3,0, 0,90,0, $tilt_none, 0);
+
+$distance_tsurumi - 305;
+Structure['kilopost1'].Put($track_tokaido, 1.8,0,0, 0,180,0, $tilt_none, 0);
+
+$distance_tsurumi - 250;
 Track[$track_tokaido].X.Interpolate(-4.5);
+
+$distance_tsurumi - 205;
+Structure['kilopost39ky'].Put($track_tokaido, 1.8,-0.3,0, 0,90,0, $tilt_none, 0);
+
+$distance_tsurumi - 105;
+Structure['kilopost38ky'].Put($track_tokaido, 1.8,-0.3,0, 0,90,0, $tilt_none, 0);
+
+$distance_tsurumi;
+Repeater['鶴見駅ホーム端R'].Begin($track_tokaido, -8,0,0, 0,0,0, $tilt_gradient, 5, 5, 'Form51L');
+Repeater['鶴見駅アスファルト'].Begin($track_tokaido, -8,0,0, 0,0,0, $tilt_gradient, 5, 5, 'FormCL');
+
+$distance_tsurumi + 210;
+Repeater['鶴見駅ホーム端R'].End();
+Repeater['鶴見駅アスファルト'].End();
 
 $distance_shinagawa - 17280;
 Structure['Gp_DL'].Put($track_tokaido, 1.8,-0.3,0, 0,180,0, $tilt_none, 0);
@@ -23,3 +48,5 @@ Structure['Gp_DL'].Put($track_tokaido, 1.8,-0.3,0, 0,180,0, $tilt_none, 0);
 $distance_shinagawa - 17100;
 Structure['Gp_LD'].Put($track_tokaido, 1.8,-0.3,0, 0,180,0, $tilt_none, 0);
 
+$distance_shinagawa - 17070;
+Structure['kilopost1'].Put($track_tokaido, 1.8,0,0, 0,180,0, $tilt_none, 0); # 21km
