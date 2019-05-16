@@ -34,9 +34,15 @@ Gradient.Interpolate(8);
 $distance_shinagawa - 17100;
 Structure['kilopost31ky'].Put($track_hinkaku, 1.8,-0.3,0, 0,90,0, $tilt_none, 0);
 
+$distance_shinagawa - 16625;
+Curve.Interpolate();
+Curve.Interpolate(0, 0);
+
 $distance_shinagawa - 16600;
 Gradient.Interpolate();
 Structure['kilopost36ky'].Put($track_hinkaku, 1.8,-0.3,0, 0,90,0, $tilt_none, 0);
+Curve.Interpolate(0, -0.02);
+Curve.Interpolate(-450, -0.02);
 
 $distance_shinagawa - 16570;
 Structure['Gp_DD'].Put($track_hinkaku, 1.8,-0.3,0, 0,180,0, $tilt_none, 0);
@@ -47,3 +53,21 @@ Gradient.Interpolate(-8);
 $distance_shinagawa - 16500;
 Structure['kilopost2'].Put($track_hinkaku, -1.8,0,0, 0,0,0, $tilt_none, 0);
 
+$distance_shinagawa - 16225;
+Curve.Interpolate(-450, -0.02);
+Curve.Interpolate(0, -0.02);
+
+$distance_shinagawa - 16210;
+Structure['Gp_UD'].Put($track_hinkaku, 5.8,-0.3,0, 0,180,0, $tilt_none, 0);
+
+$distance_shinagawa - 16200;
+Structure['kilopost36ky'].Put($track_hinkaku, -1.8,-0.3,0, 0,90,0, $tilt_none, 0); # 真っ白
+Structure['kilopost36ky'].Put($track_hinkaku, 5.8,-0.3,0, 0,90,0, $tilt_none, 0);
+Repeater['下りバラスト軌道'].Begin($track_hinkaku, 4,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastPC_K_5a');
+Curve.Interpolate(0, 0);
+
+$distance_shinagawa - 16000;
+Structure['kilopost1'].Put($track_hinkaku, 5.8,0,0, 0,0,0, $tilt_none, 0); # 16km
+
+$distance_shinagawa - 15990;
+Structure['Curve_P'].Put($track_hinkaku, 5.8,0,0, 0,0,0, $tilt_none, 0); # R1000
