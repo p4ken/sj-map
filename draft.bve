@@ -26,3 +26,4 @@ include 'map/kohoku.bve';
 include 'map/takashima.bve';
 include 'map/hinkaku.bve';
 include 'map/tokaido.bve';
+include 'map/yokosuka.bve';

@@ -36,7 +36,7 @@ Station['tsurumi'].Put($left, $underrun, $overrun);
 
 # 鶴見からの営業キロ 3.9km
 $distance_shin_tsurumi = $distance_tsurumi + 3900;
-$distance_shin_tsurumi - 100; # 適当
+$distance_shin_tsurumi - 600; # 適当
 # Station['warihata'].Put($left, $underrun, $overrun);
 
 $distance_shin_tsurumi;

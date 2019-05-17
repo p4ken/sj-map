@@ -1,0 +1,46 @@
+﻿BveTs Map 2.02:UTF-8
+
+0;
+$track_yokosuka = 1;
+
+$distance_shinagawa - 16200;
+Track[$track_yokosuka].X.Interpolate();
+Track[$track_yokosuka].X.Interpolate(10);
+Track[$track_yokosuka].Y.Interpolate();
+Track[$track_yokosuka].Y.Interpolate(5);
+Repeater['横須賀線上りバラスト軌道'].Begin0($track_yokosuka, $tilt_all, 5, 5, 'BallastPC_K_5a');
+Repeater['横須賀線下りバラスト軌道'].Begin($track_yokosuka, 4,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastPC_K_5a');
+
+$distance_shinagawa - 15738;
+Track[$track_yokosuka].Y.Interpolate(0);
+Structure['Gp_UL'].Put($track_yokosuka, 5.8,-0.3,0, 0,180,0, $tilt_none, 0);
+
+$distance_shinagawa - 15093;
+Structure['Gp_LU'].Put($track_yokosuka, 5.8,-0.3,0, 0,180,0, $tilt_none, 0);
+
+$distance_shinagawa - 14793;
+Track[$track_yokosuka].Y.Interpolate(0, 3000);
+
+$distance_shinagawa - 14727;
+$r = 3000;
+$l = 14793 - 14727;
+$rad = $l / $r;
+$y = $r - cos($rad) * $r;
+Track[$track_yokosuka].Y.Interpolate($y, 0);
+
+$distance_shinagawa - 14696;
+$y = $y + (14727 - 14696) / 1000 * (25 - 3);
+Track[$track_yokosuka].Y.Interpolate($y, 0);
+
+$distance_shinagawa - 14392;
+$y = $y + (14696 - 14392) / 1000 * 25;
+Track[$track_yokosuka].Y.Interpolate($y);
+
+$distance_shinagawa - 14026;
+Track[$track_yokosuka].Y.Interpolate();
+
+$distance_shinagawa - 14500;
+Track[$track_yokosuka].X.Interpolate();
+
+$distance_shinagawa - 13000;
+Track[$track_yokosuka].X.Interpolate(140);
