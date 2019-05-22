@@ -11,7 +11,8 @@ $distance_shinagawa - 17600;
 Structure['kilopost36ky'].Put($track_hinkaku, 1.8,-0.3,0, 0,90,0, $tilt_none, 0);
 
 $distance_shinagawa - 17370;
-Structure['SigPole2'].Put($track_hinkaku, -2,0,0, 0,0,0, $tilt_none, 0); # 品鶴出
+Structure['SigPole2'].Put($track_hinkaku, -2,0,0, 0,0,0, $tilt_none, 0);
+Structure['品鶴出_hL'].Put($track_hinkaku, -1.8,4,-0.5, 0,0,0, $tilt_none, 0);
 
 $distance_shinagawa - 17300;
 Structure['kilopost33ky'].Put($track_hinkaku, -1.8,-0.3,0, 0,90,0, $tilt_none, 0);
@@ -64,7 +65,6 @@ $distance_shinagawa - 16200;
 Curve.Interpolate(0, 0);
 Structure['kilopost36ky'].Put($track_hinkaku, -1.8,-0.3,0, 0,90,0, $tilt_none, 0); # 真っ白
 Structure['kilopost36ky'].Put($track_hinkaku, 5.8,-0.3,0, 0,90,0, $tilt_none, 0);
-Repeater['下りバラスト軌道'].Begin($track_hinkaku, 4,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastPC_K_5a');
 
 $distance_shinagawa - 16000;
 Structure['kilopost1'].Put($track_hinkaku, 5.8,0,0, 0,0,0, $tilt_none, 0); # 16km
@@ -166,49 +166,142 @@ Gradient.Interpolate(0);
 $distance_shinagawa - 14500;
 Structure['kilopost2'].Put($track_hinkaku, 5.8,0,0, 0,180,0, $tilt_none, 0);
 
-$distance_shinagawa - 13402;
-Structure['Gp_UL'].Put($track_hinkaku, -2.3,-0.3,0, 0,180,-15, $tilt_none, 0);
 
-$distance_shinagawa - 13450;
+$distance_shinagawa - 14105;
+Structure['SigPole2'].Put($track_hinkaku, -2,0,0, 0,0,0, $tilt_none, 0);
+Structure['本一場_hL'].Put($track_hinkaku, -1.8,4,-0.5, 0,0,0, $tilt_none, 0);
+
+$distance_shinagawa - 14100;
 Curve.Interpolate();
 
-$distance_shinagawa - 13425;
-Curve.Interpolate(0, -0.04);
-Curve.Interpolate(-400, -0.04); # 適当
+$distance_shinagawa - 14075;
+# R=不明 C=不明 CCL=不明 TCL=不明
+Curve.Interpolate(0, -0.03);
+Curve.Interpolate(-1000, -0.03);
+
+$distance_shinagawa - 14050;
+Curve.Interpolate(-1000, -0.03);
+Curve.Interpolate(0, -0.03);
+
+$distance_shinagawa - 14025;
+Curve.Interpolate(0, 0);
+
+$distance_shinagawa - 14000;
+Curve.Interpolate();
+
+$distance_shinagawa - 13975;
+# R=不明 C=不明 CCL=不明 TCL=不明
+Curve.Interpolate(0, 0.03);
+Curve.Interpolate(1000, 0.03);
+
+$distance_shinagawa - 13950;
+Curve.Interpolate(1000, 0.03);
+Curve.Interpolate(0, 0.03);
+
+$distance_shinagawa - 13925;
+Curve.Interpolate(0, 0);
+
+$distance_shinagawa - 13900;
 Repeater['下りバラスト軌道'].End();
+Repeater['中線バラスト軌道'].Begin($track_hinkaku, 4,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastTR_K_5a');
+
+# 現地調査 13K700mから
+
+$distance_shinagawa - 13525;
+Curve.Interpolate();
+
+$distance_shinagawa - 13475;
+# R=400 C=不明 CCL=80 TCL=60
+Curve.Interpolate(0, -0.07);
+Curve.Interpolate(-400, -0.07);
+Repeater['下りバラスト軌道'].End();
+
+$distance_shinagawa - 13402;
+# ここまで -1‰ ここからLEVEL
+Structure['Gp_UL'].Put($track_hinkaku, -2.3,-0.3,0, 0,180,-15, $tilt_none, 0);
 
 $distance_shinagawa - 13400;
 Structure['kilopost34ky'].Put($track_hinkaku, -1.8,-0.3,0, 0,90,0, $tilt_none, 0);
 
+$distance_shinagawa - 13375;
+Curve.Interpolate(-400, -0.07);
+Curve.Interpolate(0, -0.07);
+
 $distance_shinagawa - 13325;
-Curve.Interpolate(-400, -0.04);
-Curve.Interpolate(0, -0.04);
+Curve.Interpolate(0, 0);
 
 $distance_shinagawa - 13300;
-Curve.Interpolate(0, 0);
 Structure['kilopost33ky'].Put($track_hinkaku, -1.8,-0.3,0, 0,90,0, $tilt_none, 0);
 
 $distance_shinagawa - 13200;
 Structure['kilopost32ky'].Put($track_hinkaku, -1.8,-0.3,0, 0,90,0, $tilt_none, 0);
 
-$distance_shinagawa - 13130; # 適当
+$distance_shinagawa - 13168;
+# 実際のBTC
+# カントだけ逓減する
 Curve.Interpolate();
 
-$distance_shinagawa - 13125; # 適当
-Structure['SigPole2'].Put($track_hinkaku, 2,0,0, 0,0,0, $tilt_none, 0); # 本二場
+$distance_shinagawa - 13130;
+Structure['SigPole2'].Put($track_hinkaku, 2,0,0, 0,0,0, $tilt_none, 0);
+Structure['本二場_hL'].Put($track_hinkaku, 2.1,4,-0.5, 0,0,0, $tilt_none, 0);
 
-$distance_shinagawa - 13100; # 適当
-Curve.Interpolate(400, 0.04);
-Structure['Curve_P'].Put($track_hinkaku, -1.8,0,0, 0,0,0, $tilt_none, 0); # R400
+$distance_shinagawa - 13125;
+# R=400 C=70 CCL=78 TCL=60
+# 緩和省略のためCCLは長めにする
+Curve.Interpolate(0, 0.070);
+Curve.Interpolate(400, 0.070);
+
+$distance_shinagawa - 13108;
+Structure['Curve_P'].Put($track_hinkaku, -1.8,0,0, 0,0,0, $tilt_none, 0); # 実際のBCC
 
 $distance_shinagawa - 13030;
-Curve.Interpolate();
-Structure['Curve_P'].Put($track_hinkaku, -1.8,0,0, 0,180,0, $tilt_none, 0);
+Structure['Curve_P'].Put($track_hinkaku, -1.8,0,0, 0,180,0, $tilt_none, 0); # 実際のECC
+
+$distance_shinagawa - 13025;
+Curve.Interpolate(400, 0.070);
+Curve.Interpolate(0, 0.070);
 
 $distance_shinagawa - 13000;
 Structure['kilopost1'].Put($track_hinkaku, -1.8,0,0, 0,0,0, $tilt_none, 0); # 13km
 
-$distance_shinagawa - 12990;
+$distance_shinagawa - 12970;
+# 実際のETC
+Curve.Interpolate(0, 0);
+
+$distance_shinagawa - 12720;
+Structure['SigPole2'].Put($track_hinkaku, -2,0,0, 0,0,0, $tilt_none, 0);
+Structure['本三場_hL'].Put($track_hinkaku, -1.8,4,-0.5, 0,0,0, $tilt_none, 0);
+
+$distance_shinagawa - 12525;
+Curve.Interpolate();
+
+$distance_shinagawa - 12500;
+Structure['kilopost2'].Put($track_hinkaku, -1.8,-0.6,0, 0,0,0, $tilt_none, 0);
+# R=1600 C=不明 CCL=23 TCL=30
+# 緩和省略のため半径を調整する
+Curve.Interpolate(0, 0.03);
+Curve.Interpolate(1800, 0.03);
+
+$distance_shinagawa - 12475;
+Curve.Interpolate(1800, 0.03);
+Curve.Interpolate(0, 0.03);
+
+$distance_shinagawa - 12450;
+Curve.Interpolate(0, 0);
+
+$distance_shinagawa - 12300;
+Curve.Interpolate();
+
+$distance_shinagawa - 12275;
+# R=不明 C=不明 CCL=不明 TCL=不明
+Curve.Interpolate(0, -0.03);
+Curve.Interpolate(-1800, -0.03);
+
+$distance_shinagawa - 12250;
+Curve.Interpolate(-1800, -0.03);
+Curve.Interpolate(0, -0.03);
+
+$distance_shinagawa - 12225;
 Curve.Interpolate(0, 0);
 
 $distance_shinagawa - 12000;
@@ -220,8 +313,53 @@ Structure['Gp_UD'].Put($track_hinkaku, -2,-0.3,0, 0,0,0, $tilt_none, 0); # +1.8�
 $distance_shinagawa - 11900;
 Structure['kilopost39ky'].Put($track_hinkaku, -1.8,-0.3,0, 0,90,0, $tilt_none, 0);
 
+$distance_shinagawa - 11880;
+Structure['SigPole2'].Put($track_hinkaku, -2,0,0, 0,0,0, $tilt_none, 0);
+Structure['本一出_hL'].Put($track_hinkaku, -1.8,4,-0.5, 0,0,0, $tilt_none, 0);
+
+$distance_shinagawa - 11825;
+Curve.Interpolate();
+
 $distance_shinagawa - 11800;
 Structure['kilopost38ky'].Put($track_hinkaku, -1.8,-0.3,0, 0,90,0, $tilt_none, 0);
+# R=1000 C=60 CCL=33 TCL=50
+# 緩和省略のため半径・曲線長を調整する
+Curve.Interpolate(0, 0.06);
+Curve.Interpolate(1500, 0.06);
+
+$distance_shinagawa - 11750;
+Curve.Interpolate(1500, 0.06);
+Curve.Interpolate(0, 0.06);
+
+$distance_shinagawa - 11725;
+Curve.Interpolate(0, 0);
 
 $distance_shinagawa - 11700;
 Structure['kilopost37ky'].Put($track_hinkaku, -1.8,-0.3,0, 0,90,0, $tilt_none, 0);
+
+$distance_shinagawa - 11650;
+Curve.Interpolate();
+
+$distance_shinagawa - 11625;
+# R=不明 C=不明 CCL=不明 TCL=不明
+Curve.Interpolate(0, -0.06);
+Curve.Interpolate(-1500, -0.06);
+
+$distance_shinagawa - 11600;
+Structure['kilopost36ky'].Put($track_hinkaku, -1.8,-0.3,0, 0,90,0, $tilt_none, 0);
+Curve.Interpolate(-1500, -0.06);
+Curve.Interpolate(0, -0.06);
+
+$distance_shinagawa - 11575;
+Curve.Interpolate(0, 0);
+
+$distance_shinagawa - 11500;
+Structure['kilopost2'].Put($track_hinkaku, -1.8,-0.0,0, 0,0,0, $tilt_none, 0);
+
+$distance_shinagawa - 11390;
+Structure['SigPole2'].Put($track_hinkaku, -2,0,0, 0,0,0, $tilt_none, 0);
+Structure['品二出_hL'].Put($track_hinkaku, -1.8,4,-0.5, 0,0,0, $tilt_none, 0);
+
+
+$distance_shinagawa - 11300;
+Structure['kilopost33ky'].Put($track_hinkaku, -1.8,-0.3,0, 0,90,0, $tilt_none, 0);

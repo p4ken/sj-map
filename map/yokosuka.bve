@@ -32,15 +32,19 @@ $distance_shinagawa - 14696;
 $y = $y + (14727 - 14696) / 1000 * (25 - 3);
 Track[$track_yokosuka].Y.Interpolate($y, 0);
 
+$distance_shinagawa - 14500;
+# Track[$track_yokosuka].X.Interpolate();
+
 $distance_shinagawa - 14392;
 $y = $y + (14696 - 14392) / 1000 * 25;
 Track[$track_yokosuka].Y.Interpolate($y);
 
 $distance_shinagawa - 14026;
-Track[$track_yokosuka].Y.Interpolate();
+Track[$track_yokosuka].Y.Interpolate(8); # 縦曲線省略
+# ここから -25‰
 
-$distance_shinagawa - 14500;
-Track[$track_yokosuka].X.Interpolate();
+$distance_shinagawa - 13729;
+Track[$track_yokosuka].Y.Interpolate(0); # 縦曲線省略
 
 $distance_shinagawa - 13000;
-Track[$track_yokosuka].X.Interpolate(140);
+# Track[$track_yokosuka].X.Interpolate(140);

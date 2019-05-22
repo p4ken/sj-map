@@ -31,6 +31,7 @@ CrDike1Ra,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Dike\CrDike
 CrDike1Rb,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Dike\CrDike1Rb.x
 BallastPC_K_5a,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Rail\Ballast01\BallastPC_K_5a.x
 BallastPC_K_5b,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Rail\Ballast01\BallastPC_K_5b.x
+BallastTR_K_5a,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Rail\Ballast01\BallastTR_K_5a.x
 Slab2S5m,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Rail\Slab01\Slab2S5m.x
 Slab8m,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Rail\Slab01\Slab8m.x
 road_045_a,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Road\road_045_a.x
@@ -64,3 +65,10 @@ wallend,C:\Users\p4\Documents\BveTs\Scenarios\shuttle\fukutoshin\structures\wall
 walln1l,C:\Users\p4\Documents\BveTs\Scenarios\shuttle\fukutoshin\structures\wall\walln1l.x
 walln1r,C:\Users\p4\Documents\BveTs\Scenarios\shuttle\fukutoshin\structures\wall\walln1r.x
 stwalln3l,C:\Users\p4\Documents\BveTs\Scenarios\shuttle\fukutoshin\structures\wall\stwalln3l.x
+
+品鶴出_hL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sign\signal\品鶴出_hL.x
+本一場_hL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sign\signal\本一場_hL.x
+本二場_hL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sign\signal\本二場_hL.x
+本三場_hL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sign\signal\本三場_hL.x
+本一出_hL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sign\signal\本一出_hL.x
+品二出_hL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sign\signal\品二出_hL.x
