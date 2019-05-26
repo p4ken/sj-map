@@ -1,0 +1,35 @@
+﻿BveTs Map 2.02:UTF-8
+
+0;
+$track_nishiya3 = 3;
+$tilt_none = 0;
+$tilt_gradient = 1;
+$tilt_cant = 2;
+$tilt_all = 3;
+
+0;
+Repeater['本線上り'].Begin0($track_nishiya3, $tilt_all, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
+Repeater['本線下り'].Begin($track_nishiya3, 4,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastPC_K_5b', 'BallastPC_K_5a');
+Track[$track_nishiya3].X.Interpolate(4.5);
+
+
+20;
+Track[$track_nishiya3].Y.Interpolate(0);
+
+25;
+Repeater['新横浜線の擁壁L'].Begin($track_nishiya3, -6.1,-5.8,0, 0,0,-90, $tilt_gradient, 25, 25, 'Slab8m');
+Repeater['新横浜線の擁壁R'].Begin($track_nishiya3, -3.1,-5.8,0, 0,0,90, $tilt_gradient, 25, 25, 'Slab8m');
+
+40;
+Repeater['道路'].Begin($track_nishiya3, -9,-1,0, 0,0,0, $tilt_all, 5, 5, 'road_045_a', 'road_045_b', 'road_045_c', 'road_045_d');
+
+150;
+Repeater['新横浜線の擁壁L'].End();
+Repeater['新横浜線の擁壁R'].End();
+Repeater['道路'].End();
+Track[$track_nishiya3].Y.Interpolate(6);
+
+200;
+Repeater['本線上り'].End();
+Repeater['本線下り'].End();
+

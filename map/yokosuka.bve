@@ -1,7 +1,7 @@
 ﻿BveTs Map 2.02:UTF-8
 
 0;
-$track_yokosuka = 1;
+$track_yokosuka = 2;
 
 $distance_shinagawa - 16200;
 Track[$track_yokosuka].X.Interpolate();

@@ -1,9 +1,9 @@
 ﻿BveTs Map 2.02:UTF-8
 
 0;
-$track_opposite = 2;
+$track_opposite = 1;
 
-$distance_shinagawa - 16020;
+$distance_shinagawa - 17760;
 Track[$track_opposite].X.Interpolate();
 Track[$track_opposite].X.Interpolate(4);
 Track[$track_opposite].Y.Interpolate();

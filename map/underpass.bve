@@ -3,7 +3,7 @@
 # 貨物線の下をくぐって、下り線に合流する。
 
 0;
-$track_underpass = 2;
+$track_underpass = 1;
 $tilt_none = 0;
 $tilt_gradient = 1;
 $tilt_cant = 2;

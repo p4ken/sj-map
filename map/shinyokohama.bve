@@ -1,7 +1,7 @@
 ﻿BveTs Map 2.02:UTF-8
 
 0;
-$track_shinyokohama = 1;
+$track_shinyokohama = 2;
 
 $distance_hazawa_yokohama_kokudai + 25;
 Track[$track_shinyokohama].Y.Interpolate();

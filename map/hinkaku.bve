@@ -5,7 +5,6 @@ $track_hinkaku = 0;
 
 $distance_shinagawa - 17760;
 Repeater['上りバラスト軌道'].Begin0($track_hinkaku, $tilt_all, 5, 5, 'BallastPC_K_5a');
-Repeater['下りバラスト軌道'].Begin($track_hinkaku, 4,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastPC_K_5a');
 
 $distance_shinagawa - 17600;
 Structure['kilopost36ky'].Put($track_hinkaku, 1.8,-0.3,0, 0,90,0, $tilt_none, 0);
@@ -16,9 +15,6 @@ Structure['品鶴出_hL'].Put($track_hinkaku, -1.8,4,-0.5, 0,0,0, $tilt_none, 0)
 
 $distance_shinagawa - 17300;
 Structure['kilopost33ky'].Put($track_hinkaku, -1.8,-0.3,0, 0,90,0, $tilt_none, 0);
-
-$distance_shinagawa - 17280;
-Repeater['下りバラスト軌道'].End();
 
 $distance_shinagawa - 17200;
 Structure['kilopost32ky'].Put($track_hinkaku, -1.8,-0.3,0, 0,90,0, $tilt_none, 0);
@@ -166,7 +162,6 @@ Gradient.Interpolate(0);
 $distance_shinagawa - 14500;
 Structure['kilopost2'].Put($track_hinkaku, 5.8,0,0, 0,180,0, $tilt_none, 0);
 
-
 $distance_shinagawa - 14105;
 Structure['SigPole2'].Put($track_hinkaku, -2,0,0, 0,0,0, $tilt_none, 0);
 Structure['本一場_hL'].Put($track_hinkaku, -1.8,4,-0.5, 0,0,0, $tilt_none, 0);
@@ -202,7 +197,6 @@ $distance_shinagawa - 13925;
 Curve.Interpolate(0, 0);
 
 $distance_shinagawa - 13900;
-Repeater['下りバラスト軌道'].End();
 Repeater['中線バラスト軌道'].Begin($track_hinkaku, 4,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastTR_K_5a');
 
 # 現地調査 13K700mから
@@ -214,7 +208,6 @@ $distance_shinagawa - 13475;
 # R=400 C=不明 CCL=80 TCL=60
 Curve.Interpolate(0, -0.07);
 Curve.Interpolate(-400, -0.07);
-Repeater['下りバラスト軌道'].End();
 
 $distance_shinagawa - 13402;
 # ここまで -1‰ ここからLEVEL
@@ -359,7 +352,6 @@ Structure['kilopost2'].Put($track_hinkaku, -1.8,-0.0,0, 0,0,0, $tilt_none, 0);
 $distance_shinagawa - 11390;
 Structure['SigPole2'].Put($track_hinkaku, -2,0,0, 0,0,0, $tilt_none, 0);
 Structure['品二出_hL'].Put($track_hinkaku, -1.8,4,-0.5, 0,0,0, $tilt_none, 0);
-
 
 $distance_shinagawa - 11300;
 Structure['kilopost33ky'].Put($track_hinkaku, -1.8,-0.3,0, 0,90,0, $tilt_none, 0);
