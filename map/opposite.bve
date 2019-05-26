@@ -10,4 +10,43 @@ Track[$track_opposite].Y.Interpolate();
 Track[$track_opposite].Y.Interpolate(0);
 Repeater['下りバラスト軌道'].Begin0($track_opposite, $tilt_all, 5, 5, 'BallastPC_K_5a');
 
-$distance_shinagawa - 14225;
+$distance_shinagawa - 14575;
+Track[$track_opposite].X.Interpolate();
+Track[$track_opposite].X.Interpolate(4, 1000);
+
+$distance_shinagawa - 14550;
+Track[$track_opposite].X.Interpolate(4.3);
+Track[$track_opposite].X.Interpolate(4.3, 0);
+
+$distance_shinagawa - 14525;
+Track[$track_opposite].X.Interpolate(5.0);
+Track[$track_opposite].X.Interpolate(5.0, -1000);
+
+$distance_shinagawa - 14500;
+Structure['kilopost2'].Put($track_opposite, 1.8,0,0, 0,180,0, $tilt_none, 0);
+Track[$track_opposite].X.Interpolate(5.3);
+Track[$track_opposite].X.Interpolate(5.3, 0);
+
+
+
+
+$distance_shinagawa - 14075;
+Track[$track_opposite].X.Interpolate();
+Track[$track_opposite].X.Interpolate(5.3, 1000);
+
+$distance_shinagawa - 14050;
+Track[$track_opposite].X.Interpolate(5.6);
+Track[$track_opposite].X.Interpolate(5.6 ,0);
+
+$distance_shinagawa - 14025;
+Track[$track_opposite].X.Interpolate(6.2);
+
+$distance_shinagawa - 13975;
+Track[$track_opposite].X.Interpolate(7.4);
+Track[$track_opposite].X.Interpolate(7.4, -1000);
+
+$distance_shinagawa - 13950;
+Track[$track_opposite].X.Interpolate(7.7);
+Track[$track_opposite].X.Interpolate(7.7, 0);
+
+#目標8

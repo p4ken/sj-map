@@ -159,8 +159,20 @@ Structure['kilopost37ky'].Put($track_hinkaku, 5.8,-0.3,0, 0,90,0, $tilt_none, 0)
 $distance_shinagawa - 14696;
 Gradient.Interpolate(0);
 
+$distance_shinagawa - 14575;
+# 適当
+Curve.Interpolate();
+
+$distance_shinagawa - 14550;
+Curve.Interpolate(0, 0.03);
+Curve.Interpolate(1000, 0.03);
+
 $distance_shinagawa - 14500;
-Structure['kilopost2'].Put($track_hinkaku, 5.8,0,0, 0,180,0, $tilt_none, 0);
+Curve.Interpolate(1000, 0.03);
+Curve.Interpolate(0, 0.03);
+
+$distance_shinagawa - 14475;
+Curve.Interpolate(0, 0);
 
 $distance_shinagawa - 14105;
 Structure['SigPole2'].Put($track_hinkaku, -2,0,0, 0,0,0, $tilt_none, 0);
@@ -231,7 +243,7 @@ Structure['kilopost32ky'].Put($track_hinkaku, -1.8,-0.3,0, 0,90,0, $tilt_none, 0
 
 $distance_shinagawa - 13168;
 # 実際のBTC
-# カントだけ逓減する
+# 緩和省略のためカントだけ逓減する
 Curve.Interpolate();
 
 $distance_shinagawa - 13130;
