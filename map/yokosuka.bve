@@ -91,7 +91,31 @@ Repeater['横須賀線の高架橋脚R'].End();
 $distance_shinagawa - 13729;
 Track[$track_yokosuka].Y.Interpolate(0); # 縦曲線省略
 
-$distance_shinagawa - 13725;
+$distance_shinagawa - 13475;
+Track[$track_yokosuka].X.Interpolate();
+Track[$track_yokosuka].X.Interpolate(29.5, 400);
 
-$distance_shinagawa - 13000;
-# Track[$track_yokosuka].X.Interpolate(140);
+$distance_shinagawa - 13375;
+Track[$track_yokosuka].X.Interpolate(42);
+Track[$track_yokosuka].X.Interpolate(42, 0);
+
+$distance_shinagawa - 13125;
+Track[$track_yokosuka].X.Interpolate(100);
+Track[$track_yokosuka].X.Interpolate(100, -530);
+
+$distance_shinagawa - 13025;
+Track[$track_yokosuka].X.Interpolate(107.5);
+Track[$track_yokosuka].X.Interpolate(107.5, 0);
+
+$distance_shinagawa - 12500;
+Track[$track_yokosuka].X.Interpolate(95);
+
+$distance_shinagawa - 11800;
+Track[$track_yokosuka].X.Interpolate(60);
+
+$distance_shinagawa - 11600;
+Track[$track_yokosuka].X.Interpolate(40);
+
+$distance_shinagawa - 11390;
+# この付近で調節しよう
+Track[$track_yokosuka].X.Interpolate(26.5);

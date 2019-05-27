@@ -208,9 +208,6 @@ Curve.Interpolate(0, 0.03);
 $distance_shinagawa - 13925;
 Curve.Interpolate(0, 0);
 
-$distance_shinagawa - 13900;
-Repeater['中線バラスト軌道'].Begin($track_hinkaku, 4,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastTR_K_5a');
-
 # 現地調査 13K700mから
 
 $distance_shinagawa - 13525;
