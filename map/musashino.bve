@@ -1,0 +1,38 @@
+﻿BveTs Map 2.02:UTF-8
+
+0;
+$track_musashino = 3;
+
+$distance_shinagawa - 11109;
+Repeater['武蔵野貨物線下り'].Begin0($track_musashino, $tilt_all, 5, 5, 'BallastPC_K_5a');
+Track[$track_musashino].X.Interpolate();
+Track[$track_musashino].X.Interpolate(0, 547);
+Track[$track_musashino].Y.Interpolate();
+Track[$track_musashino].Y.Interpolate(0);
+
+$distance_shinagawa - 11075;
+Track[$track_musashino].X.Interpolate(1);
+Track[$track_musashino].X.Interpolate(1, 0);
+
+$distance_shinagawa - 11050;
+Track[$track_musashino].X.Interpolate(2.5);
+Track[$track_musashino].X.Interpolate(2.5, -1200);
+
+$distance_shinagawa - 10950;
+Track[$track_musashino].X.Interpolate(4.4);
+Track[$track_musashino].X.Interpolate(4.4, 1200);
+
+$distance_shinagawa - 10925;
+Track[$track_musashino].X.Interpolate(4.1);
+Track[$track_musashino].X.Interpolate(4.1, 0);
+$r = 3000;
+Track[$track_musashino].Y.Interpolate(0, -$r);
+
+$distance_shinagawa - 10850;
+$y = $r - cos(75 / $r) * $r;
+Track[$track_musashino].Y.Interpolate(0 - $y, 0);
+
+$distance_shinagawa - 10650;
+$y = $y + 200 * 0.025;
+Track[$track_musashino].Y.Interpolate(0 - $y);
+Repeater['武蔵野貨物線下り'].End();
