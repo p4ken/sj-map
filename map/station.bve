@@ -43,6 +43,5 @@ $distance_shin_tsurumi;
 Station['shin_tsurumi'].Put($left, $underrun, $overrun);
 
 # 新鶴見(信)からの営業キロ 3.9km
-$distance_musashi_kosugi = $distance_shin_tsurumi + 3900;
-$distance_musashi_kosugi;
+$distance_shinagawa - 9873;
 Station['musashi_kosugi'].Put($right, $underrun, $overrun);

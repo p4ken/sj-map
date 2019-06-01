@@ -142,3 +142,8 @@ Track[$track_yokosuka].X.Interpolate(5, 308);
 $distance_shinagawa - 10400;
 Track[$track_yokosuka].X.Interpolate(4);
 Repeater['横須賀線上りバラスト軌道'].End();
+
+# 自線から遠ざかっていく(ホーム幅確保)
+
+$distance_shinagawa - 9500;
+Repeater['横須賀線下りバラスト軌道'].End();

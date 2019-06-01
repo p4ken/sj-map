@@ -208,7 +208,19 @@ Curve.Interpolate(0, 0.03);
 $distance_shinagawa - 13925;
 Curve.Interpolate(0, 0);
 
+$distance_shinagawa - 13787;
+Gradient.Interpolate();
+
+$distance_shinagawa - 13783;
+Gradient.Interpolate(1);
+
 # 現地調査 13K700mから
+
+$distance_shinagawa - 13574;
+Gradient.Interpolate();
+
+$distance_shinagawa - 13570;
+Gradient.Interpolate(0);
 
 $distance_shinagawa - 13525;
 Curve.Interpolate();
@@ -270,6 +282,12 @@ $distance_shinagawa - 12970;
 # 実際のETC
 Curve.Interpolate(0, 0);
 
+$distance_shinagawa - 12900;
+Gradient.Interpolate();
+
+$distance_shinagawa - 12896;
+Gradient.Interpolate(1.5);
+
 $distance_shinagawa - 12720;
 Structure['SigPole2'].Put($track_hinkaku, -2,0,0, 0,0,0, $tilt_none, 0);
 Structure['本三場_hL'].Put($track_hinkaku, -1.8,4,-0.5, 0,0,0, $tilt_none, 0);
@@ -309,8 +327,12 @@ Curve.Interpolate(0, 0);
 $distance_shinagawa - 12000;
 Structure['kilopost1'].Put($track_hinkaku, -1.8,0,0, 0,0,0, $tilt_none, 0); # 12km
 
+$distance_shinagawa - 11902;
+Gradient.Interpolate();
+
 $distance_shinagawa - 11901;
 Structure['Gp_UD'].Put($track_hinkaku, -2,-0.3,0, 0,0,0, $tilt_none, 0); # +1.8パーミル
+Gradient.Interpolate(1.8);
 
 $distance_shinagawa - 11900;
 Structure['kilopost39ky'].Put($track_hinkaku, -1.8,-0.3,0, 0,90,0, $tilt_none, 0);
@@ -355,6 +377,12 @@ Curve.Interpolate(0, -0.06);
 $distance_shinagawa - 11575;
 Curve.Interpolate(0, 0);
 
+$distance_shinagawa - 11509;
+Gradient.Interpolate();
+
+$distance_shinagawa - 11503;
+Gradient.Interpolate(0);
+
 $distance_shinagawa - 11500;
 Structure['kilopost2'].Put($track_hinkaku, -1.8,0,0, 0,0,0, $tilt_none, 0);
 
@@ -370,6 +398,12 @@ Structure['kilopost33ky'].Put($track_hinkaku, -1.8,-0.3,0, 0,90,0, $tilt_none, 0
 # R=不明 C=30 CCL=不明 TCL=不明
 Curve.Interpolate(0, -0.030);
 Curve.Interpolate(-2000, -0.030);
+
+$distance_shinagawa - 11261;
+Gradient.Interpolate();
+
+$distance_shinagawa - 11260;
+Gradient.Interpolate(0.2);
 
 $distance_shinagawa - 11200;
 Structure['kilopost33ky'].Put($track_hinkaku, -1.8,-0.3,0, 0,90,0, $tilt_none, 0);
@@ -446,8 +480,8 @@ Curve.Interpolate();
 $distance_shinagawa - 10500;
 Structure['kilopost2'].Put($track_hinkaku, -1.8,0,0, 0,0,0, $tilt_none, 0);
 Curve.Interpolate(0, -0.05);
+# ゆるめの曲線
 Curve.Interpolate(-1000, -0.05);
-# BCC ゆるめ R=1000でもよい
 
 $distance_shinagawa - 10450;
 Curve.Interpolate(-1000, -0.05);
@@ -460,3 +494,60 @@ Curve.Interpolate(-308);
 $distance_shinagawa - 10400;
 Curve.Interpolate();
 Curve.Interpolate(0);
+Gradient.Interpolate();
+
+$distance_shinagawa - 10369;
+Gradient.Interpolate(10.3);
+
+$distance_shinagawa - 10245;
+Curve.Interpolate();
+
+$distance_shinagawa - 10225;
+#BCC R=2700
+Curve.Interpolate(0, 0.01);
+Curve.Interpolate(2700, 0.01);
+
+$distance_shinagawa - 10195;
+#ECC
+Curve.Interpolate(2700, 0.01);
+Curve.Interpolate(0, 0.01);
+
+$distance_shinagawa - 10175;
+#ETC
+Curve.Interpolate(0, 0);
+
+$distance_shinagawa - 10164;
+Gradient.Interpolate();
+
+$distance_shinagawa - 10165;
+Gradient.Interpolate(10.6);
+
+$distance_shinagawa - 10079;
+Curve.Interpolate();
+
+$distance_shinagawa - 10000;
+Curve.Interpolate(448, 0.065);
+
+$distance_shinagawa - 9894;
+Gradient.Interpolate();
+
+$distance_shinagawa - 9892;
+Gradient.Interpolate(10.0);
+
+$distance_shinagawa - 9865;
+Gradient.Interpolate();
+
+$distance_shinagawa - 9853;
+# 15両停目
+
+$distance_shinagawa - 9847;
+Curve.Interpolate(448, 0.065);
+
+$distance_shinagawa - 9825;
+Gradient.Interpolate(0);
+
+$distance_shinagawa - 9820;
+Curve.Interpolate(540, 0.09);
+
+$distance_shinagawa - 9500;
+Repeater['上りバラスト軌道'].End();
