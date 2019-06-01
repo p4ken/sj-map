@@ -16,15 +16,15 @@ Track[$track_musashino].X.Interpolate(1, 0);
 
 $distance_shinagawa - 11050;
 Track[$track_musashino].X.Interpolate(2.5);
-Track[$track_musashino].X.Interpolate(2.5, -1200);
+Track[$track_musashino].X.Interpolate(2.5, -1400);
 
 $distance_shinagawa - 10950;
-Track[$track_musashino].X.Interpolate(4.4);
-Track[$track_musashino].X.Interpolate(4.4, 1200);
+Track[$track_musashino].X.Interpolate(5);
+Track[$track_musashino].X.Interpolate(5, 2500);
 
 $distance_shinagawa - 10925;
-Track[$track_musashino].X.Interpolate(4.1);
-Track[$track_musashino].X.Interpolate(4.1, 0);
+Track[$track_musashino].X.Interpolate(4.9);
+Track[$track_musashino].X.Interpolate(4.9, 0);
 $r = 3000;
 Track[$track_musashino].Y.Interpolate(0, -$r);
 
@@ -32,7 +32,17 @@ $distance_shinagawa - 10850;
 $y = $r - cos(75 / $r) * $r;
 Track[$track_musashino].Y.Interpolate(0 - $y, 0);
 
-$distance_shinagawa - 10650;
-$y = $y + 200 * 0.025;
+$distance_shinagawa - 10675;
+Track[$track_musashino].X.Interpolate();
+Track[$track_musashino].X.Interpolate(, -500);
+
+$distance_shinagawa - 10600;
+Track[$track_musashino].X.Interpolate(-1, 0);
+
+$distance_shinagawa - 10550;
+Track[$track_musashino].X.Interpolate(-9, 0);
+$y = $y + 300 * 0.025;
 Track[$track_musashino].Y.Interpolate(0 - $y);
+
+distance - 5;
 Repeater['武蔵野貨物線下り'].End();

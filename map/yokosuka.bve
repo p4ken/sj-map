@@ -119,3 +119,26 @@ Track[$track_yokosuka].X.Interpolate(40);
 $distance_shinagawa - 11390;
 # この付近で調節しよう
 Track[$track_yokosuka].X.Interpolate(26.5);
+
+#
+#
+#
+
+$distance_shinagawa - 10675;
+Track[$track_yokosuka].X.Interpolate(26, -600);
+
+$distance_shinagawa - 10600;
+Track[$track_yokosuka].X.Interpolate(21, 0);
+
+$distance_shinagawa - 10500;
+Track[$track_yokosuka].X.Interpolate(8.2, 1000);
+
+$distance_shinagawa - 10450;
+Track[$track_yokosuka].X.Interpolate(3, 0);
+
+$distance_shinagawa - 10425;
+Track[$track_yokosuka].X.Interpolate(1, 308);
+
+$distance_shinagawa - 10400;
+Track[$track_yokosuka].X.Interpolate(0);
+Repeater['横須賀線上りバラスト軌道'].End();

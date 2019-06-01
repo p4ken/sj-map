@@ -356,7 +356,7 @@ $distance_shinagawa - 11575;
 Curve.Interpolate(0, 0);
 
 $distance_shinagawa - 11500;
-Structure['kilopost2'].Put($track_hinkaku, -1.8,-0.0,0, 0,0,0, $tilt_none, 0);
+Structure['kilopost2'].Put($track_hinkaku, -1.8,0,0, 0,0,0, $tilt_none, 0);
 
 $distance_shinagawa - 11390;
 Structure['SigPole2'].Put($track_hinkaku, -2,0,0, 0,0,0, $tilt_none, 0);
@@ -391,10 +391,13 @@ Curve.Interpolate(0);
 
 $distance_shinagawa - 11050;
 Curve.Interpolate(0, 0.05);
-Curve.Interpolate(1200, 0.05);
+Curve.Interpolate(1400, 0.05);
+
+$distance_shinagawa - 11000;
+Structure['kilopost1'].Put($track_hinkaku, -1.8,0,0, 0,0,0, $tilt_none, 0); # 11km
 
 $distance_shinagawa - 10950;
-Curve.Interpolate(1200, 0.05);
+Curve.Interpolate(1400, 0.05);
 Curve.Interpolate(0, 0.05);
 
 $distance_shinagawa - 10925;
@@ -403,5 +406,57 @@ Curve.Interpolate(0, 0);
 $distance_shinagawa - 10900;
 Structure['kilopost39ky'].Put($track_hinkaku, -1.8,-0.3,0, 0,90,0, $tilt_none, 0);
 
+$distance_shinagawa - 10865;
+Curve.Interpolate();
+
+$distance_shinagawa - 10845;
+# R=4000 C=10 TCL=20
+Curve.Interpolate(0, 0.010);
+Curve.Interpolate(4000, 0.010);
+
+$distance_shinagawa - 10820;
+Curve.Interpolate(4000, 0.010);
+Curve.Interpolate(0, 0.010);
+
 $distance_shinagawa - 10800;
+Curve.Interpolate(0, 0);
 Structure['kilopost38ky'].Put($track_hinkaku, -1.8,-0.3,0, 0,90,0, $tilt_none, 0);
+
+$distance_shinagawa - 10731;
+# BTC
+Curve.Interpolate();
+
+$distance_shinagawa - 10675;
+# R=800 C=45 CCL=50 TCL=73
+# 緩和省略のため円曲線を調整
+Curve.Interpolate(0, 0.045);
+Curve.Interpolate(1000, 0.045);
+
+$distance_shinagawa - 10600;
+Curve.Interpolate(1000, 0.045);
+Curve.Interpolate(0, 0.045);
+
+$distance_shinagawa - 10535;
+# ETC
+Curve.Interpolate(0, 0);
+
+$distance_shinagawa - 10550;
+Curve.Interpolate();
+
+$distance_shinagawa - 10500;
+Structure['kilopost2'].Put($track_hinkaku, -1.8,0,0, 0,0,0, $tilt_none, 0);
+Curve.Interpolate(0, -0.05);
+Curve.Interpolate(-1000, -0.05);
+# BCC ゆるめ R=1000でもよい
+
+$distance_shinagawa - 10450;
+Curve.Interpolate(-1000, -0.05);
+Curve.Interpolate(0, -0.05);
+
+$distance_shinagawa - 10425;
+Curve.Interpolate(0, 0);
+Curve.Interpolate(-308);
+
+$distance_shinagawa - 10400;
+Curve.Interpolate();
+Curve.Interpolate(0);
