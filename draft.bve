@@ -18,6 +18,7 @@ Signal.Load('signals.csv');
 include 'map/station.bve';
 include 'map/nishiya4.bve';
 include 'map/nishiya3.bve';
+include 'map/nishiya1.bve';
 include 'map/shinyokohama.bve';
 include 'map/approach.bve';
 include 'map/underpass.bve';

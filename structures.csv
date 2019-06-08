@@ -31,6 +31,7 @@ CrDike1Ra,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Dike\CrDike
 CrDike1Rb,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Dike\CrDike1Rb.x
 BallastPC_K_5a,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Rail\Ballast01\BallastPC_K_5a.x
 BallastPC_K_5b,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Rail\Ballast01\BallastPC_K_5b.x
+BallastPC_K_5aD,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Rail\Ballast01\BallastPC_K_5aD.x
 BallastTR_K_5a,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Rail\Ballast01\BallastTR_K_5a.x
 Slab2S5m,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Rail\Slab01\Slab2S5m.x
 Slab8m,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Rail\Slab01\Slab8m.x
@@ -47,6 +48,7 @@ Wall_QN_L25m,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Wall\Wal
 Wall_QN_R25m,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Wall\Wall_QN_R25m.x
 WallUnder_QN_25m_hukusen,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Wall\WallUnder_QN_25m_hukusen.x
 
+railn1,C:\Users\p4\Documents\BveTs\Scenarios\shuttle\fukutoshin\structures\rail\railn1.x
 end,C:\Users\p4\Documents\BveTs\Scenarios\shuttle\fukutoshin\structures\sta\end.x
 end2,C:\Users\p4\Documents\BveTs\Scenarios\shuttle\fukutoshin\structures\sta\end2.x
 formcl_st,C:\Users\p4\Documents\BveTs\Scenarios\shuttle\fukutoshin\structures\sta\formcl_st.x
