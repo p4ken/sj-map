@@ -5,13 +5,6 @@ BveTs Map 2.02:UTF-8
 0;
 $track_approach = 0;
 
-$distance_hazawa_yokohama_kokudai;
-Repeater['コンクリート道床上り'].Begin($track_approach, -3,0,0, 0,0,0, $tilt_all, 25, 25, 'Slab8m');
-
-$distance_hazawa_yokohama_kokudai + 25;
-Repeater['擁壁L'].Begin($track_approach, -2.6,-1,0, 0,0,-90, $tilt_none, 25, 25, 'Slab8m');
-Repeater['直結軌道上り'].Begin0($track_approach, $tilt_all, 5, 5, 'Slab2S5m');
-
 $distance_hazawa_yokohama_kokudai + 50;
 Curve.Interpolate();
 Curve.Interpolate(-308);
