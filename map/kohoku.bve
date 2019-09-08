@@ -10,16 +10,17 @@ Repeater['下りバラスト軌道'].Begin($track_kohoku, 4,0,0, 0,0,0, $tilt_al
 Repeater['防音壁R'].Begin($track_kohoku, 4,0,0, 0,0,0, $tilt_gradient, 25, 25, 'Wall_QN_R25m');
 
 $distance_tsurumi - 8750;
+# R=630, TCL=不明, CCL=125, C=不明
 Curve.Interpolate();
 
 $distance_tsurumi - 8700;
-Curve.Interpolate(1000);
+Curve.Interpolate(630, 0.08);
 
-$distance_tsurumi - 8675;
+$distance_tsurumi - 8575;
 Curve.Interpolate();
 
-$distance_tsurumi - 8625;
-Curve.Interpolate(0);
+$distance_tsurumi - 8525;
+Curve.Interpolate(0, 0);
 
 $distance_tsurumi - 8100;
 Repeater['防音壁L'].End();
@@ -38,17 +39,43 @@ Structure['huku_c1_ent'].Put($track_kohoku, 1.9,0,0, 0,0,0, $tilt_all, 5);
 $distance_tsurumi - 7895;
 Repeater['港北トンネル'].Begin($track_kohoku, 1.9,0,0, 0,0,0, $tilt_all, 5, 5, 'huku_c1_lp');
 
+$distance_tsurumi - 6850;
+# R=900, TCL=不明, CCL=50, C=不明
+Curve.Interpolate();
+
+$distance_tsurumi - 6800;
+Curve.Interpolate(900, 0.06);
+
+$distance_tsurumi - 6750;
+Curve.Interpolate();
+
+$distance_tsurumi - 6725;
+# R=1000, TCL=不明, CCL=475, C=不明
+Curve.Interpolate(1000, 0.07);
+
+$distance_tsurumi - 6250;
+Curve.Interpolate();
+
+$distance_tsurumi - 6225;
+# R=900, TCL=不明, CCL=94, C=不明
+Curve.Interpolate(900, 0.06);
+
+$distance_tsurumi - 6125;
+Curve.Interpolate();
+
+$distance_tsurumi - 6075;
+Curve.Interpolate(0, 0);
+
 $distance_tsurumi - 4952;
 Gradient.Interpolate();
 
 $distance_tsurumi - 4912;
 Gradient.Interpolate(10.0);
 
-// $distance_yokohama_hazawa + 4925;
 $distance_tsurumi - 3940;
 Repeater['港北トンネル'].End();
 Structure['huku_c1_ext'].Put($track_kohoku, 1.9,0,0, 0,0,0, $tilt_all, 5);
-# ここから地上
+# ここから地上だけどトンネル
 
 $distance_tsurumi - 3900;
 Gradient.Interpolate();
@@ -56,7 +83,16 @@ Gradient.Interpolate();
 $distance_tsurumi - 3840;
 Gradient.Interpolate(-10.0);
 
+$distance_tsurumi - 3550;
+# R=50000, TCL=不明, CCL=100, C=不明
+Curve.Interpolate();
+
+$distance_tsurumi - 3525;
+Curve.Interpolate(50000, 0.001);
+
 $distance_tsurumi - 3425;
+Curve.Interpolate();
+
 # ここから生見尾トンネル L=1882m
 Structure['huku_c1_Potal1'].Put($track_kohoku, 1.9,0,0, 0,0,0, $tilt_all, 0);
 Structure['huku_c1_ent'].Put($track_kohoku, 1.9,0,0, 0,0,0, $tilt_all, 5);
@@ -64,23 +100,53 @@ Structure['huku_c1_ent'].Put($track_kohoku, 1.9,0,0, 0,0,0, $tilt_all, 5);
 $distance_tsurumi - 3420;
 Repeater['生見尾トンネル'].Begin($track_kohoku, 1.9,0,0, 0,0,0, $tilt_all, 5, 5, 'huku_c1_lp');
 
+$distance_tsurumi - 3400;
+Curve.Interpolate(0, 0);
+
 $distance_tsurumi - 3001;
 Gradient.Interpolate();
 
 $distance_tsurumi - 2999;
 Gradient.Interpolate(-9.7);
 
-$distance_tsurumi - 2119;
+$distance_tsurumi - 2975;
+# R=2000, TCL=不明, CCL=375, R=不明
+Curve.Interpolate();
+
+$distance_tsurumi - 2950;
+Curve.Interpolate(2000, 0.04);
+
+$distance_tsurumi - 2575;
+Curve.Interpolate();
+
+$distance_tsurumi - 2550;
+# R=1850, TCL=不明, CCL=125, C=不明
+Curve.Interpolate(1850, 0.04);
+
+$distance_tsurumi - 2451;
 Gradient.Interpolate();
 
-$distance_tsurumi - 2117;
+$distance_tsurumi - 2449;
 Gradient.Interpolate(-10.0);
+
+$distance_tsurumi - 2425;
+Curve.Interpolate();
+
+$distance_tsurumi - 2400;
+Curve.Interpolate(0, 0);
 
 $distance_tsurumi - 2320;
 Gradient.Interpolate();
 
 $distance_tsurumi - 2316;
 Gradient.Interpolate(-9.0);
+
+$distance_tsurumi - 2175;
+# R=-600, TCL=不明, CCL=300, C=不明
+Curve.Interpolate();
+
+$distance_tsurumi - 2125;
+Curve.Interpolate(-600, -0.06);
 
 $distance_tsurumi - 1942;
 Gradient.Interpolate();
@@ -94,6 +160,12 @@ Gradient.Interpolate();
 $distance_tsurumi - 1740;
 Gradient.Interpolate(8.5);
 
+$distance_tsurumi - 1725;
+Curve.Interpolate();
+
+$distance_tsurumi - 1675;
+Curve.Interpolate(0, 0);
+
 $distance_tsurumi - 1543;
 Gradient.Interpolate();
 
@@ -105,6 +177,15 @@ Repeater['生見尾トンネル'].End();
 $distance_tsurumi - 1539;
 Gradient.Interpolate(10.0);
 
+$distance_tsurumi - 1025;
+# R=-650, TCL=不明, CCL=？, C=不明
+# 高島線下りの曲線半径と同じにした
+# 下り線はBTC(R=-1200, TCL=不明, CCL=125m, C=不明)
+Curve.Interpolate();
+
+$distance_tsurumi - 975;
+Curve.Interpolate(-650, -0.06);
+
 $distance_tsurumi - 966;
 Gradient.Interpolate();
 
@@ -113,6 +194,24 @@ $distance_tsurumi - 960;
 
 $distance_tsurumi - 946;
 Gradient.Interpolate(3.5);
+
+$distance_tsurumi - 950;
+Curve.Interpolate();
+
+$distance_tsurumi - 900;
+Curve.Interpolate(0, 0);
+# 下り線ECC(資料値)
+
+$distance_tsurumi - 875;
+# 下り線ETC(資料値)
+
+$distance_tsurumi - 800;
+# 下り線は R=-600, TCL=不明, CCL=150, C=不明
+# 自線は次と合算して CCL=375
+Curve.Interpolate();
+
+$distance_tsurumi - 750;
+Curve.Interpolate(-600, -0.07);
 
 $distance_tsurumi - 711;
 Gradient.Interpolate();
@@ -126,6 +225,10 @@ Gradient.Interpolate(5.1);
 $distance_tsurumi - 600;
 # 鶴見線と交差
 Structure['kilopost36ky'].Put($track_kohoku, 5.8,-0.3,0, 0,90,0, $tilt_none, 0);
+# 下り線はETCかつBTC R=-600, TCL=不明, CCL=225, C=不明
+
+$distance_tsurumi - 550;
+# 下り線ECC
 
 $distance_tsurumi - 536;
 Gradient.Interpolate();
@@ -136,11 +239,17 @@ Gradient.Interpolate(0.4);
 $distance_tsurumi - 400;
 Structure['kilopost34ky'].Put($track_kohoku, 1.8,-0.3,0, 0,90,0, $tilt_none, 0);
 
+$distance_tsurumi - 375;
+Curve.Interpolate();
+
 $distance_tsurumi - 343;
 Gradient.Interpolate();
 
 $distance_tsurumi - 345;
 Gradient.Interpolate(0.0);
+
+$distance_tsurumi - 325;
+Curve.Interpolate(0, 0);
 
 $distance_tsurumi - 300;
 Structure['kilopost33ky'].Put($track_kohoku, 1.8,-0.3,0, 0,90,0, $tilt_none, 0);

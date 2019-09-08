@@ -9,6 +9,20 @@ Repeater['上りバラスト軌道'].Begin0($track_hinkaku, $tilt_all, 5, 5, 'Ba
 $distance_shinagawa - 17600;
 Structure['kilopost36ky'].Put($track_hinkaku, 1.8,-0.3,0, 0,90,0, $tilt_none, 0);
 
+$distance_shinagawa - 17500;
+# R=600, TCL=不明, CCL=50, C=不明
+# この付近、東海道本線はR=1000で離れていく
+Curve.Interpolate();
+
+$distance_shinagawa - 17450;
+Curve.Interpolate(600, 0.07);
+
+$distance_shinagawa - 17425;
+Curve.Interpolate();
+
+$distance_shinagawa - 17375; # 前面展望から
+Curve.Interpolate(0, 0);
+
 $distance_shinagawa - 17370;
 Structure['SigPole2'].Put($track_hinkaku, -2,0,0, 0,0,0, $tilt_none, 0);
 Structure['品鶴出_hL'].Put($track_hinkaku, -1.8,4,-0.5, 0,0,0, $tilt_none, 0);
@@ -18,6 +32,12 @@ Structure['kilopost33ky'].Put($track_hinkaku, -1.8,-0.3,0, 0,90,0, $tilt_none, 0
 
 $distance_shinagawa - 17200;
 Structure['kilopost32ky'].Put($track_hinkaku, -1.8,-0.3,0, 0,90,0, $tilt_none, 0);
+
+$distance_shinagawa - 17150;
+# R=700, TCL=不明, CCL=100, C=不明
+# この付近、東海道本線・貨物支線上り・留置線は並走。
+# その右の貨物支線下りはR=600で近づく（留置線が減る）
+Curve.Interpolate();
 
 $distance_shinagawa - 17145;
 Gradient.Interpolate();
@@ -29,17 +49,44 @@ $distance_shinagawa - 17125;
 Gradient.Interpolate(8);
 
 $distance_shinagawa - 17100;
+Curve.Interpolate(700, 0.06);
 Structure['kilopost31ky'].Put($track_hinkaku, 1.8,-0.3,0, 0,90,0, $tilt_none, 0);
 
-$distance_shinagawa - 16625;
+$distance_shinagawa - 17050;
 Curve.Interpolate();
+
+$distance_shinagawa - 17000;
 Curve.Interpolate(0, 0);
+Structure['kilopost1'].Put($track_hinkaku, 1.8,0,0, 0,180,0, $tilt_none, 0); # 17km
+
+$distance_shinagawa - 16990;
+# ここから鶴見川橋梁
+
+$distance_shinagawa - 16870;
+# ここまで鶴見川橋梁
+
+$distance_shinagawa - 16850;
+# R=650 TCL=不明, CCL=？, C=不明
+# 少しの間、貨物支線と並走。
+Curve.Interpolate();
+
+$distance_shinagawa - 16800; # 前面展望から
+Curve.Interpolate(650, 0.06);
+
+$distance_shinagawa - 16725;
+Curve.Interpolate();
+# 貨物支線は引き続きR=650で離れていく。
+
+$distance_shinagawa - 16675; # 前面展望から
+Curve.Interpolate(0, 0);
+
+$distance_shinagawa - 16650;
+Curve.Interpolate();
 
 $distance_shinagawa - 16600;
 Gradient.Interpolate();
 Structure['kilopost36ky'].Put($track_hinkaku, 1.8,-0.3,0, 0,90,0, $tilt_none, 0);
-Curve.Interpolate(0, -0.02);
-Curve.Interpolate(-450, -0.02);
+Curve.Interpolate(-450, -0.07);
 
 $distance_shinagawa - 16570;
 Structure['Gp_DD'].Put($track_hinkaku, 1.8,-0.3,0, 0,180,0, $tilt_none, 0);
@@ -50,9 +97,8 @@ Gradient.Interpolate(-8);
 $distance_shinagawa - 16500;
 Structure['kilopost2'].Put($track_hinkaku, -1.8,0,0, 0,0,0, $tilt_none, 0);
 
-$distance_shinagawa - 16225;
-Curve.Interpolate(-450, -0.02);
-Curve.Interpolate(0, -0.02);
+$distance_shinagawa - 16250;
+Curve.Interpolate();
 
 $distance_shinagawa - 16210;
 Structure['Gp_UD'].Put($track_hinkaku, 5.8,-0.3,0, 0,180,0, $tilt_none, 0);

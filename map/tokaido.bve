@@ -26,7 +26,7 @@ $distance_tsurumi - 310;
 Structure['kilopost1'].Put($track_tokaido, 1.8,0,0, 0,180,0, $tilt_none, 0);
 
 $distance_tsurumi - 250;
-Track[$track_tokaido].X.Interpolate(-4.5);
+Track[$track_tokaido].X.Interpolate(-5);
 
 $distance_tsurumi - 210;
 Structure['kilopost39ky'].Put($track_tokaido, 1.8,-0.3,0, 0,90,0, $tilt_none, 0);
@@ -52,11 +52,17 @@ $distance_shinagawa - 17540;
 Repeater['鶴見駅ホーム端R'].End();
 Repeater['鶴見駅アスファルト'].End();
 
+$distance_shinagawa - 17500;
+Track[$track_tokaido].X.Interpolate();
+
 $distance_shinagawa - 17470;
 Structure['kilopost34ky'].Put($track_tokaido, 1.8,-0.3,0, 0,90,0, $tilt_none, 0);
 
 $distance_shinagawa - 17370;
 Structure['kilopost33ky'].Put($track_tokaido, 1.8,-0.3,0, 0,90,0, $tilt_none, 0);
+
+$distance_shinagawa - 17300; # 大雑把
+Track[$track_tokaido].X.Interpolate(-9);
 
 $distance_shinagawa - 17280;
 Structure['Gp_DL'].Put($track_tokaido, 1.8,-0.3,0, 0,180,0, $tilt_none, 0);
@@ -70,9 +76,14 @@ Structure['Gp_LD'].Put($track_tokaido, 1.8,-0.3,0, 0,180,0, $tilt_none, 0);
 $distance_shinagawa - 17070;
 Structure['kilopost1'].Put($track_tokaido, 1.8,0,0, 0,180,0, $tilt_none, 0); # 21km
 
+$distance_shinagawa - 16850;
+Track[$track_tokaido].X.Interpolate();
+
+$distance_shinagawa - 16675;
+Track[$track_tokaido].X.Interpolate(-16, 200);
+
 $distance_shinagawa - 16600;
-$radius_tokaido_R0 = 425;
-Track[$track_tokaido].X.Interpolate(0, $radius_tokaido_R0);
+Track[$track_tokaido].X.Interpolate(0, 600);
 Track[$track_tokaido].Y.Interpolate(-6);
 Track[$track_tokaido].Y.Interpolate(-6, 4000);
 
@@ -87,7 +98,7 @@ Repeater['京浜東北線下り'].End();
 Repeater['京浜東北線上り'].End();
 
 $distance_shinagawa - 16225;
-Track[$track_tokaido].X.Interpolate(215);
+Track[$track_tokaido].X.Interpolate(380);
 
 $distance_shinagawa - 16200; # 適当
 Track[$track_tokaido].Y.Interpolate(-2);
