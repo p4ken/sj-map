@@ -1,0 +1,19 @@
+﻿BveTs Map 2.02:UTF-8
+
+0;
+Section.Begin(0);
+
+1;
+Section.Begin(0);
+
+31;
+Beacon.Put(3, -1, 0);
+
+100;
+Section.Begin(0);
+PreTrain.Pass('12:00:19');
+
+100000;
+Section.Begin(0);
+PreTrain.Pass('12:03:00');
+PreTrain.Pass('23:59:59');
