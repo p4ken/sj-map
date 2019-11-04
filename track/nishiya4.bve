@@ -27,7 +27,7 @@ Repeater['直結軌道上り'].Begin0($track_nishiya4, $tilt_all, 5, 5, 'Slab2S5
 Repeater['直結軌道上り'].End();
 Repeater['直結軌道上り'].Begin0($track_nishiya4, $tilt_all, 25, 25, 'railn1');
 Structure['2go_c1_Potal2'].Put0($track_nishiya4, $tilt_all, 5);
-# ここから西谷トンネル 1445m
+# ここから西谷トンネル
 # ここから1層1径間 単線箱型トンネル 130m
 Curve.Interpolate();
 Background.Change();
