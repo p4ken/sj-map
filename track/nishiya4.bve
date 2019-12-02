@@ -101,8 +101,8 @@ Curve.Interpolate(); #BTC
 Gradient.Interpolate(-10);
 
 1500;
-# R=600 C=不明 CCL=不明 TCL=不明
-Curve.Interpolate(600, 0.06);
+# R=-600 C=不明 CCL=不明 TCL=不明
+Curve.Interpolate(-600, -0.06);
 # 地上が見通せるので背景を変更
 Background.Change('Bg_fine_summer');
 
