@@ -6,7 +6,7 @@ $right = 1;
 $underrun = -5;
 $overrun = 5;
 
-$distance_nishiya = 50;
+$distance_nishiya = 100;
 $distance_nishiya;
 Station['nishiya'].Put($right, $underrun, $overrun);
 

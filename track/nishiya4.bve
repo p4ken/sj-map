@@ -8,26 +8,36 @@ $tilt_cant = 2;
 $tilt_all = 3;
 
 0;
-Curve.Interpolate(1100, 0.05);
 Background.Change('Bg_fine_summer');
 Repeater['バラスト軌道'].Begin0($track_nishiya4, $tilt_all, 5, 5, 'BallastPC_K_5a');
 
+$distance_nishiya - 100;
+Curve.Interpolate();
+
+$distance_nishiya - 75;
+#BCC R=900 TCL=25 CCL=113 C=25.0
+Curve.Interpolate(900, 0.025);
+
 $distance_nishiya - 45;
-Gradient.Interpolate(-2);
+Gradient.Interpolate(-2); # 逆延伸ならこれも手前へ
+Gradient.Interpolate();
 
 $distance_nishiya + 5;
 # 勾配標
 
-$distance_nishiya + 10;
-Gradient.Interpolate();
-
-$distance_nishiya + 55;
-Gradient.Interpolate(-35);
+$distance_nishiya + 40;
+Curve.Interpolate();
 
 $distance_nishiya + 45;
 Repeater['バラスト軌道'].End();
 # ここからＵ型擁壁部 100m
 Repeater['直結軌道上り'].Begin0($track_nishiya4, $tilt_all, 5, 5, 'Slab2S5m');
+
+$distance_nishiya + 55;
+Gradient.Interpolate(-35);
+
+$distance_nishiya + 65;
+Curve.Interpolate(0, 0);
 
 $distance_nishiya + 140;
 Repeater['直結軌道上り'].End();
@@ -41,7 +51,6 @@ Structure['end1l'].Put0($track_nishiya4, $tilt_all, 25);
 Structure['end1r'].Put0($track_nishiya4, $tilt_all, 25);
 
 $distance_nishiya + 165;
-Curve.Interpolate(1100, 0.05);
 Curve.Interpolate(800, 0.05); #適当
 Repeater['箱型トンネルL'].Begin0($track_nishiya4, $tilt_all, 25, 25, 'walln1l');
 Repeater['箱型トンネルR単線'].Begin0($track_nishiya4, $tilt_all, 25, 25, 'walln1r');

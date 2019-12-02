@@ -8,7 +8,7 @@ Section.SetSpeedLimit(0,25,45,65,); // 駅間最高速度は不明
 Section.Begin(0,2,3,4);
 Beacon.Put($beacon_pattern, -1, 0);
 
-$section = $distance_nishiya + 25; # 適当
+$section = $distance_nishiya + 13;
 $section - 15;
 # 地上子
 Beacon.Put($beacon_pattern, -1, 0);
