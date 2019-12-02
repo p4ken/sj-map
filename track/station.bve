@@ -6,12 +6,12 @@ $right = 1;
 $underrun = -5;
 $overrun = 5;
 
-$distance_nishiya = 10;
+$distance_nishiya = 50;
 $distance_nishiya;
 Station['nishiya'].Put($right, $underrun, $overrun);
 
 # 西谷～羽沢横浜国大の営業キロ 2.1km
-$distance_hazawa_yokohama_kokudai = 2105;
+$distance_hazawa_yokohama_kokudai = $distance_nishiya + 2095;
 
 $distance_hazawa_yokohama_kokudai;
 Station['hazawa_yokohama_kokudai'].Put($left, $underrun, $overrun);
