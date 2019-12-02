@@ -15,20 +15,20 @@ $distance_nishiya;
 # 実際はもっと右だが、擁壁が連動してしまう
 Track[$track_nishiya3].X.Interpolate(4.5);
 Track[$track_nishiya3].Y.Interpolate(0, 3000);
-Repeater['道路'].Begin($track_nishiya3, -9,-1,0, 0,0,0, $tilt_all, 5, 5, 'road_045_a', 'road_045_b', 'road_045_c', 'road_045_d');
+Repeater['道路'].Begin($track_nishiya3, -10,-1,0, 0,0,0, $tilt_all, 5, 5, 'road_045_a', 'road_045_b', 'road_045_c', 'road_045_d');
 
-$distance_nishiya + 15;
-Repeater['新横浜線の擁壁L'].Begin($track_nishiya3, -6.1,-5.8,0, 0,0,-90, $tilt_gradient, 25, 25, 'Slab8m');
-Repeater['新横浜線の擁壁R'].Begin($track_nishiya3, -3.1,-5.8,0, 0,0,90, $tilt_gradient, 25, 25, 'Slab8m');
+$distance_nishiya;
+Repeater['新横浜線の擁壁L'].Begin($track_nishiya3, -6.8,-3,0, 0,0,-90, $tilt_gradient, 25, 25, 'Slab8m');
+Repeater['新横浜線の擁壁R'].Begin($track_nishiya3, -3,-5.9,0, 0,0,90, $tilt_gradient, 25, 25, 'Slab8m');
 Repeater['新横浜線の擁壁下りR'].Begin($track_nishiya3, 12,-5.8,0, 0,0,90, $tilt_gradient, 25, 25, 'Slab8m');
 
 $distance_nishiya + 40;
 # 本線縦曲線終わり
-Track[$track_nishiya3].Y.Interpolate(1.5);
-Track[$track_nishiya3].Y.Interpolate(1.5, 0);
+Track[$track_nishiya3].Y.Interpolate(1.2);
+Track[$track_nishiya3].Y.Interpolate(1.2, 0);
 
 $distance_nishiya + 90;
-Track[$track_nishiya3].X.Interpolate(4.5);
+Track[$track_nishiya3].X.Interpolate(5);
 
 $distance_nishiya + 140;
 Repeater['新横浜線の擁壁L'].End();
@@ -36,11 +36,11 @@ Repeater['新横浜線の擁壁R'].End();
 Repeater['新横浜線の擁壁下りR'].End();
 Track[$track_nishiya3].X.Interpolate();
 $r = 600;
-Track[$track_nishiya3].X.Interpolate(4.5, $r);
+Track[$track_nishiya3].X.Interpolate(5, $r);
 
 $distance_nishiya + 415;
 # 本線ここまで-35‰
-Track[$track_nishiya3].Y.Interpolate(18);
+Track[$track_nishiya3].Y.Interpolate(15);
 Track[$track_nishiya3].X.Interpolate(70);
 Repeater['道路'].End();
 Repeater['本線上り'].End();

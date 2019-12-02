@@ -1,0 +1,14 @@
+BveTs Map 2.02:UTF-8
+
+$distance_nishiya;
+# Fog.Interpolate(0.02,0.6,0.8,0.99);
+
+# $distance_nishiya + 150;
+# Fog.Interpolate(0,0,0,0);
+
+
+# $distance_shinagawa - 17370;
+# Fog.Interpolate(0,0,0,0);
+
+# $distance_shinagawa - 17270;
+# Fog.Interpolate(0.01,1,1,1);

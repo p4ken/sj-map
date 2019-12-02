@@ -31,3 +31,6 @@ include 'track/yokosuka.bve';
 include 'track/opposite.bve';
 include 'track/musashino.bve';
 include 'signal/signal.bve';
+include 'effect/light.bve';
+include 'effect/fog.bve';
+include 'landscape/building.bve';
