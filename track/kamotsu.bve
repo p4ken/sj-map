@@ -8,7 +8,6 @@ Track[$track_kamotsu].Y.Interpolate(5);
 Track[$track_kamotsu].X.Interpolate(9);
 Repeater['貨物の外壁'].Begin($track_kamotsu, 4.7,0,0, 0,0,0, $tilt_all, 5, 5, 'Fence6L');
 Repeater['貨物上りのバラスト軌道'].Begin0($track_kamotsu, $tilt_all, 5, 5, 'BallastPC_K_5a');
-Repeater['貨物下りのバラスト軌道'].Begin($track_kamotsu, 4,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastPC_K_5a');
 
 $distance_hazawa_yokohama_kokudai + 50;
 Track[$track_kamotsu].X.Interpolate(9);
@@ -39,4 +38,3 @@ Track[$track_kamotsu].X.Interpolate(1, 300);
 $distance_yokohama_hazawa;
 Track[$track_kamotsu].X.Interpolate(0, 0);
 Repeater['貨物上りのバラスト軌道'].End();
-Repeater['貨物下りのバラスト軌道'].End();

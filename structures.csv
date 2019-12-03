@@ -25,6 +25,10 @@ kilopost39ky,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Accessor
 SigPole2,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Accessory\Posts\Signal\SigPole2.x
 Bg,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\BG\Bg.x
 Bg_fine_summer,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\BG\Bg_fine_summer.x
+blue10_b_ban,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Bridge\blue10_b_ban.x
+blue10_bL,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Bridge\blue10_bL.x
+blue10_bR,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Bridge\blue10_bR.x
+conc_10m,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Bridge\conc_10m.x
 glare4yg0,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Default\glare4yg0.x
 glare4yg2,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Default\glare4yg2.x
 glare4yg3,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Default\glare4yg3.x
@@ -37,11 +41,15 @@ CrDike1La,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Dike\CrDike
 CrDike1Lb,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Dike\CrDike1Lb.x
 CrDike1Ra,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Dike\CrDike1Ra.x
 CrDike1Rb,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Dike\CrDike1Rb.x
+river50m_green,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Nature\River\river50m_green.x
+RvGrsL1a,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Nature\River\RvGrsL1a.x
+RvGrsL1b,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Nature\River\RvGrsL1b.x
 tree21_S,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Nature\trees_street\tree21_S.x
 tree22_S,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Nature\trees_street\tree22_S.x
 tree23_S,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Nature\trees_street\tree23_S.x
 tree24_S,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Nature\trees_street\tree24_S.x
 tree25_S,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Nature\trees_street\tree25_S.x
+_BridgeRail_5,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Rail\_BridgeRail_5.x
 BallastPC_K_5a,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Rail\Ballast01\BallastPC_K_5a.x
 BallastPC_K_5b,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Rail\Ballast01\BallastPC_K_5b.x
 BallastPC_K_5aD,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Rail\Ballast01\BallastPC_K_5aD.x

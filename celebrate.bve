@@ -30,6 +30,7 @@ include 'track/tokaido.bve';
 include 'track/yokosuka.bve';
 include 'track/opposite.bve';
 include 'track/musashino.bve';
+include 'track/tsurumi.bve';
 include 'signal/signal.bve';
 include 'effect/light.bve';
 include 'effect/fog.bve';

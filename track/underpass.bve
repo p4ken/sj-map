@@ -52,5 +52,5 @@ Repeater['直結軌道下り'].End();
 Repeater['擁壁R'].End();
 
 $distance_hazawa_yokohama_kokudai + 300;
-Track[$track_underpass].Y.Interpolate(-6, 0);
+Track[$track_underpass].Y.Interpolate(-6, -1000);
 

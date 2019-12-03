@@ -4,7 +4,10 @@
 $track_hinkaku = 0;
 
 $distance_shinagawa - 17760;
-Repeater['上りバラスト軌道'].Begin0($track_hinkaku, $tilt_all, 5, 5, 'BallastPC_K_5a');
+Repeater['上りバラスト軌道'].Begin0($track_hinkaku, $tilt_all, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
+Repeater['鶴見中線1'].Begin($track_kohoku, 4,0,0, 0,0,0, $tilt_gradient, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
+Repeater['鶴見中線2'].Begin($track_kohoku, 8,0,0, 0,0,0, $tilt_gradient, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
+Repeater['鶴見中線3'].Begin($track_kohoku, 12,0,0, 0,0,0, $tilt_gradient, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
 
 $distance_shinagawa - 17600;
 Structure['kilopost36ky'].Put($track_hinkaku, 1.8,-0.3,0, 0,90,0, $tilt_none, 0);
@@ -13,6 +16,7 @@ $distance_shinagawa - 17500;
 # R=600, TCL=不明, CCL=50, C=不明
 # この付近、東海道本線はR=1000で離れていく
 Curve.Interpolate();
+Repeater['鶴見中線3'].End();
 
 $distance_shinagawa - 17450;
 Curve.Interpolate(600, 0.07);
@@ -44,6 +48,9 @@ Gradient.Interpolate();
 
 $distance_shinagawa - 17135;
 Structure['Gp_UL'].Put($track_hinkaku, -1.8,-0.3,0, 0,0,0, $tilt_none, 0);
+# ここからは高低差をつけたいので東海道線の座標でしのぐ
+Repeater['鶴見中線1'].End();
+Repeater['鶴見中線2'].End();
 
 $distance_shinagawa - 17125;
 Gradient.Interpolate(8);
@@ -61,9 +68,27 @@ Structure['kilopost1'].Put($track_hinkaku, 1.8,0,0, 0,180,0, $tilt_none, 0); # 1
 
 $distance_shinagawa - 16990;
 # ここから鶴見川橋梁
+Repeater['上り橋梁R'].Begin0($track_hinkaku, $tilt_gradient, 10, 10, 'blue10_bR');
+Repeater['上り橋梁L'].Begin0($track_hinkaku, $tilt_gradient, 10, 10, 'blue10_bL');
+Repeater['上りバラスト軌道'].End();
+Repeater['上り橋梁軌道'].Begin0($track_hinkaku, $tilt_all, 5, 5, '_BridgeRail_5');
+
+$distance_shinagawa - 16950;
+Structure['river50m_green'].Put($track_hinkaku, 0,-8,0, 0,0,0, $tilt_none, 0);
+Structure['river50m_green'].Put($track_hinkaku, 0,-8,0, 0,180,0, $tilt_none, 0);
 
 $distance_shinagawa - 16870;
 # ここまで鶴見川橋梁
+Structure['RvGrsL1a'].Put($track_hinkaku, 40,-3,0, 0,90,0, $tilt_none, 0);
+Structure['RvGrsL1b'].Put($track_hinkaku, 20,-3,0, 0,90,0, $tilt_none, 0);
+Structure['RvGrsL1a'].Put($track_hinkaku, 0,-3,0, 0,90,0, $tilt_none, 0);
+Structure['RvGrsL1b'].Put($track_hinkaku, -20,-3,0, 0,90,0, $tilt_none, 0);
+Structure['RvGrsL1a'].Put($track_hinkaku, -40,-3,0, 0,90,0, $tilt_none, 0);
+Structure['RvGrsL1b'].Put($track_hinkaku, -60,-3,0, 0,90,0, $tilt_none, 0);
+Repeater['上り橋梁R'].End();
+Repeater['上り橋梁L'].End();
+Repeater['上り橋梁軌道'].End();
+Repeater['上りバラスト軌道'].Begin0($track_hinkaku, $tilt_all, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
 
 $distance_shinagawa - 16850;
 # R=650 TCL=不明, CCL=？, C=不明

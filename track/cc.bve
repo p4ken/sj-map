@@ -1,0 +1,9 @@
+BveTs Map 2.02:UTF-8
+
+$l = $l + $span;
+$rad = $l / $r;
+$x = 1 / cos($rad) * $r - $r;
+
+$bcc + $l;
+Track[$track_calculate].X.Interpolate($x0 - $x);
+# TODO: TCのぶんだけ舵角がついているので、その考慮が必要。

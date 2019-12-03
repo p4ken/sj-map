@@ -1,0 +1,19 @@
+﻿BveTs Map 2.02
+
+// 曲率
+$curvature = ($l + $span / 2) / (-$ccr * $tcl);
+
+// 前回との差
+$dr = $tcr - 1 / $curvature;
+$dx = cos($angle) * ($dr);
+
+// 現在位置
+$angle = $angle + $curvature * $span;
+$cx = $cx - $dx;
+$tcr = 1 / $curvature;
+$x = 1 / cos($angle) * $cx - $tcr;
+$l = $l + $span;
+
+// 結果
+$btc + $l;
+Track[$track_calculate].X.Interpolate($x0 + $x, $tcr);

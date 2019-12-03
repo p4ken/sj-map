@@ -31,7 +31,7 @@ $distance_nishiya + 130;
 Structure['buildingR'].Put($track_nishiya4, 25,-8,0, 0,0,0, $tilt_none, 0);
 
 $distance_nishiya + 150;
-Structure['building2R'].Put($track_nishiya4, 25,-5,0, 0,5,0, $tilt_none, 0);
+Structure['building2R'].Put($track_nishiya4, 28,-5,0, 0,0,0, $tilt_none, 0);
 
 # 西谷トンネル
 $distance_nishiya + 140;
