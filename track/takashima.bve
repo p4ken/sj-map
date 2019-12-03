@@ -9,8 +9,8 @@ Track[$track_takashima].X.Interpolate(-4.5);
 Track[$track_takashima].Y.Interpolate();
 Track[$track_takashima].Y.Interpolate(5);
 Repeater['高島線上り'].Begin0($track_takashima, $tilt_all, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
-Repeater['羽沢線の擁壁L'].Begin($track_takashima, 3,-5.8,0, 0,0,-90, $tilt_gradient, 25, 25, 'Slab8m');
-Repeater['羽沢線の擁壁R'].Begin($track_takashima, 10,-5.8,0, 0,0,90, $tilt_gradient, 25, 25, 'Slab8m');
+Repeater['羽沢線の擁壁L'].Begin($track_takashima, 2.7,-5.8,0, 0,0,-90, $tilt_gradient, 25, 25, 'Slab8m');
+Repeater['羽沢線の擁壁R'].Begin($track_takashima, 10.1,-5.8,0, 0,0,90, $tilt_gradient, 25, 25, 'Slab8m');
 Repeater['高島線下り'].Begin($track_takashima, 13,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastPC_K_5b', 'BallastPC_K_5a');
 
 $distance_tsurumi - 1000;

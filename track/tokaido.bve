@@ -7,11 +7,14 @@ $distance_tsurumi - 1540;
 Track[$track_tokaido].X.Interpolate();
 Track[$track_tokaido].X.Interpolate(-8);
 Track[$track_tokaido].Y.Interpolate();
-Track[$track_tokaido].Y.Interpolate(0);
+Track[$track_tokaido].Y.Interpolate(5);
 Repeater['東海道線下り'].Begin0($track_tokaido, $tilt_all, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
 Repeater['東海道線上り'].Begin($track_tokaido, -4,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
 Repeater['京浜東北線下り'].Begin($track_tokaido, -8,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
 Repeater['京浜東北線上り'].Begin($track_tokaido, -12,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
+
+$distance_tsurumi - 966;
+Track[$track_tokaido].Y.Interpolate(0);
 
 $distance_tsurumi - 810;
 Structure['kilopost2'].Put($track_tokaido, 1.8,0,0, 0,180,0, $tilt_none, 0); # 22km
