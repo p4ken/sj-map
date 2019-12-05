@@ -3,16 +3,52 @@
 0;
 $track_yokosuka = 2;
 
-$distance_shinagawa - 16200;
+$distance_tsurumi - 800;
 Track[$track_yokosuka].X.Interpolate();
-Track[$track_yokosuka].X.Interpolate(14);
-Track[$track_yokosuka].Y.Interpolate();
-Track[$track_yokosuka].Y.Interpolate(5);
+Track[$track_yokosuka].X.Interpolate(-30);
 Repeater['横須賀線上りバラスト軌道'].Begin($track_yokosuka, -4,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastPC_K_5a');
 Repeater['横須賀線下りバラスト軌道'].Begin0($track_yokosuka, $tilt_all, 5, 5, 'BallastPC_K_5a');
 
+$distance_shinagawa - 17135;
+Track[$track_yokosuka].Y.Interpolate();
+Repeater['横須賀線の高架壁L'].Begin($track_yokosuka, -4,0,0, 0,0,0, $tilt_gradient, 25, 25, 'Wall_QN_L25m');
+Repeater['横須賀線の高架壁R'].Begin0($track_yokosuka, $tilt_gradient, 25, 25, 'Wall_QN_R25m');
+Repeater['横須賀線の高架底面'].Begin($track_yokosuka, -1.7,-1.38,0, 0,0,180, $tilt_gradient, 25, 25, 'Slab8m');
+Repeater['横須賀線の高架橋脚L'].Begin($track_yokosuka, -4,0,0, 0,0,0, $tilt_gradient, 25, 25, 'WallUnder_QN_25m_hukusen');
+Repeater['横須賀線の高架橋脚R'].Begin0($track_yokosuka, $tilt_gradient, 25, 25, 'WallUnder_QN_25m_hukusen');
+
+$distance_shinagawa - 16650;
+# 自線はここから左カーブ
+Track[$track_yokosuka].X.Interpolate();
+
+$distance_shinagawa - 16600;
+# ここから自線は下るが、横須賀線は引き続き上る
+Track[$track_yokosuka].Y.Interpolate();
+
+$distance_shinagawa - 16400;
+Repeater['横須賀線の高架橋脚L'].End();
+Repeater['横須賀線の高架橋脚R'].End();
+
+$distance_shinagawa - 16300;
+Track[$track_yokosuka].Y.Interpolate(6);
+
+$distance_shinagawa - 16250;
+Repeater['横須賀線の高架橋脚L'].Begin($track_yokosuka, -4,0,0, 0,0,0, $tilt_gradient, 25, 25, 'WallUnder_QN_25m_hukusen');
+Repeater['横須賀線の高架橋脚R'].Begin0($track_yokosuka, $tilt_gradient, 25, 25, 'WallUnder_QN_25m_hukusen');
+
+$distance_shinagawa - 16200;
+# 自線はここまで左カーブ
+Track[$track_yokosuka].X.Interpolate(14);
+Track[$track_yokosuka].Y.Interpolate();
+
 $distance_shinagawa - 15738;
 Track[$track_yokosuka].Y.Interpolate(0);
+Repeater['横須賀線の高架壁L'].End();
+Repeater['横須賀線の高架壁R'].End();
+Repeater['横須賀線の高架底面'].End();
+Repeater['横須賀線の高架橋脚L'].End();
+Repeater['横須賀線の高架橋脚R'].End();
+
 Structure['Gp_UL'].Put($track_yokosuka, 5.8,-0.3,0, 0,180,0, $tilt_none, 0);
 
 $distance_shinagawa - 15093;
