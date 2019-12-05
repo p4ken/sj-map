@@ -1,0 +1,67 @@
+BveTs Map 2.02:UTF-8
+
+$distance_20191204 = 0;
+
+$distance_20191204 + 15810;
+Structure['PoleTrs09A'].Put($track_hinkaku, 2,0,0, 0,0,0, $tilt_none, 0);
+
+$distance_20191204 + 15850;
+Structure['PoleTrs09A'].Put($track_hinkaku, 2,0,0, 0,0,0, $tilt_none, 0);
+
+$distance_20191204 + 15800;
+Structure['b11m'].Put($track_hinkaku, -3,-1.5,0, 0,0,0, $tilt_none, 0);
+Structure['b14m'].Put($track_hinkaku, -3,-1.5,0, 0,-60,0, $tilt_none, 0);
+Structure['b13m'].Put($track_hinkaku, -4,-1.5,2.5, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b12m'].Put($track_hinkaku, -3,-1.5,0, 0,0,0, $tilt_none, 0);
+Structure['b11m'].Put($track_hinkaku, -3,-1.5,0, 0,-60,0, $tilt_none, 0);
+Structure['b14m'].Put($track_hinkaku, -4,-1.5,2.5, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b13m'].Put($track_hinkaku, -3,-1.5,0, 0,0,0, $tilt_none, 0);
+Structure['b12m'].Put($track_hinkaku, -3,-1.5,0, 0,-60,0, $tilt_none, 0);
+Structure['b11m'].Put($track_hinkaku, -4,-1.5,2.5, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b14m'].Put($track_hinkaku, -3,-1.5,0, 0,0,0, $tilt_none, 0);
+Structure['b13m'].Put($track_hinkaku, -3,-1.5,0, 0,-60,0, $tilt_none, 0);
+Structure['b12m'].Put($track_hinkaku, -4,-1.5,2.5, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b11m'].Put($track_hinkaku, -3,-1.5,0, 0,0,0, $tilt_none, 0);
+Structure['b14m'].Put($track_hinkaku, -3,-1.5,0, 0,-60,0, $tilt_none, 0);
+Structure['b13m'].Put($track_hinkaku, -4,-1.5,2.5, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b12m'].Put($track_hinkaku, -3,-1.5,0, 0,0,0, $tilt_none, 0);
+Structure['b11m'].Put($track_hinkaku, -3,-1.5,0, 0,-60,0, $tilt_none, 0);
+Structure['b14m'].Put($track_hinkaku, -4,-1.5,2.5, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b13m'].Put($track_hinkaku, -3,-1.5,0, 0,0,0, $tilt_none, 0);
+Structure['b12m'].Put($track_hinkaku, -3,-1.5,0, 0,-60,0, $tilt_none, 0);
+Structure['b11m'].Put($track_hinkaku, -4,-1.5,2.5, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b14m'].Put($track_hinkaku, -3,-1.5,0, 0,0,0, $tilt_none, 0);
+Structure['b13m'].Put($track_hinkaku, -3,-1.5,0, 0,-60,0, $tilt_none, 0);
+Structure['b12m'].Put($track_hinkaku, -4,-1.5,2.5, 0,0,0, $tilt_none, 0);
+
+$distance_20191204 + 15700;
+Repeater['左フェンス'].Begin($track_hinkaku, -6,0,0, 0,0,0, $tilt_none, 2, 2, 'FenceWhite');
+Repeater['左道路'].Begin($track_hinkaku, -10,0,0, 0,0,0, $tilt_none, 2, 2, 'road_070or_a', 'road_070or_b', 'road_070or_c', 'road_070or_d');
+
+$distance_20191204 + 15820;
+Structure['b01'].Put($track_hinkaku, -15,-1,0, 0,0,0, $tilt_none, 0);
+distance + 10;
+Structure['b02'].Put($track_hinkaku, -15,-1,0, 0,0,0, $tilt_none, 0);
+distance + 10;
+Structure['b03'].Put($track_hinkaku, -15,-1,0, 0,0,0, $tilt_none, 0);
+distance + 10;
+Structure['b04'].Put($track_hinkaku, -15,-1,0, 0,0,0, $tilt_none, 0);
+distance + 10;
+Structure['b01'].Put($track_hinkaku, -15,-1,0, 0,0,0, $tilt_none, 0);
+distance + 10;
+Structure['b02'].Put($track_hinkaku, -15,-1,0, 0,0,0, $tilt_none, 0);
+distance + 10;
+Structure['b03'].Put($track_hinkaku, -15,-1,0, 0,0,0, $tilt_none, 0);
+distance + 10;
+Structure['b04'].Put($track_hinkaku, -15,-1,0, 0,0,0, $tilt_none, 0);
+
+$distance_20191204 + 17600;
+Repeater['左フェンス'].End();
+Repeater['左道路'].End();

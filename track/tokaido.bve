@@ -72,7 +72,7 @@ Structure['Gp_DL'].Put($track_tokaido, 1.8,-0.3,0, 0,180,0, $tilt_none, 0);
 
 $distance_shinagawa - 17135;
 Track[$track_tokaido].Y.Interpolate();
-Repeater['鶴見中線1つづき'].Begin($track_tokaido, 15,0,0, 0,0,0, $tilt_gradient, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
+# Repeater['鶴見中線1つづき'].Begin($track_tokaido, 15,0,0, 0,0,0, $tilt_gradient, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
 Repeater['鶴見中線2つづき'].Begin($track_tokaido, 19,0,0, 0,0,0, $tilt_gradient, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
 
 $distance_shinagawa - 17100;

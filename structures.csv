@@ -1,5 +1,8 @@
 BveTs Structure List 2.00:shift_jis
 
+miniBeamF02R,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Accessory\E_Poles\acc\miniBeamF02R.x
+PoleTrs09A,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs09A.x
+FenceWhite,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Accessory\Fence\FenceWhite.x
 Fence6L,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\ACCC\Station\Fence6L.x
 Form51L,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\ACCC\Station\Form51L.x
 FormCL,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\ACCC\Station\FormCL.x
@@ -41,6 +44,14 @@ CrDike1La,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Dike\CrDike
 CrDike1Lb,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Dike\CrDike1Lb.x
 CrDike1Ra,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Dike\CrDike1Ra.x
 CrDike1Rb,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Dike\CrDike1Rb.x
+b01,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Nature\bush\b01.x
+b02,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Nature\bush\b02.x
+b03,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Nature\bush\b03.x
+b04,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Nature\bush\b04.x
+b11m,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Nature\bush\b11m.x
+b12m,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Nature\bush\b12m.x
+b13m,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Nature\bush\b13m.x
+b14m,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Nature\bush\b14m.x
 river50m_green,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Nature\River\river50m_green.x
 RvGrsL1a,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Nature\River\RvGrsL1a.x
 RvGrsL1b,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Nature\River\RvGrsL1b.x
@@ -61,6 +72,10 @@ road_045_a,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Road\road_
 road_045_b,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Road\road_045_b.x
 road_045_c,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Road\road_045_c.x
 road_045_d,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Road\road_045_d.x
+road_070or_a,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Road\road_070or_a.x
+road_070or_b,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Road\road_070or_b.x
+road_070or_c,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Road\road_070or_c.x
+road_070or_d,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Road\road_070or_d.x
 2go_c1_Potal2,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Tunnel\2go_c1_Potal2.x
 huku_c1_ent,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Tunnel\huku_c1_ent.x
 huku_c1_ext,C:\Users\p4\Documents\BveTs\Scenarios\ntfiv\GeneralStr_png\Tunnel\huku_c1_ext.x

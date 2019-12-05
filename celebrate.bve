@@ -35,3 +35,4 @@ include 'signal/signal.bve';
 include 'effect/light.bve';
 include 'effect/fog.bve';
 include 'landscape/building.bve';
+include 'landscape/trolley.bve';
