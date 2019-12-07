@@ -15,6 +15,7 @@ Structure.Load('structures.csv');
 Sound.Load('sounds.csv');
 Station.Load('stations.csv');
 Signal.Load('signals.csv');
+include 'track/distance.bve';
 include 'track/station.bve';
 include 'track/nishiya4.bve';
 include 'track/nishiya3.bve';

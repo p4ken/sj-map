@@ -6,22 +6,22 @@ $track_opposite = 1;
 $distance_nishiya + 2425;
 Repeater['下りバラスト軌道'].Begin($track_opposite, 0,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
 
-$distance_yokohama_hazawa - 200;
+$distance_nishiya + 2775 - 200;
 # ここから接続線が右カーブ
 $radius_kamotsu_right = 1 / (1 / 500 - 1 / 300);
 Track[$track_opposite].X.Interpolate(20, $radius_kamotsu_right);
 Track[$track_opposite].Y.Interpolate(0, 0);
 
-$distance_yokohama_hazawa - 150;
+$distance_nishiya + 2775 - 150;
 Track[$track_opposite].X.Interpolate(12 + 4, 1000);
 
-$distance_yokohama_hazawa - 100;
+$distance_nishiya + 2775 - 100;
 Track[$track_opposite].X.Interpolate(7 + 4, 0);
 
-$distance_yokohama_hazawa - 25;
+$distance_nishiya + 2775 - 25;
 Track[$track_opposite].X.Interpolate(1 + 4, 300);
 
-$distance_yokohama_hazawa;
+$distance_nishiya + 2775;
 Track[$track_opposite].X.Interpolate(0 + 4, 0);
 Track[$track_opposite].Y.Interpolate(0);
 

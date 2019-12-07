@@ -16,25 +16,25 @@ $distance_nishiya + 2350;
 # ここから接続線が直線で並行する
 Track[$track_kamotsu].X.Interpolate(15);
 
-$distance_yokohama_hazawa - 200;
+$distance_nishiya + 2775 - 200;
 # ここから接続線が右カーブ
 $radius_kamotsu_right = 1 / (1 / 1000 - 1 / 300);
 Track[$track_kamotsu].Y.Interpolate(0);
 Track[$track_kamotsu].X.Interpolate(15, $radius_kamotsu_right);
 
-$distance_yokohama_hazawa - 150;
+$distance_nishiya + 2775 - 150;
 # ここから接続線が直線で合流してくる
 Track[$track_kamotsu].X.Interpolate(12);
 Track[$track_kamotsu].X.Interpolate(12, 1000);
 Repeater['貨物の外壁'].End();
 
-$distance_yokohama_hazawa - 100;
+$distance_nishiya + 2775 - 100;
 Track[$track_kamotsu].X.Interpolate(7);
 Track[$track_kamotsu].X.Interpolate(7, 0);
 
-$distance_yokohama_hazawa - 25;
+$distance_nishiya + 2775 - 25;
 Track[$track_kamotsu].X.Interpolate(1, 300);
 
-$distance_yokohama_hazawa;
+$distance_nishiya + 2775;
 Track[$track_kamotsu].X.Interpolate(0, 0);
 Repeater['貨物上りのバラスト軌道'].End();

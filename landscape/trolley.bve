@@ -1,7 +1,5 @@
 BveTs Map 2.02:UTF-8
 
-$distance_20191204 = 0;
-
 $distance_20191204 + 15810;
 Structure['PoleTrs09A'].Put($track_hinkaku, 2,0,0, 0,0,0, $tilt_none, 0);
 
