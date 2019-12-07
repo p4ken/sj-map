@@ -38,25 +38,29 @@ Gradient.Interpolate(0);
 
 
 
+
+
+$distance_nishiya + 2450;
+Curve.Interpolate();
+
+$distance_nishiya + 2475;
+Curve.Interpolate(0, 0.04);
+Curve.Interpolate(300, 0.04);
+
 $distance_nishiya + 2500;
 Structure['kilopost2'].Put($track_approach, -1.8,0,0, 0,0,-10, $tilt_none, 0);
 
-
-
-
-$distance_nishiya + 2775 - 200;
+$distance_nishiya + 2525;
 Curve.Interpolate();
-Curve.Interpolate(300, 0);
+Curve.Interpolate(0, 0.04);
 
-$distance_nishiya + 2775 - 175;
-Curve.Interpolate(300, 0.04);
+$distance_nishiya + 2550;
+Curve.Interpolate(0, 0);
 
-$distance_nishiya + 2775 - 175;
-Curve.Interpolate(300, 0.04);
 
-$distance_nishiya + 2775 - 150;
-Curve.Interpolate(300, 0);
-Curve.Interpolate(0);
+
+
+
 
 $distance_nishiya + 2775 - 100;
 Gradient.Interpolate();

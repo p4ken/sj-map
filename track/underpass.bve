@@ -51,6 +51,3 @@ Repeater['コンクリート道床下り'].End();
 Repeater['直結軌道下り'].End();
 Repeater['擁壁R'].End();
 
-$distance_nishiya + 2475;
-Track[$track_underpass].Y.Interpolate(-6, -1000);
-
