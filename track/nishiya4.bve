@@ -11,35 +11,35 @@ $tilt_all = 3;
 Background.Change('Bg_fine_summer');
 Repeater['バラスト軌道'].Begin0($track_nishiya4, $tilt_all, 5, 5, 'BallastPC_K_5a');
 
-$distance_nishiya - 100;
+$station_nishiya - 100;
 Curve.Interpolate();
 
-$distance_nishiya - 75;
+$station_nishiya - 75;
 #BCC R=900 TCL=25 CCL=113 C=25.0
 Curve.Interpolate(900, 0.025);
 
-$distance_nishiya - 45;
+$station_nishiya - 45;
 Gradient.Interpolate(-2); # 逆延伸ならこれも手前へ
 Gradient.Interpolate();
 
-$distance_nishiya + 5;
+$station_nishiya + 5;
 # 勾配標
 
-$distance_nishiya + 40;
+$station_nishiya + 40;
 Curve.Interpolate();
 
-$distance_nishiya + 45;
+$station_nishiya + 45;
 Repeater['バラスト軌道'].End();
 # ここからＵ型擁壁部 100m
 Repeater['直結軌道上り'].Begin0($track_nishiya4, $tilt_all, 5, 5, 'Slab2S5m');
 
-$distance_nishiya + 55;
+$station_nishiya + 55;
 Gradient.Interpolate(-35);
 
-$distance_nishiya + 65;
+$station_nishiya + 65;
 Curve.Interpolate(0, 0);
 
-$distance_nishiya + 140;
+$station_nishiya + 140;
 Repeater['直結軌道上り'].End();
 Repeater['直結軌道上り'].Begin0($track_nishiya4, $tilt_all, 25, 25, 'railn1');
 # ここから西谷トンネル
@@ -49,145 +49,144 @@ Background.Change();
 Structure['end1l'].Put0($track_nishiya4, $tilt_all, 25);
 Structure['end1r'].Put0($track_nishiya4, $tilt_all, 25);
 
-$distance_nishiya + 165;
+$station_nishiya + 165;
 Curve.Interpolate(800, 0.05); #適当
 Repeater['箱型トンネルL'].Begin0($track_nishiya4, $tilt_all, 25, 25, 'walln1l');
 Repeater['箱型トンネルR単線'].Begin0($track_nishiya4, $tilt_all, 25, 25, 'walln1r');
 
-$distance_nishiya + 240; #適当
+$station_nishiya + 240; #適当
 Curve.Interpolate(800, 0.05);
 Curve.Interpolate(0, 0.05);
 
-$distance_nishiya + 265;
+$station_nishiya + 265;
 Curve.Interpolate(0, 0);
 Repeater['箱型トンネルR単線'].End();
 # ここから1層2径間 複線箱型トンネル 20m
 Repeater['箱型トンネルR複線'].Begin($track_nishiya4, 4,0,0, 0,0,0, $tilt_all, 25, 25, 'walln1r');
 Structure['dikep2'].Put0($track_nishiya4, $tilt_all, 25);
 
-$distance_nishiya + 290;
+$station_nishiya + 290;
 # Repeater['単線箱型トンネル'].End();
 # ここから複線箱型トンネル 100m
 
-$distance_nishiya + 390;
+$station_nishiya + 390;
 Repeater['箱型トンネルL'].End();
 Repeater['箱型トンネルR複線'].End();
 # ここはシールド到達立坑
 Structure['dikep3'].Put($track_nishiya4, -0.4,0,0, 0,0,0, $tilt_all, 25);
 Structure['walln1r'].Put($track_nishiya4, 6,0,0, 0,0,0, $tilt_all, 25);
 
-$distance_nishiya + 415;
+$station_nishiya + 415;
 # ここから複線シールドトンネル 1440m
 Repeater['複線シールドトンネル'].Begin0($track_nishiya4, $tilt_all, 25, 25, 'shield2a');
 Gradient.Interpolate(); #R3000
 
-$distance_nishiya + 460;
+$station_nishiya + 460;
 Curve.Interpolate(); #BTC
 Gradient.Interpolate(-20);
 
-$distance_nishiya + 510;
+$station_nishiya + 510;
 # R=-550 C=不明 CCL=不明 TCL=不明
 Curve.Interpolate(-550, -0.07);
 
-$distance_nishiya + 536;
+$station_nishiya + 536;
 Gradient.Interpolate(); #R4000
 
-$distance_nishiya + 744;
+$station_nishiya + 744;
 Gradient.Interpolate(32);
 
-$distance_nishiya + 890;
+$station_nishiya + 890;
 Curve.Interpolate();
 
-$distance_nishiya + 940;
+$station_nishiya + 940;
 Curve.Interpolate(0, 0); #ETC
 
-$distance_nishiya + 1096;
+$station_nishiya + 1096;
 Gradient.Interpolate(); #R3000
 
-$distance_nishiya + 1298;
+$station_nishiya + 1298;
 Gradient.Interpolate(-35);
 
-$distance_nishiya + 1362;
+$station_nishiya + 1362;
 Gradient.Interpolate(); #R3000
 
-$distance_nishiya + 1438;
+$station_nishiya + 1438;
 Curve.Interpolate(); #BTC
 Gradient.Interpolate(-10);
 
-$distance_nishiya + 1490;
+$station_nishiya + 1490;
 # R=-600 C=不明 CCL=不明 TCL=不明
 Curve.Interpolate(-600, -0.06);
 # 地上が見通せるので背景を変更
 Background.Change('Bg_fine_summer');
 
-$distance_nishiya + 1517;
+$station_nishiya + 1517;
 Gradient.Interpolate(); #R4000
 
-$distance_nishiya + 1657;
+$station_nishiya + 1657;
 Gradient.Interpolate(25);
 
-$distance_nishiya + 1690;
+$station_nishiya + 1690;
 Curve.Interpolate();
 
-$distance_nishiya + 1740;
+$station_nishiya + 1740;
 Curve.Interpolate(0, 0); #ETC
 
-$distance_nishiya + 1811;
+$station_nishiya + 1811;
 Gradient.Interpolate(); #R3000
  
-$distance_nishiya + 1855;
+$station_nishiya + 1855;
 Structure['ent1l'].Put($track_nishiya4, -2,-0,0, 0,0,0, $tilt_all, 25);
 Structure['ent1r'].Put($track_nishiya4, 6,0,0, 0,0,0, $tilt_all, 25);
 
-$distance_nishiya + 1871;
+$station_nishiya + 1871;
 Gradient.Interpolate(5);
 
-$distance_nishiya + 1865;
+$station_nishiya + 1865;
 Repeater['複線シールドトンネル'].End();
 # （ここはシールド発進立坑）
 # ここから羽沢横浜国大駅
 Gradient.Interpolate(5);
 
-$distance_hazawa_yokohama_kokudai - 215;
-// $distance_hazawa_yokohama_kokudai - 195;
-# Structure['dikep2'].Put0($track_nishiya4, $tilt_all, 25);
+$distance_nishiya + 1950;
+Structure['end2'].Put($track_nishiya4, -3.55,0,0, 0,0,0, $tilt_gradient, 25);
+
+$distance_nishiya + 1957;
+Structure['end'].Put($track_nishiya4, -3.55,0,0, 0,0,0, $tilt_gradient, 25);
+
+$distance_nishiya + 1960;
 Repeater['羽沢横浜国大駅ホーム端L'].Begin0($track_nishiya4, $tilt_gradient, 25, 25, 'forml');
 Repeater['羽沢横浜国大駅ホーム端R'].Begin($track_nishiya4, 4,0,0, 0,0,0, $tilt_gradient, 25, 25, 'formr');
 Repeater['羽沢横浜国大駅ホーム床L'].Begin0($track_nishiya4, $tilt_gradient, 25, 25, 'formcl_st');
 Repeater['羽沢横浜国大駅コンクリートL'].Begin($track_nishiya4, -4,0,0, 0,0,0, $tilt_gradient, 25, 25, 'stwalln3l');
 Repeater['羽沢横浜国大駅コンクリートR'].Begin($track_nishiya4, 8,0,0, 0,0,0, $tilt_gradient, 25, 25, 'stwalln1r');
 
+$distance_nishiya + 1975;
+Repeater['羽沢横浜国大駅ホームドアL'].Begin($track_nishiya4, 0,0,20, 0,0,0, $tilt_gradient, 20, 20, 'gate_l');
+Repeater['羽沢横浜国大駅ホームドアR'].Begin($track_nishiya4, 4,0,20, 0,0,0, $tilt_gradient, 20, 20, 'gate_r');
 
-$distance_hazawa_yokohama_kokudai - 225;
-Structure['end2'].Put($track_nishiya4, -3.55,0,0, 0,0,0, $tilt_gradient, 25);
-
-$distance_hazawa_yokohama_kokudai - 218;
-Structure['end'].Put($track_nishiya4, -3.55,0,0, 0,0,0, $tilt_gradient, 25);
-
-$distance_hazawa_yokohama_kokudai - 200;
-Repeater['羽沢横浜国大駅ホームドアL'].Begin0($track_nishiya4, $tilt_gradient, 20, 20, 'gate_l');
-Repeater['羽沢横浜国大駅ホームドアR'].Begin($track_nishiya4, 4,0,0, 0,0,0, $tilt_gradient, 20, 20, 'gate_r');
-
-$distance_hazawa_yokohama_kokudai - 90;
+$distance_nishiya + 2085;
 Curve.Interpolate(); #BTC
 
-$distance_hazawa_yokohama_kokudai - 40;
+$distance_nishiya + 2135;
 Curve.Interpolate(-800, -0.03);
 
-$distance_hazawa_yokohama_kokudai -2;
+$distance_nishiya + 2173;
 Gradient.Interpolate();
 
-$distance_hazawa_yokohama_kokudai;
+$distance_nishiya + 2175;
+Repeater['羽沢横浜国大駅ホームドアL'].End();
+Repeater['羽沢横浜国大駅ホームドアR'].End();
 Repeater['コンクリート道床上り'].Begin($track_nishiya4, -3,0,0, 0,0,0, $tilt_all, 25, 25, 'Slab8m');
 
-$distance_hazawa_yokohama_kokudai +4;
+$distance_nishiya + 2179;
 # 現地写真より
 Gradient.Interpolate(7.0);
 
-$distance_hazawa_yokohama_kokudai + 5;
+$distance_nishiya + 2180;
 Structure['end'].Put($track_nishiya4, -3.55,0,0, 0,0,0, $tilt_gradient, 25);
 
-$distance_hazawa_yokohama_kokudai + 10;
+$distance_nishiya + 2185;
 Repeater['羽沢横浜国大駅ホーム端L'].End();
 Repeater['羽沢横浜国大駅ホーム床L'].End();
 Repeater['羽沢横浜国大駅ホーム端R'].End();
@@ -201,20 +200,16 @@ Repeater['擁壁R'].Begin($track_nishiya4, 7,-1,0, 0,0,90, $tilt_none, 25, 25, '
 Structure['wallend'].Put($track_nishiya4, -1,0,0, 0,0,0, $tilt_all, 0);
 Structure['wallend'].Put($track_nishiya4, 5,0,0, 0,180,0, $tilt_all, 0);
 
-$distance_hazawa_yokohama_kokudai + 15;
+$distance_nishiya + 2190;
 Curve.Interpolate();
 
-$distance_hazawa_yokohama_kokudai + 20;
-Repeater['羽沢横浜国大駅ホームドアL'].End(); # ポリゴンはこの20m手前で終わる(直感に反する)
-Repeater['羽沢横浜国大駅ホームドアR'].End(); # ポリゴンはこの20m手前で終わる(直感に反する)
-
-$distance_hazawa_yokohama_kokudai + 25;
+$distance_nishiya + 2200;
 Repeater['擁壁L'].End();
 Repeater['擁壁R'].End();
 Repeater['擁壁L'].Begin($track_nishiya4, -2.6,-1,0, 0,0,-90, $tilt_none, 25, 25, 'Slab8m');
 Repeater['直結軌道上り'].Begin0($track_nishiya4, $tilt_all, 5, 5, 'Slab2S5m');
 
-$distance_hazawa_yokohama_kokudai + 35;
+$distance_nishiya + 2210;
 Curve.Interpolate(-800, -0.03); #ETC
 
 # ほんとうはこの辺に直線が50～100mくらいある

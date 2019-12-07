@@ -2,53 +2,54 @@
 
 # 西谷
 # 左側
-$distance_nishiya + 30;
+$station_nishiya + 30;
 Structure['building'].Put($track_nishiya4, -14,-3,0, 0,0,0, $tilt_none, 0);
 
-$distance_nishiya + 70;
+$station_nishiya + 70;
 Structure['building2'].Put($track_nishiya4, -20,-3,0, 0,0,0, $tilt_none, 0);
 
-$distance_nishiya + 130;
+$station_nishiya + 130;
 Structure['building'].Put($track_nishiya4, -14,-5,0, 0,0,0, $tilt_none, 0);
 
-$distance_nishiya + 180;
+$station_nishiya + 180;
 Structure['building2'].Put($track_nishiya4, -20,0,0, 0,0,0, $tilt_none, 0);
 
-$distance_nishiya + 230;
+$station_nishiya + 230;
 Structure['building2'].Put($track_nishiya4, -7,7,0, 0,10,0, $tilt_none, 0);
 
-$distance_nishiya + 280;
+$station_nishiya + 280;
 Structure['building2'].Put($track_nishiya4, 2,7,0, 0,20,0, $tilt_none, 0);
 
-$distance_nishiya + 330;
+$station_nishiya + 330;
 Structure['building2'].Put($track_nishiya4, 17,6,0, 0,20,0, $tilt_none, 0);
 
 # 右側
-$distance_nishiya + 100;
+$station_nishiya + 100;
 Structure['building2R'].Put($track_nishiya4, 35,-7,0, 0,0,0, $tilt_none, 0);
 
-$distance_nishiya + 130;
+$station_nishiya + 130;
 Structure['buildingR'].Put($track_nishiya4, 25,-8,0, 0,0,0, $tilt_none, 0);
 
-$distance_nishiya + 150;
+$station_nishiya + 150;
 Structure['building2R'].Put($track_nishiya4, 28,-5,0, 0,0,0, $tilt_none, 0);
 
 # 西谷トンネル
-$distance_nishiya + 140;
+$station_nishiya + 140;
 Structure['entrance1'].Put($track_nishiya4, 0,-0.7,0, 0,0,0, $tilt_none, 0);
 
 # 羽沢
 # 左側
-$distance_hazawa_yokohama_kokudai + 100;
+# BVEに表示のZ距離程に変えたほうが作業しやすそう。
+$distance_nishiya + 2175 + 100;
 Structure['tree21_S'].Put($track_approach, -6.5,5,0, ,0,0, $tilt_none, 0);
 
-$distance_hazawa_yokohama_kokudai + 105;
+$distance_nishiya + 2175 + 105;
 Structure['tree22_S'].Put($track_approach, -6,5,0, ,0,0, $tilt_none, 0);
 
-$distance_hazawa_yokohama_kokudai + 115;
+$distance_nishiya + 2175 + 115;
 Structure['tree23_S'].Put($track_approach, -6.5,5.5,0, ,0,0, $tilt_none, 0);
 
-$distance_hazawa_yokohama_kokudai + 120;
+$distance_nishiya + 2175 + 120;
 Structure['tree23_S'].Put($track_approach, -6,4,0, ,0,0, $tilt_none, 0);
 
 # 鶴見

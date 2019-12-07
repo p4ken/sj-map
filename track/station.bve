@@ -6,27 +6,28 @@ $right = 1;
 $underrun = -5;
 $overrun = 5;
 
-$distance_nishiya = 100;
-$distance_nishiya;
+$station_nishiya = 100;
+$station_nishiya;
 Station['nishiya'].Put($right, $underrun, $overrun);
 
-# 西谷～羽沢横浜国大の営業キロ 2.1km
-$distance_hazawa_yokohama_kokudai = $distance_nishiya + 2095;
+# 10R停目。キロポストでいうと 2175m くらい。
+# 参考：西谷～羽沢横浜国大の営業キロは 2.1km
 
-$distance_hazawa_yokohama_kokudai;
+$distance_nishiya = $station_nishiya - 80;
+$distance_nishiya + 2175;
 Station['hazawa_yokohama_kokudai'].Put($left, $underrun, $overrun);
 
 # 貨物線の線路に接続する地点を yokohama_hazawa と定義する。
 # 9kmのキロポストから鶴見へ約50mの地点
 # 航空写真で羽沢横浜国大から約600m弱(前面展望でも550mくらい)
-$distance_yokohama_hazawa = $distance_hazawa_yokohama_kokudai + 600;
+$distance_yokohama_hazawa = $distance_nishiya + 2175 + 600;
 $distance_yokohama_hazawa; # 直前の信号機を駅として表示してもいいかも。「次 新鶴見(信)」はイマイチなので。
 Station['yokohama_hazawa'].Put($left, $underrun, $overrun);
 
 # 横浜羽沢(貨)からの営業キロ 8.8km
 $distance_tsurumi = $distance_yokohama_hazawa + 8800;
 $distance_tsurumi - 960;
-# Station['kagetsuen_mae'].Put($left, $underrun, $overrun);
+Station['kagetsuen_mae'].Put($left, $underrun, $overrun);
 
 # 品川起点の距離計算用
 # 鶴見起点0キロポストが品川起点17k760mと重なることは確認済み

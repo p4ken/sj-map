@@ -9,48 +9,48 @@ $tilt_gradient = 1;
 $tilt_cant = 2;
 $tilt_all = 3;
 
-$distance_hazawa_yokohama_kokudai;
+$distance_nishiya + 2175;
 Repeater['コンクリート道床下り'].Begin($track_underpass, 2,0,0, 0,0,0, $tilt_all, 25, 25, 'Slab8m');
 
-$distance_hazawa_yokohama_kokudai + 25;
+$distance_nishiya + 2200;
 Track[$track_underpass].X.Interpolate(4);
 Repeater['直結軌道下り'].Begin0($track_underpass, $tilt_all, 5, 5, 'Slab2S5m');
 Repeater['擁壁R'].Begin($track_underpass, 3,-1,0, 0,0,90, $tilt_none, 25, 25, 'Slab8m');
 
-$distance_hazawa_yokohama_kokudai + 50;
+$distance_nishiya + 2225;
 $radius_right_R308 = 1 / (1 / 308 - 1 / -308);
 Track[$track_underpass].X.Interpolate(4);
 Track[$track_underpass].X.Interpolate(4, $radius_right_R308);
 
-$distance_hazawa_yokohama_kokudai + 75;
+$distance_nishiya + 2250;
 Track[$track_underpass].X.Interpolate(6, $radius_right_R308);
 Track[$track_underpass].X.Interpolate(6, 0);
 # ここから平坦にする
 $radius_gradient_level = -3000;
 Track[$track_underpass].Y.Interpolate(0, $radius_gradient_level);
 
-$distance_hazawa_yokohama_kokudai + 100;
+$distance_nishiya + 2275;
 $radius_right_R300 = 1 / (1 / 400 - 1 / 920);
 Track[$track_underpass].X.Interpolate(10, 0);
 Track[$track_underpass].X.Interpolate(10, $radius_right_R300);
 
-$distance_hazawa_yokohama_kokudai + 150;
+$distance_nishiya + 2325;
 $radius_left_R400 = 1 / (1 / -600 - 1 / 920);
 Track[$track_underpass].X.Interpolate(20, $radius_right_R300);
 Track[$track_underpass].X.Interpolate(20, $radius_left_R400);
 
-$distance_hazawa_yokohama_kokudai + 175;
+$distance_nishiya + 2350;
 Track[$track_underpass].X.Interpolate(25, -400);
 Track[$track_underpass].Y.Interpolate(-2, $radius_gradient_level);
 Track[$track_underpass].Y.Interpolate(-2, 0);
 
-$distance_hazawa_yokohama_kokudai + 250;
+$distance_nishiya + 2425;
 Track[$track_underpass].X.Interpolate(30, -400);
 Track[$track_underpass].X.Interpolate(30, 0);
 Repeater['コンクリート道床下り'].End();
 Repeater['直結軌道下り'].End();
 Repeater['擁壁R'].End();
 
-$distance_hazawa_yokohama_kokudai + 300;
+$distance_nishiya + 2475;
 Track[$track_underpass].Y.Interpolate(-6, -1000);
 

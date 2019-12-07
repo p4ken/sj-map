@@ -3,16 +3,16 @@
 0;
 $track_kamotsu = 3;
 
-$distance_hazawa_yokohama_kokudai;
+$distance_nishiya + 2175;
 Track[$track_kamotsu].Y.Interpolate(5);
 Track[$track_kamotsu].X.Interpolate(9);
 Repeater['貨物の外壁'].Begin($track_kamotsu, 4.7,0,0, 0,0,0, $tilt_all, 5, 5, 'Fence6L');
 Repeater['貨物上りのバラスト軌道'].Begin0($track_kamotsu, $tilt_all, 5, 5, 'BallastPC_K_5a');
 
-$distance_hazawa_yokohama_kokudai + 50;
+$distance_nishiya + 2225;
 Track[$track_kamotsu].X.Interpolate(9);
 
-$distance_hazawa_yokohama_kokudai + 175;
+$distance_nishiya + 2350;
 # ここから接続線が直線で並行する
 Track[$track_kamotsu].X.Interpolate(15);
 
