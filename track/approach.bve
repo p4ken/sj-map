@@ -50,12 +50,31 @@ Curve.Interpolate(300, 0.04);
 $distance_nishiya + 2500;
 Structure['kilopost2'].Put($track_approach, -1.8,0,0, 0,0,-10, $tilt_none, 0);
 
+# ほんとうはカーブがもう少し長い
+
 $distance_nishiya + 2525;
 Curve.Interpolate();
 Curve.Interpolate(0, 0.04);
 
 $distance_nishiya + 2550;
 Curve.Interpolate(0, 0);
+
+$distance_nishiya + 2600;
+Structure['kilopost36ky'].Put($track_approach, -1.8,0,0, 0,90,0, $tilt_none, 0);
+
+
+$distance_nishiya + 2700 - 25;
+Curve.Interpolate();
+Curve.Interpolate(-308);
+
+$distance_nishiya + 2700;
+Curve.Interpolate();
+Curve.Interpolate(0);
+Repeater['コンクリート道床上り'].End();
+Repeater['擁壁L'].End();
+Repeater['直結軌道上り'].End();
+
+
 
 
 
@@ -68,14 +87,3 @@ Gradient.Interpolate();
 $distance_nishiya + 2775 - 75;
 # 勾配標ではここまで *上り* 、ここから下り
 Gradient.Interpolate(-3.5);
-
-$distance_nishiya + 2775 - 25;
-Curve.Interpolate();
-Curve.Interpolate(-308);
-
-$distance_nishiya + 2775;
-Curve.Interpolate();
-Curve.Interpolate(0);
-Repeater['コンクリート道床上り'].End();
-Repeater['擁壁L'].End();
-Repeater['直結軌道上り'].End();

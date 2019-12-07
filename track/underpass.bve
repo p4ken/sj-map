@@ -50,4 +50,3 @@ Track[$track_underpass].X.Interpolate(30, 0);
 Repeater['コンクリート道床下り'].End();
 Repeater['直結軌道下り'].End();
 Repeater['擁壁R'].End();
-

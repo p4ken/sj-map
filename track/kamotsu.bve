@@ -30,13 +30,16 @@ Track[$track_kamotsu].X.Interpolate(12);
 Track[$track_kamotsu].X.Interpolate(12, 1000);
 Repeater['貨物の外壁'].End();
 
-$distance_nishiya + 2775 - 100;
+$distance_nishiya + 2650;
+Structure['kilopost2'].Put($track_kamotsu, -1.8,0,0, 0,0,-10, $tilt_none, 0);
+
+$distance_nishiya + 2700 - 100;
 Track[$track_kamotsu].X.Interpolate(7);
 Track[$track_kamotsu].X.Interpolate(7, 0);
 
-$distance_nishiya + 2775 - 25;
+$distance_nishiya + 2700 - 25;
 Track[$track_kamotsu].X.Interpolate(1, 300);
 
-$distance_nishiya + 2775;
+$distance_nishiya + 2700;
 Track[$track_kamotsu].X.Interpolate(0, 0);
 Repeater['貨物上りのバラスト軌道'].End();
