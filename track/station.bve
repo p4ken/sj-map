@@ -7,7 +7,7 @@ $underrun = -5;
 $overrun = 5;
 
 $station_nishiya;
-Station['nishiya'].Put($right, $underrun, $overrun);
+#Station['nishiya'].Put($right, $underrun, $overrun);
 
 # 10R停目。キロポストでいうと 2175m くらい。
 # 参考：西谷～羽沢横浜国大の営業キロは 2.1km
@@ -18,18 +18,18 @@ $distance_nishiya + 2775;
 Station['yokohama_hazawa'].Put($left, $underrun, $overrun);
 
 $distance_tsurumi - 960;
-Station['kagetsuen_mae'].Put($left, $underrun, $overrun);
+#Station['kagetsuen_mae'].Put($left, $underrun, $overrun);
 
 $distance_shinagawa - 17370;
-Station['tsurumi'].Put($left, $underrun, $overrun);
+#Station['tsurumi'].Put($left, $underrun, $overrun);
 
 # 参考：鶴見から新鶴見(信)の営業キロは 3.9km
 15100; # 仮。本一場あたり。
-Station['warihata'].Put($left, $underrun, $overrun);
+#Station['warihata'].Put($left, $underrun, $overrun);
 
 # 17350; # 仮。本一出あたり。
-Station['shin_tsurumi'].Put($left, $underrun, $overrun);
+#Station['shin_tsurumi'].Put($left, $underrun, $overrun);
 
 # 参考：新鶴見(信)から武蔵小杉の営業キロは 3.9km
 $distance_shinagawa - 9873;
-Station['musashi_kosugi'].Put($right, $underrun, $overrun);
+#Station['musashi_kosugi'].Put($right, $underrun, $overrun);

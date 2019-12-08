@@ -17,34 +17,36 @@ Track[$track_underpass].X.Interpolate(4);
 Repeater['直結軌道下り'].Begin0($track_underpass, $tilt_all, 5, 5, 'Slab2S5m');
 Repeater['擁壁R'].Begin($track_underpass, 3,-1,0, 0,0,90, $tilt_none, 25, 25, 'Slab8m');
 
-$distance_nishiya + 2225;
+$distance_nishiya + 2275;
 $radius_right_R308 = 1 / (1 / 308 - 1 / -308);
 Track[$track_underpass].X.Interpolate(4);
 Track[$track_underpass].X.Interpolate(4, $radius_right_R308);
 
-$distance_nishiya + 2250;
+$distance_nishiya + 2300;
 Track[$track_underpass].X.Interpolate(6, $radius_right_R308);
 Track[$track_underpass].X.Interpolate(6, 0);
+
+$distance_nishiya + 2301;
 # ここから平坦にする
 $radius_gradient_level = -3000;
 Track[$track_underpass].Y.Interpolate(0, $radius_gradient_level);
 
-$distance_nishiya + 2275;
+$distance_nishiya + 2325;
 $radius_right_R300 = 1 / (1 / 400 - 1 / 920);
 Track[$track_underpass].X.Interpolate(10, 0);
 Track[$track_underpass].X.Interpolate(10, $radius_right_R300);
 
-$distance_nishiya + 2325;
+$distance_nishiya + 2375;
 $radius_left_R400 = 1 / (1 / -600 - 1 / 920);
 Track[$track_underpass].X.Interpolate(20, $radius_right_R300);
 Track[$track_underpass].X.Interpolate(20, $radius_left_R400);
 
-$distance_nishiya + 2350;
+$distance_nishiya + 2400;
 Track[$track_underpass].X.Interpolate(25, -400);
 Track[$track_underpass].Y.Interpolate(-2, $radius_gradient_level);
 Track[$track_underpass].Y.Interpolate(-2, 0);
 
-$distance_nishiya + 2425;
+$distance_nishiya + 2475;
 Track[$track_underpass].X.Interpolate(30, -400);
 Track[$track_underpass].X.Interpolate(30, 0);
 Repeater['コンクリート道床下り'].End();

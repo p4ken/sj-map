@@ -5,39 +5,34 @@ BveTs Map 2.02:UTF-8
 0;
 $track_approach = 0;
 
-$distance_nishiya + 2301;
-Gradient.Interpolate();
-# ここから縦曲線 84m
-
-$distance_nishiya + 2379;
-Gradient.Interpolate(33.0);
-
-
-
-
-
-$distance_nishiya + 2225;
+$distance_nishiya + 2275;
 Curve.Interpolate();
 Curve.Interpolate(-308);
 
-$distance_nishiya + 2250;
+$distance_nishiya + 2300;
 # 舵角 -4.76度
 Curve.Interpolate();
 Curve.Interpolate(0);
 
-$distance_nishiya + 2275;
+$distance_nishiya + 2325;
 Curve.Interpolate(0, 0.02);
 Curve.Interpolate(920, 0.02);
 
 $distance_nishiya + 2300;
 Structure['kilopost33ky'].Put($track_approach, -1.8,0,0, 0,90,0, $tilt_none, 0);
 
-$distance_nishiya + 2350;
+$distance_nishiya + 2301;
+Gradient.Interpolate();
+
+$distance_nishiya + 2400;
 Curve.Interpolate(920, 0.02);
 Curve.Interpolate(0, 0.02);
 
-$distance_nishiya + 2375;
+$distance_nishiya + 2375 + 50;
 Curve.Interpolate(0, 0);
+
+$distance_nishiya + 2379;
+Gradient.Interpolate(33.0);
 
 $distance_nishiya + 2400;
 Structure['kilopost34ky'].Put($track_approach, -1.8,0,0, 0,90,0, $tilt_none, 0);

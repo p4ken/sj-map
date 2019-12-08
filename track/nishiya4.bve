@@ -200,9 +200,6 @@ Repeater['擁壁R'].Begin($track_nishiya4, 7,-1,0, 0,0,90, $tilt_none, 25, 25, '
 Structure['wallend'].Put($track_nishiya4, -1,0,0, 0,0,0, $tilt_all, 0);
 Structure['wallend'].Put($track_nishiya4, 5,0,0, 0,180,0, $tilt_all, 0);
 
-$distance_nishiya + 2190;
-Curve.Interpolate();
-
 $distance_nishiya + 2200;
 Repeater['擁壁L'].End();
 Repeater['擁壁R'].End();
@@ -210,8 +207,20 @@ Repeater['擁壁L'].Begin($track_nishiya4, -2.6,-1,0, 0,0,-90, $tilt_none, 25, 2
 Repeater['直結軌道上り'].Begin0($track_nishiya4, $tilt_all, 5, 5, 'Slab2S5m');
 
 $distance_nishiya + 2210;
-Curve.Interpolate(-800, -0.03); #ETC
+# 羽沢変電所トンネル
+Repeater['羽沢変電所トンネル天井1'].Begin($track_nishiya4, 0,5,0, 0,0,180, $tilt_none, 25, 25, 'Slab8m');
+Repeater['羽沢変電所トンネル天井2'].Begin($track_nishiya4, 5,5,0, 0,0,180, $tilt_none, 25, 25, 'Slab8m');
 
-# ほんとうはこの辺に直線が50～100mくらいある
+$distance_nishiya + 2220; # 適当
+Curve.Interpolate();
+
+$distance_nishiya + 2230; # 適当
+Curve.Interpolate(0, 0);
+
+$distance_nishiya + 2275;
+# 明かり
+# もうちょっと短くしたい(銘板によると全長65mくらい？)
+Repeater['羽沢変電所トンネル天井1'].End();
+Repeater['羽沢変電所トンネル天井2'].End();
 
 # 分岐器。左：鶴見方面　右：新横浜方面
