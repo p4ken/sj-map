@@ -5,40 +5,42 @@ BveTs Map 2.02:UTF-8
 0;
 $track_approach = 0;
 
-$distance_nishiya + 2175 + 50;
+$distance_nishiya + 2301;
+Gradient.Interpolate();
+# ここから縦曲線 84m
+
+$distance_nishiya + 2379;
+Gradient.Interpolate(33.0);
+
+
+
+
+
+$distance_nishiya + 2225;
 Curve.Interpolate();
 Curve.Interpolate(-308);
 
-$distance_nishiya + 2175 + 75;
+$distance_nishiya + 2250;
 # 舵角 -4.76度
 Curve.Interpolate();
 Curve.Interpolate(0);
-Gradient.Interpolate();
-# ここから縦曲線 84m
 
-$distance_nishiya + 2175 + 100;
+$distance_nishiya + 2275;
 Curve.Interpolate(0, 0.02);
 Curve.Interpolate(920, 0.02);
 
-$distance_nishiya + 2175 + 175;
+$distance_nishiya + 2300;
+Structure['kilopost33ky'].Put($track_approach, -1.8,0,0, 0,90,0, $tilt_none, 0);
+
+$distance_nishiya + 2350;
 Curve.Interpolate(920, 0.02);
 Curve.Interpolate(0, 0.02);
-Gradient.Interpolate(33.0);
 
-$distance_nishiya + 2175 + 200;
+$distance_nishiya + 2375;
 Curve.Interpolate(0, 0);
 
-$distance_nishiya + 2175 + 300;
-Gradient.Interpolate();
-# ここから縦曲線 84m
-
-$distance_nishiya + 2175 + 400;
-Gradient.Interpolate(0);
-
-
-
-
-
+$distance_nishiya + 2400;
+Structure['kilopost34ky'].Put($track_approach, -1.8,0,0, 0,90,0, $tilt_none, 0);
 
 $distance_nishiya + 2450;
 Curve.Interpolate();
@@ -50,17 +52,35 @@ Curve.Interpolate(300, 0.04);
 $distance_nishiya + 2500;
 Structure['kilopost2'].Put($track_approach, -1.8,0,0, 0,0,-10, $tilt_none, 0);
 
-# ほんとうはカーブがもう少し長い
+# ほんとうはカーブがあと10mくらい長い
+# まあ緩和曲線省略の25m単位だから仕方ない
+
+$distance_nishiya + 2505;
+Gradient.Interpolate();
 
 $distance_nishiya + 2525;
 Curve.Interpolate();
 Curve.Interpolate(0, 0.04);
 
+$distance_nishiya + 2545;
+Gradient.Interpolate(23);
+
 $distance_nishiya + 2550;
 Curve.Interpolate(0, 0);
 
+$distance_nishiya + 2581;
+Gradient.Interpolate();
+
 $distance_nishiya + 2600;
 Structure['kilopost36ky'].Put($track_approach, -1.8,0,0, 0,90,0, $tilt_none, 0);
+
+$distance_nishiya + 2620;
+Structure['Gp_UL'].Put($track_approach, -2,-0.3,0, 0,180,-15, $tilt_none, 0);
+
+$distance_nishiya + 2659;
+Gradient.Interpolate(-3.5);
+
+
 
 
 $distance_nishiya + 2700 - 25;
@@ -73,17 +93,3 @@ Curve.Interpolate(0);
 Repeater['コンクリート道床上り'].End();
 Repeater['擁壁L'].End();
 Repeater['直結軌道上り'].End();
-
-
-
-
-
-
-
-
-$distance_nishiya + 2775 - 100;
-Gradient.Interpolate();
-
-$distance_nishiya + 2775 - 75;
-# 勾配標ではここまで *上り* 、ここから下り
-Gradient.Interpolate(-3.5);
