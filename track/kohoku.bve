@@ -112,18 +112,19 @@ Gradient.Interpolate();
 $distance_tsurumi - 2999;
 Gradient.Interpolate(-9.7);
 
-$distance_tsurumi - 2975;
-# R=2000, TCL=不明, CCL=375, R=不明
+$distance_tsurumi - 2800;
+# R=2000, TCL=不明, CCL=375?, R=不明
+# Yahoo地図での舵角12度 => R1800とあわせて400ｍくらい
 Curve.Interpolate();
 
-$distance_tsurumi - 2950;
+$distance_tsurumi - 2775;
 Curve.Interpolate(2000, 0.04);
 
-$distance_tsurumi - 2575;
+$distance_tsurumi - 2500;
 Curve.Interpolate();
 
-$distance_tsurumi - 2550;
-# R=1850, TCL=不明, CCL=125, C=不明
+$distance_tsurumi - 2475;
+# R=1850, TCL=不明, CCL=125?, C=不明
 Curve.Interpolate(1850, 0.04);
 
 $distance_tsurumi - 2451;
@@ -132,10 +133,10 @@ Gradient.Interpolate();
 $distance_tsurumi - 2449;
 Gradient.Interpolate(-10.0);
 
-$distance_tsurumi - 2425;
+$distance_tsurumi - 2375;
 Curve.Interpolate();
 
-$distance_tsurumi - 2400;
+$distance_tsurumi - 2350;
 Curve.Interpolate(0, 0);
 
 $distance_tsurumi - 2320;
@@ -144,11 +145,12 @@ Gradient.Interpolate();
 $distance_tsurumi - 2316;
 Gradient.Interpolate(-9.0);
 
-$distance_tsurumi - 2175;
-# R=-600, TCL=不明, CCL=300, C=不明
+$distance_tsurumi - 2225;
+# R=-600, TCL=不明, CCL=不明, C=不明
+# Yahoo地図での舵角57度 => 弧長597m
 Curve.Interpolate();
 
-$distance_tsurumi - 2125;
+$distance_tsurumi - 2175;
 Curve.Interpolate(-600, -0.06);
 Background.Change('Bg_fine_summer');
 
@@ -164,10 +166,10 @@ Gradient.Interpolate();
 $distance_tsurumi - 1740;
 Gradient.Interpolate(8.5);
 
-$distance_tsurumi - 1725;
+$distance_tsurumi - 1625;
 Curve.Interpolate();
 
-$distance_tsurumi - 1675;
+$distance_tsurumi - 1575;
 Curve.Interpolate(0, 0);
 
 $distance_tsurumi - 1543;
