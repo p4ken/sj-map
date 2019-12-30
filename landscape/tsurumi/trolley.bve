@@ -1,0 +1,51 @@
+BveTs Map 2.02:UTF-8
+
+$distance_0 + 10070;
+Structure['PoleTrs06B'].Put($track_kohoku, 2,0,0, 0,0,0, $tilt_none, 0);
+Structure['Pole1_stlB'].Put($track_takashima, 0.08,0,-0.01, 0,180,0, $tilt_none, 0);
+Structure['Pole1_stlB'].Put($track_takashima, 15.92,0,-0.01, 0,0,0, $tilt_none, 0);
+
+distance + 50;
+Structure['PoleTrs06A'].Put($track_kohoku, 2,0,0, 0,0,0, $tilt_none, 0);
+Structure['Pole1_stlA'].Put($track_takashima, 0.08,0,-0.01, 0,180,0, $tilt_none, 0);
+Structure['Pole1_stlA'].Put($track_takashima, 15.92,0,-0.01, 0,0,0, $tilt_none, 0);
+
+distance + 50;
+Structure['PoleTrs06A'].Put($track_kohoku, 2,0,0, 0,0,0, $tilt_none, 0);
+Structure['Pole1_stlB'].Put($track_takashima, 0.08,0,-0.01, 0,180,0, $tilt_none, 0);
+Structure['Pole1_stlB'].Put($track_takashima, 15.92,0,-0.01, 0,0,0, $tilt_none, 0);
+
+distance + 50;
+Structure['PoleTrs06A'].Put($track_kohoku, 2,0,0, 0,0,0, $tilt_none, 0);
+Structure['Pole1_stlA'].Put($track_takashima, 0.08,0,-0.01, 0,180,0, $tilt_none, 0);
+Structure['Pole1_stlA'].Put($track_takashima, 15.92,0,-0.01, 0,0,0, $tilt_none, 0);
+
+distance + 50;
+Structure['PoleTrs06A'].Put($track_kohoku, 2,0,0, 0,0,0, $tilt_none, 0);
+Structure['Pole1_stlB'].Put($track_takashima, 0.08,0,-0.01, 0,180,0, $tilt_none, 0);
+Structure['Pole1_stlB'].Put($track_takashima, 15.92,0,-0.01, 0,0,0, $tilt_none, 0);
+
+distance + 50;
+Structure['PoleTrs06A'].Put($track_kohoku, 2,0,0, 0,0,0, $tilt_none, 0);
+Structure['Pole1_stlA'].Put($track_takashima, 0.08,0,-0.01, 0,180,0, $tilt_none, 0);
+Structure['Pole1_stlA'].Put($track_takashima, 15.92,0,-0.01, 0,0,0, $tilt_none, 0);
+
+distance + 50;
+Structure['PoleTrs06A'].Put($track_kohoku, 2,0,0, 0,0,0, $tilt_none, 0);
+Structure['Pole1_stlB'].Put($track_takashima, 0.08,0,-0.01, 0,180,0, $tilt_none, 0);
+Structure['Pole1_stlB'].Put($track_takashima, 15.92,0,-0.01, 0,0,0, $tilt_none, 0);
+
+distance + 50;
+Structure['PoleTrs06A'].Put($track_kohoku, 2,0,0, 0,0,0, $tilt_none, 0);
+Structure['Pole1_stlA'].Put($track_takashima, 0.08,0,-0.01, 0,180,0, $tilt_none, 0);
+Structure['Pole1_stlA'].Put($track_takashima, 15.92,0,-0.01, 0,0,0, $tilt_none, 0);
+
+distance + 50;
+Structure['PoleTrs06A'].Put($track_kohoku, 2,0,0, 0,0,0, $tilt_none, 0);
+Structure['Pole1_stlB'].Put($track_takashima, 0.08,0,-0.01, 0,180,0, $tilt_none, 0);
+Structure['Pole1_stlB'].Put($track_takashima, 15.92,0,-0.01, 0,0,0, $tilt_none, 0);
+
+distance + 50;
+Structure['PoleTrs06A'].Put($track_kohoku, 2,0,0, 0,0,0, $tilt_none, 0);
+Structure['Pole1_stlA'].Put($track_takashima, 0.08,0,-0.01, 0,180,0, $tilt_none, 0);
+Structure['Pole1_stlA'].Put($track_takashima, 15.92,0,-0.01, 0,0,0, $tilt_none, 0);

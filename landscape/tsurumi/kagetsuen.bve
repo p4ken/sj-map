@@ -1,0 +1,50 @@
+BveTs Map 2.02:UTF-8
+
+$distance_tsurumi - 980;
+Structure['FenceStepStartL'].Put($track_keikyu, 0,0,0, 0,0,0, $tilt_all, 5);
+Structure['PlatformEndFenceL'].Put($track_keikyu, 0,0,0, 0,0,0, $tilt_all, 5);
+Repeater['花月園上りホーム端'].Begin($track_keikyu, 0,0,0, -0.3,0,0, $tilt_gradient, 5, 5, 'PlatformL');
+Repeater['花月園上りホーム'].Begin($track_keikyu, 0,0,0, -0.3,0,0, $tilt_gradient, 5, 5, 'PlatformCL01S');
+Repeater['花月園上り外壁'].Begin($track_keikyu, 0.2,0,0, 0,0,0, $tilt_gradient, 5, 5, 'Fence6L');
+Structure['FenceStepStartR'].Put($track_keikyu, 4,0,0, 0,0,0, $tilt_all, 5);
+Structure['PlatformEndFenceR'].Put($track_keikyu, 4,0,0, 0,0,0, $tilt_all, 5);
+Repeater['花月園下りホーム端'].Begin($track_keikyu, 4,0,0, -0.3,0,0, $tilt_gradient, 5, 5, 'PlatformR');
+Repeater['花月園下りホーム'].Begin($track_keikyu, 4,0,0, -0.3,0,0, $tilt_gradient, 5, 5, 'PlatformCR01S');
+Repeater['花月園下り外壁'].Begin($track_keikyu, 3.8,0,0, 0,0,0, $tilt_gradient, 5, 5, 'Fence6R');
+
+$distance_tsurumi - 950;
+Repeater['花月園上り屋根'].Begin($track_keikyu, 0,0,0, 0,0,0, $tilt_gradient, 10, 10, 'RoofL');
+Repeater['花月園上り屋根柱'].Begin($track_keikyu, 0,0,0, 0,0,0, $tilt_gradient, 10, 10, 'RoofPillarL');
+Repeater['花月園下り屋根'].Begin($track_keikyu, 4,0,0, 0,0,0, $tilt_gradient, 5, 5, 'RoofR');
+Repeater['花月園下り屋根柱'].Begin($track_keikyu, 4,0,0, 0,0,0, $tilt_gradient, 5, 5, 'RoofPillarR');
+
+$distance_tsurumi - 910;
+Structure['UpstairsExitL'].Put($track_keikyu, 0,0,0, 0,0,0, $tilt_none, 10);
+Structure['UpstairsExitL'].Put($track_keikyu, 14,0,0, 0,0,0, $tilt_none, 10);
+
+$distance_tsurumi - 899;
+Structure['StationBridgeR'].Put($track_keikyu, 0,0,0, 0,-5,0, $tilt_none, 5);
+Structure['StationBridgeR'].Put($track_keikyu, -15,0,0, 0,-5,0, $tilt_none, 5);
+Structure['StationBridgeR'].Put($track_keikyu, -30,0,0, 0,-5,0, $tilt_none, 5);
+Structure['StationBridgeR'].Put($track_keikyu, -45,0,0, 0,-5,0, $tilt_none, 5);
+Structure['StationBridgeR'].Put($track_keikyu, -60,0,0, 0,-5,0, $tilt_none, 5);
+Structure['StationBridgeR'].Put($track_keikyu, -75,0,0, 0,-5,0, $tilt_none, 5);
+Structure['StationBridgeR'].Put($track_keikyu, -90,0,0, 0,-5,0, $tilt_none, 5);
+
+$distance_tsurumi - 895;
+Structure['UpstairsEnterL'].Put($track_keikyu, 0,0,0, 0,0,0, $tilt_none, 10);
+Structure['UpstairsEnterL'].Put($track_keikyu, 14,0,0, 0,0,0, $tilt_none, 10);
+
+$distance_tsurumi - 880;
+Repeater['花月園上り屋根'].End();
+Repeater['花月園下り屋根'].End();
+Repeater['花月園上り屋根柱'].End();
+Repeater['花月園下り屋根柱'].End();
+
+$distance_tsurumi - 875;
+Repeater['花月園上りホーム端'].End();
+Repeater['花月園下りホーム端'].End();
+Repeater['花月園上りホーム'].End();
+Repeater['花月園下りホーム'].End();
+Repeater['花月園上り外壁'].End();
+Repeater['花月園下り外壁'].End();

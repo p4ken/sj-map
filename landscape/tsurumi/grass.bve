@@ -1,0 +1,142 @@
+BveTs Map 2.02:UTF-8
+
+#京急の左側
+
+$distance_0 + 10410;
+Structure['b01'].Put($track_tsurumi, 4,-4,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b02'].Put($track_tsurumi, 4,-4,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b03'].Put($track_tsurumi, 4,-4,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b04'].Put($track_tsurumi, 4,-4,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b01'].Put($track_tsurumi, 4,-4,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b02'].Put($track_tsurumi, 4,-4,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b03'].Put($track_tsurumi, 4,-4,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b04'].Put($track_tsurumi, 4,-4,0, 0,0,0, $tilt_none, 0);
+
+distance + 5;
+Structure['b01'].Put($track_tsurumi, 4,-4,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b02'].Put($track_tsurumi, 4,-4,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b03'].Put($track_tsurumi, 4,-4,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b04'].Put($track_tsurumi, 4,-4,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b01'].Put($track_tsurumi, 4,-4,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b02'].Put($track_tsurumi, 4,-4,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b03'].Put($track_tsurumi, 4,-4,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b04'].Put($track_tsurumi, 4,-4,0, 0,0,0, $tilt_none, 0);
+
+distance + 5;
+Structure['b01'].Put($track_tsurumi, 4,-4,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b02'].Put($track_tsurumi, 4,-4,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b03'].Put($track_tsurumi, 4,-4,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b04'].Put($track_tsurumi, 4,-4,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b01'].Put($track_tsurumi, 4,-4,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b02'].Put($track_tsurumi, 4,-4,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b03'].Put($track_tsurumi, 4,-4,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b04'].Put($track_tsurumi, 4,-4,0, 0,0,0, $tilt_none, 0);
+
+distance + 5;
+Structure['b01'].Put($track_tsurumi, 4,-4.1,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b02'].Put($track_tsurumi, 4,-4.1,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b03'].Put($track_tsurumi, 4,-4.2,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b04'].Put($track_tsurumi, 4,-4.2,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b01'].Put($track_tsurumi, 4,-4.3,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b02'].Put($track_tsurumi, 4,-4.3,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b03'].Put($track_tsurumi, 4,-4.4,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b04'].Put($track_tsurumi, 4,-4.5,0, 0,0,0, $tilt_none, 0);
+
+distance + 5;
+Structure['b01'].Put($track_tsurumi, 4,-4.5,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b02'].Put($track_tsurumi, 4,-4.5,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b03'].Put($track_tsurumi, 4,-4.5,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b04'].Put($track_tsurumi, 4,-4.5,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b01'].Put($track_tsurumi, 4,-4.6,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b02'].Put($track_tsurumi, 4,-4.6,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b03'].Put($track_tsurumi, 4,-4.7,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b04'].Put($track_tsurumi, 4,-4.7,0, 0,0,0, $tilt_none, 0);
+
+
+#京急の右側
+$distance_0 + 10490;
+distance + 5;
+Structure['b01'].Put($track_keikyu, 8,-5,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b02'].Put($track_keikyu, 8,-5,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b03'].Put($track_keikyu, 8,-5,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b04'].Put($track_keikyu, 8,-5,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b01'].Put($track_keikyu, 8,-5,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b02'].Put($track_keikyu, 8,-5,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b03'].Put($track_keikyu, 8,-5,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b04'].Put($track_keikyu, 8,-5,0, 0,0,0, $tilt_none, 0);
+
+distance + 5;
+Structure['b01'].Put($track_keikyu, 8,-5,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b02'].Put($track_keikyu, 8,-5,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b03'].Put($track_keikyu, 8,-5,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b04'].Put($track_keikyu, 8,-5,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b01'].Put($track_keikyu, 8,-5,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b02'].Put($track_keikyu, 8,-5,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b03'].Put($track_keikyu, 8,-5,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b04'].Put($track_keikyu, 8,-5,0, 0,0,0, $tilt_none, 0);
+
+distance + 5;
+Structure['b01'].Put($track_keikyu, 8,-5,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b02'].Put($track_keikyu, 8,-5,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b03'].Put($track_keikyu, 8,-5,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b04'].Put($track_keikyu, 8,-5,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b01'].Put($track_keikyu, 8,-5,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b02'].Put($track_keikyu, 8,-5,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b03'].Put($track_keikyu, 8,-5,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b04'].Put($track_keikyu, 8,-5,0, 0,0,0, $tilt_none, 0);

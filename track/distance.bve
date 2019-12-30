@@ -2,6 +2,9 @@ BveTs Map 2.02:UTF-8
 
 $station_nishiya = 100;
 
+#ストラクチャ配置用
+$distance_0 = $station_nishiya - 100;
+
 # 西谷起点キロポストの距離計算用
 $distance_nishiya = $station_nishiya - 80;
 
@@ -18,6 +21,3 @@ $distance_tsurumi = $merge_point + 8800;
 # 品川起点キロポストの距離計算用
 # 鶴見起点0キロポストが品川起点17k760mと重なることは確認済み
 $distance_shinagawa = $distance_tsurumi + 17760;
-
-// これだとstation.bveのdistanceを変えたときに連動できない
-$distance_20191204 = 0;

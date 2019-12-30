@@ -1,0 +1,65 @@
+BveTs Map 2.02:UTF-8
+
+# 右側
+
+$distance_0 + 10095;
+Structure['building2R'].Put($track_kohoku, 40,-5,0, 0,5,0, $tilt_none, 0);
+
+$distance_0 + 10200;
+Structure['building2R'].Put($track_kohoku, 60,5,-10, 0,0,0, $tilt_none, 0);
+Structure['building2R'].Put($track_kohoku, 35,5,0, 0,0,0, $tilt_none, 0);
+Structure['building2R'].Put($track_kohoku, 30,5,20, 0,90,0, $tilt_none, 0);
+
+$distance_0 + 10245;
+Structure['house_wide'].Put($track_kohoku, 30,0,0, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 10260;
+Structure['buildingR'].Put($track_kohoku, 32,0,0, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 10290;
+Structure['house_wide'].Put($track_kohoku, 30,1,0, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 10300;
+Structure['house_wide'].Put($track_kohoku, 30,0.5,0, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 10370;
+Structure['buildingR'].Put($track_kohoku, 50,0,0, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 10360;
+Structure['house_wide'].Put($track_kohoku, 35,0.5,0, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 10380;
+Structure['house_wide'].Put($track_kohoku, 35,0.5,0, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 10400;
+Structure['house_wide'].Put($track_kohoku, 35,0.5,0, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 10420;
+Structure['house_wide'].Put($track_kohoku, 35,0.5,0, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 10480;
+Structure['building2R'].Put($track_kohoku, 44,0,-20, 0,0,0, $tilt_none, 0);
+Structure['building2R'].Put($track_kohoku, 38,0,0, 0,90,0, $tilt_none, 0);
+
+$distance_0 + 10560;
+Structure['buildingR'].Put($track_kohoku, 42,0,-50, 0,0,0, $tilt_none, 0);
+Structure['buildingR'].Put($track_kohoku, 39,0,-25, 0,0,0, $tilt_none, 0);
+Structure['buildingR'].Put($track_kohoku, 42,0,0, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 10580;
+Structure['house_wide'].Put($track_kohoku, 35,0,0, 0,0,0, $tilt_none, 0);
+Structure['house_wide'].Put($track_kohoku, 45,0,0, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 10600;
+Structure['house_wide'].Put($track_kohoku, 35,0,0, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 10620;
+Structure['house_wide'].Put($track_kohoku, 35,0,0, 0,0,0, $tilt_none, 0);
+Structure['house_wide'].Put($track_kohoku, 45,3,0, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 10640;
+Structure['house_wide'].Put($track_kohoku, 35,0,0, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 10700;
+Structure['building_tall'].Put($track_kohoku, 70,0,0, 0,15,0, $tilt_none, 0);
+
