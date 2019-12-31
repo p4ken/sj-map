@@ -5,23 +5,21 @@ $track_keikyu = 11;
 
 $distance_tsurumi - 1540;
 Track[$track_keikyu].X.Interpolate();
-Track[$track_keikyu].X.Interpolate(17);
+Track[$track_keikyu].X.Interpolate(19);
 Track[$track_keikyu].Y.Interpolate();
 Track[$track_keikyu].Y.Interpolate(5);
 Repeater['京急上り'].Begin($track_keikyu, 0,0,0, 0,0,0, $tilt_all, 4.5, 4.5, 'BallastPC_K_5a', 'BallastPC_K_5b');
 Repeater['京急下り'].Begin($track_keikyu, 4,0,0, 0,0,0, $tilt_all, 4.5, 4.5, 'BallastPC_K_5a', 'BallastPC_K_5b');
 
 $distance_tsurumi - 1000;
-Track[$track_keikyu].X.Interpolate();
-Track[$track_keikyu].X.Interpolate(17, 1200);
 
 $distance_tsurumi - 966;
 Track[$track_keikyu].Y.Interpolate(0);
 
 $distance_tsurumi - 925;
-Track[$track_keikyu].X.Interpolate(20, 0);
+Track[$track_keikyu].X.Interpolate();
 
-$distance_tsurumi - 775;
-Track[$track_keikyu].X.Interpolate(32);
+$distance_tsurumi - 600;
+Track[$track_keikyu].X.Interpolate(11);
 Repeater['京急上り'].End();
 Repeater['京急下り'].End();

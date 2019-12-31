@@ -4,12 +4,17 @@
 $track_yokosuka = 12;
 
 $distance_tsurumi - 1540;
-
-$distance_tsurumi - 800;
 Track[$track_yokosuka].X.Interpolate();
 Track[$track_yokosuka].X.Interpolate(-30);
+Track[$track_yokosuka].Y.Interpolate();
+Track[$track_yokosuka].Y.Interpolate(5);
 Repeater['横須賀線上りバラスト軌道'].Begin($track_yokosuka, -4,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastPC_K_5a');
 Repeater['横須賀線下りバラスト軌道'].Begin0($track_yokosuka, $tilt_all, 5, 5, 'BallastPC_K_5a');
+
+$distance_tsurumi - 966;
+Track[$track_yokosuka].Y.Interpolate(0);
+
+
 
 $distance_shinagawa - 17135;
 Track[$track_yokosuka].Y.Interpolate();

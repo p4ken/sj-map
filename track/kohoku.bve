@@ -193,6 +193,8 @@ Curve.Interpolate();
 
 $distance_tsurumi - 975;
 Curve.Interpolate(-650, -0.06);
+Repeater['上り左バラスト'].Begin($track_kohoku, 0,0,0, 0,0,0, $tilt_gradient, 5, 4.5, 'Bl_CraBalL_5m');
+Repeater['上り右バラスト'].Begin($track_kohoku, 0,0,0, 0,0,0, $tilt_gradient, 5, 4.5, 'Bl_CraBalR_5m');
 
 $distance_tsurumi - 966;
 Gradient.Interpolate();
@@ -276,6 +278,7 @@ $distance_tsurumi;
 # ゼロキロポスト(線路を4本挟んで右側)
 Structure['kilopost1'].Put($track_kohoku, 17.8,0,0, 0,180,0, $tilt_none, 0);
 Repeater['上りバラスト軌道'].End();
+Repeater['上り左バラスト'].End();
 Repeater['鶴見軌道1'].End();
 Repeater['鶴見軌道2'].End();
 Repeater['鶴見軌道3'].End();

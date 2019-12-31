@@ -51,6 +51,3 @@ Structure['tree23_S'].Put($track_approach, -6.5,5.5,0, ,0,0, $tilt_none, 0);
 
 $distance_nishiya + 2175 + 120;
 Structure['tree23_S'].Put($track_approach, -6,4,0, ,0,0, $tilt_none, 0);
-
-# 鶴見
-include 'landscape/tsurumi/house.bve';

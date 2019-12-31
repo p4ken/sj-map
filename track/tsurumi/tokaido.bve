@@ -1,17 +1,17 @@
 ﻿BveTs Map 2.02:UTF-8
 
 0;
-$track_tokaido = 3;
+$track_tokaido = 14;
 
 $distance_tsurumi - 1540;
 Track[$track_tokaido].X.Interpolate();
-Track[$track_tokaido].X.Interpolate(-8);
+Track[$track_tokaido].X.Interpolate(-13);
 Track[$track_tokaido].Y.Interpolate();
 Track[$track_tokaido].Y.Interpolate(5);
-Repeater['東海道線下り'].Begin0($track_tokaido, $tilt_all, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
+Repeater['東海道線下り右バラスト'].Begin($track_tokaido, 0,0,0, 0,0,0, $tilt_gradient, 5, 4.5, 'Bl_CraBalR_5m');
+Repeater['東海道線下り'].Begin($track_tokaido, 0,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
 Repeater['東海道線上り'].Begin($track_tokaido, -4,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
 Repeater['京浜東北線下り'].Begin($track_tokaido, -8,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
-Repeater['京浜東北線上り'].Begin($track_tokaido, -12,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
 
 $distance_tsurumi - 966;
 Track[$track_tokaido].Y.Interpolate(0);
@@ -95,6 +95,7 @@ Repeater['東海道線上り橋梁床'].Begin($track_tokaido, -3,-0.3,0 ,0,0,0, 
 Repeater['京浜東北線下り橋梁床'].Begin($track_tokaido, -9,-0.3,0 ,0,0,0, $tilt_gradient, 10, 10, 'conc_10m');
 Repeater['京浜東北線上り橋梁L'].Begin($track_tokaido, -12,0,0, 0,0,0, $tilt_gradient, 10, 10, 'blue10_bL');
 Repeater['東海道線下り'].End();
+Repeater['東海道線下り右バラスト'].End();
 Repeater['東海道線下り'].Begin($track_tokaido, 0,0,0, 0,0,0, $tilt_all, 5, 5, '_BridgeRail_5');
 Repeater['東海道線上り'].End();
 Repeater['東海道線上り'].Begin($track_tokaido, -4,0,0, 0,0,0, $tilt_all, 5, 5, '_BridgeRail_5');

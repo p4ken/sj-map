@@ -1,15 +1,16 @@
 ﻿BveTs Map 2.02:UTF-8
 
 0;
-$track_takashima = 2;
+$track_takashima = 13;
 
 $distance_tsurumi - 1540;
 Track[$track_takashima].X.Interpolate();
 Track[$track_takashima].X.Interpolate(-6);
 Track[$track_takashima].Y.Interpolate();
 Track[$track_takashima].Y.Interpolate(5);
-Repeater['高島線上り右バラスト'].Begin($track_takashima, -1.2,0,0, 0,0,0, $tilt_all, 5, 5, 'Bl_CraBalR_5m');
 Repeater['高島線上り'].Begin0($track_takashima, $tilt_all, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
+Repeater['高島線上り右バラスト'].Begin($track_takashima, -1.2,0,0, 0,0,0, $tilt_none, 5, 4.5, 'Bl_CraBalR_5m');
+Repeater['高島線上り左バラスト'].Begin($track_takashima, 1.2,0,0, 0,0,0, $tilt_none, 5, 4.5, 'Bl_CraBalL_5m');
 Repeater['羽沢線の擁壁L'].Begin($track_takashima, 4.2,-5.8,0, 0,0,-90, $tilt_gradient, 25, 25, 'Slab8m');
 Repeater['羽沢線の擁壁L柵'].Begin($track_takashima, 10.8,-2.8,0, 0,0,0, $tilt_gradient, 5, 5, 'Fence6L');
 Repeater['羽沢線の擁壁R'].Begin($track_takashima, 11.4,-5.8,0, 0,0,90, $tilt_gradient, 25, 25, 'Slab8m');
@@ -31,10 +32,12 @@ $distance_tsurumi - 960;
 Repeater['高島線下り'].End(); # track_tsurumi にて左に合流させる
 Repeater['羽沢線の擁壁L柵'].End();
 Repeater['羽沢線の擁壁R柵'].End();
-Track[$track_takashima].X.Interpolate();
+Track[$track_takashima].X.Interpolate( , 2000);
 
 $distance_tsurumi - 800;
 # 羽沢線に合流
 Track[$track_takashima].X.Interpolate(0);
 Repeater['高島線上り'].End();
+Repeater['高島線上り右バラスト'].End();
+Repeater['高島線上り左バラスト'].End();
 # Repeater['高島線下り'].End();

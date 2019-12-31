@@ -1,0 +1,10 @@
+BveTs Map 2.02:UTF-8
+
+0;
+#鶴見線
+$track_tsurumi = 17;
+
+$distance_0 + 10850;
+Track['$track_tsurumi'].Y.Interpolate();
+Track['$track_tsurumi'].Y.Interpolate(5);
+Structure['GirderBridgeLowL'].Put($track_tsurumi, 0,0,0, 0,0,0,$tilt_none,5);

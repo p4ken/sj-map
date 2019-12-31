@@ -17,7 +17,7 @@ Station['hazawa_yokohama_kokudai'].Put($left, $underrun, $overrun);
 $distance_nishiya + 2775;
 Station['yokohama_hazawa'].Put($left, $underrun, $overrun);
 
-$distance_tsurumi - 960 - 200;
+$distance_tsurumi - 960;
 Station['kagetsuen_mae'].Put($left, $underrun, $overrun);
 
 $distance_shinagawa - 17370;
