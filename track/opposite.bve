@@ -45,8 +45,9 @@ $distance_tsurumi - 960;
 Track[$track_opposite].X.Interpolate();
 
 $distance_tsurumi - 850;
-# 高島線との分岐
+# 高島線が合流
 Track[$track_opposite].X.Interpolate(6, 0);
+Repeater['下り右バラスト'].Begin($track_opposite, -1.2,0,0, 0,0,0, $tilt_none, 5, 4.5, 'Bl_CraBalR_5m');
 
 $distance_tsurumi - 600;
 # 鶴見線と交差
@@ -80,6 +81,7 @@ $distance_shinagawa - 16990;
 Repeater['下り橋梁R'].Begin0($track_opposite, $tilt_gradient, 10, 10, 'blue10_bR');
 Repeater['下り橋梁L'].Begin0($track_opposite, $tilt_gradient, 10, 10, 'blue10_bL');
 Repeater['下りバラスト軌道'].End();
+Repeater['下り右バラスト'].End();
 Repeater['下り橋梁軌道'].Begin0($track_opposite, $tilt_all, 5, 5, '_BridgeRail_5');
 
 $distance_shinagawa - 16870;

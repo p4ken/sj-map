@@ -45,3 +45,4 @@ include 'landscape/tsurumi/grass.bve';
 include 'landscape/tsurumi/trolley.bve';
 include 'landscape/tsurumi/houseR.bve';
 include 'landscape/tsurumi/houseL.bve';
+include 'landscape/tsurumi/tsurumi.bve';

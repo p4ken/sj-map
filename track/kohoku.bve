@@ -244,7 +244,7 @@ $distance_tsurumi - 516;
 Gradient.Interpolate(0.4);
 
 $distance_tsurumi - 500;
-Repeater['鶴見軌道1'].Begin($track_kohoku, 4,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
+Repeater['鶴見軌道1'].Begin($track_kohoku, 4,0,0, 0,0,0, $tilt_gradient, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
 
 $distance_tsurumi - 450;
 Repeater['鶴見軌道2'].Begin($track_kohoku, 8,0,0, 0,0,0, $tilt_gradient, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
@@ -278,6 +278,7 @@ $distance_tsurumi;
 # ゼロキロポスト(線路を4本挟んで右側)
 Structure['kilopost1'].Put($track_kohoku, 17.8,0,0, 0,180,0, $tilt_none, 0);
 Repeater['上りバラスト軌道'].End();
+Repeater['上り右バラスト'].End();
 Repeater['上り左バラスト'].End();
 Repeater['鶴見軌道1'].End();
 Repeater['鶴見軌道2'].End();

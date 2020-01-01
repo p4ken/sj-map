@@ -5,13 +5,22 @@ $track_keihin = 16;
 
 $distance_tsurumi - 1540;
 Track[$track_keihin].X.Interpolate();
-Track[$track_keihin].X.Interpolate(-26);
+Track[$track_keihin].X.Interpolate(-23);
 Track[$track_keihin].Y.Interpolate();
 Track[$track_keihin].Y.Interpolate(5);
 Repeater['京浜東北線上り'].Begin($track_keihin, 0,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
+Repeater['京浜東北線上り右バラスト'].Begin($track_keihin, 0,0,0, 0,0,0, $tilt_gradient, 5, 4.5, 'Bl_CraBalR_5m');
+Repeater['京浜東北線上り左バラスト'].Begin($track_keihin, 0,0,0, 0,0,0, $tilt_gradient, 5, 4.5, 'Bl_CraBalL_5m');
 
 $distance_tsurumi - 966;
 Track[$track_keihin].Y.Interpolate(0);
 
 $distance_tsurumi - 800;
 Track[$track_keihin].X.Interpolate();
+
+$distance_tsurumi - 500;
+Track[$track_keihin].X.Interpolate(-17);
+# 鶴見線と交差後、京浜東北線下りから離れる
+
+$distance_tsurumi;
+Track[$track_keihin].X.Interpolate(-25);

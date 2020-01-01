@@ -4,11 +4,17 @@
 # 高島線下り
 $track_takashima_r = 15;
 
+$distance_tsurumi - 1540;
+Track[$track_takashima_r].X.Interpolate(14.5, 0);
+Repeater['高島線下り'].Begin($track_takashima_r, 0,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastPC_K_5b', 'BallastPC_K_5a');
+
+
 $distance_tsurumi - 960;
 # 左へ合流
 Track[$track_takashima_r].X.Interpolate(8.5, 0);
-Repeater['高島線下り即席'].Begin($track_takashima_r, 0,0,0, 0,0,0, $tilt_gradient, 5, 5, 'BallastPC_K_5b', 'BallastPC_K_5a');
+Repeater['高島線下り右バラスト'].Begin($track_takashima_r, -1.2,0,0, 0,0,0, $tilt_none, 5, 4.5, 'Bl_CraBalR_5m');
 
 $distance_tsurumi - 850;
 Track[$track_takashima_r].X.Interpolate(6, 0);
-Repeater['高島線下り即席'].End();
+Repeater['高島線下り'].End();
+Repeater['高島線下り右バラスト'].End();

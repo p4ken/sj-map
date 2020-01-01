@@ -87,6 +87,22 @@ Structure['b03'].Put($track_takashima_r, 4,-4.7,0, 0,0,0, $tilt_none, 0);
 distance + 5;
 Structure['b04'].Put($track_takashima_r, 4,-4.7,0, 0,0,0, $tilt_none, 0);
 
+distance + 5;
+Structure['b01'].Put($track_takashima_r, 4,-4.5,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b02'].Put($track_takashima_r, 4,-4.5,0, 0,0,0, $tilt_none, 0);
+
+distance;
+Structure['Bl_CraBalR_5m'].Put($track_takashima, 14,0,0, 0,0,0, $tilt_gradient, 5);
+distance + 4.5;
+Structure['Bl_CraBalR_5m'].Put($track_takashima, 14,0,0, 0,0,0, $tilt_gradient, 5);
+distance + 4.5;
+Structure['Bl_CraBalR_5m'].Put($track_takashima, 14,0,0, 0,0,0, $tilt_gradient, 5);
+distance + 4.5;
+Structure['Bl_CraBalR_5m'].Put($track_takashima, 14,0,0, 0,0,0, $tilt_gradient, 5);
+distance + 4.5;
+Structure['Bl_CraBalR_5m'].Put($track_takashima, 14,0,0, 0,0,0, $tilt_gradient, 5);
+
 
 #京急の右側
 $distance_0 + 10490;
@@ -140,3 +156,142 @@ distance + 5;
 Structure['b03'].Put($track_keikyu, 8,-5,0, 0,0,0, $tilt_none, 0);
 distance + 5;
 Structure['b04'].Put($track_keikyu, 8,-5,0, 0,0,0, $tilt_none, 0);
+
+# 花月園前のあと
+# 京急の左
+
+$distance_0 + 10720;
+Structure['b01'].Put($track_opposite, 5,-5,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b02'].Put($track_opposite, 5,-5,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b03'].Put($track_opposite, 5,-5,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b04'].Put($track_opposite, 5,-5,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b01'].Put($track_opposite, 5,-5,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b02'].Put($track_opposite, 5,-5,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b03'].Put($track_opposite, 5,-5,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b04'].Put($track_opposite, 5,-5,0, 0,0,0, $tilt_none, 0);
+
+distance + 5;
+Structure['b01'].Put($track_opposite, 4.5,-4.5,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b02'].Put($track_opposite, 4.5,-4.5,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b03'].Put($track_opposite, 5,-5,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b04'].Put($track_opposite, 4.5,-4.5,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b01'].Put($track_opposite, 4,-4,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b02'].Put($track_opposite, 4,-4,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b03'].Put($track_opposite, 4,-4,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b04'].Put($track_opposite, 4,-4,0, 0,0,0, $tilt_none, 0);
+
+distance + 5;
+Structure['b01'].Put($track_opposite, 5,-4,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b02'].Put($track_opposite, 5,-4,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b03'].Put($track_opposite, 5,-4,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b04'].Put($track_opposite, 5,-4,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b01'].Put($track_opposite, 5,-4,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b02'].Put($track_opposite, 5,-4,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b03'].Put($track_opposite, 5,-4,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b04'].Put($track_opposite, 5,-4,0, 0,0,0, $tilt_none, 0);
+
+distance + 5;
+Structure['b01'].Put($track_opposite, 5,-4,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b02'].Put($track_opposite, 5,-4,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b03'].Put($track_opposite, 5,-4,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b04'].Put($track_opposite, 5,-4,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b01'].Put($track_opposite, 5,-4,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b02'].Put($track_opposite, 5,-4,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b03'].Put($track_opposite, 5,-4,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b04'].Put($track_opposite, 5,-4,0, 0,0,0, $tilt_none, 0);
+
+distance + 5;
+Structure['b01'].Put($track_opposite, 5,-4,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b02'].Put($track_opposite, 5,-4.5,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b03'].Put($track_opposite, 5,-4.5,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b04'].Put($track_opposite, 5,-4,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b01'].Put($track_opposite, 5,-5,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b02'].Put($track_opposite, 5,-5,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b03'].Put($track_opposite, 5,-4.5,0, 0,0,0, $tilt_none, 0);
+distance + 5;
+Structure['b04'].Put($track_opposite, 5,-5.5,0, 0,0,0, $tilt_none, 0);
+
+distance + 5;
+Structure['b01'].Put($track_opposite, 5,-4,0, 0,40,0, $tilt_none, 0);
+distance + 5;
+Structure['b02'].Put($track_opposite, 5,-4,0, 0,40,0, $tilt_none, 0);
+distance + 5;
+Structure['b03'].Put($track_opposite, 5,-5,0, 0,40,0, $tilt_none, 0);
+distance + 5;
+Structure['b04'].Put($track_opposite, 5,-4,0, 0,40,0, $tilt_none, 0);
+distance + 5;
+Structure['b01'].Put($track_opposite, 5,-5,0, 0,40,0, $tilt_none, 0);
+distance + 5;
+Structure['b02'].Put($track_opposite, 5,-4,0, 0,40,0, $tilt_none, 0);
+distance + 5;
+Structure['b03'].Put($track_opposite, 5,-5,0, 0,40,0, $tilt_none, 0);
+distance + 5;
+Structure['b04'].Put($track_opposite, 5,-5,0, 0,40,0, $tilt_none, 0);
+
+distance + 5;
+Structure['b01'].Put($track_opposite, 4,-5,0, 0,40,0, $tilt_none, 0);
+distance + 5;
+Structure['b02'].Put($track_opposite, 4,-5,0, 0,40,0, $tilt_none, 0);
+distance + 5;
+Structure['b03'].Put($track_opposite, 4,-5,0, 0,40,0, $tilt_none, 0);
+distance + 5;
+Structure['b04'].Put($track_opposite, 4,-5,0, 0,40,0, $tilt_none, 0);
+distance + 5;
+Structure['b01'].Put($track_opposite, 4,-5,0, 0,40,0, $tilt_none, 0);
+distance + 5;
+Structure['b02'].Put($track_opposite, 4,-5,0, 0,40,0, $tilt_none, 0);
+distance + 5;
+Structure['b03'].Put($track_opposite, 4,-5,0, 0,40,0, $tilt_none, 0);
+distance + 5;
+Structure['b04'].Put($track_opposite, 4,-5,0, 0,40,0, $tilt_none, 0);
+
+distance + 5;
+Structure['b01'].Put($track_opposite, 4,-5,0, 0,40,0, $tilt_none, 0);
+distance + 5;
+Structure['b02'].Put($track_opposite, 4,-5,0, 0,40,0, $tilt_none, 0);
+distance + 5;
+Structure['b03'].Put($track_opposite, 4,-5,0, 0,40,0, $tilt_none, 0);
+distance + 5;
+Structure['b04'].Put($track_opposite, 4,-5,0, 0,40,0, $tilt_none, 0);
+distance + 5;
+Structure['b01'].Put($track_opposite, 4,-5,0, 0,40,0, $tilt_none, 0);
+distance + 5;
+Structure['b02'].Put($track_opposite, 4,-5,0, 0,40,0, $tilt_none, 0);
+distance + 5;
+Structure['b03'].Put($track_opposite, 4,-5,0, 0,40,0, $tilt_none, 0);
+distance + 5;
+Structure['b04'].Put($track_opposite, 4,-5,0, 0,40,0, $tilt_none, 0);

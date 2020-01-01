@@ -15,7 +15,6 @@ Repeater['羽沢線の擁壁L'].Begin($track_takashima, 4.2,-5.8,0, 0,0,-90, $ti
 Repeater['羽沢線の擁壁L柵'].Begin($track_takashima, 10.8,-2.8,0, 0,0,0, $tilt_gradient, 5, 5, 'Fence6L');
 Repeater['羽沢線の擁壁R'].Begin($track_takashima, 11.4,-5.8,0, 0,0,90, $tilt_gradient, 25, 25, 'Slab8m');
 Repeater['羽沢線の擁壁R柵'].Begin($track_takashima, 4.8,-2.8,0, 0,0,0, $tilt_gradient, 5, 5, 'Fence6R');
-Repeater['高島線下り'].Begin($track_takashima, 14.5,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastPC_K_5b', 'BallastPC_K_5a');
 
 $distance_tsurumi - 1025;
 Repeater['羽沢線の擁壁L'].End(); #柵と被るので早めに終える
@@ -29,7 +28,6 @@ $distance_tsurumi - 966;
 Track[$track_takashima].Y.Interpolate(0);
 
 $distance_tsurumi - 960;
-Repeater['高島線下り'].End(); # track_tsurumi にて左に合流させる
 Repeater['羽沢線の擁壁L柵'].End();
 Repeater['羽沢線の擁壁R柵'].End();
 Track[$track_takashima].X.Interpolate( , 2000);
@@ -40,4 +38,5 @@ Track[$track_takashima].X.Interpolate(0);
 Repeater['高島線上り'].End();
 Repeater['高島線上り右バラスト'].End();
 Repeater['高島線上り左バラスト'].End();
+Repeater['高島線上り架線'].End();
 # Repeater['高島線下り'].End();

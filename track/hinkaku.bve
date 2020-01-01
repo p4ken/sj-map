@@ -5,9 +5,10 @@ $track_hinkaku = 0;
 
 $distance_shinagawa - 17760;
 Repeater['上りバラスト軌道'].Begin0($track_hinkaku, $tilt_all, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
-Repeater['鶴見中線1'].Begin($track_kohoku, 4,0,0, 0,0,0, $tilt_gradient, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
-Repeater['鶴見中線2'].Begin($track_kohoku, 8,0,0, 0,0,0, $tilt_gradient, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
-Repeater['鶴見中線3'].Begin($track_kohoku, 12,0,0, 0,0,0, $tilt_gradient, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
+Repeater['上り左バラスト'].Begin($track_hinkaku, 0,0,0, -0.1,0,10, $tilt_gradient, 5, 4.5, 'Bl_CraBalL_5m');
+Repeater['鶴見中線1'].Begin($track_hinkaku, 4,0,0, 0,0,0, $tilt_gradient, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
+Repeater['鶴見中線2'].Begin($track_hinkaku, 8,0,0, 0,0,0, $tilt_gradient, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
+Repeater['鶴見中線3'].Begin($track_hinkaku, 12,0,0, 0,0,0, $tilt_gradient, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
 
 $distance_shinagawa - 17600;
 Structure['kilopost36ky'].Put($track_hinkaku, 1.8,-0.3,0, 0,90,0, $tilt_none, 0);
@@ -71,6 +72,7 @@ $distance_shinagawa - 16990;
 Repeater['上り橋梁R'].Begin0($track_hinkaku, $tilt_gradient, 10, 10, 'blue10_bR');
 Repeater['上り橋梁L'].Begin0($track_hinkaku, $tilt_gradient, 10, 10, 'blue10_bL');
 Repeater['上りバラスト軌道'].End();
+Repeater['上り左バラスト'].End();
 Repeater['上り橋梁軌道'].Begin0($track_hinkaku, $tilt_all, 5, 5, '_BridgeRail_5');
 
 $distance_shinagawa - 16950;

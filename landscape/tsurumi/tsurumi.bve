@@ -1,0 +1,39 @@
+BveTs Map 2.02:UTF-8
+
+# 鶴見駅
+
+$distance_tsurumi;
+# $distance_shinagawa - 17760;
+Repeater['鶴見駅ホーム端R'].Begin($track_tokaido, -8,0,0, 0,0,0, $tilt_gradient, 5, 5, 'Form51L');
+Repeater['鶴見駅ホーム端L'].Begin($track_tokaido, -17.5,0,0, 0,0,0, $tilt_gradient, 5, 5, 'Form51R');
+Repeater['鶴見駅アスファルト'].Begin($track_tokaido, -8,0,0, 0,0,0, $tilt_gradient, 5, 5, 'FormCL');
+Repeater['鶴見駅屋根'].Begin($track_tokaido, -8,0,0, 0,0,0, $tilt_gradient, 10, 10, 'RoofL');
+Repeater['鶴見駅屋根柱L'].Begin($track_tokaido, -8,0,0, 0,0,0, $tilt_gradient, 10, 10, 'RoofPillarL');
+
+$distance_tsurumi + 5;
+Repeater['鶴見駅屋根柱R'].Begin($track_tokaido, -17,0,0, 0,0,0, $tilt_gradient, 10, 10, 'RoofPillarR');
+
+$distance_0 + 11640;
+Structure['UpstairsExitL'].Put($track_tokaido, -8,0,0, 0,0,0, $tilt_none, 10);
+
+$distance_0 + 11651;
+Structure['StationBridgeR'].Put($track_tokaido,-30,0,0, 0,0,0, $tilt_none, 0);
+Structure['StationBridgeR'].Put($track_tokaido,-15,0,0, 0,0,0, $tilt_none, 0);
+Structure['StationBridgeR'].Put($track_tokaido,  0,0,0, 0,0,0, $tilt_none, 0);
+Structure['StationBridgeR'].Put($track_tokaido, 15,0,0, 0,0,0, $tilt_none, 0);
+Structure['StationBridgeR'].Put($track_tokaido, 30,0,0, 0,0,0, $tilt_none, 0);
+Structure['StationBridgeR'].Put($track_tokaido, 45,0,0, 0,0,0, $tilt_none, 0);
+Structure['StationBridgeR'].Put($track_tokaido, 60,0,0, 0,0,0, $tilt_none, 0);
+Structure['StationBridgeR'].Put($track_tokaido, 75,0,0, 0,0,0, $tilt_none, 0);
+Structure['StationBridgeR'].Put($track_tokaido, 90,0,0, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 11656;
+Structure['UpstairsEnterL'].Put($track_tokaido, -8,0,0, 0,0,0, $tilt_none, 10);
+
+$distance_shinagawa - 17540;
+Repeater['鶴見駅ホーム端R'].End();
+Repeater['鶴見駅ホーム端L'].End();
+Repeater['鶴見駅アスファルト'].End();
+Repeater['鶴見駅屋根'].End();
+Repeater['鶴見駅屋根柱L'].End();
+Repeater['鶴見駅屋根柱R'].End();
