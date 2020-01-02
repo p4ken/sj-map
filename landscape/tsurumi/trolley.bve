@@ -13,7 +13,7 @@ Repeater['東海道線下り架線'].Begin($track_tokaido, 0,0,0, 0,0,0, $tilt_g
 Repeater['東海道線上り架線'].Begin($track_tokaido, -4,0,0, 0,0,0, $tilt_gradient, 50, 50, 'kasen50S');
 Repeater['京浜東北線下り架線'].Begin($track_tokaido, -8,0,0, 0,0,0, $tilt_gradient, 50, 50, 'kasen50S');
 Repeater['京浜東北線上り架線'].Begin($track_keihin, 0,0,0, 0,0,0, $tilt_gradient, 50, 50, 'kasen50S');
-Repeater['横須賀線下り架線'].Begin($track_keihin, 0,0,0, 0,0,0, $tilt_gradient, 50, 50, 'kasen50S');
+Repeater['横須賀線下り架線'].Begin($track_yokosuka, 0,0,0, 0,0,0, $tilt_gradient, 50, 50, 'kasen50S');
 Repeater['横須賀線上り架線'].Begin($track_yokosuka, -4,0,0, 0,0,0, $tilt_gradient, 50, 50, 'kasen50S');
 
 distance + 50;
@@ -227,6 +227,7 @@ distance + 50;
 Structure['PoleTrs08A_R'].Put($track_kohoku, 18.3,0,0, 0,0,0, $tilt_none, 0);
 Structure['PoleTrs08A_R'].Put($track_kohoku, 4,0,0, 0,0,0, $tilt_none, 0);
 Structure['PoleTrs11A'].Put($track_kohoku, -12.8,0,0, 0,0,0, $tilt_none, 0);
+Structure['PoleTrs04A'].Put($track_yokosuka, -2,0,0, 0,0,0, $tilt_none, 0);
 Repeater['鶴見中線1架線'].End();
 Repeater['鶴見中線2架線'].End();
 Repeater['鶴見中線1架線'].Begin($track_tokaido, 15,0,0, 0,0,0, $tilt_gradient, 50, 50, 'kasen50S');
@@ -237,65 +238,94 @@ Structure['Pole1_stlB'].Put($track_opposite, 0,0,0, 0,0,0, $tilt_none, 0);
 Structure['Pole1_stlB'].Put($track_kohoku, 8.75,0,0.02, 0,0,0, $tilt_none, 0);
 Structure['PoleTrs05A_R'].Put($track_kohoku, 1.7,0,0, 0,0,0, $tilt_none, 0);
 Structure['PoleTrs11A'].Put($track_kohoku, -12.5,0,0, 0,0,0, $tilt_none, 0);
+Structure['PoleTrs04A'].Put($track_yokosuka, -2,0,0, 0,0,0, $tilt_none, 0);
 
 distance + 50;
 Structure['Pole1_stlB'].Put($track_opposite, 0,0,0, 0,0,0, $tilt_none, 0);
 Structure['PoleTrs06A'].Put($track_kohoku, 8,0,0.02, 0,0,0, $tilt_none, 0);
 Structure['Pole1_stlB'].Put($track_kohoku, 0,0,0.02, 0,0,0, $tilt_none, 0);
 Structure['PoleTrs11A'].Put($track_kohoku, -12.45,0,0, 0,0,0, $tilt_none, 0);
+Structure['PoleTrs04A'].Put($track_yokosuka, -2,0,0, 0,0,0, $tilt_none, 0);
 
 distance + 50;
 Structure['Pole1_stlB'].Put($track_opposite, 0,0,0, 0,0,0, $tilt_none, 0);
 Structure['PoleTrs14A'].Put($track_kohoku, -1,-0.8,0.02, 0,0,0, $tilt_none, 0);
+Structure['PoleTrs04A'].Put($track_yokosuka, -2,0,0, 0,0,0, $tilt_none, 0);
 
 distance + 50;
 Structure['Pole1_stlB'].Put($track_opposite, 0,0,0, 0,0,0, $tilt_none, 0);
 Structure['PoleTrs07A'].Put($track_kohoku, 4,-0.5,0.02, 0,0,0, $tilt_none, 0);
 Structure['PoleTrs09A'].Put($track_tokaido, -6.5,0,0, 0,0,0, $tilt_none, 0);
+Structure['PoleTrs04A'].Put($track_yokosuka, -2,0,0, 0,0,0, $tilt_none, 0);
 
 distance + 50;
 Structure['Pole1_stlB'].Put($track_opposite, 0,0,0, 0,0,0, $tilt_none, 0);
 Structure['PoleTrs07A'].Put($track_kohoku, 4,-0.5,0.02, 0,0,0, $tilt_none, 0);
 Structure['PoleTrs09A'].Put($track_tokaido, -6.5,0,0, 0,0,0, $tilt_none, 0);
+Structure['PoleTrs04A'].Put($track_yokosuka, -2,0,0, 0,0,0, $tilt_none, 0);
 
 distance + 50;
 Structure['Pole1_stlB'].Put($track_opposite, 0,0,0, 0,0,0, $tilt_none, 0);
 Structure['PoleTrs04A'].Put($track_tokaido, 17.25,-0.5,0, 0,0,0, $tilt_none, 0);
 Structure['Pole1_stlA'].Put($track_kohoku, 0,0,0, 0,180,0, $tilt_none, 0);
 Structure['PoleTrs09A'].Put($track_tokaido, -6.5,0,0, 0,0,0, $tilt_none, 0);
+Structure['PoleTrs04A'].Put($track_yokosuka, -2,0,0, 0,0,0, $tilt_none, 0);
 
 distance + 50;
 Structure['Pole1_stlB'].Put($track_opposite, 0,0,0, 0,0,0, $tilt_none, 0);
 Structure['PoleTrs04A'].Put($track_tokaido, 17.25,-0.5,0, 0,0,0, $tilt_none, 0);
 Structure['Pole1_stlA'].Put($track_kohoku, 0,0,0, 0,180,0, $tilt_none, 0);
 Structure['PoleTrs09A'].Put($track_tokaido, -6.5,0,0, 0,0,0, $tilt_none, 0);
+Structure['PoleTrs04A'].Put($track_yokosuka, -2,0,0, 0,0,0, $tilt_none, 0);
 
 distance + 50;
 Structure['Pole1_stlB'].Put($track_opposite, 0,0,0, 0,0,0, $tilt_none, 0);
 Structure['PoleTrs04A'].Put($track_tokaido, 17.25,-0.5,0, 0,0,0, $tilt_none, 0);
 Structure['Pole1_stlA'].Put($track_kohoku, 0,0,0, 0,180,0, $tilt_none, 0);
 Structure['PoleTrs09A'].Put($track_tokaido, -6.5,0,0, 0,0,0, $tilt_none, 0);
+Structure['PoleTrs04A'].Put($track_yokosuka, -2,0,0, 0,0,0, $tilt_none, 0);
 
 distance + 50;
 Structure['Pole1_stlB'].Put($track_opposite, 0,0,0, 0,0,0, $tilt_none, 0);
 Structure['PoleTrs04A'].Put($track_tokaido, 17.25,-0.5,0, 0,0,0, $tilt_none, 0);
 Structure['Pole1_stlA'].Put($track_kohoku, 0,0,0, 0,180,0, $tilt_none, 0);
 Structure['PoleTrs09A'].Put($track_tokaido, -6.5,0,0, 0,0,0, $tilt_none, 0);
+Structure['PoleTrs04A'].Put($track_yokosuka, -2,0,0, 0,0,0, $tilt_none, 0);
 
 distance + 50;
 Structure['Pole1_stlA'].Put($track_opposite, 0,0,0, 0,0,0, $tilt_none, 0);
 Structure['PoleTrs04A'].Put($track_tokaido, 17.25,-0.5,0, 0,0,0, $tilt_none, 0);
 Structure['Pole1_stlB'].Put($track_kohoku, 0,0,0, 0,180,0, $tilt_none, 0);
 Structure['PoleTrs09A'].Put($track_tokaido, -6.5,0,0, 0,0,0, $tilt_none, 0);
+Structure['PoleTrs04A'].Put($track_yokosuka, -2,0,0, 0,0,0, $tilt_none, 0);
 
 distance + 50;
 Structure['Pole1_stlA'].Put($track_opposite, 0,0,0, 0,0,0, $tilt_none, 0);
 Structure['PoleTrs04A'].Put($track_tokaido, 17.25,-0.5,0, 0,0,0, $tilt_none, 0);
 Structure['Pole1_stlB'].Put($track_kohoku, 0,0,0, 0,180,0, $tilt_none, 0);
 Structure['PoleTrs09A'].Put($track_tokaido, -6.5,0,0, 0,0,0, $tilt_none, 0);
+Structure['PoleTrs04A'].Put($track_yokosuka, -2,0,0, 0,0,0, $tilt_none, 0);
 Repeater['鶴見中線1架線'].End();
 Repeater['鶴見中線2架線'].End();
 Repeater['東海道線下り架線'].End();
 Repeater['東海道線上り架線'].End();
 Repeater['京浜東北線下り架線'].End();
 Repeater['京浜東北線上り架線'].End();
+
+distance + 50;
+Structure['Pole1_stlA'].Put($track_opposite, 0,0,0, 0,0,0, $tilt_none, 0);
+Structure['Pole1_stlB'].Put($track_kohoku, 0,0,0, 0,180,0, $tilt_none, 0);
+Structure['PoleTrs04A'].Put($track_yokosuka, -2,0,0, 0,0,0, $tilt_none, 0);
+
+distance + 50;
+Structure['Pole1_stlA'].Put($track_opposite, 0,0,0, 0,0,0, $tilt_none, 0);
+Structure['Pole1_stlB'].Put($track_kohoku, 0,0,0, 0,180,0, $tilt_none, 0);
+Structure['PoleTrs04A'].Put($track_yokosuka, -2,0,0, 0,0,0, $tilt_none, 0);
+
+distance + 50;
+Structure['PoleTrs11A'].Put($track_kohoku, 7.7,0,0, 0,0,0, $tilt_none, 0);
+Structure['PoleTrs04A'].Put($track_yokosuka, -2,0,0, 0,0,0, $tilt_none, 0);
+
+distance + 50;
+Structure['PoleTrs11A'].Put($track_kohoku, 7.7,0,0, 0,0,0, $tilt_none, 0);
+Structure['PoleTrs04A'].Put($track_yokosuka, -2,0,0, 0,0,0, $tilt_none, 0);

@@ -25,9 +25,9 @@ Station['tsurumi'].Put($left, $underrun, $overrun);
 
 # 参考：鶴見から新鶴見(信)の営業キロは 3.9km
 15100; # 仮。本一場あたり。
-# Station['warihata'].Put($left, $underrun, $overrun);
+Station['warihata'].Put($left, $underrun, $overrun);
 
-# 17350; # 仮。本一出あたり。
+17350; # 仮。本一出あたり。
 Station['shin_tsurumi'].Put($left, $underrun, $overrun);
 
 # 参考：新鶴見(信)から武蔵小杉の営業キロは 3.9km

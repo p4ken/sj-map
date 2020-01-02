@@ -31,8 +31,8 @@ $distance_shinagawa - 17135;
 Track[$track_yokosuka].Y.Interpolate();
 Repeater['横須賀線の高架壁L'].Begin($track_yokosuka, -4,0,0, 0,0,0, $tilt_gradient, 25, 25, 'Wall_QN_L25m');
 Repeater['横須賀線の高架壁R'].Begin0($track_yokosuka, $tilt_gradient, 25, 25, 'Wall_QN_R25m');
-Repeater['横須賀線の高架底面'].Begin($track_yokosuka, -1.7,-1.38,0, 0,0,180, $tilt_gradient, 25, 25, 'Slab8m');
-Repeater['横須賀線の高架橋脚L'].Begin($track_yokosuka, -4,0,0, 0,0,0, $tilt_gradient, 25, 25, 'WallUnder_QN_25m_hukusen');
+Repeater['横須賀線の高架底面'].Begin($track_yokosuka, -2.7,-1.38,0, 0,0,180, $tilt_gradient, 25, 25, 'Slab8m');
+Repeater['横須賀線の高架橋脚L'].Begin($track_yokosuka, -6,0,0, 0,0,0, $tilt_gradient, 25, 25, 'WallUnder_QN_25m_hukusen');
 Repeater['横須賀線の高架橋脚R'].Begin0($track_yokosuka, $tilt_gradient, 25, 25, 'WallUnder_QN_25m_hukusen');
 
 $distance_shinagawa - 16650;
@@ -44,20 +44,25 @@ $distance_shinagawa - 16600;
 Track[$track_yokosuka].Y.Interpolate();
 
 $distance_shinagawa - 16400;
-Repeater['横須賀線の高架橋脚L'].End();
 Repeater['横須賀線の高架橋脚R'].End();
 
-$distance_shinagawa - 16300;
-Track[$track_yokosuka].Y.Interpolate(6);
+$distance_shinagawa - 16350;
+Repeater['横須賀線の高架橋脚L'].End();
+
+$distance_shinagawa - 16325;
+Track[$track_yokosuka].Y.Interpolate(8);
 
 $distance_shinagawa - 16250;
-Repeater['横須賀線の高架橋脚L'].Begin($track_yokosuka, -4,0,0, 0,0,0, $tilt_gradient, 25, 25, 'WallUnder_QN_25m_hukusen');
-Repeater['横須賀線の高架橋脚R'].Begin0($track_yokosuka, $tilt_gradient, 25, 25, 'WallUnder_QN_25m_hukusen');
+Repeater['横須賀線の高架底面'].End();
+Repeater['横須賀線の高架底面'].Begin($track_yokosuka, -2,-1.38,0, 0,0,180, $tilt_gradient, 25, 25, 'Slab8m');
+Repeater['横須賀線の高架橋脚R'].Begin($track_yokosuka, 1,0,0, 0,0,0,$tilt_gradient, 25, 25, 'WallUnder_QN_25m_hukusen');
 
 $distance_shinagawa - 16200;
 # 自線はここまで左カーブ
 Track[$track_yokosuka].X.Interpolate(14);
-Track[$track_yokosuka].Y.Interpolate();
+
+$distance_shinagawa - 16225;
+Repeater['横須賀線の高架橋脚L'].Begin($track_yokosuka, -5,0,0, 0,0,0, $tilt_gradient, 25, 25, 'WallUnder_QN_25m_hukusen');
 
 $distance_shinagawa - 15738;
 Track[$track_yokosuka].Y.Interpolate(0);

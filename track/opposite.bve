@@ -76,12 +76,20 @@ Track[$track_opposite].X.Interpolate(12);
 $distance_shinagawa - 17760;
 Track[$track_opposite].X.Interpolate();
 Track[$track_opposite].Y.Interpolate();
+Repeater['下り左バラスト1'].Begin($track_opposite, -0.5,+0.2,-5, 0,0,10, $tilt_all, 5, 4.5, 'Bl_CraBalL_5m');
+Repeater['下り左バラスト2'].Begin($track_opposite, -3.2,-0.3,-5, 0,0,10, $tilt_all, 5, 4.5, 'Bl_CraBalL_5m');
+Repeater['下り左バラスト3'].Begin($track_opposite, -5.9,-0.8,-5, 0,0,10, $tilt_all, 5, 4.5, 'Bl_CraBalL_5m');
+Repeater['下り左バラスト4'].Begin($track_opposite, -8.6,-1.3,-5, 0,0,10, $tilt_all, 5, 4.5, 'Bl_CraBalL_5m');
 
 $distance_shinagawa - 16990;
 Repeater['下り橋梁R'].Begin0($track_opposite, $tilt_gradient, 10, 10, 'blue10_bR');
 Repeater['下り橋梁L'].Begin0($track_opposite, $tilt_gradient, 10, 10, 'blue10_bL');
 Repeater['下りバラスト軌道'].End();
 Repeater['下り右バラスト'].End();
+Repeater['下り左バラスト1'].End();
+Repeater['下り左バラスト2'].End();
+Repeater['下り左バラスト3'].End();
+Repeater['下り左バラスト4'].End();
 Repeater['下り橋梁軌道'].Begin0($track_opposite, $tilt_all, 5, 5, '_BridgeRail_5');
 
 $distance_shinagawa - 16870;
@@ -107,11 +115,37 @@ $distance_shinagawa - 16650;
 $distance_shinagawa - 16600;
 Track[$track_opposite].X.Interpolate(20);
 Track[$track_opposite].X.Interpolate(20, 0);
-# Repeater['下り右盛土'].End();
+Repeater['下り右盛土'].End();
+Repeater['下り線路下'].Begin($track_opposite, 0.7,-1.5,0, 0,0,10, $tilt_gradient, 25, 25, 'Wall_QN_L25m');
+Repeater['下り左ガーター'].Begin($track_opposite,-0.5,-0.2,0, 0,0,0, $tilt_gradient, 10, 10, 'GirderBridgeLowL');
+Repeater['下り右ガーター'].Begin($track_opposite, 0.5,-0.2,0, 0,0,0, $tilt_gradient, 10, 10, 'GirderBridgeLowR');
+
+$distance_shinagawa - 16425;
+Repeater['下り左ガーター'].End();
+Repeater['下り右ガーター'].End();
+Repeater['下り右柵'].Begin($track_opposite, 2.4,0,0, 0,0,0, $tilt_gradient, 5, 5, 'PoleFence02a');
+Repeater['下り左柵'].Begin($track_opposite, -2.4,0,0, 0,0,0, $tilt_gradient, 5, 5, 'PoleFence02a');
+
+$distance_shinagawa - 16400;
+Structure['PoleFence02aE'].Put($track_opposite, 2.4,0,0, 0,0,0, $tilt_gradient, 0);
+Repeater['下り右柵'].End();
+Structure['PoleFence02aE'].Put($track_opposite, -2.4,0,0, 0,0,0, $tilt_gradient, 0);
+Repeater['下り左柵'].End();
+Repeater['下り線路下'].End();
+
+$distance_shinagawa - 16300;
+Repeater['下りR橋脚'].Begin($track_opposite, 3,9,0, 0,0,0,$tilt_gradient, 25, 25, 'WallUnder_QN_25m_hukusen');
 
 $distance_shinagawa - 16250;
 # 自線ここまで左カーブ
 Track[$track_opposite].X.Interpolate(4);
+
+$distance_shinagawa - 16225;
+Repeater['下りR橋脚'].End();
+
+
+
+
 
 $distance_shinagawa - 14575;
 Track[$track_opposite].X.Interpolate();
