@@ -90,6 +90,8 @@ Repeater['下り橋梁R'].End();
 Repeater['下り橋梁L'].End();
 Repeater['下り橋梁軌道'].End();
 Repeater['下りバラスト軌道'].Begin0($track_opposite, $tilt_all, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
+Structure['DikegrsLh'].Put($track_opposite, 19,0.3,3, -40,-90,0, $tilt_none, 5);
+Repeater['下り右盛土'].Begin0($track_opposite, $tilt_gradient, 25, 25, 'DikegrsLh');
 
 $distance_shinagawa - 16850;
 # 自線ここから右カーブ
@@ -102,10 +104,10 @@ $distance_shinagawa - 16675; # 前面展望から
 
 $distance_shinagawa - 16650;
 # 自線ここから左カーブ
-
 $distance_shinagawa - 16600;
 Track[$track_opposite].X.Interpolate(20);
 Track[$track_opposite].X.Interpolate(20, 0);
+# Repeater['下り右盛土'].End();
 
 $distance_shinagawa - 16250;
 # 自線ここまで左カーブ

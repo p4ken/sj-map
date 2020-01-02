@@ -63,3 +63,18 @@ Structure['house_wide'].Put($track_kohoku, 35,0,0, 0,0,0, $tilt_none, 0);
 $distance_0 + 10700;
 Structure['building_tall'].Put($track_kohoku, 70,0,0, 0,15,0, $tilt_none, 0);
 
+# 京急が上るあたり
+$distance_0 + 11210;
+Structure['building2'].Put($track_kohoku, 33,-5,0, 0,100,0, $tilt_none, 0);
+
+$distance_0 + 11220;
+Structure['buildingR'].Put($track_keikyu, 20,0,0, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 11240;
+Structure['building2R'].Put($track_keikyu, 25,-12,0, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 11270;
+Structure['building2R'].Put($track_keikyu, 23,-8,0, 0,-10,0, $tilt_none, 0);
+
+$distance_0 + 11360;
+Structure['building2R'].Put($track_keikyu, 23,-9,0, 0,-10,0, $tilt_none, 0);

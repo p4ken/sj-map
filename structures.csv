@@ -1,11 +1,23 @@
 ﻿BveTs Structure List 2.00
 
+DikeGrs5mL1,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\ACCC\Ground\DikeGrs5mL1.x
+DikeGrs5mL2,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\ACCC\Ground\DikeGrs5mL2.x
+DikeGrs5mL3,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\ACCC\Ground\DikeGrs5mL3.x
+DikeGrs5mL4,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\ACCC\Ground\DikeGrs5mL4.x
+DikeGrs5mL5,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\ACCC\Ground\DikeGrs5mL5.x
+DikeGrs5mL6,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\ACCC\Ground\DikeGrs5mL6.x
+Fence6L,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\ACCC\Station\Fence6L.x
+Fence6R,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\ACCC\Station\Fence6R.x
+Form51L,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\ACCC\Station\Form51L.x
+Form51R,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\ACCC\Station\Form51R.x
+FormCL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\ACCC\Station\FormCL.x
 miniBeamF02R,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\E_Poles\acc\miniBeamF02R.x
 kasen50S,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\E_Poles\kasen\kasen50S.x
 Pole1_stlA,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\E_Poles\Pole\Pole1_stlA.x
 Pole1_stlB,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\E_Poles\Pole\Pole1_stlB.x
 PoleTrs04A,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\E_Poles\PoleTruss\PoleTrs04A.x
 PoleTrs04A_R,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\E_Poles\PoleTruss\PoleTrs04A_R.x
+PoleTrs05A_R,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\E_Poles\PoleTruss\PoleTrs05A_R.x
 PoleTrs06A,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\E_Poles\PoleTruss\PoleTrs06A.x
 PoleTrs06B,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\E_Poles\PoleTruss\PoleTrs06B.x
 PoleTrs06A_R,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\E_Poles\PoleTruss\PoleTrs06A_R.x
@@ -18,11 +30,8 @@ PoleTrs11A,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Acc
 PoleTrs11A_R,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\E_Poles\PoleTruss\PoleTrs11A_R.x
 PoleTrs14A,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\E_Poles\PoleTruss\PoleTrs14A.x
 FenceWhite,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\Fence\FenceWhite.x
-Fence6L,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\ACCC\Station\Fence6L.x
-Fence6R,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\ACCC\Station\Fence6R.x
-Form51L,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\ACCC\Station\Form51L.x
-Form51R,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\ACCC\Station\Form51R.x
-FormCL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\ACCC\Station\FormCL.x
+PoleFence02a,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\Fence\PoleFence02a.x
+PoleFence02aE,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\Fence\PoleFence02aE.x
 Curve_P,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\Posts\CurvePosts\Curve_P.x
 Gp_DD,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\Posts\GradientPost\Gp_DD.x
 Gp_DL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\Posts\GradientPost\Gp_DL.x
@@ -69,11 +78,14 @@ b11m,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Nature\bu
 b12m,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Nature\bush\b12m.x
 b13m,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Nature\bush\b13m.x
 b14m,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Nature\bush\b14m.x
+DikegrsLh,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Nature\Ground\DikegrsLh.x
+Rside_Grass,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Nature\Ground\Rside_Grass.x
 GrsWallL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Nature\mount\GrsWallL.x
 GrsWallL2,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Nature\mount\GrsWallL2.x
 river50m_green,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Nature\River\river50m_green.x
 RvGrsL1a,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Nature\River\RvGrsL1a.x
 RvGrsL1b,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Nature\River\RvGrsL1b.x
+tree01_S,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Nature\trees\tree01_S.x
 tree21_S,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Nature\trees_street\tree21_S.x
 tree22_S,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Nature\trees_street\tree22_S.x
 tree23_S,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Nature\trees_street\tree23_S.x
@@ -85,6 +97,7 @@ BallastPC_K_5b,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds
 BallastPC_K_5aD,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Rail\Ballast01\BallastPC_K_5aD.x
 BallastPC_K_5bD,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Rail\Ballast01\BallastPC_K_5bD.x
 BallastTR_K_5a,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Rail\Ballast01\BallastTR_K_5a.x
+Bl_CraBalL_25,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Rail\Ballast01\Bl_CraBalL_25.x
 Bl_CraBalL_5m,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Rail\Ballast01\Bl_CraBalL_5m.x
 Bl_CraBalR_5m,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Rail\Ballast01\Bl_CraBalR_5m.x
 Slab2S5m,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Rail\Slab01\Slab2S5m.x
@@ -129,6 +142,7 @@ walln1r,C:\Users\p4\Documents\BveTs\Scenarios\shuttle\fukutoshin\structures\wall
 stwalln3l,C:\Users\p4\Documents\BveTs\Scenarios\shuttle\fukutoshin\structures\wall\stwalln3l.x
 
 GirderBridgeLowL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\RouteKit\Structure\Bridge\GirderBridgeLowL.x
+GirderBridgeLowR,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\RouteKit\Structure\Bridge\GirderBridgeLowR.x
 FenceStepStartL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\RouteKit\Structure\Station\FenceStepStartL.x
 FenceStepStartR,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\RouteKit\Structure\Station\FenceStepStartR.x
 PlatformCL01S,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\RouteKit\Structure\Station\PlatformCL01.x
