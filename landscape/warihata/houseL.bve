@@ -1,0 +1,60 @@
+BveTs Map 2.02:UTF-8
+
+$distance_0 + 13640;
+Repeater['左フェンス'].Begin($track_hinkaku,  -3.5,0,0, 0,0,0, $tilt_none, 2, 2, 'FenceWhite');
+Structure['FenceWhite'].Put($track_hinkaku, -5.5,0,0, 0,90,0, $tilt_none, 5);
+Structure['FenceWhite'].Put($track_hinkaku, -7.5,0,0, 0,90,0, $tilt_none, 5);
+Structure['FenceWhite'].Put($track_hinkaku, -9.5,0,0, 0,90,0, $tilt_none, 5);
+Structure['FenceWhite'].Put($track_hinkaku,-11.5,0,0, 0,90,0, $tilt_none, 5);
+
+$distance_0 + 13650;
+Repeater['左戸建て'].Begin($track_hinkaku, -8.5,0,0, 0,0,0, $tilt_none, 5, 12, 'house_wide');
+
+$distance_0 + 13775;
+Repeater['左戸建て'].End();
+
+$distance_0 + 13795;
+Structure['buildingRedL'].Put($track_yokosuka, -30,-5,0, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 13825;
+Structure['house_wide'].Put($track_hinkaku, -10,0,0, 0,0,0, $tilt_none, 5);
+
+$distance_0 + 13845;
+Structure['house_wide'].Put($track_hinkaku, -10,0,0, 0,0,0, $tilt_none, 5);
+
+$distance_0 + 13920;
+Structure['buildingRedL'].Put($track_yokosuka, -60,5,0, 0,0,0, $tilt_none, 0);
+Structure['buildingRedL'].Put($track_yokosuka, -60,5,-20, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 13940;
+Structure['buildingRedL'].Put($track_yokosuka, -31,-7,0, 0,0.1,0, $tilt_none, 0);
+Structure['buildingRedL'].Put($track_yokosuka, -31,-7,-20, 0,0.1,0, $tilt_none, 0);
+Structure['buildingRedL'].Put($track_yokosuka, -31,-7,-40, 0,0.1,0, $tilt_none, 0);
+
+$distance_0 + 14160;
+Structure['buildingRedL'].Put($track_yokosuka, -31,-8,0, 0,0.1,0, $tilt_none, 0);
+Structure['buildingRedL'].Put($track_yokosuka, -31,-8,-20, 0,0.1,0, $tilt_none, 0);
+Structure['buildingRedL'].Put($track_yokosuka, -31,-8,-40, 0,0.1,0, $tilt_none, 0);
+Structure['buildingRedL'].Put($track_yokosuka, -31,-8,-60, 0,0.1,0, $tilt_none, 0);
+Structure['buildingRedL'].Put($track_yokosuka, -31,-8,-80, 0,0.1,0, $tilt_none, 0);
+
+$distance_0 + 14310;
+Structure['building2'].Put($track_yokosuka, -38,-3,-80, 0,0.1,0, $tilt_none, 0);
+
+$distance_0 + 15700;
+Structure['building2'].Put($track_hinkaku, -30,0,0, 0,0.1,0, $tilt_none, 0);
+Structure['building2'].Put($track_hinkaku, -55,0,0, 0,0.1,0, $tilt_none, 0);
+Structure['building2'].Put($track_hinkaku, -80,0,0, 0,0.1,0, $tilt_none, 0);
+Structure['building2'].Put($track_hinkaku, -105,0,0, 0,0.1,0, $tilt_none, 0);
+distance + 14;
+Structure['building2'].Put($track_hinkaku, -30,0,0, 0,0.1,0, $tilt_none, 0);
+distance + 14;
+Structure['building2'].Put($track_hinkaku, -30,0,0, 0,0.1,0, $tilt_none, 0);
+distance + 14;
+Structure['building2'].Put($track_hinkaku, -30,0,0, 0,0.1,0, $tilt_none, 0);
+distance + 14;
+Structure['building2'].Put($track_hinkaku, -30,0,0, 0,0.1,0, $tilt_none, 0);
+distance + 14;
+Structure['building2'].Put($track_hinkaku, -30,0,0, 0,0.1,0, $tilt_none, 0);
+distance + 14;
+Structure['building2'].Put($track_hinkaku, -30,0,0, 0,0.1,0, $tilt_none, 0);

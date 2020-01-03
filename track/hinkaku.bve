@@ -164,8 +164,11 @@ Repeater['上り左柵'].End();
 Structure['PoleFence02aE'].Put($track_hinkaku,-2.4,0,0, 0,0,0, $tilt_gradient, 5);
 Repeater['上り線路下'].End();
 
+$distance_shinagawa - 16375;
+Repeater['上り右バラスト'].Begin($track_hinkaku, 0.2,0,0, -0.1,0,0, $tilt_gradient, 4.8, 4.8, 'Bl_CraBalR_5m');
+
 $distance_shinagawa - 16390;
-Repeater['上りL橋脚'].Begin($track_hinkaku, -3,7,0, 0,0,0,$tilt_gradient, 25, 25, 'WallUnder_QN_25m_hukusen');
+Repeater['上りL橋脚'].Begin($track_hinkaku, -4,9,0, 0,0,0,$tilt_gradient, 20, 20, 'WallUnder_QN_25m_hukusen');
 
 $distance_shinagawa - 16315;
 Repeater['上りL橋脚'].End();
@@ -235,16 +238,36 @@ Curve.Interpolate(0, -0.02);
 $distance_shinagawa - 15500;
 Curve.Interpolate(0, 0);
 
-# どこか
-# 他線の曲線標 R2000に見える
 
-# そのあと
-# 自線の曲線標 R2500(確定) 右カーブ
 
-# ===道路をくぐる===
+
+$distance_shinagawa - 15200;
+Curve.Interpolate();
+
+$distance_shinagawa - 15175;
+# BCC R2500（距離程は未調査）
+Curve.Interpolate(2500, 0.02);
+
+# ===矢向第一陸橋===
 
 $distance_shinagawa - 15125;
-# 自線の曲線おわり（曲線標ウラむき）
+# ここがECC 曲線標ウラむき
+Curve.Interpolate();
+
+$distance_shinagawa - 15100;
+Curve.Interpolate(0, 0);
+
+$distance_shinagawa - 15050;
+Curve.Interpolate();
+
+$distance_shinagawa - 15025;
+Curve.Interpolate(-2000, -0.02);
+
+$distance_shinagawa - 14975;
+Curve.Interpolate();
+
+$distance_shinagawa - 14975;
+Curve.Interpolate(0, 0);
 
 $distance_shinagawa - 15098;
 Gradient.Interpolate();

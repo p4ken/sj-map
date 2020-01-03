@@ -42,7 +42,7 @@ Structure['house_wide'].Put($track_yokosuka, -15,-1,0, 0,0,0, $tilt_none, 0);
 
 
 $distance_0 + 10550;
-Structure['building'].Put($track_yokosuka, -30,0,0, 0,0,0, $tilt_none, 0);
+Structure['buildingRedL'].Put($track_yokosuka, -30,0,0, 0,0,0, $tilt_none, 0);
 
 $distance_0 + 10750;
 Structure['GrsWallL'].Put($track_yokosuka, -30,10,0, 0,0,0, $tilt_none, 0);

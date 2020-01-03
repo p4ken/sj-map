@@ -329,3 +329,15 @@ Structure['PoleTrs04A'].Put($track_yokosuka, -2,0,0, 0,0,0, $tilt_none, 0);
 distance + 50;
 Structure['PoleTrs11A'].Put($track_kohoku, 7.7,0,0, 0,0,0, $tilt_none, 0);
 Structure['PoleTrs04A'].Put($track_yokosuka, -2,0,0, 0,0,0, $tilt_none, 0);
+
+distance + 50;
+Structure['PoleTrs04A'].Put($track_yokosuka, -2,0.5,0, 0,0,0, $tilt_none, 0);
+
+distance + 50;
+Structure['PoleTrs04A'].Put($track_yokosuka, -2,0.5,0, 0,0,0, $tilt_none, 0);
+
+distance + 50;
+Repeater['横須賀線下り架線'].End();
+Repeater['横須賀線上り架線'].End();
+Repeater['下り架線'].End();
+Repeater['上り架線'].End();

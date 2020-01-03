@@ -6,6 +6,12 @@ DikeGrs5mL3,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\AC
 DikeGrs5mL4,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\ACCC\Ground\DikeGrs5mL4.x
 DikeGrs5mL5,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\ACCC\Ground\DikeGrs5mL5.x
 DikeGrs5mL6,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\ACCC\Ground\DikeGrs5mL6.x
+DikeGrs5mR1,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\ACCC\Ground\DikeGrs5mR1.x
+DikeGrs5mR2,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\ACCC\Ground\DikeGrs5mR2.x
+DikeGrs5mR3,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\ACCC\Ground\DikeGrs5mR3.x
+DikeGrs5mR4,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\ACCC\Ground\DikeGrs5mR4.x
+DikeGrs5mR5,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\ACCC\Ground\DikeGrs5mR5.x
+DikeGrs5mR6,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\ACCC\Ground\DikeGrs5mR6.x
 Fence6L,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\ACCC\Station\Fence6L.x
 Fence6R,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\ACCC\Station\Fence6R.x
 Form51L,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\ACCC\Station\Form51L.x
@@ -23,6 +29,7 @@ PoleTrs06B,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Acc
 PoleTrs06A_R,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\E_Poles\PoleTruss\PoleTrs06A_R.x
 PoleTrs07A,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\E_Poles\PoleTruss\PoleTrs07A.x
 PoleTrs07A_R,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\E_Poles\PoleTruss\PoleTrs07A_R.x
+PoleTrs08A,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\E_Poles\PoleTruss\PoleTrs08A.x
 PoleTrs08A_R,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\E_Poles\PoleTruss\PoleTrs08A_R.x
 PoleTrs09A,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\E_Poles\PoleTruss\PoleTrs09A.x
 PoleTrs09A_R,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\E_Poles\PoleTruss\PoleTrs09A_R.x
@@ -80,6 +87,7 @@ b13m,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Nature\bu
 b14m,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Nature\bush\b14m.x
 DikegrsLh,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Nature\Ground\DikegrsLh.x
 DikegrsRh,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Nature\Ground\DikegrsRh.x
+Lside_Grass,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Nature\Ground\Lside_Grass.x
 Rside_Grass,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Nature\Ground\Rside_Grass.x
 GrsWallL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Nature\mount\GrsWallL.x
 GrsWallL2,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Nature\mount\GrsWallL2.x
@@ -144,6 +152,11 @@ stwalln3l,C:\Users\p4\Documents\BveTs\Scenarios\shuttle\fukutoshin\structures\wa
 
 GirderBridgeLowL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\RouteKit\Structure\Bridge\GirderBridgeLowL.x
 GirderBridgeLowR,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\RouteKit\Structure\Bridge\GirderBridgeLowR.x
+Overpass,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\RouteKit\Structure\Overpass\Overpass.x
+OverpassDikeR,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\RouteKit\Structure\Overpass\OverpassDikeR.x
+OverpassPier,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\RouteKit\Structure\Overpass\OverpassPier.x
+OverpassL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\RouteKit\Structure\Overpass\OverpassL.x
+OverpassR,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\RouteKit\Structure\Overpass\OverpassR.x
 FenceStepStartL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\RouteKit\Structure\Station\FenceStepStartL.x
 FenceStepStartR,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\RouteKit\Structure\Station\FenceStepStartR.x
 PlatformCL01S,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\RouteKit\Structure\Station\PlatformCL01.x
@@ -188,8 +201,8 @@ tunnelT,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\izumino\model\tunnel\tunnelT
 #2-cut,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shadow\4-choten-b.x
 #2-cut,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shadow\5-uv.x
 2-cut,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shadow\wall\wall1.x
-building,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shadow\building\building.x
-buildingR,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shadow\building\buildingR.x
+buildingRedL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shadow\building\buildingRedL.x
+buildingRedR,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shadow\building\buildingRedR.x
 building2,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shadow\building\building2.x
 building2R,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shadow\building\building2R.x
 building_tall,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shadow\building\building_tall.x

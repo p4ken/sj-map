@@ -133,15 +133,48 @@ Structure['PoleFence02aE'].Put($track_opposite, -2.4,0,0, 0,0,0, $tilt_gradient,
 Repeater['下り左柵'].End();
 Repeater['下り線路下'].End();
 
-$distance_shinagawa - 16300;
-Repeater['下りR橋脚'].Begin($track_opposite, 3,9,0, 0,0,0,$tilt_gradient, 25, 25, 'WallUnder_QN_25m_hukusen');
+$distance_shinagawa - 16375;
+Repeater['下り左バラスト1'].Begin($track_opposite, -0.5,0,0, 0,0,0, $tilt_all, 5, 4.5, 'Bl_CraBalL_5m');
+
+$distance_shinagawa - 16320;
+Repeater['下りR橋脚'].Begin($track_opposite, 5,9,0, 0,0,0,$tilt_gradient, 20, 20, 'WallUnder_QN_25m_hukusen');
 
 $distance_shinagawa - 16250;
 # 自線ここまで左カーブ
 Track[$track_opposite].X.Interpolate(4);
 
-$distance_shinagawa - 16225;
+$distance_shinagawa - 16260;
 Repeater['下りR橋脚'].End();
+
+
+
+
+
+
+
+$distance_shinagawa - 15325;
+# 前面展望よりR=2000
+Track[$track_opposite].X.Interpolate();
+Track[$track_opposite].X.Interpolate(4, 2000);
+
+$distance_shinagawa - 15250;
+Track[$track_opposite].X.Interpolate(5.5, -2000);
+
+$distance_shinagawa - 15175;
+Track[$track_opposite].X.Interpolate(7, 0);
+
+$distance_shinagawa - 15175;
+# 上りが近づいてくる（下り自身は直線）
+Track[$track_opposite].X.Interpolate(, -2500);
+
+$distance_shinagawa - 15125;
+Track[$track_opposite].X.Interpolate(6.5, 0);
+
+$distance_shinagawa - 15025;
+Track[$track_opposite].X.Interpolate(4.5, 2000);
+
+$distance_shinagawa - 14975;
+Track[$track_opposite].X.Interpolate(4, 0);
 
 
 

@@ -1,0 +1,35 @@
+BveTs Map 2.02:UTF-8
+
+$distance_0 + 13620;
+# 国道1号
+Structure['OverpassDikeR'].Put($track_hinkaku, 35,0,0, 0,0,0 ,$tilt_none, 5);
+Structure['OverpassR'].Put($track_hinkaku, 0,0,0, 0,0,0 ,$tilt_none, 5);
+Structure['Overpass'].Put($track_hinkaku, 0,0,0, 0,0,0 ,$tilt_none, 5);
+Structure['OverpassPier'].Put($track_hinkaku, 8,0,0, 0,0,0 ,$tilt_none, 5);
+Structure['OverpassL'].Put($track_hinkaku, 0,0,0, 0,0,0 ,$tilt_none, 5);
+
+$distance_shinagawa - 15160;
+# 矢向第一陸橋
+Structure['OverpassDikeR'].Put($track_hinkaku, 18,0,0, 0,0,0 ,$tilt_none, 5);
+Structure['OverpassR'].Put($track_hinkaku, 0,0,0, 0,0,0 ,$tilt_none, 5);
+Structure['Overpass'].Put($track_hinkaku, 0,0,0, 0,0,0 ,$tilt_none, 5);
+Structure['OverpassPier'].Put($track_hinkaku, 3.5,0,0, 0,0,0 ,$tilt_none, 5);
+Structure['OverpassL'].Put($track_hinkaku, 0,0,0, 0,0,0 ,$tilt_none, 5);
+
+
+# 江ヶ崎跨線橋
+
+
+
+$distance_0 + 15670;
+# 小倉跨線橋
+Structure['OverpassDikeR'].Put($track_hinkaku, 38,0,0, 0,0,0 ,$tilt_none, 5);
+Structure['OverpassR'].Put($track_hinkaku, 0,0,0, 0,0,0 ,$tilt_none, 5);
+Structure['OverpassPier'].Put($track_hinkaku, 12,0,0, 0,0,0 ,$tilt_none, 5);
+Structure['Overpass'].Put($track_hinkaku, 0,0,0, 0,0,0 ,$tilt_none, 5);
+Structure['OverpassPier'].Put($track_hinkaku, -13,0,0, 0,0,0 ,$tilt_none, 5);
+Structure['OverpassPier'].Put($track_hinkaku, -50,0,0, 0,0,0 ,$tilt_none, 5);
+Structure['OverpassPier'].Put($track_hinkaku, -100,0,0, 0,0,0 ,$tilt_none, 5);
+Structure['OverpassL'].Put($track_hinkaku, 0,0,0, 0,0,0 ,$tilt_none, 5);
+Structure['OverpassPier'].Put($track_hinkaku, -148,0,0, 0,0,0 ,$tilt_none, 5);
+Structure['OverpassL'].Put($track_hinkaku, -143,0.5,0, 0,0,5 ,$tilt_none, 5);
