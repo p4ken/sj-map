@@ -1,6 +1,7 @@
 BveTs Map 2.02:UTF-8
 
 $station_nishiya;
+Fog.Interpolate(0,0,0,0);
 # Fog.Interpolate(0.02,0.6,0.8,0.99);
 
 # $station_nishiya + 150;
@@ -12,3 +13,32 @@ $station_nishiya;
 
 # $distance_shinagawa - 17270;
 # Fog.Interpolate(0.01,1,1,1);
+
+$distance_0 + 3680;
+Fog.Interpolate();
+
+$distance_0 + 3730 - 500;
+Structure['huku_c1_lp'].Put($track_kohoku,-5,0,500, 0,90,0, $tilt_gradient, 5);
+Structure['huku_c1_lp'].Put($track_kohoku, 0,0,500, 0,90,0, $tilt_gradient, 5);
+Structure['huku_c1_lp'].Put($track_kohoku, 5,0,500, 0,90,0, $tilt_gradient, 5);
+
+$distance_0 + 3730;
+Fog.Interpolate(0.005, 0, 0, 0);
+Structure['huku_c1_lp'].Put($track_kohoku,-5,0,500, 0,90,0, $tilt_gradient, 5);
+Structure['huku_c1_lp'].Put($track_kohoku, 0,0,500, 0,90,0, $tilt_gradient, 5);
+Structure['huku_c1_lp'].Put($track_kohoku, 5,0,500, 0,90,0, $tilt_gradient, 5);
+
+$distance_0 + 9700;
+Fog.Interpolate();
+
+$distance_0 + 9850;
+Fog.Interpolate(0,0,0,0);
+
+$distance_0 + 9895;
+Fog.Interpolate(0.002,1,1,1);
+
+$distance_0 + 9900;
+Fog.Interpolate();
+
+$distance_0 + 9930;
+Fog.Interpolate(0,0,0,0);

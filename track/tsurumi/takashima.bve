@@ -13,8 +13,8 @@ Repeater['高島線上り右バラスト'].Begin($track_takashima, -1.2,0,0, 0,0
 Repeater['高島線上り左バラスト'].Begin($track_takashima, 1.2,0,0, 0,0,0, $tilt_none, 5, 4.5, 'Bl_CraBalL_5m');
 Repeater['羽沢線の擁壁L'].Begin($track_takashima, 4.2,-5.8,0, 0,0,-90, $tilt_gradient, 25, 25, 'Slab8m');
 Repeater['羽沢線の擁壁L柵'].Begin($track_takashima, 10.8,-2.8,0, 0,0,0, $tilt_gradient, 5, 5, 'Fence6L');
-Repeater['羽沢線の擁壁R'].Begin($track_takashima, 11.4,-5.8,0, 0,0,90, $tilt_gradient, 25, 25, 'Slab8m');
-Repeater['羽沢線の擁壁R柵'].Begin($track_takashima, 4.8,-2.8,0, 0,0,0, $tilt_gradient, 5, 5, 'Fence6R');
+Repeater['羽沢線の擁壁R'].Begin($track_takashima, 11.6,-5.8,0, 0,0,90, $tilt_gradient, 25, 25, 'Slab8m');
+Repeater['羽沢線の擁壁R柵'].Begin($track_takashima, 5.0,-2.8,0, 0,0,0, $tilt_gradient, 5, 5, 'Fence6R');
 
 $distance_tsurumi - 1025;
 Repeater['羽沢線の擁壁L'].End(); #柵と被るので早めに終える
