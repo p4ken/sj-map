@@ -87,4 +87,39 @@ Curve.Interpolate();
 Curve.Interpolate(0);
 Repeater['コンクリート道床上り'].End();
 Repeater['擁壁L'].End();
-Repeater['直結軌道上り'].End();
+Repeater['上り直結軌道'].End();
+
+$distance_nishiya + 2700;
+# ／| 合流ポイント
+$distance_tsurumi - 8875;
+
+$distance_tsurumi - 8875;
+Repeater['防音壁L'].Begin0($track_kohoku, $tilt_gradient, 25, 25, 'Wall_QN_L25m');
+Repeater['上りバラスト軌道'].Begin($track_kohoku, 0,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
+Repeater['上り右バラスト軌道'].Begin($track_kohoku, 4.8,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
+
+$distance_tsurumi - 8825;
+Curve.Interpolate();
+
+$distance_tsurumi - 8800;
+# 曲線標より R=800 位置は謎
+Curve.Interpolate(800, 0.03);
+
+$distance_tsurumi - 8725;
+Curve.Interpolate();
+
+$distance_tsurumi - 8705;
+Repeater['上り右バラスト軌道'].End();
+
+$distance_tsurumi - 8700;
+Curve.Interpolate(0, 0);
+
+$distance_tsurumi - 8100;
+Repeater['防音壁L'].End();
+Repeater['防音壁R'].End();
+Repeater['掘割L'].Begin0($track_kohoku, $tilt_gradient, 10, 10, 'CrDike1La', 'CrDike1Lb');
+Repeater['掘割R'].Begin($track_kohoku, 4,0,0, 0,0,0, $tilt_gradient, 10, 10, 'CrDike1Ra', 'CrDike1Rb');
+
+$distance_tsurumi - 7900;
+Repeater['掘割L'].End();
+Repeater['掘割R'].End();

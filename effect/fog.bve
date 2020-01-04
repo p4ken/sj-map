@@ -18,6 +18,7 @@ $distance_0 + 3680;
 Fog.Interpolate();
 
 $distance_0 + 3730 - 500;
+# トンネルをふさぐ
 Structure['huku_c1_lp'].Put($track_kohoku,-5,0,500, 0,90,0, $tilt_gradient, 5);
 Structure['huku_c1_lp'].Put($track_kohoku, 0,0,500, 0,90,0, $tilt_gradient, 5);
 Structure['huku_c1_lp'].Put($track_kohoku, 5,0,500, 0,90,0, $tilt_gradient, 5);

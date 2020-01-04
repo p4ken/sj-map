@@ -1,0 +1,33 @@
+BveTs Map 2.02:UTF-8
+
+$distance_0 + 2870;
+# 第三京浜
+# 右は森
+Structure['OverpassR'].Put(    $track_kohoku, 0,0,  0, 0,0,0, $tilt_none, 5);
+Structure['OverpassR'].Put(    $track_kohoku, 0,0,-10, 0,0,0, $tilt_none, 5);
+Structure['Overpass'].Put(     $track_kohoku, 0,0,  0, 0,0,0, $tilt_none, 5);
+Structure['Overpass'].Put(     $track_kohoku, 0,0,-10, 0,0,0, $tilt_none, 5);
+Structure['OverpassPier'].Put( $track_kohoku,-8,0,  0, 0,0,0, $tilt_none, 5);
+Structure['OverpassPier'].Put( $track_kohoku,-8,0,-10, 0,0,0, $tilt_none, 5);
+Structure['OverpassL'].Put(    $track_kohoku, 0,0,  0, 0,0,0, $tilt_none, 5);
+Structure['OverpassL'].Put(    $track_kohoku, 0,0,-10, 0,0,0, $tilt_none, 5);
+Structure['OverpassPier'].Put( $track_kohoku,30,0,  0, 0,0,0, $tilt_none, 5);
+Structure['OverpassPier'].Put( $track_kohoku,30,0,-10, 0,0,0, $tilt_none, 5);
+
+# 逆光なので影はやや手前へ
+distance;
+Structure['GroundShadow'].Put($track_kohoku, 20,0.55,0, 0,0,0 ,$tilt_none, 5);
+Structure['GroundShadow'].Put($track_kohoku, 20,0.55,0, 0,0,0 ,$tilt_none, 5);
+Structure['GroundShadow'].Put($track_kohoku, 20,0.55,0, 0,0,0 ,$tilt_none, 5);
+Structure['GroundShadow'].Put($track_kohoku, 20,0.55,-5, 0,0,0 ,$tilt_none, 5);
+Structure['GroundShadow'].Put($track_kohoku, 20,0.55,-5, 0,0,0 ,$tilt_none, 5);
+Structure['GroundShadow'].Put($track_kohoku, 20,0.55,-5, 0,0,0 ,$tilt_none, 5);
+Structure['GroundShadow'].Put($track_kohoku, 20,0.55,-10, 0,0,0 ,$tilt_none, 5);
+Structure['GroundShadow'].Put($track_kohoku, 20,0.55,-10, 0,0,0 ,$tilt_none, 5);
+Structure['GroundShadow'].Put($track_kohoku, 20,0.55,-10, 0,0,0 ,$tilt_none, 5);
+Structure['GroundShadow'].Put($track_kohoku, 20,0.55,-15, 0,0,0 ,$tilt_none, 5);
+Structure['GroundShadow'].Put($track_kohoku, 20,0.55,-15, 0,0,0 ,$tilt_none, 5);
+Structure['GroundShadow'].Put($track_kohoku, 20,0.55,-15, 0,0,0 ,$tilt_none, 5);
+Structure['GroundShadow'].Put($track_kohoku, 20,0.55,-20, 0,0,0 ,$tilt_none, 5);
+Structure['GroundShadow'].Put($track_kohoku, 20,0.55,-20, 0,0,0 ,$tilt_none, 5);
+Structure['GroundShadow'].Put($track_kohoku, 20,0.55,-20, 0,0,0 ,$tilt_none, 5);

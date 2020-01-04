@@ -31,7 +31,7 @@ Curve.Interpolate();
 $station_nishiya + 45;
 Repeater['バラスト軌道'].End();
 # ここからＵ型擁壁部 100m
-Repeater['直結軌道上り'].Begin0($track_nishiya4, $tilt_all, 5, 5, 'Slab2S5m');
+Repeater['上り直結軌道'].Begin0($track_nishiya4, $tilt_all, 5, 5, 'Slab2S5m');
 
 $station_nishiya + 55;
 Gradient.Interpolate(-35);
@@ -40,8 +40,8 @@ $station_nishiya + 65;
 Curve.Interpolate(0, 0);
 
 $station_nishiya + 140;
-Repeater['直結軌道上り'].End();
-Repeater['直結軌道上り'].Begin0($track_nishiya4, $tilt_all, 25, 25, 'railn1');
+Repeater['上り直結軌道'].End();
+Repeater['上り直結軌道'].Begin0($track_nishiya4, $tilt_all, 25, 25, 'railn1');
 # ここから西谷トンネル
 # ここから1層1径間 単線箱型トンネル 130m
 Curve.Interpolate();
@@ -192,9 +192,9 @@ Repeater['羽沢横浜国大駅ホーム床L'].End();
 Repeater['羽沢横浜国大駅ホーム端R'].End();
 Repeater['羽沢横浜国大駅コンクリートL'].End();
 Repeater['羽沢横浜国大駅コンクリートR'].End();
-Repeater['直結軌道上り'].End();
-Repeater['直結軌道上り'].Begin0($track_nishiya4, $tilt_all, 5, 5, 'Slab2S5m');
-Repeater['直結軌道下り'].Begin($track_nishiya4, 4,0,0, 0,0,0, $tilt_all, 5, 5, 'Slab2S5m');
+Repeater['上り直結軌道'].End();
+Repeater['上り直結軌道'].Begin0($track_nishiya4, $tilt_all, 5, 5, 'Slab2S5m');
+Repeater['下り直結軌道'].Begin($track_nishiya4, 4,0,0, 0,0,0, $tilt_all, 5, 5, 'Slab2S5m');
 Repeater['擁壁L'].Begin($track_nishiya4, -2.6,-1,0, 0,0,-90, $tilt_none, 25, 25, 'Slab8m');
 Repeater['擁壁R'].Begin($track_nishiya4, 7,-1,0, 0,0,90, $tilt_none, 25, 25, 'Slab8m');
 Structure['wallend'].Put($track_nishiya4, -1,0,0, 0,0,0, $tilt_all, 0);
@@ -204,7 +204,7 @@ $distance_nishiya + 2200;
 Repeater['擁壁L'].End();
 Repeater['擁壁R'].End();
 Repeater['擁壁L'].Begin($track_nishiya4, -2.6,-1,0, 0,0,-90, $tilt_none, 25, 25, 'Slab8m');
-Repeater['直結軌道上り'].Begin0($track_nishiya4, $tilt_all, 5, 5, 'Slab2S5m');
+Repeater['上り直結軌道'].Begin0($track_nishiya4, $tilt_all, 5, 5, 'Slab2S5m');
 
 $distance_nishiya + 2210;
 # 羽沢変電所トンネル

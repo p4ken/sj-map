@@ -27,10 +27,17 @@ Structure['Overpass'].Put($track_hinkaku,     0,-1,0, 0,0,0 ,$tilt_none, 5);
 Structure['OverpassPier'].Put($track_hinkaku, 8,-1,0, 0,0,0 ,$tilt_none, 5);
 Structure['OverpassL'].Put($track_hinkaku,    0,-1,0, 0,0,0 ,$tilt_none, 5);
 Structure['OverpassPier'].Put($track_hinkaku, 20,0,0, 0,0,0 ,$tilt_none, 5);
-Structure['GroundShadow'].Put($track_hinkaku, 20,0.4,5, 0,0,0 ,$tilt_none, 5);
-Structure['GroundShadow'].Put($track_hinkaku, 20,0.4,5, 0,0,0 ,$tilt_none, 5);
-Structure['GroundShadow'].Put($track_hinkaku, 20,0.4,5, 0,0,0 ,$tilt_none, 5);
-Structure['GroundShadow'].Put($track_hinkaku, 20,0.4,5, 0,0,0 ,$tilt_none, 5);
+
+$distance_0 + 13635;
+Structure['GroundShadow'].Put($track_hinkaku, 20,0.4,-10, 0,0,0 ,$tilt_none, 5);
+Structure['GroundShadow'].Put($track_hinkaku, 20,0.4,-10, 0,0,0 ,$tilt_none, 5);
+Structure['GroundShadow'].Put($track_hinkaku, 20,0.4,-10, 0,0,0 ,$tilt_none, 5);
+Structure['GroundShadow'].Put($track_hinkaku, 20,0.4,-5, 0,0,0 ,$tilt_none, 5);
+Structure['GroundShadow'].Put($track_hinkaku, 20,0.4,-5, 0,0,0 ,$tilt_none, 5);
+Structure['GroundShadow'].Put($track_hinkaku, 20,0.4,-5, 0,0,0 ,$tilt_none, 5);
+Structure['GroundShadow'].Put($track_hinkaku, 20,0.4,-0, 0,0,0 ,$tilt_none, 5);
+Structure['GroundShadow'].Put($track_hinkaku, 20,0.4,-0, 0,0,0 ,$tilt_none, 5);
+Structure['GroundShadow'].Put($track_hinkaku, 20,0.4,-0, 0,0,0 ,$tilt_none, 5);
 
 $distance_0 + 13640;
 Repeater['左道路左アパート'].Begin($track_roadL, -18,-5,0, 0,0,0, $tilt_none, 5, 25, 'buildingL');

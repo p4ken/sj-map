@@ -3,33 +3,7 @@
 0;
 $track_kohoku = 0;
 
-$distance_tsurumi - 8800 - 75;
-Repeater['防音壁L'].Begin0($track_kohoku, $tilt_gradient, 25, 25, 'Wall_QN_L25m');
-Repeater['上りバラスト軌道'].Begin0($track_kohoku, $tilt_all, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
-Repeater['防音壁R'].Begin($track_kohoku, 4,0,0, 0,0,0, $tilt_gradient, 25, 25, 'Wall_QN_R25m');
-
-$distance_tsurumi - 8750;
-# R=630, TCL=不明, CCL=125, C=不明
-Curve.Interpolate();
-
-$distance_tsurumi - 8700;
-Curve.Interpolate(630, 0.08);
-
-$distance_tsurumi - 8575;
-Curve.Interpolate();
-
-$distance_tsurumi - 8525;
-Curve.Interpolate(0, 0);
-
-$distance_tsurumi - 8100;
-Repeater['防音壁L'].End();
-Repeater['防音壁R'].End();
-Repeater['掘割L'].Begin0($track_kohoku, $tilt_gradient, 10, 10, 'CrDike1La', 'CrDike1Lb');
-Repeater['掘割R'].Begin($track_kohoku, 4,0,0, 0,0,0, $tilt_gradient, 10, 10, 'CrDike1Ra', 'CrDike1Rb');
-
 $distance_tsurumi - 7900;
-Repeater['掘割L'].End();
-Repeater['掘割R'].End();
 # ここから港北トンネル L=4038m
 # ここから篠原トンネル 4038m
 Background.Change();
