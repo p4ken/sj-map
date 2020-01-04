@@ -4,6 +4,21 @@ $distance_0 + 12950;
 Repeater['上り左盛土'].Begin($track_hinkaku, -4,0.3,0, 0,0,0, $tilt_gradient, 5, 4.5, 'DikeGrs5mL1','DikeGrs5mL2','DikeGrs5mL3','DikeGrs5mL4','DikeGrs5mL5','DikeGrs5mL6');
 Repeater['上り右盛土'].Begin($track_opposite, 3,0.3,0, 0,0,0, $tilt_gradient, 5, 4.5, 'DikeGrs5mR1','DikeGrs5mR2','DikeGrs5mR3','DikeGrs5mR4','DikeGrs5mR5','DikeGrs5mR6');
 
+$distance_0 + 13200;
+Repeater['上り右グリーンマット'].Begin($track_opposite, 0,-3,0, 0,0,0, $tilt_gradient, 25, 25, 'Rside_Grass');
+
+$distance_0 + 13610;
+Repeater['左黄色柵'].Begin($track_hinkaku, -5,0,0, 0,0,0, $tilt_gradient, 5, 5, 'PoleFence01yellow');
+distance + 30;
+Repeater['左黄色柵'].End();
+Structure['PoleFence01yellow'].Put($track_hinkaku, -5,0,0, 0,180,0, $tilt_gradient, 5);
+
+$distance_0 + 13800;
+# Repeater['横須賀線左砂地1'].Begin($track_hinkaku, -7,0.35,0, 0,0,-3, $tilt_gradient, 5, 5, 'DikeGrs5mR1','DikeGrs5mR2','DikeGrs5mR3','DikeGrs5mR4','DikeGrs5mR5','DikeGrs5mR6');
+# Repeater['横須賀線左砂地2'].Begin($track_hinkaku, -9,0.35,0, 0,0,0, $tilt_gradient, 5, 5, 'DikeGrs5mL1','DikeGrs5mL2','DikeGrs5mL3','DikeGrs5mL4','DikeGrs5mL5','DikeGrs5mL6');
+
+
+
 $distance_0 + 15250;
 Repeater['操車場跡地'].Begin($track_hinkaku, 0,0,0, 0,0,0, $tilt_gradient, 25, 25, 'Lside_Grass');
 

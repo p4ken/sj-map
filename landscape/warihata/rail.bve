@@ -1,0 +1,21 @@
+BveTs Map 2.02:UTF-8
+
+$distance_0 + 13625;
+# Repeater['上りバラスト軌道'].End();
+# Repeater['上りバラスト軌道'].Begin0($track_hinkaku, $tilt_all, 5, 5, 'BallastPC_K_5aD', 'BallastPC_K_5bD');
+# Repeater['下りバラスト軌道'].End();
+# Repeater['下りバラスト軌道'].Begin0($track_opposite, $tilt_all, 5, 5, 'BallastPC_K_5aD', 'BallastPC_K_5bD');
+# Repeater['横須賀線上りバラスト軌道'].End();
+# Repeater['横須賀線上りバラスト軌道'].Begin($track_yokosuka, -4,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastPC_K_5aD', 'BallastPC_K_5bD');
+# Repeater['横須賀線下りバラスト軌道'].End();
+# Repeater['横須賀線下りバラスト軌道'].Begin($track_yokosuka, -0,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastPC_K_5aD', 'BallastPC_K_5bD');
+
+# $distance_0 + 13635;
+# Repeater['上りバラスト軌道'].End();
+# Repeater['上りバラスト軌道'].Begin0($track_hinkaku, $tilt_all, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
+# Repeater['下りバラスト軌道'].End();
+# Repeater['下りバラスト軌道'].Begin0($track_opposite, $tilt_all, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
+# Repeater['横須賀線上りバラスト軌道'].End();
+# Repeater['横須賀線上りバラスト軌道'].Begin($track_yokosuka, -4,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
+# Repeater['横須賀線下りバラスト軌道'].End();
+# Repeater['横須賀線下りバラスト軌道'].Begin($track_yokosuka, -0,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');

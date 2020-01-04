@@ -1,0 +1,44 @@
+BveTs Map 2.02:UTF-8
+
+$distance_0 + 13500;
+Structure['buildingRedL'].Put($track_yokosuka, 27,0,0, 0,100,0, $tilt_none, 0);
+distance + 50;
+Structure['buildingRedL'].Put($track_yokosuka, 27,0,0, 0,100,0, $tilt_none, 0);
+
+$distance_0 + 13645;
+Repeater['右住宅地との仕切り'].Begin($track_yokosuka, 5,0,0, 0,0,0, $tilt_gradient, 23, 23, 'Wall_QN_L25m');
+
+$distance_0 + 13800;
+Repeater['右住宅地との仕切り'].End();
+
+$distance_0 + 13850;
+Repeater['右住宅地との仕切り'].Begin($track_yokosuka, 0,-9,0, 0,0,15, $tilt_gradient, 10, 10, 'CrDike1Ra', 'CrDike1Rb');
+
+$distance_0 + 13870;
+Structure['tower'].Put($track_yokosuka, 27,-3,0, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 14150;
+Repeater['右住宅地との仕切り'].End();
+
+$distance_0 + 14280;
+Repeater['右住宅地との仕切り'].Begin($track_yokosuka, 0,-9,0, 0,0,15, $tilt_gradient, 10, 10, 'CrDike1Ra', 'CrDike1Rb');
+
+$distance_0 + 14320;
+Structure['buildingR'].Put($track_yokosuka, 30,-5,0, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 14330;
+Repeater['右戸建て'].Begin($track_yokosuka, 12,0,0, 0,0,0, $tilt_none, 5, 12, 'house_wide');
+
+$distance_0 + 14540;
+Repeater['右フェンス'].Begin($track_opposite, 13.5,0,0, 0,0,0, $tilt_none, 2, 2, 'FenceWhite');
+
+$distance_0 + 14550;
+Repeater['右戸建て'].End();
+Repeater['右住宅地との仕切り'].End();
+
+$distance_0 + 14560;
+Repeater['右戸建て'].Begin($track_yokosuka, 30,-5,0, 0,0,0, $tilt_none, 5, 30, 'buildingR');
+
+$distance_0 + 14900;
+Repeater['右フェンス'].End();
+Repeater['右戸建て'].End();

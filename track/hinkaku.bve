@@ -105,7 +105,7 @@ Repeater['上り線路下'].Begin($track_hinkaku, -1.5,-1.5,0, 0,0,-10, $tilt_gr
 Repeater['上り左盛土'].Begin($track_hinkaku, 0.5,0.3,0, 0,0,0, $tilt_gradient, 5, 5, 'DikeGrs5mL1','DikeGrs5mL2','DikeGrs5mL3','DikeGrs5mL4','DikeGrs5mL5','DikeGrs5mL6');
 
 $distance_shinagawa - 16865;
-Repeater['上り右柵'].Begin($track_hinkaku, 2.4,0,0, 0,0,0, $tilt_gradient, 5, 5, 'PoleFence02a');
+Repeater['上り右柵'].Begin($track_hinkaku, 2.4,-0.2,0, 0,0,0, $tilt_gradient, 5, 5, 'PoleFence02a');
 
 $distance_shinagawa - 16850;
 # R=650 TCL=不明, CCL=？, C=不明
@@ -116,7 +116,7 @@ $distance_shinagawa - 16800; # 前面展望から
 Curve.Interpolate(650, 0.06);
 
 $distance_shinagawa - 16775;
-Repeater['上り左柵'].Begin($track_hinkaku, -2.4,0,0, 0,0,0, $tilt_gradient, 5, 5, 'PoleFence02a');
+Repeater['上り左柵'].Begin($track_hinkaku, -2.4,-0.2,0, 0,0,0, $tilt_gradient, 5, 5, 'PoleFence02a');
 
 $distance_shinagawa - 16725;
 Curve.Interpolate();
@@ -151,8 +151,8 @@ $distance_shinagawa - 16500;
 Structure['kilopost2'].Put($track_hinkaku, -1.8,0,0, 0,0,0, $tilt_none, 0);
 Repeater['上り左ガーター'].End();
 Repeater['上り右ガーター'].End();
-Repeater['上り右柵'].Begin($track_hinkaku, 2.4,0,0, 0,0,0, $tilt_gradient, 5, 5, 'PoleFence02a');
-Repeater['上り左柵'].Begin($track_hinkaku, -2,0,0, 0,0,0, $tilt_gradient, 5, 5, 'PoleFence02a');
+Repeater['上り右柵'].Begin($track_hinkaku, 2.4,-0.2,0, 0,0,0, $tilt_gradient, 5, 5, 'PoleFence02a');
+Repeater['上り左柵'].Begin($track_hinkaku, -2,0,-0.2, 0,0,0, $tilt_gradient, 5, 5, 'PoleFence02a');
 
 $distance_shinagawa - 16465;
 Structure['Pier'].Put($track_hinkaku, 1,1,0, 0,-30,0, $tilt_none, 5);

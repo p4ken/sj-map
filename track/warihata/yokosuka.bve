@@ -42,6 +42,12 @@ Structure['Gp_LU'].Put($track_yokosuka, 5.8,-0.3,0, 0,180,0, $tilt_none, 0);
 $distance_shinagawa - 14793;
 Track[$track_yokosuka].Y.Interpolate(0, 3000);
 
+$distance_shinagawa - 14750;
+Repeater['横須賀線右柵'].Begin($track_yokosuka, 2.5,-0.2,0, 0,0,0, $tilt_gradient, 5, 5, 'PoleFence02a');
+Repeater['横須賀線左柵'].Begin($track_yokosuka, -6.5,-0.2,0, 0,0,0, $tilt_gradient, 5, 5, 'PoleFence02a');
+Repeater['横須賀線の高架橋脚L'].Begin($track_yokosuka, -4.5,0,0, 0,0,0, $tilt_gradient, 25, 25, 'WallUnder_QN_25m_hukusen');
+Repeater['横須賀線の高架橋脚R'].Begin0($track_yokosuka, $tilt_gradient, 25, 25, 'WallUnder_QN_25m_hukusen');
+
 $distance_shinagawa - 14727;
 $r = 3000;
 $l = 14793 - 14727;
@@ -54,11 +60,10 @@ $y = $y + (14727 - 14696) / 1000 * (25 - 3);
 Track[$track_yokosuka].Y.Interpolate($y, 0);
 
 $distance_shinagawa - 14675;
-Repeater['横須賀線の高架橋脚L'].Begin($track_yokosuka, -4,0,0, 0,0,0, $tilt_gradient, 25, 25, 'WallUnder_QN_25m_hukusen');
-Repeater['横須賀線の高架橋脚R'].Begin0($track_yokosuka, $tilt_gradient, 25, 25, 'WallUnder_QN_25m_hukusen');
+Repeater['横須賀線左柵'].End();
 Repeater['横須賀線の高架壁L'].Begin($track_yokosuka, -4,0,0, 0,0,0, $tilt_gradient, 25, 25, 'Wall_QN_L25m');
 Repeater['横須賀線の高架壁R'].Begin0($track_yokosuka, $tilt_gradient, 25, 25, 'Wall_QN_R25m');
-Repeater['横須賀線の高架底面'].Begin($track_yokosuka, -1.7,-1.38,0, 0,0,180, $tilt_gradient, 25, 25, 'Slab8m');
+Repeater['横須賀線の高架底面'].Begin($track_yokosuka, -1.3,-1.38,0, 0,0,180, $tilt_gradient, 25, 25, 'Slab8m');
 
 $distance_shinagawa - 14575;
 Track[$track_yokosuka].X.Interpolate();

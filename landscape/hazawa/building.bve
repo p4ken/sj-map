@@ -1,0 +1,16 @@
+BveTs Map 2.02:UTF-8
+
+# 羽沢
+# 左側
+# BVEに表示のZ距離程に変えたほうが作業しやすそう。
+$distance_nishiya + 2175 + 100;
+Structure['tree21_S'].Put($track_approach, -6.5,5,0, ,0,0, $tilt_none, 0);
+
+$distance_nishiya + 2175 + 105;
+Structure['tree22_S'].Put($track_approach, -6,5,0, ,0,0, $tilt_none, 0);
+
+$distance_nishiya + 2175 + 115;
+Structure['tree23_S'].Put($track_approach, -6.5,5.5,0, ,0,0, $tilt_none, 0);
+
+$distance_nishiya + 2175 + 120;
+Structure['tree23_S'].Put($track_approach, -6,4,0, ,0,0, $tilt_none, 0);

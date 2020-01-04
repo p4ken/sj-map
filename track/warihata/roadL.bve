@@ -1,0 +1,37 @@
+BveTs Map 2.02:UTF-8
+
+0;
+$track_roadL = 21;
+
+$distance_0 + 13150;
+Track[$track_roadL].X.Interpolate(0, 0);
+Track[$track_roadL].X.Interpolate(-20);
+Track[$track_roadL].Y.Interpolate(0, 0);
+Track[$track_roadL].Y.Interpolate(-6);
+Repeater['左道路'].Begin($track_roadL, 0,0,0, 0,0,0, $tilt_gradient, 5, 5, 'road_070_a','road_070_b','road_070_c','road_070_d');
+
+
+$distance_0 + 13400;
+Track[$track_roadL].X.Interpolate();
+Track[$track_roadL].X.Interpolate(-16);
+Track[$track_roadL].Y.Interpolate(-3);
+Track[$track_roadL].Y.Interpolate(-2);
+
+$distance_shinagawa - 15750;
+Track[$track_roadL].Y.Interpolate(-0.3);
+Track[$track_roadL].X.Interpolate();
+$r = 1 / (1/-800 - 1/800);
+Track[$track_roadL].X.Interpolate(-16, $r);
+
+$distance_shinagawa - 15700;
+Track[$track_roadL].X.Interpolate(-19, 0);
+
+$distance_shinagawa - 15575;
+$r = 1 / (1/800 - 1/-800);
+Track[$track_roadL].X.Interpolate(-35, $r);
+
+$distance_shinagawa - 15525;
+Track[$track_roadL].X.Interpolate(-38, 0);
+
+$distance_shinagawa - 15475;
+Repeater['左道路'].End();

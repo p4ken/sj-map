@@ -1,20 +1,82 @@
 BveTs Map 2.02:UTF-8
 
-$distance_0 + 13620;
-# 国道1号
-Structure['OverpassDikeR'].Put($track_hinkaku, 35,0,0, 0,0,0 ,$tilt_none, 5);
-Structure['OverpassR'].Put($track_hinkaku, 0,0,0, 0,0,0 ,$tilt_none, 5);
-Structure['Overpass'].Put($track_hinkaku, 0,0,0, 0,0,0 ,$tilt_none, 5);
-Structure['OverpassPier'].Put($track_hinkaku, 8,0,0, 0,0,0 ,$tilt_none, 5);
-Structure['OverpassL'].Put($track_hinkaku, 0,0,0, 0,0,0 ,$tilt_none, 5);
+$distance_0 + 13200;
+Repeater['横須賀線右道路'].Begin($track_opposite, 22,-2.5,0, 0,0,0, $tilt_all, 5, 5, 'road_0702_a', 'road_0702_b', 'road_0702_c', 'road_0702_d');
 
-$distance_shinagawa - 15160;
+
+$distance_0 + 13400;
+Repeater['左道路の右空地1'].Begin($track_roadL, 1.0,0.2,0, 0,0,0, $tilt_gradient, 4.8, 4.8, 'Bl_CraBalR_5m');
+Repeater['左道路の右空地2'].Begin($track_roadL, 3.5,0.2,0, 0,0,0, $tilt_gradient, 4.8, 4.8, 'Bl_CraBalR_5m');
+Repeater['左道路の右空地3'].Begin($track_roadL, 6.0,0.2,0, 0,0,0, $tilt_gradient, 4.8, 4.8, 'Bl_CraBalR_5m');
+
+$distance_0 + 13420;
+Repeater['掘割L'].Begin($track_roadL, 0,-3,0, 0,0,0, $tilt_gradient, 10, 10, 'CrDike1La', 'CrDike1Lb');
+Repeater['左道路右フェンス'].Begin($track_roadL, 3.5,0,0, 0,0,0, $tilt_none, 2, 2, 'FenceWhite');
+Repeater['左道路左フェンス'].Begin($track_roadL,-3.5,0,0, 0,0,0, $tilt_none, 2, 2, 'FenceWhite');
+
+$distance_0 + 13520;
+Structure['buildingMegaL'].Put($track_roadL, -20,-5,0, 0,0,0, $tilt_none, 5);
+
+$distance_0 + 13620;
+Repeater['掘割L'].End();
+Structure['OverpassDikeL'].Put($track_roadL, -1,0,0, 0,0,0, $tilt_none, 5);
+# 国道1号
+Structure['OverpassDikeR'].Put($track_hinkaku,35,0,0, 0,0,0 ,$tilt_none, 5);
+Structure['OverpassR'].Put($track_hinkaku,    0,-1,0, 0,0,0 ,$tilt_none, 5);
+Structure['Overpass'].Put($track_hinkaku,     0,-1,0, 0,0,0 ,$tilt_none, 5);
+Structure['OverpassPier'].Put($track_hinkaku, 8,-1,0, 0,0,0 ,$tilt_none, 5);
+Structure['OverpassL'].Put($track_hinkaku,    0,-1,0, 0,0,0 ,$tilt_none, 5);
+Structure['OverpassPier'].Put($track_hinkaku, 20,0,0, 0,0,0 ,$tilt_none, 5);
+Structure['GroundShadow'].Put($track_hinkaku, 20,0.4,5, 0,0,0 ,$tilt_none, 5);
+Structure['GroundShadow'].Put($track_hinkaku, 20,0.4,5, 0,0,0 ,$tilt_none, 5);
+Structure['GroundShadow'].Put($track_hinkaku, 20,0.4,5, 0,0,0 ,$tilt_none, 5);
+Structure['GroundShadow'].Put($track_hinkaku, 20,0.4,5, 0,0,0 ,$tilt_none, 5);
+
+$distance_0 + 13640;
+Repeater['左道路左アパート'].Begin($track_roadL, -18,-5,0, 0,0,0, $tilt_none, 5, 25, 'buildingL');
+
+$distance_0 + 13650;
+Repeater['左道路右フェンス'].End();
+
+$distance_0 + 13860;
+Repeater['左道路左アパート'].End();
+Repeater['左道路左フェンス'].End();
+Repeater['左道路の右空地1'].End();
+Repeater['左道路の右空地2'].End();
+Repeater['左道路の右空地3'].End();
+
+$distance_0 + 14190;
 # 矢向第一陸橋
 Structure['OverpassDikeR'].Put($track_hinkaku, 18,0,0, 0,0,0 ,$tilt_none, 5);
 Structure['OverpassR'].Put($track_hinkaku, 0,0,0, 0,0,0 ,$tilt_none, 5);
 Structure['Overpass'].Put($track_hinkaku, 0,0,0, 0,0,0 ,$tilt_none, 5);
 Structure['OverpassPier'].Put($track_hinkaku, 3.5,0,0, 0,0,0 ,$tilt_none, 5);
 Structure['OverpassL'].Put($track_hinkaku, 0,0,0, 0,0,0 ,$tilt_none, 5);
+
+$distance_0 + 14190;
+Structure['DikegrsLh'].Put($track_yokosuka, 15,0,-45, -10,0,5, $tilt_gradient, 5);
+Structure['DikegrsLh'].Put($track_yokosuka, 15,4,-20, -10,0,5, $tilt_gradient, 5);
+Structure['road_0702_a'].Put($track_yokosuka, 16,0.6,-40, -9,0,1, $tilt_gradient, 5);
+Structure['road_0702_b'].Put($track_yokosuka, 16,1.4,-35, -9,0,1, $tilt_gradient, 5);
+Structure['road_0702_c'].Put($track_yokosuka, 16,2.2,-30, -9,0,1, $tilt_gradient, 5);
+Structure['road_0702_d'].Put($track_yokosuka, 16,3.0,-25, -9,0,1, $tilt_gradient, 5);
+Structure['road_0702_a'].Put($track_yokosuka, 16,3.8,-20, -9,0,1, $tilt_gradient, 5);
+Structure['road_0702_b'].Put($track_yokosuka, 16,4.6,-15, -9,0,1, $tilt_gradient, 5);
+Structure['road_0702_c'].Put($track_yokosuka, 16,5.4,-10, -9,0,1, $tilt_gradient, 5);
+Structure['road_0702_d'].Put($track_yokosuka, 16,6.2,-05, -9,0,1, $tilt_gradient, 5);
+
+$distance_0 + 14200;
+Repeater['横須賀線右道路'].End();
+
+$distance_0 + 14295;
+Structure['DikegrsLh'].Put($track_yokosuka, 15,0.0,-00, 5,0,5, $tilt_gradient, 5);
+Structure['DikegrsLh'].Put($track_yokosuka, 15,2.2,-20, 5,0,5, $tilt_gradient, 5);
+Structure['DikegrsLh'].Put($track_yokosuka, 15,4.4,-45, 5,0,5, $tilt_gradient, 5);
+Structure['DikegrsLh'].Put($track_yokosuka, 15,6.6,-70, 5,0,5, $tilt_gradient, 5);
+Structure['DikegrsLh'].Put($track_yokosuka, 15,8.8,-95, 5,0,5, $tilt_gradient, 5);
+
+# 新鶴見小学校の跨線橋
+
 
 
 # 江ヶ崎跨線橋
