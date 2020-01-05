@@ -1,0 +1,15 @@
+﻿BveTs Map 2.02:UTF-8
+
+0;
+$direction_forward = 1;
+$direction_backward = -1;
+
+0;
+Train['対向貨物'].Load('train/container.ini', $track_opposite, $direction_backward);
+# Train['対向貨物'].Enable('12:05:55');
+
+$distance_0 + 2800;
+Train['対向貨物'].Stop(1.5, 0, 0, 0);
+
+$distance_0 + 3200;
+Train['対向貨物'].Stop(2, 365, 2, 25);

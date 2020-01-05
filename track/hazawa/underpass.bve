@@ -54,7 +54,7 @@ Repeater['下り直結軌道'].End();
 Repeater['擁壁R'].End();
 
 Repeater['防音壁R'].Begin($track_underpass, 0,0,0, 0,0,0, $tilt_gradient, 25, 25, 'Wall_QN_R25m');
-Repeater['下りバラスト軌道'].Begin($track_underpass, 0,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
+Repeater['下りバラスト軌道'].Begin($track_underpass, 0,0,0, 0,0,0, $tilt_all, 4.5, 4.5, 'BallastPC_K_5a', 'BallastPC_K_5b');
 
 $distance_nishiya + 2575;
 Track[$track_underpass].Y.Interpolate(0, 0);
