@@ -10,6 +10,8 @@ Repeater['貨物の外壁'].Begin($track_kamotsu, 4.7,0,0, 0,0,0, $tilt_all, 5, 
 Repeater['貨物上りバラスト軌道'].Begin($track_kamotsu, 0,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastPC_K_5a');
 Repeater['貨物上り右バラスト軌道'].Begin($track_kamotsu, 4.8,0,0, 0,0,0, $tilt_all, 4.8, 4.8, 'BallastPC_K_5a');
 Repeater['下り左バラスト軌道'].Begin($track_kamotsu, 10,0,0, 0,0,0, $tilt_all, 4.5, 4.5, 'BallastPC_K_5a', 'BallastPC_K_5b');
+Repeater['下り左バラスト追加'].Begin($track_kamotsu, 10,0,-2, 0,0,0, $tilt_all, 4.8, 4.8, 'Bl_CraBalL_5m');
+Repeater['下り左柵'].Begin($track_kamotsu, 12,0,0, 0,0,0, $tilt_gradient, 5, 5, 'PoleFence02a');
 
 $distance_nishiya + 2225;
 Track[$track_kamotsu].X.Interpolate(9);
@@ -46,3 +48,9 @@ Repeater['貨物上りバラスト軌道'].End();
 Repeater['貨物上り右バラスト軌道'].End();
 distance - 1;
 Repeater['下り左バラスト軌道'].End(); # underpassへ引き継ぐ
+Repeater['下り左バラスト追加'].End(); # underpassへ引き継ぐ
+
+# 乗り入れ
+$distance_nishiya + 2725;
+Repeater['下り左柵'].End();
+Structure['PoleFence02aE'].Put($track_kamotsu, 12,0,0, 0,0,0, $tilt_gradient, 0);

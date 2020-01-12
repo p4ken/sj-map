@@ -47,13 +47,12 @@ Track[$track_underpass].Y.Interpolate(-2, $radius_gradient_level);
 Track[$track_underpass].Y.Interpolate(-2, 0);
 
 $distance_nishiya + 2475;
-Track[$track_underpass].X.Interpolate(30, -400);
+Track[$track_underpass].X.Interpolate(31, -400);
 Track[$track_underpass].Y.Interpolate(-6, -1000);
 Repeater['下りコンクリート道床'].End();
 Repeater['下り直結軌道'].End();
 Repeater['擁壁R'].End();
 
-Repeater['防音壁R'].Begin($track_underpass, 0,0,0, 0,0,0, $tilt_gradient, 25, 25, 'Wall_QN_R25m');
 Repeater['下りバラスト軌道'].Begin($track_underpass, 0,0,0, 0,0,0, $tilt_all, 4.5, 4.5, 'BallastPC_K_5a', 'BallastPC_K_5b');
 
 $distance_nishiya + 2575;
@@ -65,10 +64,7 @@ $radius_kamotsu_right = 1 / (1 / 500 - 1 / 300);
 # Track[$track_underpass].X.Interpolate(20, $radius_kamotsu_right);
 
 $distance_nishiya + 2525;
-Track[$track_underpass].X.Interpolate(27, 1000);
-
-$distance_nishiya + 2600;
-Track[$track_underpass].X.Interpolate(20, 0);
+Track[$track_underpass].X.Interpolate(29, 5000);
 
 $distance_nishiya + 2675;
 Track[$track_underpass].X.Interpolate(15, 300);
@@ -76,6 +72,7 @@ Track[$track_underpass].X.Interpolate(15, 300);
 $distance_nishiya + 2700;
 Track[$track_underpass].Y.Interpolate(0);
 Repeater['下り左バラスト軌道'].Begin($track_underpass, -4,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
+Repeater['下り左バラスト軌道左バラスト'].Begin($track_underpass, -4.5,0,0, 0,0,0, $tilt_all, 5, 5, 'Bl_CraBalL_5m');
 
 $distance_nishiya + 2700;
 Track[$track_underpass].X.Interpolate(14, 0); # 12～15くらい
@@ -97,4 +94,5 @@ Track[$track_underpass].X.Interpolate(12, 630);
 $distance_tsurumi - 8600;
 Track[$track_underpass].X.Interpolate(4, 0);
 Repeater['下り左バラスト軌道'].End();
+Repeater['下り左バラスト軌道左バラスト'].End();
 Structure['kilopost36ky'].Put($track_underpass, 1.8,-0.3,0, 0,90,0, $tilt_none, 0);

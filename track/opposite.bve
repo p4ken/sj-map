@@ -193,6 +193,7 @@ Track[$track_opposite].X.Interpolate(7.7);
 Track[$track_opposite].X.Interpolate(7.7, 0);
 
 $distance_shinagawa - 13900;
+Structure['stop_03'].Put($track_opposite, -3.7,0,-5, 0,180,0, $tilt_none, 0);
 Repeater['中線バラスト軌道'].Begin($track_opposite, -3.7,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastTR_K_5a');
 
 $distance_shinagawa - 13475;

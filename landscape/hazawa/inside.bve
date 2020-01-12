@@ -1,7 +1,7 @@
 BveTs Map 2.02:UTF-8
 
 $distance_0 + 2725;
-Repeater['上り右柵'].Begin($track_kohoku, 2,-0.5,0, 0,0,0, $tilt_none, 3, 3,'saku3');
+Repeater['上り右柵'].Begin($track_kohoku, 2.5,-0.5,0, 0,0,0, $tilt_none, 0, 5,'saku3');
 
 $distance_0 + 2895;
 Repeater['上り右柵'].End();

@@ -2,3 +2,39 @@ BveTs Map 2.02:UTF-8
 
 0;
 $track_kamotsu_r = 31;
+
+$distance_nishiya + 2175;
+Track[$track_kamotsu_r].X.Interpolate(60, 0);
+Repeater['貨物下りバラスト軌道'].Begin($track_kamotsu_r, 0,0,0, 0,0,0, $tilt_all, 4.5, 4.5, 'BallastPC_K_5a', 'BallastPC_K_5b');
+Repeater['貨物下り右1バラスト軌道'].Begin($track_kamotsu_r, 5,0,0, 0,0,0, $tilt_all, 4.5, 4.5, 'BallastPC_K_5a', 'BallastPC_K_5b');
+Repeater['貨物下り右2バラスト軌道'].Begin($track_kamotsu_r, 10,0,0, 0,0,0, $tilt_all, 4.5, 4.5, 'BallastPC_K_5a', 'BallastPC_K_5b');
+Repeater['下り右柵'].Begin($track_kamotsu_r, -2.5,0,0, 0,0,0, $tilt_gradient, 5, 5, 'PoleFence02a');
+
+$distance_nishiya + 2675;
+Track[$track_kamotsu_r].X.Interpolate(20, 300);
+
+$distance_nishiya + 2700;
+Track[$track_kamotsu_r].X.Interpolate(19, 0);
+
+$distance_tsurumi - 8800;
+Track[$track_kamotsu_r].X.Interpolate(19, -400);
+
+$distance_tsurumi - 8750;
+Track[$track_kamotsu_r].X.Interpolate(18, -800);
+
+$distance_tsurumi - 8725;
+Repeater['防音壁R'].Begin($track_kamotsu_r, 0,0,0, 0,0,0, $tilt_gradient, 25, 25, 'Wall_QN_R25m');
+
+$distance_tsurumi - 8700;
+Track[$track_kamotsu_r].X.Interpolate(12, 630); # ここからunderpassと共通
+Repeater['貨物下りバラスト軌道'].End();
+Repeater['貨物下り右1バラスト軌道'].End();
+Repeater['貨物下り右2バラスト軌道'].End();
+
+$distance_tsurumi - 8600;
+Track[$track_kamotsu_r].X.Interpolate(4, 0);
+
+# 乗り入れ
+$distance_nishiya + 2725;
+Repeater['下り右柵'].End();
+Structure['PoleFence02aE'].Put($track_kamotsu_r, -2.5,0,0, 0,0,0, $tilt_gradient, 0);

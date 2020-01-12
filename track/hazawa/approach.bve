@@ -75,10 +75,7 @@ Structure['Gp_UL'].Put($track_approach, -2,-0.3,0, 0,180,-15, $tilt_none, 0);
 $distance_nishiya + 2659;
 Gradient.Interpolate(-3.5);
 
-
-
-
-$distance_nishiya + 2700 - 25;
+$distance_nishiya + 2675;
 Curve.Interpolate();
 Curve.Interpolate(-308);
 
@@ -97,6 +94,7 @@ $distance_tsurumi - 8875;
 Repeater['防音壁L'].Begin0($track_approach, $tilt_gradient, 25, 25, 'Wall_QN_L25m');
 Repeater['上りバラスト軌道'].Begin($track_approach, 0,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
 Repeater['上り右バラスト軌道'].Begin($track_approach, 4.8,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
+Repeater['上り右バラスト軌道右バラスト'].Begin($track_approach, 4,0,0, 0,0,0, $tilt_all, 4.8, 4.8, 'Bl_CraBalR_5m');
 
 $distance_tsurumi - 8825;
 Curve.Interpolate();
@@ -108,11 +106,17 @@ Curve.Interpolate(800, 0.03);
 $distance_tsurumi - 8725;
 Curve.Interpolate();
 
-$distance_tsurumi - 8705;
+$distance_tsurumi - 8715;
 Repeater['上り右バラスト軌道'].End();
+Repeater['上り右バラスト軌道右バラスト'].End();
+Structure['stop_02'].Put($track_approach, 4.8,0,1, 0,0,0, $tilt_none, 0);
+Repeater['上り右バラスト'].Begin($track_approach, 0.3,0,-2, 0,0,0, $tilt_all, 4.8, 4.8, 'Bl_CraBalR_5m');
 
 $distance_tsurumi - 8700;
 Curve.Interpolate(0, 0);
+
+$distance_tsurumi - 8650;
+Repeater['上り右バラスト'].End();
 
 $distance_tsurumi - 8100;
 Repeater['防音壁L'].End();
