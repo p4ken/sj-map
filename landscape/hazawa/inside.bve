@@ -1,7 +1,37 @@
 BveTs Map 2.02:UTF-8
 
+$distance_0 + 2500;
+Repeater['下り右転落防止柵'].Begin($track_kamotsu_r, -2.5,-0.2,0, 0,0,0, $tilt_gradient, 4.8, 4.8, 'PoleFence02a');
+Repeater['下り右転落防止柵の下半分'].Begin($track_kamotsu_r, -5.2,-1.3,-0.7, 0,0,0, $tilt_gradient, 25, 23, 'Wall_QN_R25m');
+
+$distance_0 + 2505;
+Repeater['下り左転落防止柵'].Begin($track_kamotsu, 12,-0.2,0, 0,0,0, $tilt_gradient, 4.8, 4.8, 'PoleFence02a');
+Repeater['下り左転落防止柵の下半分'].Begin($track_kamotsu, 14.7,-1.3,-1.7, 0,0,0, $tilt_gradient, 25, 23, 'Wall_QN_L25m');
+
 $distance_0 + 2725;
-Repeater['上り右柵'].Begin($track_kohoku, 2.5,-0.5,0, 0,0,0, $tilt_none, 0, 5,'saku3');
+Repeater['上り右黄色柵'].Begin($track_kamotsu, 2.5,-0.5,0, 0,0,0, $tilt_none, 0, 5,'saku3');
+
+$distance_0 + 2730;
+Repeater['下り右転落防止柵'].End();
+Repeater['下り右転落防止柵の下半分'].End();
+Structure['PoleFence02aE'].Put($track_kamotsu_r, -2.5,-0.2,0.7, 0,0,0, $tilt_gradient, 0);
+
+$distance_0 + 2735;
+Repeater['下り左転落防止柵'].End();
+Repeater['下り左転落防止柵の下半分'].End();
+Structure['PoleFence02aE'].Put($track_kamotsu, 12,-0.2,0.7, 0,0,0, $tilt_gradient, 0);
+
+$distance_0 + 2735;
+Repeater['下り右フェンス'].Begin($track_kamotsu_r, -2.5,-2,0, 0,0,0, $tilt_gradient, 25, 25, 'fence_r');
+
+$distance_0 + 2745;
+Repeater['下り左フェンス'].Begin($track_kamotsu, 12,-2,0, 0,0,0, $tilt_gradient, 25, 25, 'fence_r');
+
+$distance_0 + 2770;
+Repeater['下り左フェンス'].End();
+
+$distance_0 + 2785;
+Repeater['下り右フェンス'].End();
 
 $distance_0 + 2895;
-Repeater['上り右柵'].End();
+Repeater['上り右黄色柵'].End();

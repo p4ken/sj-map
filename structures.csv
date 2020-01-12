@@ -17,6 +17,7 @@ Fence6R,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\ACCC\S
 Form51L,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\ACCC\Station\Form51L.x
 Form51R,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\ACCC\Station\Form51R.x
 FormCL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\ACCC\Station\FormCL.x
+FormCL25,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\ACCC\Station\FormCL25.x
 miniBeamF02R,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\E_Poles\acc\miniBeamF02R.x
 kasen50S,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\E_Poles\kasen\kasen50S.x
 Pole1_stlA,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\E_Poles\Pole\Pole1_stlA.x
@@ -77,6 +78,12 @@ CrDike1La,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Dike
 CrDike1Lb,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Dike\CrDike1Lb.x
 CrDike1Ra,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Dike\CrDike1Ra.x
 CrDike1Rb,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Dike\CrDike1Rb.x
+Dike2Cnc5mL1,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Dike\Dike2Cnc5mL1.x
+Dike2Cnc5mL2,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Dike\Dike2Cnc5mL2.x
+Dike2Cnc5mL3,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Dike\Dike2Cnc5mL3.x
+Dike2Cnc5mL4,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Dike\Dike2Cnc5mL4.x
+Dike2Cnc5mL5,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Dike\Dike2Cnc5mL5.x
+Dike2Cnc5mL6,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Dike\Dike2Cnc5mL6.x
 b01,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Nature\bush\b01.x
 b02,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Nature\bush\b02.x
 b03,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Nature\bush\b03.x
@@ -100,6 +107,9 @@ tree22_S,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Natur
 tree23_S,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Nature\trees_street\tree23_S.x
 tree24_S,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Nature\trees_street\tree24_S.x
 tree25_S,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Nature\trees_street\tree25_S.x
+trees11,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Nature\treesB\trees11.x
+trees12,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Nature\treesB\trees12.x
+trees13,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Nature\treesB\trees13.x
 _BridgeRail_5,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Rail\_BridgeRail_5.x
 BallastPC_K_5a,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Rail\Ballast01\BallastPC_K_5a.x
 BallastPC_K_5b,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Rail\Ballast01\BallastPC_K_5b.x
@@ -186,6 +196,7 @@ UpstairsEnterL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\RouteKit\Structure\St
 UpstairsExitL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\RouteKit\Structure\Station\UpstairsExitL.x
 
 # fence_l,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\iida_common\fence\fence_l.x
+fence_r,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\iida_common\fence\fence_r.x
 
 shadow_l1,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\ef65_dds\initg_lcset\shadow_l1.x
 65-1000_10,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\ef65_dds\initg_lcset\65-1000_10.x
@@ -268,6 +279,7 @@ PoleFence01yellow,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\building\CustomGen
 buildingRedL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shadow\building\buildingRedL.x
 buildingRedR,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shadow\building\buildingRedR.x
 buildingMegaL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shadow\building\buildingMegaL.x
+buildingMegaR,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shadow\building\buildingMegaR.x
 buildingL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shadow\building\buildingL.x
 buildingR,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shadow\building\buildingR.x
 building_tall,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shadow\building\building_tall.x
