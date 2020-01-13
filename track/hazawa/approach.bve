@@ -37,6 +37,9 @@ Gradient.Interpolate(33.0);
 $distance_nishiya + 2400;
 Structure['kilopost34ky'].Put($track_approach, -1.8,0,0, 0,90,0, $tilt_none, 0);
 
+$distance_nishiya + 2425;
+Structure['Long_sw'].Put($track_approach, 0,0,0, 0,0,0, $tilt_all, 0);
+
 $distance_nishiya + 2450;
 Curve.Interpolate();
 
@@ -94,6 +97,9 @@ $distance_tsurumi - 8875;
 Repeater['上りバラスト軌道'].Begin($track_approach, 0,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
 Repeater['上り右バラスト軌道'].Begin($track_approach, 4.8,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
 Repeater['上り右バラスト軌道右バラスト'].Begin($track_approach, 4,0,0, 0,0,0, $tilt_all, 4.8, 4.8, 'Bl_CraBalR_5m');
+
+$distance_tsurumi - 8850;
+Structure['Long_sw'].Put($track_approach, 0,0,0, 0,0,0, $tilt_all, 0);
 
 $distance_tsurumi - 8825;
 Curve.Interpolate();

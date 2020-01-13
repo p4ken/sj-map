@@ -108,13 +108,66 @@ Repeater['横浜羽沢駅地面3'].End();
 Repeater['横浜羽沢駅地面4'].End();
 Repeater['三枚町グリーンマット'].Begin($track_kamotsu_r, 0,-10,2, 0,0,0, $tilt_gradient, 25, 25, 'Rside_Grass');
 
-$distance_0 + 3000;
-Structure['GrsWallL' ].Put($track_kamotsu_r, 10+60*1,10,500, 0,90,0, $tilt_none, 0);
-Structure['GrsWallL2'].Put($track_kamotsu_r, 10+60*2,10,500, 0,90,0, $tilt_none, 0);
-Structure['GrsWallL3'].Put($track_kamotsu_r, 10+60*3,10,500, 0,90,0, $tilt_none, 0);
-Structure['GrsWallL2'].Put($track_kamotsu_r, 10+60*4,10,500, 0,90,0, $tilt_none, 0);
-Structure['GrsWallL' ].Put($track_kamotsu_r, 10+60*5,10,500, 0,90,0, $tilt_none, 0);
-Structure['GrsWallL3'].Put($track_kamotsu_r, 10+60*6,10,500, 0,90,0, $tilt_none, 0);
+$distance_0 + 3100;
+Structure['GrsWallL2'].Put($track_kamotsu_r, 30,0,0, 0,90,0, $tilt_none, 0);
+Structure['GrsWallL' ].Put($track_kamotsu_r, 0+60*1,0,0, 0,90,0, $tilt_none, 0);
+Structure['GrsWallL3'].Put($track_kamotsu_r, 0+60*2,0,0, 0,90,0, $tilt_none, 0);
+Structure['GrsWallL2'].Put($track_kamotsu_r, 0+60*3,0,0, 0,90,0, $tilt_none, 0);
+Structure['GrsWallL3'].Put($track_kamotsu_r, 0+60*4,0,0, 0,90,0, $tilt_none, 0);
+
+$distance_0 + 3500;
+Structure['trees13'].Put($track_kamotsu_r,  35-10,-5,0, 0,0,0, $tilt_none, 5);
+Structure['trees12'].Put($track_kamotsu_r,  40-10,0,1, 0,0,0, $tilt_none, 5);
+Structure['trees11'].Put($track_kamotsu_r,  50-10,5,2, 0,0,0, $tilt_none, 5);
+Structure['trees12'].Put($track_kamotsu_r,  60-10,5,3, 0,0,0, $tilt_none, 5);
+Structure['trees11'].Put($track_kamotsu_r,  70-10,5,4, 0,0,0, $tilt_none, 5);
+Structure['trees13'].Put($track_kamotsu_r,  80-10,7,5, 0,0,0, $tilt_none, 5);
+Structure['trees12'].Put($track_kamotsu_r,  90-10,5,6, 0,0,0, $tilt_none, 5);
+Structure['trees13'].Put($track_kamotsu_r, 100-10,8,7, 0,0,0, $tilt_none, 5);
+Structure['trees11'].Put($track_kamotsu_r, 110-10,8,8, 0,0,0, $tilt_none, 5);
+Structure['trees12'].Put($track_kamotsu_r, 120-10,8,9, 0,0,0, $tilt_none, 5);
+Structure['trees11'].Put($track_kamotsu_r, 130-10,8,10, 0,0,0, $tilt_none, 5);
+Structure['trees13'].Put($track_kamotsu_r, 140-10,8,11, 0,0,0, $tilt_none, 5);
+Structure['trees12'].Put($track_kamotsu_r, 150-10,8,12, 0,0,0, $tilt_none, 5);
+Structure['trees13'].Put($track_kamotsu_r, 160-10,8,13, 0,0,0, $tilt_none, 5);
+Structure['trees11'].Put($track_kamotsu_r, 170-10,8,14, 0,0,0, $tilt_none, 5);
+Structure['trees12'].Put($track_kamotsu_r, 180-10,8,15, 0,0,0, $tilt_none, 5);
+Structure['trees11'].Put($track_kamotsu_r, 190-10,8,16, 0,0,0, $tilt_none, 5);
+Structure['trees13'].Put($track_kamotsu_r, 200-10,8,17, 0,0,0, $tilt_none, 5);
+Structure['trees12'].Put($track_kamotsu_r, 210-10,8,18, 0,0,0, $tilt_none, 5);
+Structure['trees13'].Put($track_kamotsu_r, 220-10,8,19, 0,0,0, $tilt_none, 5);
+Structure['trees11'].Put($track_kamotsu_r, 230-10,8,20, 0,0,0, $tilt_none, 5);
+
+# 右の森
+$distance_0 + 3600;
+Structure['trees13'].Put($track_kamotsu_r,  25,0,0, 0,0,0, $tilt_none, 5);
+distance + 30;
+Structure['trees11'].Put($track_kamotsu_r,  25,0,0, 0,0,0, $tilt_none, 5);
+distance + 30;
+Structure['trees12'].Put($track_kamotsu_r,  20,0,0, 0,0,0, $tilt_none, 5);
+Structure['trees13'].Put($track_kamotsu_r,  45,10,0, 0,0,0, $tilt_none, 5);
+distance + 33;
+Structure['trees11'].Put($track_kamotsu_r,  20,0,0, 0,0,0, $tilt_none, 5);
+# 正面
+$distance_0 + 3699;
+Structure['trees11'].Put($track_kamotsu_r,  40,15,13, 0,0,0, $tilt_none, 5);
+Structure['trees12'].Put($track_kamotsu_r,  20,17,10, 0,0,0, $tilt_none, 5);
+Structure['trees13'].Put($track_kamotsu_r,  2,23,8, 0,0,90, $tilt_none, 5);
+Structure['trees13'].Put($track_kamotsu_r,  9,21,5, 0,0,90, $tilt_none, 5);
+Structure['trees13'].Put($track_kamotsu_r,  -3,13,0, 0,0,0, $tilt_none, 5);
+Structure['trees11'].Put($track_kamotsu_r,  -20,10,5, 0,0,0, $tilt_none, 5);
+Structure['trees12'].Put($track_kamotsu_r,  -40,5,8, 0,0,0, $tilt_none, 5);
+# 左の森
+$distance_0 + 3600;
+Structure['trees13'].Put($track_approach,  -25,0,0, 0,0,0, $tilt_none, 5);
+distance + 30;
+Structure['trees11'].Put($track_approach,  -25,0,0, 0,0,0, $tilt_none, 5);
+distance + 30;
+Structure['trees12'].Put($track_approach,  -20,0,0, 0,0,0, $tilt_none, 5);
+distance + 33;
+Structure['trees13'].Put($track_approach,  -13,0,0, 0,0,0, $tilt_none, 5);
+distance + 30;
+Structure['trees11'].Put($track_approach,  -15,5,0, 0,0,0, $tilt_none, 5);
 
 $distance_0 + 4000;
 Repeater['三枚町グリーンマット'].End();

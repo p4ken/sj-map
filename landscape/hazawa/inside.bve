@@ -1,5 +1,12 @@
 BveTs Map 2.02:UTF-8
 
+$distance_0 + 2299.2;
+Structure['point1L'].Put($track_approach, -0.43,0.05,0, 0,-0.3,0, $tilt_none, 0);
+
+$distance_0 + 2323;
+Structure['point2L'].Put($track_approach, 0.39,0,0, 0,180,0, $tilt_none, 0);
+Structure['point2R'].Put($track_shinyokohama, -0.55,0,0, 0,180,0, $tilt_none, 0);
+
 $distance_0 + 2500;
 Repeater['下り右転落防止柵'].Begin($track_kamotsu_r, -2.5,-0.2,0, 0,0,0, $tilt_gradient, 4.8, 4.8, 'PoleFence02a');
 Repeater['下り右転落防止柵の下半分'].Begin($track_kamotsu_r, -5.2,-1.3,-0.7, 0,0,0, $tilt_gradient, 25, 23, 'Wall_QN_R25m');
@@ -7,6 +14,13 @@ Repeater['下り右転落防止柵の下半分'].Begin($track_kamotsu_r, -5.2,-1
 $distance_0 + 2505;
 Repeater['下り左転落防止柵'].Begin($track_kamotsu, 12,-0.2,0, 0,0,0, $tilt_gradient, 4.8, 4.8, 'PoleFence02a');
 Repeater['下り左転落防止柵の下半分'].Begin($track_kamotsu, 14.7,-1.3,-1.7, 0,0,0, $tilt_gradient, 25, 23, 'Wall_QN_L25m');
+
+$distance_0 + 2691.9;
+Structure['point2R'].Put($track_approach, 0.53,0,0, 0,0,0, $tilt_none, 0);
+Structure['point2L'].Put($track_kamotsu, -0.42,0,0, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 2715;
+Structure['point1R'].Put($track_approach, -0.56,0.05,0, 0,180.2,0, $tilt_none, 0);
 
 $distance_0 + 2710;
 Repeater['防音壁左'].Begin($track_approach, -3.7,0,0, 0,0,0, $tilt_gradient, 2, 2, 'hazawa_tall_more_L');
@@ -46,6 +60,13 @@ Repeater['防音壁右'].Begin($track_kamotsu_r, 3.7,0,0, 0,0,0, $tilt_gradient,
 $distance_0 + 2895;
 Repeater['上り右黄色柵'].End();
 
+$distance_0 + 2956.5;
+Structure['point2R'].Put($track_approach, 0.53,0,0, 0,0,0, $tilt_none, 0);
+Structure['point2L'].Put($track_kamotsu_r, -4.40,0,0, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 2987.5;
+Structure['point1R'].Put($track_approach, -0.55,0.05,0, 0,180,0, $tilt_none, 0);
+
 $distance_0 + 3240;
 Repeater['防音壁右'].End();
 Repeater['防音壁右'].Begin($track_kamotsu_r, 4.2,0,0, 0,0,0, $tilt_gradient, 2, 2, 'hazawa_tall_more_R');
@@ -55,7 +76,8 @@ Repeater['防音壁左'].End();
 Repeater['防音壁左'].Begin($track_approach, -4.2,0,0, 0,0,0, $tilt_gradient, 2, 2, 'hazawa_tall_L');
 
 $distance_0 + 3340;
-Repeater['掘割L'].Begin0($track_approach, $tilt_gradient, 10, 10, 'CrDike1La', 'CrDike1Lb');
+distance + 50;
+Repeater['掘割L'].Begin($track_approach, 0,0,-50, 0,0,0, $tilt_gradient, 10, 10, 'CrDike1La', 'CrDike1Lb');
 
 $distance_0 + 3360;
 Repeater['防音壁左'].End();
@@ -67,10 +89,19 @@ $distance_0 + 3405;
 Repeater['防音壁右'].End();
 
 $distance_0 + 3520;
-Repeater['掘割L'].End();
 Repeater['掘割R'].End();
+distance + 50;
+Repeater['掘割L'].End();
 
-$distance_0 + 3537;
+$distance_0 + 3529;
+Structure['hazawa_tall_L'].Put($track_approach, -5.1,0,-6, 0,20,0, $tilt_gradient, 2);
+Structure['hazawa_tall_L'].Put($track_approach, -4.4,0,-4, 0,20,0, $tilt_gradient, 2);
+Structure['hazawa_tall_L'].Put($track_approach, -3.7,0,-2, 0,20,0, $tilt_gradient, 2);
+Repeater['防音壁左'].Begin($track_approach, -3.7,0,0, 0,0,0, $tilt_gradient, 2, 2, 'hazawa_tall_L');
+
+$distance_0 + 3535;
+Structure['hazawa_tall_more_R'].Put($track_kamotsu_r, 3+0.7*7,0,-14, 0,-20,0, $tilt_gradient, 2);
+Structure['hazawa_tall_more_R'].Put($track_kamotsu_r, 3+0.7*6,0,-12, 0,-20,0, $tilt_gradient, 2);
 Structure['hazawa_tall_more_R'].Put($track_kamotsu_r, 3+0.7*5,0,-10, 0,-20,0, $tilt_gradient, 2);
 Structure['hazawa_tall_more_R'].Put($track_kamotsu_r, 3+0.7*4,0,-8, 0,-20,0, $tilt_gradient, 2);
 Structure['hazawa_tall_more_R'].Put($track_kamotsu_r, 3+0.7*3,0,-6, 0,-20,0, $tilt_gradient, 2);
@@ -78,19 +109,16 @@ Structure['hazawa_tall_more_R'].Put($track_kamotsu_r, 3+0.7*2,0,-4, 0,-20,0, $ti
 Structure['hazawa_tall_more_R'].Put($track_kamotsu_r, 3+0.7*1,0,-2, 0,-20,0, $tilt_gradient, 2);
 Repeater['防音壁右'].Begin($track_kamotsu_r, 3.7,0,0, 0,0,0, $tilt_gradient, 2, 2, 'hazawa_tall_more_R');
 
-$distance_0 + 3533;
-Structure['hazawa_tall_L'].Put($track_approach, -5.1,0,-6, 0,20,0, $tilt_gradient, 2);
-Structure['hazawa_tall_L'].Put($track_approach, -4.4,0,-4, 0,20,0, $tilt_gradient, 2);
-Structure['hazawa_tall_L'].Put($track_approach, -3.7,0,-2, 0,20,0, $tilt_gradient, 2);
-Repeater['防音壁左'].Begin($track_approach, -3.7,0,0, 0,0,0, $tilt_gradient, 2, 2, 'hazawa_tall_L');
-
 $distance_0 + 3610;
 Repeater['防音壁右'].End();
-Repeater['掘割R'].Begin($track_approach, 4,0,0, 0,0,0, $tilt_gradient, 10, 10, 'CrDike1Ra', 'CrDike1Rb');
+distance + 50;
+Repeater['掘割R'].Begin($track_approach, 4,0,-50, 0,0,0, $tilt_gradient, 10, 10, 'CrDike1Ra', 'CrDike1Rb');
 
 $distance_0 + 3690;
 Repeater['上りバラスト軌道左バラスト'].End();
 Repeater['下りバラスト軌道右バラスト'].End();
 
-$distance_0 + 4100;
+$distance_0 + 3750;
+Repeater['防音壁左'].End();
+distance + 50;
 Repeater['掘割R'].End();
