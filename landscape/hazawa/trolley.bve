@@ -1,0 +1,40 @@
+BveTs Map 2.02:UTF-8
+
+$distance_0 + 2800;
+Structure['PoleTrs14A'].Put($track_approach, 9,0.5,0, 0,0,0, $tilt_none, 0);
+Repeater['上り架線'].Begin($track_approach, 0,0,0, 0,0,0, $tilt_gradient, 50, 50, 'kasen50S');
+Repeater['下り架線'].Begin($track_kamotsu_r, 0,0,0, 0,0,0, $tilt_gradient, 50, 50, 'kasen50S');
+
+$distance_0 + 3000;
+Structure['PoleTrs06A'].Put($track_approach, 2,0.5,0, 0,0,0, $tilt_none, 0);
+distance + 50;
+Structure['PoleTrs06A'].Put($track_approach, 2,0.5,0, 0,0,0, $tilt_none, 0);
+distance + 50;
+Structure['PoleTrs06A'].Put($track_approach, 2,0.5,0, 0,0,0, $tilt_none, 0);
+distance + 50;
+Structure['PoleTrs06A'].Put($track_approach, 2,0.5,0, 0,0,0, $tilt_none, 0);
+distance + 50;
+Structure['PoleTrs06A'].Put($track_approach, 2,0.5,0, 0,0,0, $tilt_none, 0);
+distance + 50;
+Structure['PoleTrs06A'].Put($track_approach, 2,0.5,0, 0,0,0, $tilt_none, 0);
+distance + 50;
+Structure['PoleTrs06A'].Put($track_approach, 2,0.5,0, 0,0,0, $tilt_none, 0);
+distance + 50;
+Structure['PoleTrs06A'].Put($track_approach, 2,0.5,0, 0,0,0, $tilt_none, 0);
+distance + 50;
+Structure['PoleTrs07A'].Put($track_approach, 2,0.5,0, 0,0,0, $tilt_none, 0);
+distance + 50;
+Structure['PoleTrs07A'].Put($track_approach, 2,0.5,0, 0,0,0, $tilt_none, 0);
+distance + 50;
+Structure['PoleTrs07A'].Put($track_approach, 2,0.5,0, 0,0,0, $tilt_none, 0);
+distance + 50;
+Structure['PoleTrs06A'].Put($track_approach, 2,0.5,0, 0,0,0, $tilt_none, 0);
+distance + 50;
+Structure['PoleTrs06A'].Put($track_approach, 2,0.5,0, 0,0,0, $tilt_none, 0);
+distance + 50;
+Structure['PoleTrs06A'].Put($track_approach, 2,0.5,0, 0,0,0, $tilt_none, 0);
+distance + 50;
+Repeater['上り架線'].End();
+Repeater['下り架線'].End();
+Structure['chokasen_gaisi'].Put($track_approach, -0.05,-0.2,-5, 0,0,0, $tilt_none, 0);
+Structure['chokasen_gaisi'].Put($track_kamotsu_r, -0.1,-0.2,-5, 0,0,0, $tilt_none, 0);

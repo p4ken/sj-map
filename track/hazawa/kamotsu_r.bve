@@ -21,7 +21,6 @@ Track[$track_kamotsu_r].X.Interpolate(20, -700);
 
 $distance_tsurumi - 8750;
 Track[$track_kamotsu_r].X.Interpolate(18, -600);
-Repeater['防音壁R'].Begin($track_kamotsu_r, 0,0,0, 0,0,0, $tilt_gradient, 25, 25, 'Wall_QN_R25m');
 
 $distance_tsurumi - 8700;
 Track[$track_kamotsu_r].X.Interpolate(12, 630); # ここからunderpassと共通

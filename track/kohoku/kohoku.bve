@@ -7,10 +7,10 @@ $distance_tsurumi - 7900;
 # ここから港北トンネル L=4038m
 # ここから篠原トンネル 4038m
 Background.Change();
-Repeater['上りバラスト軌道'].End();
 Repeater['上りバラスト軌道'].Begin0($track_kohoku, $tilt_all, 5, 5, 'BallastPC_K_5aD', 'BallastPC_K_5bD');
 Structure['huku_c1_Potal1'].Put($track_kohoku, 1.9,0,0, 0,0,0, $tilt_all, 0);
 Structure['huku_c1_ent'].Put($track_kohoku, 1.9,0,0, 0,0,0, $tilt_all, 5);
+Structure['港北_hL'].Put($track_kohoku, -2.7,0.5,-0.1, 0,0,0, $tilt_all, 5);
 
 $distance_tsurumi - 7895;
 Repeater['港北トンネル'].Begin($track_kohoku, 1.9,0,0, 0,0,0, $tilt_all, 5, 5, 'huku_c1_lp');

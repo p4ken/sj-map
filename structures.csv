@@ -18,7 +18,7 @@ Form51L,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\ACCC\S
 Form51R,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\ACCC\Station\Form51R.x
 FormCL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\ACCC\Station\FormCL.x
 FormCL25,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\ACCC\Station\FormCL25.x
-miniBeamF02R,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\E_Poles\acc\miniBeamF02R.x
+chokasen_gaisi,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\E_Poles\acc\chokasen_gaisi.x
 kasen50S,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\E_Poles\kasen\kasen50S.x
 Pole1_stlA,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\E_Poles\Pole\Pole1_stlA.x
 Pole1_stlB,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\E_Poles\Pole\Pole1_stlB.x
@@ -98,6 +98,7 @@ Lside_Grass,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Na
 Rside_Grass,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Nature\Ground\Rside_Grass.x
 GrsWallL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Nature\mount\GrsWallL.x
 GrsWallL2,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Nature\mount\GrsWallL2.x
+GrsWallL3,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Nature\mount\GrsWallL3.x
 river50m_green,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Nature\River\river50m_green.x
 RvGrsL1a,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Nature\River\RvGrsL1a.x
 RvGrsL1b,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Nature\River\RvGrsL1b.x
@@ -270,6 +271,8 @@ saku3,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\izumino\model\komono\saku3.x"
 武蔵小杉4番線ホーム床, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\building\musashi_kosugi\form4.x
 武蔵小杉4番線ホーム支柱, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\building\musashi_kosugi\poll.x
 武蔵小杉4番線ホーム屋根, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\building\musashi_kosugi\roof.x
+港北_hL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sign\tunnel\港北_hL.x
+
 PoleFence01yellow,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\building\CustomGeneralStr\PoleFence01yellow.x
 
 #2-cut,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shadow\2-cut.x
@@ -283,5 +286,9 @@ buildingMegaR,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shadow\building\buildi
 buildingL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shadow\building\buildingL.x
 buildingR,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shadow\building\buildingR.x
 building_tall,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shadow\building\building_tall.x
-entrance1,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shadow\wall\entrance2.x
 house_wide,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shadow\building\house_wide_roof_shadow.x
+entrance1,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shadow\wall\entrance2.x
+hazawa_tall_L,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shadow\wall\hazawa_tall_L.x
+hazawa_tall_more_L,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shadow\wall\hazawa_tall_more_L.x
+hazawa_tall_more_R,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shadow\wall\hazawa_tall_more_R.x
+hazawa_tall_R,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shadow\wall\hazawa_tall_R.x

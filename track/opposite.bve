@@ -3,15 +3,7 @@
 0;
 $track_opposite = 1;
 
-$distance_tsurumi - 1025;
-Repeater['下りバラスト軌道'].Begin0($track_underpass, $tilt_all, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
-
-$distance_tsurumi - 7900;
-Repeater['下りバラスト軌道'].End();
-Repeater['下りバラスト軌道'].Begin($track_opposite, 0,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastPC_K_5aD', 'BallastPC_K_5bD');
-
 $distance_tsurumi - 1540;
-Repeater['下りバラスト軌道'].End();
 Repeater['下りバラスト軌道'].Begin($track_opposite, 0,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
 
 $distance_tsurumi - 960;

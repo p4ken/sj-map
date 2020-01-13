@@ -53,7 +53,7 @@ Repeater['下りコンクリート道床'].End();
 Repeater['下り直結軌道'].End();
 Repeater['擁壁R'].End();
 
-Repeater['下りバラスト軌道'].Begin($track_underpass, 0,0,0, 0,0,0, $tilt_all, 4.5, 4.5, 'BallastPC_K_5a', 'BallastPC_K_5b');
+Repeater['下りバラスト軌道'].Begin($track_underpass, 0,0,0, -0.1,0,0, $tilt_all, 4.5, 4.5, 'BallastPC_K_5a', 'BallastPC_K_5b');
 
 $distance_nishiya + 2575;
 Track[$track_underpass].Y.Interpolate(0, 0);
@@ -96,3 +96,6 @@ Track[$track_underpass].X.Interpolate(4, 0);
 Repeater['下り左バラスト軌道'].End();
 Repeater['下り左バラスト軌道左バラスト'].End();
 Structure['kilopost36ky'].Put($track_underpass, 1.8,-0.3,0, 0,90,0, $tilt_none, 0);
+
+$distance_tsurumi - 7900;
+Repeater['下りバラスト軌道'].End();
