@@ -5,10 +5,10 @@ $direction_forward = 1;
 $direction_backward = -1;
 
 0;
-# Train['対向貨物'].Load('train/container.ini', $track_opposite, $direction_backward);
+Train['対向貨物'].Load('train/container.ini', $track_opposite, $direction_backward);
 
-$distance_0 + 2800;
-# Train['対向貨物'].Stop(1.5, 0, 0, 0);
+$distance_0 + 2700;
+Train['対向貨物'].Stop(1.5, 0, 0, 0);
 
-$distance_0 + 3200;
-# Train['対向貨物'].Stop(2, 365, 2, 25);
+$distance_0 + 12450;
+Train['対向貨物'].Stop(2, 365, 2, 25); 
