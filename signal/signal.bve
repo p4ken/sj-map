@@ -8,41 +8,34 @@ Section.SetSpeedLimit(0,25,45,65,); // 駅間最高速度は不明
 Section.Begin(0,2,3,4);
 Beacon.Put($beacon_pattern, -1, 0);
 
-$section = $station_nishiya + 13;
-$section - 15;
+# 出発(4灯YG)
+$station_nishiya + 13;
+Section.Begin(0,2,3,4);
+Signal['signal4yg'].Put(0, $track_nishiya4, -1.8,4.8);
+Structure['sig_arm4_p4ken'].Put($track_nishiya4, -2.3,4.8,0, 0,-90,0, $tilt_none, 0);
+Structure['sig_pole'].Put($track_nishiya4, -2.3,0,0, 0,0,0, $tilt_none, 0);
+Structure['出発横_hL'].Put($track_nishiya4, -2.0,2.8,-0.5, 0,0,0, $tilt_none, 0);
+
 # 地上子
+distance - 15;
 Beacon.Put($beacon_pattern, -1, 0);
-# 地上子ストラクチャ
 Structure['atsp'].Put($track_nishiya4, 0,-0.1,0, 0,0,0, $tilt_none, 0);
 
-$section;
-# 閉塞
+# 中継
+$station_nishiya + 160;
+Signal['signalrep'].Put(1, $track_nishiya4, -1.8,4.1);
+
+
+# 閉塞(4灯YG)
+$station_nishiya + 300;
 Section.Begin(0,2,3,4);
-# 信号
-Signal['signal4yg'].Put(0, $track_nishiya4, -1.8, 4.5);
-# 架線柱ストラクチャ
-Structure['SigPole2'].Put($track_nishiya4, -2,0,0, 0,0,0, $tilt_none, 0);
-Structure['出発横_hL'].Put($track_nishiya4, -1.7,2.8,-0.5, 0,0,0, $tilt_none, 0);
+Signal['signal4yg'].Put(0, $track_nishiya4, -1.8,4.1);
+Structure['sig_arm4_p4ken'].Put($track_nishiya4, -2.3,4.1,0, 0,-90,0, $tilt_none, 0);
 
-# --------------------
-# 中継信号
-
-
-# --------------------
-$section = $station_nishiya + 300;
-$section - 15;
 # 地上子
+distance - 15;
 Beacon.Put($beacon_pattern, -1, 0);
-# 地上子ストラクチャ
 Structure['atsp'].Put($track_nishiya4, 0,-0.1,0, 0,0,0, $tilt_none, 0);
-
-$section;
-# 閉塞
-Section.Begin(0,2,3,4);
-# 信号
-Signal['signal4yg'].Put(0, $track_nishiya4, -1.8, 4.5);
-# 架線柱ストラクチャ
-Structure['SigPole2'].Put($track_nishiya4, -2,0,0, 0,0,0, $tilt_none, 0);
 
 100000;
 Section.Begin(0);

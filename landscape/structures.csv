@@ -74,6 +74,9 @@ signal4yg0,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Def
 signal4yg2,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Default\signal4yg2.x
 signal4yg3,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Default\signal4yg3.x
 signal4yg4,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Default\signal4yg4.x
+signalrep0,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Default\signalrep0.x
+signalrep1,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Default\signalrep1.x
+signalrep4,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Default\signalrep4.x
 CrDike1La,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Dike\CrDike1La.x
 CrDike1Lb,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Dike\CrDike1Lb.x
 CrDike1Ra,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Dike\CrDike1Ra.x
@@ -202,8 +205,16 @@ StationBridgeR,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\RouteKit\Structure\St
 UpstairsEnterL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\RouteKit\Structure\Station\UpstairsEnterL.x
 UpstairsExitL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\RouteKit\Structure\Station\UpstairsExitL.x
 
-# fence_l,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\iida_common\fence\fence_l.x
-fence_r,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\iida_common\fence\fence_r.x
+fence_r,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\iida\iida_common\fence\fence_r.x
+sig_arm3,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\iida\signal_iida\sig_arm\sig_arm3.x
+sig_arm4_p4ken,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\iida\signal_iida\sig_arm\sig_arm4_p4ken.x
+sig_pole,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\iida\signal_iida\sig_pole\sig_pole.x
+signal30,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\iida\signal_iida\signal3\signal30.x
+signal30Dark,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\iida\signal_iida\signal3\signal30Dark.x
+signal32,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\iida\signal_iida\signal3\signal32.x
+signal32Dark,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\iida\signal_iida\signal3\signal32Dark.x
+signal34,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\iida\signal_iida\signal3\signal34.x
+signal34Dark,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\iida\signal_iida\signal3\signal34Dark.x
 
 shadow_l1,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\ef65_dds\initg_lcset\shadow_l1.x
 65-1000_10,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\ef65_dds\initg_lcset\65-1000_10.x
@@ -252,13 +263,6 @@ shadow_f3,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_
 
 stop_02,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\umikaze81\stop\stop_02.x
 stop_03,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\umikaze81\stop\stop_03.x
-
-# signal30, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\izumino\model\signal_iida\signal3\signal30.x
-# signal32, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\izumino\model\signal_iida\signal3\signal32.x
-# signal34, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\izumino\model\signal_iida\signal3\signal34.x
-# signal30Dark, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\izumino\model\signal_iida\signal3\signal30Dark.x
-# signal32Dark, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\izumino\model\signal_iida\signal3\signal32Dark.x
-# signal34Dark, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\izumino\model\signal_iida\signal3\signal34Dark.x
 
 atsp,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\izumino\model\komono\atsp.x
 tunnelL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\izumino\model\tunnel\tunnelL2.x

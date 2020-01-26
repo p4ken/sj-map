@@ -51,8 +51,8 @@ Structure['end1r'].Put0($track_nishiya4, $tilt_all, 25);
 
 $station_nishiya + 165;
 Curve.Interpolate(800, 0.05); #適当
-Repeater['箱型トンネルL'].Begin0($track_nishiya4, $tilt_all, 25, 25, 'walln1l');
-Repeater['箱型トンネルR単線'].Begin0($track_nishiya4, $tilt_all, 25, 25, 'walln1r');
+Repeater['箱型トンネルL'].Begin0($track_nishiya4, $tilt_gradient, 25, 25, 'walln1l');
+Repeater['箱型トンネルR単線'].Begin0($track_nishiya4, $tilt_gradient, 25, 25, 'walln1r');
 
 $station_nishiya + 240; #適当
 Curve.Interpolate(800, 0.05);
@@ -62,8 +62,8 @@ $station_nishiya + 265;
 Curve.Interpolate(0, 0);
 Repeater['箱型トンネルR単線'].End();
 # ここから1層2径間 複線箱型トンネル 20m
-Repeater['箱型トンネルR複線'].Begin($track_nishiya4, 4,0,0, 0,0,0, $tilt_all, 25, 25, 'walln1r');
-Structure['dikep2'].Put0($track_nishiya4, $tilt_all, 25);
+Repeater['箱型トンネルR複線'].Begin($track_nishiya4, 4,0,0, 0,0,0, $tilt_gradient, 25, 25, 'walln1r');
+Structure['dikep2'].Put0($track_nishiya4, $tilt_gradient, 25);
 
 $station_nishiya + 290;
 # Repeater['単線箱型トンネル'].End();
@@ -73,7 +73,7 @@ $station_nishiya + 390;
 Repeater['箱型トンネルL'].End();
 Repeater['箱型トンネルR複線'].End();
 # ここはシールド到達立坑
-Structure['dikep3'].Put($track_nishiya4, -0.4,0,0, 0,0,0, $tilt_all, 25);
+Structure['dikep3'].Put($track_nishiya4, -0.4,0,0, 0,0,0, $tilt_gradient, 25);
 Structure['walln1r'].Put($track_nishiya4, 6,0,0, 0,0,0, $tilt_all, 25);
 
 $station_nishiya + 415;
