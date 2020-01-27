@@ -1,7 +1,9 @@
 BveTs Signal Aspects List 2.00:shift_jis
 
 signal3,signal30,,signal32,,signal34
-signal3Dark,signal30Dark,,signal32Dark,,signal34Dark
+# signal3Dark,signal30Dark,,signal32Dark,,signal34Dark
 signal4yg,signal4yg0,,signal4yg2,signal4yg3,signal4yg4
 ,glare4yg0,,glare4yg2,glare4yg3,glare4yg4
+signal4yy,signal4yy0,signal4yy1,signal4yy2,,signal4yy4
+,glare4yy0,glare4yy1,glare4yy2,,glare4yy4
 signalrep,signalrep0,signalrep1,signalrep1,signalrep1,signalrep4

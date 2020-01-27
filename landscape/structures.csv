@@ -66,14 +66,28 @@ blue10_b_ban,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\B
 blue10_bL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Bridge\blue10_bL.x
 blue10_bR,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Bridge\blue10_bR.x
 conc_10m,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Bridge\conc_10m.x
+glare30,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Default\glare30.x
+glare32,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Default\glare32.x
+glare34,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Default\glare34.x
 glare4yg0,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Default\glare4yg0.x
 glare4yg2,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Default\glare4yg2.x
 glare4yg3,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Default\glare4yg3.x
 glare4yg4,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Default\glare4yg4.x
+glare4yy0,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Default\glare4yy0.x
+glare4yy1,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Default\glare4yy1.x
+glare4yy2,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Default\glare4yy2.x
+glare4yy4,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Default\glare4yy4.x
+signal30,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Default\signal30.x
+signal32,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Default\signal32.x
+signal34,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Default\signal34.x
 signal4yg0,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Default\signal4yg0.x
 signal4yg2,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Default\signal4yg2.x
 signal4yg3,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Default\signal4yg3.x
 signal4yg4,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Default\signal4yg4.x
+signal4yy0,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Default\signal4yy0.x
+signal4yy1,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Default\signal4yy1.x
+signal4yy2,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Default\signal4yy2.x
+signal4yy4,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Default\signal4yg4.x
 signalrep0,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Default\signalrep0.x
 signalrep1,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Default\signalrep1.x
 signalrep4,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Default\signalrep4.x
@@ -209,12 +223,12 @@ fence_r,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\iida\iida_common\fence\fence
 sig_arm3,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\iida\signal_iida\sig_arm\sig_arm3.x
 sig_arm4_p4ken,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\iida\signal_iida\sig_arm\sig_arm4_p4ken.x
 sig_pole,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\iida\signal_iida\sig_pole\sig_pole.x
-signal30,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\iida\signal_iida\signal3\signal30.x
-signal30Dark,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\iida\signal_iida\signal3\signal30Dark.x
-signal32,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\iida\signal_iida\signal3\signal32.x
-signal32Dark,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\iida\signal_iida\signal3\signal32Dark.x
-signal34,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\iida\signal_iida\signal3\signal34.x
-signal34Dark,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\iida\signal_iida\signal3\signal34Dark.x
+# signal30,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\iida\signal_iida\signal3\signal30.x
+# signal30Dark,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\iida\signal_iida\signal3\signal30Dark.x
+# signal32,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\iida\signal_iida\signal3\signal32.x
+# signal32Dark,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\iida\signal_iida\signal3\signal32Dark.x
+# signal34,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\iida\signal_iida\signal3\signal34.x
+# signal34Dark,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\iida\signal_iida\signal3\signal34Dark.x
 
 shadow_l1,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\ef65_dds\initg_lcset\shadow_l1.x
 65-1000_10,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\ef65_dds\initg_lcset\65-1000_10.x

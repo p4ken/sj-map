@@ -9,7 +9,7 @@ Section.Begin(0,2,3,4);
 Beacon.Put($beacon_pattern, -1, 0);
 
 # 出発(4灯YG)
-$station_nishiya + 13;
+$distance_0 + 113;
 Section.Begin(0,2,3,4);
 Signal['signal4yg'].Put(0, $track_nishiya4, -1.8,4.8);
 Structure['sig_arm4_p4ken'].Put($track_nishiya4, -2.3,4.8,0, 0,-90,0, $tilt_none, 0);
@@ -22,12 +22,12 @@ Beacon.Put($beacon_pattern, -1, 0);
 Structure['atsp'].Put($track_nishiya4, 0,-0.1,0, 0,0,0, $tilt_none, 0);
 
 # 中継
-$station_nishiya + 160;
+$distance_0 + 260;
 Signal['signalrep'].Put(1, $track_nishiya4, -1.8,4.1);
 
 
 # 閉塞(4灯YG)
-$station_nishiya + 300;
+$distance_0 + 400;
 Section.Begin(0,2,3,4);
 Signal['signal4yg'].Put(0, $track_nishiya4, -1.8,4.1);
 Structure['sig_arm4_p4ken'].Put($track_nishiya4, -2.3,4.1,0, 0,-90,0, $tilt_none, 0);
@@ -36,6 +36,79 @@ Structure['sig_arm4_p4ken'].Put($track_nishiya4, -2.3,4.1,0, 0,-90,0, $tilt_none
 distance - 15;
 Beacon.Put($beacon_pattern, -1, 0);
 Structure['atsp'].Put($track_nishiya4, 0,-0.1,0, 0,0,0, $tilt_none, 0);
+
+# 中継
+$distance_0 + 600;
+Signal['signalrep'].Put(1, $track_nishiya4, -2.2,3.9);
+
+# 中継
+$distance_0 + 680;
+Signal['signalrep'].Put(1, $track_nishiya4, -2.2,3.9);
+
+# 閉塞(4灯YG)
+$distance_0 + 740;
+Section.Begin(0,2,3,4);
+Signal['signal4yg'].Put(0, $track_nishiya4, -2.3,3.6);
+Structure['sig_arm4_p4ken'].Put($track_nishiya4, -2.3,4.1,0, 0,-90,0, $tilt_none, 0);
+
+# 中継
+$distance_0 + 990;
+Signal['signalrep'].Put(1, $track_nishiya4, -2.2,3.9);
+
+# 閉塞(4灯YG)
+$distance_0 + 1180;
+Section.Begin(0,2,3,4);
+Signal['signal4yg'].Put(0, $track_nishiya4, -2.3,3.2);
+
+# 中継
+$distance_0 + 1320;
+Signal['signalrep'].Put(1, $track_nishiya4, -2.1,3.2);
+
+# 閉塞？(4灯YG)
+$distance_0 + 1450;
+Section.Begin(0,2,3,4);
+Signal['signal4yg'].Put(0, $track_nishiya4, -2.1,3.9);
+
+# 中継
+$distance_0 + 1590;
+Signal['signalrep'].Put(1, $track_nishiya4, -2.1,3.9);
+
+# 中継
+$distance_0 + 1650;
+Signal['signalrep'].Put(1, $track_nishiya4, -2.1,3.9);
+
+# 第1場内？(4灯YG)
+$distance_0 + 1720;
+Section.Begin(0,2,3,4);
+Signal['signal4yg'].Put(0, $track_nishiya4, -2.1,3.9);
+
+# 中継
+$distance_0 + 1780;
+Signal['signalrep'].Put(1, $track_nishiya4, -2.1,3.9);
+
+# 第2場内(4灯YY)
+$distance_0 + 1940;
+Section.Begin(0,2,4);
+Signal['signal4yy'].Put(0, $track_nishiya4, -2.1,3.9);
+
+# 2JR出(4灯YY)
+$distance_0 + 2220;
+Section.Begin(0,2,3,4);
+Signal['signal4yy'].Put(0, $track_nishiya4, -2.8,3.5);
+
+# 場内(3灯)
+$distance_0 + 2630;
+Section.Begin(0,2,4);
+Signal['signal3'].Put(0, $track_nishiya4, -2.2,4.8);
+Structure['sig_arm3'].Put($track_nishiya4, -2.3,4.8,0, 0,-15,0, $tilt_none, 0);
+Structure['sig_pole'].Put($track_nishiya4, -2.3,0,0, 0,0,0, $tilt_none, 0);
+
+# 7(3灯)
+$distance_0 + 3600;
+Section.Begin(0,2,4);
+Signal['signal3'].Put(0, $track_nishiya4, -2.2,4.8);
+Structure['sig_arm3'].Put($track_nishiya4, -2.7,4.8,0, 0,-90,0, $tilt_none, 0);
+Structure['sig_pole'].Put($track_nishiya4, -2.7,0,0, 0,0,0, $tilt_none, 0);
 
 100000;
 Section.Begin(0);
