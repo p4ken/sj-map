@@ -75,8 +75,8 @@ Repeater['高架トンネルL'].End();
 Repeater['高架トンネルT'].End();
 Repeater['高架トンネルR'].End();
 # ここから生見尾トンネル L=1882m
-Structure['huku_c1_Potal1'].Put($track_kohoku, 1.9,0,0, 0,0,0, $tilt_all, 0);
-Repeater['生見尾トンネル'].Begin($track_kohoku, 1.9,0,0, 0,0,0, $tilt_all, 5, 5, 'huku_c1_lp');
+Structure['huku_c1_Potal1'].Put($track_kohoku, 1.9,0,0, 0,0,0, $tilt_gradient, 0);
+Repeater['生見尾トンネル'].Begin($track_kohoku, 1.9,0,0, 0,0,0, $tilt_gradient, 5, 5, 'huku_c1_lp');
 
 $distance_tsurumi - 3400;
 Curve.Interpolate(0, 0);

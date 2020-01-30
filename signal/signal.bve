@@ -110,6 +110,31 @@ Signal['signal3'].Put(0, $track_nishiya4, -2.2,4.8);
 Structure['sig_arm3'].Put($track_nishiya4, -2.7,4.8,0, 0,-90,0, $tilt_none, 0);
 Structure['sig_pole'].Put($track_nishiya4, -2.7,0,0, 0,0,0, $tilt_none, 0);
 
+$distance_tsurumi -	6970;
+Section.Begin(0,2,4);
+Signal['signal3'].Put(0, $track_nishiya4, -1.8,3.8);
+
+$distance_tsurumi -	5682;
+Section.Begin(0,2,4);
+Signal['signal3'].Put(0, $track_nishiya4, -1.8,3.8);
+
+$distance_tsurumi -	5082;
+Section.Begin(0,2,4);
+Signal['signal3'].Put(0, $track_nishiya4, -1.8,3.8);
+
+$distance_tsurumi -	4509;
+Section.Begin(0,2,4);
+Signal['signal3'].Put(0, $track_nishiya4, -1.8,3.8);
+
+$distance_tsurumi -	3398;
+Section.Begin(0,2,4);
+Signal['signal3'].Put(0, $track_nishiya4, -1.8,3.8);
+
+$distance_tsurumi -	2298;
+Section.Begin(0,2,4);
+Signal['signal3'].Put(0, $track_nishiya4, -1.8,3.8);
+
+
 100000;
 Section.Begin(0);
 Section.Begin(0);
