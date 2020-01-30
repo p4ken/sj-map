@@ -71,6 +71,7 @@ Track[$track_underpass].X.Interpolate(15, 300);
 
 $distance_nishiya + 2700;
 Track[$track_underpass].Y.Interpolate(0);
+distance + 2;
 Repeater['下り左バラスト軌道'].Begin($track_underpass, -4,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
 Repeater['下り左バラスト軌道左バラスト'].Begin($track_underpass, -4.5,0,0, 0,0,0, $tilt_all, 5, 5, 'Bl_CraBalL_5m');
 
@@ -92,10 +93,13 @@ $distance_tsurumi - 8700;
 Track[$track_underpass].X.Interpolate(12, 630);
 
 $distance_tsurumi - 8600;
+Structure['kilopost36ky'].Put($track_underpass, 1.8,-0.3,0, 0,90,0, $tilt_none, 0);
 Track[$track_underpass].X.Interpolate(4, 0);
+distance - 10;
 Repeater['下り左バラスト軌道'].End();
 Repeater['下り左バラスト軌道左バラスト'].End();
-Structure['kilopost36ky'].Put($track_underpass, 1.8,-0.3,0, 0,90,0, $tilt_none, 0);
+distance + 2;
+Structure['Rail_5m_R_p4ken'].Put($track_underpass, -4,0,0, 0,0,0, $tilt_all, 5);
 
 $distance_tsurumi - 7900;
 Repeater['下りバラスト軌道'].End();

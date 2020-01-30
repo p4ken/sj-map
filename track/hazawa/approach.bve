@@ -87,7 +87,9 @@ Curve.Interpolate();
 Curve.Interpolate(0);
 Repeater['コンクリート道床上り'].End();
 Repeater['擁壁L'].End();
+distance - 5;
 Repeater['上り直結軌道'].End();
+Structure['BallastPC_K_5a'].Put($track_approach, 0,0,0, 0,0,0, $tilt_all, 5);
 
 $distance_nishiya + 2700;
 # ／| 合流ポイント

@@ -44,8 +44,12 @@ Track[$track_kamotsu].X.Interpolate(1, 300);
 
 $distance_nishiya + 2700;
 Track[$track_kamotsu].X.Interpolate(0, 0);
-Repeater['貨物上りバラスト軌道'].End();
 Repeater['貨物上り右バラスト軌道'].End();
-distance - 1;
+distance - 5;
+Repeater['貨物上りバラスト軌道'].End();
+distance + 0;
+Structure['Rail_5m_R_p4ken'].Put($track_kamotsu, 0,0,0, 0,0,0, $tilt_all, 5);
+
+$distance_nishiya + 2699;
 Repeater['下り左バラスト軌道'].End(); # underpassへ引き継ぐ
 Repeater['下り左バラスト追加'].End(); # underpassへ引き継ぐ
