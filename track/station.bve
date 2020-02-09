@@ -6,7 +6,7 @@ $right = 1;
 $underrun = -5;
 $overrun = 5;
 
-$station_nishiya;
+$distance_0 + 100;
 Station['nishiya'].Put($right, $underrun, $overrun);
 
 # 10R停目。キロポストでいうと 2175m くらい。

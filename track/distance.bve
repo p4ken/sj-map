@@ -1,12 +1,10 @@
 BveTs Map 2.02:UTF-8
 
-$station_nishiya = 100;
-
 #ストラクチャ配置用
-$distance_0 = $station_nishiya - 100;
+$distance_0 = 0;
 
 # 西谷起点キロポストの距離計算用
-$distance_nishiya = $station_nishiya - 80;
+$distance_nishiya = $distance_0 + 20;
 # 20
 
 # 貨物線の線路に接続する地点。

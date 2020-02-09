@@ -2,37 +2,37 @@
 
 # 西谷
 # 左側
-$station_nishiya + 30;
+$distance_0 + 100 + 30;
 Structure['buildingRedL'].Put($track_nishiya4, -14,-3,0, 0,0,0, $tilt_none, 0);
 
-$station_nishiya + 70;
+$distance_0 + 100 + 70;
 Structure['buildingL'].Put($track_nishiya4, -20,-3,0, 0,0,0, $tilt_none, 0);
 
-$station_nishiya + 130;
+$distance_0 + 100 + 130;
 Structure['buildingRedL'].Put($track_nishiya4, -14,-5,0, 0,0,0, $tilt_none, 0);
 
-$station_nishiya + 180;
+$distance_0 + 100 + 180;
 Structure['buildingL'].Put($track_nishiya4, -20,0,0, 0,0,0, $tilt_none, 0);
 
-$station_nishiya + 230;
+$distance_0 + 100 + 230;
 Structure['buildingL'].Put($track_nishiya4, -7,7,0, 0,10,0, $tilt_none, 0);
 
-$station_nishiya + 280;
+$distance_0 + 100 + 280;
 Structure['buildingL'].Put($track_nishiya4, 2,7,0, 0,20,0, $tilt_none, 0);
 
-$station_nishiya + 330;
+$distance_0 + 100 + 330;
 Structure['buildingL'].Put($track_nishiya4, 17,6,0, 0,20,0, $tilt_none, 0);
 
 # 右側
-$station_nishiya + 100;
+$distance_0 + 100 + 100;
 Structure['buildingR'].Put($track_nishiya4, 35,-7,0, 0,0,0, $tilt_none, 0);
 
-$station_nishiya + 130;
+$distance_0 + 100 + 130;
 Structure['buildingRedR'].Put($track_nishiya4, 25,-8,0, 0,0,0, $tilt_none, 0);
 
-$station_nishiya + 150;
+$distance_0 + 100 + 150;
 Structure['buildingR'].Put($track_nishiya4, 28,-5,0, 0,0,0, $tilt_none, 0);
 
 # 西谷トンネル
-$station_nishiya + 140;
+$distance_0 + 100 + 140;
 Structure['entrance1'].Put($track_nishiya4, 0,-0.7,0, 0,0,0, $tilt_none, 0);
