@@ -1,12 +1,19 @@
 ﻿BveTs Map 2.02:UTF-8
 
 0;
-$beacon_pattern = 3;
+$beacon_signal = 3; // ATS-P信号用地上子
+$beacon_stop = 4; // ATS-P即時停止地上子
+$beacon_station = 8; // 誤通過防止(相鉄)
 
+$section_atsp = -1; // 開通区間長
+
+$data_none = 0;
+
+# 初期化
 0;
 Section.SetSpeedLimit(0,25,45,65,); // 駅間最高速度は不明
 Section.Begin(0,2,3,4);
-Beacon.Put($beacon_pattern, -1, 0);
+Beacon.Put($beacon_signal, $section_atsp, $data_none);
 
 # 出発(4灯YG)
 $distance_0 + 113;
@@ -16,26 +23,28 @@ Structure['sig_arm4_p4ken'].Put($track_nishiya4, -2.3,4.8,0, 0,-90,0, $tilt_none
 Structure['sig_pole'].Put($track_nishiya4, -2.3,0,0, 0,0,0, $tilt_none, 0);
 Structure['出発横_hL'].Put($track_nishiya4, -2.0,2.8,-0.5, 0,0,0, $tilt_none, 0);
 
-# 地上子
-distance - 15;
-Beacon.Put($beacon_pattern, -1, 0);
+# 延長地上子 実測約2.7m
+$distance_0 + 100; # 10R停止位置
 Structure['atsp'].Put($track_nishiya4, 0,-0.1,0, 0,0,0, $tilt_none, 0);
+distance - 1.4;
+Beacon.Put($beacon_stop, $section_atsp, $data_none);
+distance + 2.8;
+Beacon.Put($beacon_stop, $section_atsp, $data_none);
 
 # 中継
 $distance_0 + 260;
 Signal['signalrep'].Put(1, $track_nishiya4, -1.8,4.1);
 
+# 地上子
+$distance_0 + 385;
+Structure['atsp'].Put($track_nishiya4, 0,-0.1,0, 0,0,0, $tilt_none, 0);
+Beacon.Put($beacon_signal, $section_atsp, $data_none);
 
 # 閉塞(4灯YG)
 $distance_0 + 400;
 Section.Begin(0,2,3,4);
 Signal['signal4yg'].Put(0, $track_nishiya4, -1.8,4.1);
 Structure['sig_arm4_p4ken'].Put($track_nishiya4, -2.3,4.1,0, 0,-90,0, $tilt_none, 0);
-
-# 地上子
-distance - 15;
-Beacon.Put($beacon_pattern, -1, 0);
-Structure['atsp'].Put($track_nishiya4, 0,-0.1,0, 0,0,0, $tilt_none, 0);
 
 # 中継
 $distance_0 + 600;
@@ -91,10 +100,28 @@ $distance_0 + 1940;
 Section.Begin(0,2,4);
 Signal['signal4yy'].Put(0, $track_nishiya4, -2.1,3.9);
 
+# 延長地上子
+$distance_nishiya + 2175; # 10R停止位置
+distance - 1.4;
+# Beacon.Put($beacon_stop, $section_atsp, $data_none);
+distance + 2.8;
+# Beacon.Put($beacon_stop, $section_atsp, $data_none);
+
+$distance_0 + 2210;
+Beacon.Put($beacon_stop, $section_atsp, $data_none);
+
 # 2JR出(4灯YY)
-$distance_0 + 2220;
+$distance_0 + 2225;
 Section.Begin(0,2,3,4);
 Signal['signal4yy'].Put(0, $track_nishiya4, -2.8,3.5);
+
+# 誤通過防止
+distance - 200;
+Beacon.Put($beacon_station, 1, 200); // 羽沢横浜国大 停車
+
+# 誤通過防止
+$distance_0 + 2470;
+# Beacon.Put($beacon_station, 1, -1); // 横浜羽沢 通過 (相鉄PIの場合)
 
 # 場内(3灯)
 $distance_0 + 2630;

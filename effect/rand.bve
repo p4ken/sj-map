@@ -1,0 +1,5 @@
+BveTs Map 2.02:UTF-8
+
+0;
+// 西谷駅停止位置ズレ -1～+1m
+$rand_nishiya = rand(2) - 1;

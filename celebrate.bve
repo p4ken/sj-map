@@ -16,6 +16,7 @@ Sound.Load('sounds.csv');
 Station.Load('stations.csv');
 Signal.Load('signal/signals.csv');
 sound3D.Load('train/sounds3d.csv');
+include 'effect/rand.bve';
 include 'track/distance.bve';
 include 'track/station.bve';
 include 'track/nishiya/nishiya4.bve';
