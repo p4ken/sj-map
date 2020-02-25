@@ -65,4 +65,5 @@ include 'landscape/warihata/rail.bve';
 include 'landscape/shinkawasaki/pilot.bve';
 include 'effect/light.bve';
 include 'effect/fog.bve';
+include 'effect/announce.bve';
 include 'train/train.bve';

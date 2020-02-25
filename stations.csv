@@ -1,7 +1,7 @@
 BveTs Station List 2.00:UTF-8,,,,,,,,,,,,
-#,,着,発,停車sec,,信号連動,,乗車率,,,再開閉%,再開閉sec
+#,,着,発,停車sec,,信号連動,,乗車率,arr音,dep音,再開閉%,再開閉sec
 nishiya,西谷,12:00:00,12:00:10,5,,1,,0,,,0,0
-hazawa_yokohama_kokudai,羽沢横浜国大,12:05:00,12:05:20,15,,1,,0,,,0,0
+hazawa_yokohama_kokudai,羽沢横浜国大,12:05:00,12:05:20,15,,1,,0,arr_hazawa,,0,0
 yokohama_hazawa,横浜羽沢(貨),p,,15,,0,,0,,,0,0
 namamugi,(生麦),p,,15,,0,,0,,,0,0
 kagetsuen_mae,(花月園前),p,,15,,0,,0,,,0,0
