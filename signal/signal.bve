@@ -27,7 +27,7 @@ Structure['出発横_hL'].Put($track_nishiya4, -2.0,2.8,-0.5, 0,0,0, $tilt_none,
 $distance_0 + 100; # 10R停止位置
 Structure['atsp'].Put($track_nishiya4, 0,-0.1,0, 0,0,0, $tilt_none, 0);
 distance - 1.4;
-Beacon.Put($beacon_stop, $section_atsp, $data_none);
+# Beacon.Put($beacon_stop, $section_atsp, $data_none); # これがあるとJRPI車両が非常ブレーキになる
 distance + 2.8;
 Beacon.Put($beacon_stop, $section_atsp, $data_none);
 
