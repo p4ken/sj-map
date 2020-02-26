@@ -23,3 +23,21 @@ Repeater['架線柱'].End();
 Repeater['架線柱'].Begin($track_hinkaku, 2,0,0, 0,0,0, $tilt_none, 0, 50, 'PoleTrs06A');
 Repeater['横須賀線架線柱'].End();
 Repeater['横須賀線架線柱'].Begin($track_yokosuka, -1,0,0, 0,0,0, $tilt_none, 0, 50, 'PoleTrs06A');
+
+$distance_0 + 14870;
+Repeater['架線柱'].End();
+Repeater['架線柱'].Begin($track_hinkaku, 3,0,0, 0,0,0, $tilt_none, 0, 50, 'PoleTrs07A');
+
+$distance_0 + 15320;
+Repeater['架線柱'].End();
+Repeater['架線柱'].Begin($track_hinkaku, 4,0,0, 0,0,0, $tilt_none, 0, 50, 'PoleTrs08A');
+
+$distance_0 + 15870;
+Repeater['架線柱'].End();
+
+
+$distance_0 + 18920;
+Repeater['横須賀線架線柱'].End();
+Structure['PoleTrs07A'].Put($track_yokosuka, -3,0,0, 0,0,0, $tilt_none, 0);
+
+# 架線柱より先に他線線形を広げる

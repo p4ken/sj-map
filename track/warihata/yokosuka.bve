@@ -61,6 +61,7 @@ Track[$track_yokosuka].Y.Interpolate($y, 0);
 
 $distance_shinagawa - 14675;
 Repeater['横須賀線左柵'].End();
+Repeater['横須賀線右柵'].End();
 Repeater['横須賀線の高架壁L'].Begin($track_yokosuka, -4,0,0, 0,0,0, $tilt_gradient, 25, 25, 'Wall_QN_L25m');
 Repeater['横須賀線の高架壁R'].Begin0($track_yokosuka, $tilt_gradient, 25, 25, 'Wall_QN_R25m');
 Repeater['横須賀線の高架底面'].Begin($track_yokosuka, -1.3,-1.38,0, 0,0,180, $tilt_gradient, 25, 25, 'Slab8m');
