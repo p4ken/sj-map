@@ -306,6 +306,7 @@ $distance_shinagawa - 14575;
 Curve.Interpolate();
 
 $distance_shinagawa - 14550;
+#R=1600 C=不明
 Curve.Interpolate(0, 0.03);
 Curve.Interpolate(1000, 0.03);
 
@@ -537,7 +538,7 @@ Curve.Interpolate();
 
 $distance_shinagawa - 11300;
 Structure['kilopost33ky'].Put($track_hinkaku, -1.8,-0.3,0, 0,90,0, $tilt_none, 0);
-# R=不明 C=30 CCL=不明 TCL=不明
+# R=1600 C=30 CCL=不明 TCL=不明
 Curve.Interpolate(0, -0.030);
 Curve.Interpolate(-2000, -0.030);
 
@@ -566,6 +567,7 @@ Curve.Interpolate();
 Curve.Interpolate(0);
 
 $distance_shinagawa - 11050;
+#R=1200 C=不明
 Curve.Interpolate(0, 0.05);
 Curve.Interpolate(1400, 0.05);
 

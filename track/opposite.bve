@@ -77,6 +77,7 @@ $distance_shinagawa - 16675; # 前面展望から
 
 $distance_shinagawa - 16650;
 # 自線ここから左カーブ
+# R400で自線へ近づいていく
 $distance_shinagawa - 16600;
 Track[$track_opposite].X.Interpolate(20);
 Track[$track_opposite].X.Interpolate(20, 0);
