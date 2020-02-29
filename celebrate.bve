@@ -42,6 +42,8 @@ include 'track/tsurumi/tsurumi.bve';
 include 'track/warihata/yokosuka.bve';
 include 'track/warihata/roadL.bve';
 include 'track/warihata/hinkaku.bve';
+include 'track/kosugi/kosugi3.bve';
+include 'track/kosugi/kosugi4.bve';
 include 'signal/signal.bve';
 include 'signal/limit.bve';
 include 'landscape/nishiya/building.bve';
