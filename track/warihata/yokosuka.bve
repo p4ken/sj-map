@@ -6,12 +6,26 @@ $track_yokosuka = 12;
 $distance_shinagawa - 16265;
 Repeater['横須賀線の高架橋脚L'].Begin($track_yokosuka, -5,0,0, 0,0,0, $tilt_gradient, 25, 25, 'WallUnder_QN_25m_hukusen');
 
+$distance_shinagawa - 15730;
+# === 国道一号 ===
 
+$distance_shinagawa - 15700;
+# ここまで自線が右カーブ
 
+$distance_shinagawa - 15675;
+Track[$track_yokosuka].X.Interpolate(17, -2000);
 
-$distance_shinagawa - 15175;
-# 上りが近づいてくる（横須賀線自身は直線）
-Track[$track_yokosuka].X.Interpolate(17, -2500);
+$distance_shinagawa - 15575;
+# ここから自線が左カーブ
+Track[$track_yokosuka].X.Interpolate(14, 800); # 直線
+
+$distance_shinagawa - 15525;
+# ここまで自線が左カーブ
+Track[$track_yokosuka].X.Interpolate(13, 0);
+
+$distance_shinagawa - 15200;
+# 上りがＳ字で近づいてくる（横須賀線自身は直線）
+Track[$track_yokosuka].X.Interpolate(16.5, -2500);
 
 $distance_shinagawa - 15125;
 Track[$track_yokosuka].X.Interpolate(16.5, 0);

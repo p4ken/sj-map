@@ -213,6 +213,9 @@ Gradient.Interpolate();
 $distance_shinagawa - 15738;
 Structure['Gp_UL'].Put($track_hinkaku, 5.8,-0.3,0, 0,180,-15, $tilt_none, 0);
 
+$distance_shinagawa - 15730;
+# === 国道一号 ===
+
 $distance_shinagawa - 15726;
 Gradient.Interpolate(0);
 
@@ -248,7 +251,7 @@ $distance_shinagawa - 15175;
 # BCC R2500（距離程は未調査）
 Curve.Interpolate(2500, 0.02);
 
-# ===矢向第一陸橋===
+# === 矢向第一陸橋 ===
 
 $distance_shinagawa - 15125;
 # ここがECC 曲線標ウラむき
