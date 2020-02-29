@@ -12,6 +12,18 @@ $distance_0 + 13570;
 Repeater['架線柱'].End();
 Repeater['架線柱'].Begin($track_hinkaku, 2,0,0, 0,0,0, $tilt_none, 0, 50, 'PoleTrs06A');
 
+$distance_0 + 13820;
+Repeater['架線柱'].End();
+Repeater['横須賀線架線柱'].End();
+Structure['PoleTrs11A'].Put($track_hinkaku, 6.5,0,0, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 13870;
+Structure['PoleTrs11A'].Put($track_hinkaku, 6.5,0,0, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 13920;
+Repeater['架線柱'].Begin($track_hinkaku, 2,0,0, 0,0,0, $tilt_none, 0, 50, 'PoleTrs06A');
+Repeater['横須賀線架線柱'].Begin($track_yokosuka, -1,0.5,0, 0,0,0, $tilt_none, 0, 50, 'PoleTrs06A');
+
 $distance_0 + 14170;
 Repeater['架線柱'].End();
 Repeater['架線柱'].Begin($track_hinkaku, 0.5,0,0, 0,0,0, $tilt_none, 0, 50, 'PoleTrs04A');
@@ -22,6 +34,18 @@ $distance_0 + 14270;
 Repeater['架線柱'].End();
 Repeater['架線柱'].Begin($track_hinkaku, 2,0,0, 0,0,0, $tilt_none, 0, 50, 'PoleTrs06A');
 Repeater['横須賀線架線柱'].End();
+Repeater['横須賀線架線柱'].Begin($track_yokosuka, -1,0,0, 0,0,0, $tilt_none, 0, 50, 'PoleTrs06A');
+
+$distance_0 + 14370;
+Repeater['架線柱'].End();
+Repeater['横須賀線架線柱'].End();
+
+# $distance_0 + 14420;
+Repeater['架線柱'].Begin($track_hinkaku, 2,0,0, 0,0,0, $tilt_none, 0, 50, 'PoleTrs06A');
+Repeater['横須賀線架線柱'].Begin($track_yokosuka, -1.3,0,0, 0,0,0, $tilt_none, 0, 50, 'PoleTrs06A_R');
+
+$distance_0 + 14670;
+Repeater['架線柱'].Begin($track_hinkaku, 2,0,0, 0,0,0, $tilt_none, 0, 50, 'PoleTrs06A');
 Repeater['横須賀線架線柱'].Begin($track_yokosuka, -1,0,0, 0,0,0, $tilt_none, 0, 50, 'PoleTrs06A');
 
 $distance_0 + 14870;
@@ -39,5 +63,3 @@ Repeater['架線柱'].End();
 $distance_0 + 18920;
 Repeater['横須賀線架線柱'].End();
 Structure['PoleTrs07A'].Put($track_yokosuka, -3,0,0, 0,0,0, $tilt_none, 0);
-
-# 架線柱より先に他線線形を広げる

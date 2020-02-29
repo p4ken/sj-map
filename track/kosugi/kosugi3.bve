@@ -11,6 +11,9 @@ Track[$track_kosugi3].X.Interpolate();
 Track[$track_kosugi3].X.Interpolate(4);
 Repeater['横須賀線下りバラスト軌道'].Begin0($track_kosugi3, $tilt_all, 5, 5, 'BallastPC_K_5a');
 
+$distance_shinagawa - 10385;
+Repeater['横須賀線下り架線'].Begin($track_yokosuka, 0,0,0, 0,0,0, $tilt_gradient, 50, 50, 'kasen50S');
+
 $distance_shinagawa - 10310;
 Track[$track_kosugi3].X.Interpolate();
 Track[$track_kosugi3].X.Interpolate(4, 1300);
@@ -51,3 +54,4 @@ Track[$track_kosugi3].X.Interpolate(4);
 
 $distance_shinagawa - 9500;
 Repeater['横須賀線下りバラスト軌道'].End();
+Repeater['横須賀線下り架線'].End();

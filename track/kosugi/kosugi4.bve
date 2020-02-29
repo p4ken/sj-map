@@ -92,3 +92,4 @@ Curve.Interpolate(540, 0.09);
 
 $distance_shinagawa - 9500;
 Repeater['上りバラスト軌道'].End();
+Repeater['上り架線'].End();

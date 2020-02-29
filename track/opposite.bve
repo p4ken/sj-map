@@ -206,3 +206,5 @@ Track[$track_opposite].X.Interpolate(92.5);
 Track[$track_opposite].X.Interpolate(92.5, 0);
 Repeater['中線バラスト軌道'].End();
 Repeater['下りバラスト軌道'].End();
+Repeater['下り架線'].End();
+Repeater['下り左バラスト1'].End();
