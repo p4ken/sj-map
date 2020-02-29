@@ -12,11 +12,11 @@ Curve.SetFunction(1);
 
 0;
 Structure.Load('landscape/structures.csv');
-Sound.Load('sounds.csv');
-Station.Load('stations.csv');
+Sound.Load('effect/sounds.csv');
+Station.Load('track/stations.csv');
 Signal.Load('signal/signals.csv');
 sound3D.Load('train/sounds3d.csv');
-include 'effect/rand.bve';
+include 'effect/random.bve';
 include 'track/distance.bve';
 include 'track/station.bve';
 include 'track/nishiya/nishiya4.bve';
