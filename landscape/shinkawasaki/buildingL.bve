@@ -1,0 +1,11 @@
+BveTs Map 2.02:UTF-8
+
+$distance_0 + 16660;
+Structure['StationBridgeR'].Put($track_hinkaku, 45,0,0, 0,0,0, $tilt_none, 0);
+Structure['StationBridgeR'].Put($track_hinkaku, 30,0,0, 0,0,0, $tilt_none, 0);
+Structure['StationBridgeR'].Put($track_hinkaku, 15,0,0, 0,0,0, $tilt_none, 0);
+Structure['StationBridgeR'].Put($track_hinkaku,  0,0,0, 0,0,0, $tilt_none, 0);
+Structure['StationBridgeR'].Put($track_hinkaku, -15,0,0, 0,0,0, $tilt_none, 0);
+Structure['StationBridgeR'].Put($track_hinkaku, -30,0,0, 0,0,0, $tilt_none, 0);
+Structure['StationBridgeR'].Put($track_hinkaku, -45,0,0, 0,0,0, $tilt_none, 0);
+Structure['Pier'].Put($track_hinkaku, 3,8,3, 0,90,0, $tilt_none, 5);

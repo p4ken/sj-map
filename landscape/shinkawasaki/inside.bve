@@ -1,0 +1,7 @@
+BveTs Map 2.02:UTF-8
+
+$distance_0 + 16900;
+Repeater['着発11黄色柵'].Begin($track_freight11, -2.5,-0.5,0, 0,0,0, $tilt_none, 0, 5,'saku3_wide');
+
+$distance_0 + 17620;
+Repeater['着発11黄色柵'].End();

@@ -19,6 +19,7 @@ Form51R,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\ACCC\S
 FormCL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\ACCC\Station\FormCL.x
 FormCL25,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\ACCC\Station\FormCL25.x
 chokasen_gaisi,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\E_Poles\acc\chokasen_gaisi.x
+kasen35S,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\E_Poles\kasen\kasen35S.x
 kasen50S,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\E_Poles\kasen\kasen50S.x
 Pole1_stlA,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\E_Poles\Pole\Pole1_stlA.x
 Pole1_stlB,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\E_Poles\Pole\Pole1_stlB.x
@@ -283,7 +284,7 @@ atsp,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\izumino\model\komono\atsp.x
 tunnelL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\izumino\model\tunnel\tunnelL2.x
 tunnelT,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\izumino\model\tunnel\tunnelT.x
 tower,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\izumino\model\building\tower.x
-saku3,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\izumino\model\komono\saku3.x"
+saku3_wide,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\izumino\model\komono\saku3_wide.x"
 
 出発横_hL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sign\signal\出発横_hL.x
 品鶴出_hL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sign\signal\品鶴出_hL.x

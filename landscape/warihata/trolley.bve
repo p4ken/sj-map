@@ -56,9 +56,11 @@ $distance_0 + 15320;
 Repeater['架線柱'].End();
 Repeater['架線柱'].Begin($track_hinkaku, 4,0,0, 0,0,0, $tilt_none, 0, 50, 'PoleTrs08A');
 
-$distance_0 + 15870;
+$distance_0 + 15620;
 Repeater['架線柱'].End();
-
+Repeater['下り架線'].End();
+Repeater['上り架線'].End();
+# shinkawasakiへ続く
 
 $distance_0 + 18920;
 Repeater['横須賀線架線柱'].End();

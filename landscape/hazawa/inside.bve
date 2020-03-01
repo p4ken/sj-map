@@ -28,7 +28,7 @@ Repeater['上りバラスト軌道左バラスト'].Begin($track_approach, 0,0,0
 Repeater['下りバラスト軌道右バラスト'].Begin($track_kamotsu_r, 0,0,0, 0,0,0, $tilt_all, 4.8, 4.8, 'Bl_CraBalR_5m');
 
 $distance_0 + 2725;
-Repeater['上り右黄色柵'].Begin($track_kamotsu, 2.5,-0.5,0, 0,0,0, $tilt_none, 0, 5,'saku3');
+Repeater['上り右黄色柵'].Begin($track_kamotsu, 2.5,-0.5,0, 0,0,0, $tilt_none, 0, 5,'saku3_wide');
 
 $distance_0 + 2730;
 Repeater['下り右転落防止柵'].End();

@@ -1,0 +1,27 @@
+BveTs Map 2.02:UTF-8
+
+0;
+$track_freight14 = 114;
+
+$distance_0 + 16550;
+Track[$track_freight14].X.Interpolate();
+Track[$track_freight14].X.Interpolate(6);
+Structure['stop_02'].Put($track_freight14, 0,0,0, 0,180,0, $tilt_none, 0);
+Repeater['着発14バラスト軌道'].Begin($track_freight14, 0,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastTR_K_5a');
+
+$distance_0 + 16740;
+Track[$track_freight14].X.Interpolate();
+Track[$track_freight14].X.Interpolate(6, 260);
+Repeater['着発6バラスト軌道'].Begin($track_freight14, -6,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastTR_K_5a');
+
+$distance_0 + 16762;
+Track[$track_freight14].X.Interpolate(6.9, 0);
+
+$distance_0 + 17010;
+Track[$track_freight14].X.Interpolate(28);
+
+
+$distance_0 + 18250;
+# あと一歩で着発線～武蔵野貨物線がつながる
+Repeater['着発6バラスト軌道'].End();
+Repeater['着発14バラスト軌道'].End();
