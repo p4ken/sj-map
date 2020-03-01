@@ -1,0 +1,29 @@
+BveTs Map 2.02:UTF-8
+
+$distance_0 + 2205;
+# 分岐パターン発生
+Beacon.Put($beacon_turnout, $section_atsp, 50045);
+
+$distance_nishiya + 2275;
+# 新横浜線から分岐
+SpeedLimit.Begin(45);
+Structure['SpeedLimL'].Put($track_approach, -2.5,-1.3,-0.1, 0,0,0, $tilt_none, 0);
+Structure['SpeedLim4'].Put($track_approach, -2.6,-1.3,-0.2, 0,0,0, $tilt_none, 0);
+Structure['SpeedLim5'].Put($track_approach, -2.4,-1.3,-0.2, 0,0,0, $tilt_none, 0);
+Structure['SpeedLimPole'].Put($track_approach, -2.5,-1,0, 0,0,0, $tilt_none, 0);
+
+$distance_nishiya + 2665;
+Structure['SpeedLim'].Put($track_approach, -2.5,-1.3,-0.1, 0,0,0, $tilt_none, 0);
+Structure['SpeedLim4'].Put($track_approach, -2.6,-1.3,-0.2, 0,0,0, $tilt_none, 0);
+Structure['SpeedLim5'].Put($track_approach, -2.4,-1.3,-0.2, 0,0,0, $tilt_none, 0);
+Structure['SpeedLimPole'].Put($track_approach, -2.5,-1,0, 0,0,0, $tilt_none, 0);
+
+$distance_nishiya + 2675;
+# 羽沢線へ合流
+SpeedLimit.Begin(45);
+
+$distance_nishiya + 2700;
+SpeedLimit.End();
+
+$distance_nishiya + 2900;
+Beacon.Put($beacon_turnout_delete, $section_atsp, $data_none);

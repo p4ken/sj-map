@@ -165,11 +165,20 @@ $distance_nishiya + 1975;
 Repeater['羽沢横浜国大駅ホームドアL'].Begin($track_nishiya4, 0,0,20, 0,0,0, $tilt_gradient, 20, 20, 'gate_l');
 Repeater['羽沢横浜国大駅ホームドアR'].Begin($track_nishiya4, 4,0,20, 0,0,0, $tilt_gradient, 20, 20, 'gate_r');
 
-$distance_nishiya + 2085;
-Curve.Interpolate(); #BTC
+$distance_nishiya + 2080;
+Curve.Interpolate();
+Structure['GradualDiminution_Ps'].Put($track_nishiya4, 2,0,0, 0,0,0, $tilt_none, 0); # R1000に見える
 
-$distance_nishiya + 2135;
-Curve.Interpolate(-800, -0.03);
+$distance_nishiya + 2000;
+Structure['kilopost1'].Put($track_nishiya4, 2,-1,0, 0,90,0, $tilt_none, 0); # 2km
+
+$distance_nishiya + 2100;
+Structure['kilopost31ky'].Put($track_nishiya4, 2,-0.6,0, 0,90,0, $tilt_none, 0);
+
+$distance_nishiya + 2120;
+# R=794.9 C=30 TCL=40 CCL=71
+Curve.Interpolate(-794.9, -0.030);
+Structure['Curve_P'].Put($track_nishiya4, 2,0,0, 0,0,0, $tilt_none, 0); # R1000に見える
 
 $distance_nishiya + 2173;
 Gradient.Interpolate();
@@ -207,19 +216,19 @@ Repeater['擁壁L'].Begin($track_nishiya4, -2.6,-1,0, 0,0,-90, $tilt_none, 25, 2
 Repeater['上り直結軌道'].Begin0($track_nishiya4, $tilt_all, 5, 5, 'Slab2S5m');
 
 $distance_nishiya + 2210;
-# 羽沢変電所トンネル
+# 羽沢変電所トンネル L=65
 Repeater['羽沢変電所トンネル天井1'].Begin($track_nishiya4, 0,5,0, 0,0,180, $tilt_none, 25, 25, 'Slab8m');
 Repeater['羽沢変電所トンネル天井2'].Begin($track_nishiya4, 5,5,0, 0,0,180, $tilt_none, 25, 25, 'Slab8m');
 
-$distance_nishiya + 2220; # 適当
+$distance_nishiya + 2191;
 Curve.Interpolate();
 
-$distance_nishiya + 2230; # 適当
+$distance_nishiya + 2231;
 Curve.Interpolate(0, 0);
 
 $distance_nishiya + 2275;
 # 明かり
-# もうちょっと短くしたい(銘板によると全長65mくらい？)
+# もうちょっと短くしたい(銘板によると全長65mである)
 Repeater['羽沢変電所トンネル天井1'].End();
 Repeater['羽沢変電所トンネル天井2'].End();
 

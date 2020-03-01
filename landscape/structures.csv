@@ -42,6 +42,7 @@ FenceWhite,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Acc
 PoleFence02a,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\Fence\PoleFence02a.x
 PoleFence02aE,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\Fence\PoleFence02aE.x
 Curve_P,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\Posts\CurvePosts\Curve_P.x
+GradualDiminution_Ps,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\Posts\CurvePosts\GradualDiminution_Ps.x
 Gp_DD,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\Posts\GradientPost\Gp_DD.x
 Gp_DL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\Posts\GradientPost\Gp_DL.x
 Gp_DU,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\Posts\GradientPost\Gp_DU.x
@@ -92,6 +93,13 @@ signal4yy4,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Def
 signalrep0,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Default\signalrep0.x
 signalrep1,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Default\signalrep1.x
 signalrep4,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Default\signalrep4.x
+SpeedLim,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Default\SpeedLim.x
+SpeedLim2,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Default\SpeedLim2.x
+SpeedLim4,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Default\SpeedLim4.x
+SpeedLim5,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Default\SpeedLim5.x
+SpeedLimL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Default\SpeedLimL.x
+SpeedLimEnd,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Default\SpeedLimEnd.x
+SpeedLimPole,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Default\SpeedLimPole.x
 CrDike1La,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Dike\CrDike1La.x
 CrDike1Lb,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Dike\CrDike1Lb.x
 CrDike1Ra,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Dike\CrDike1Ra.x
@@ -281,6 +289,7 @@ stop_02,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\umikaze81\stop\stop_02.x
 stop_03,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\umikaze81\stop\stop_03.x
 
 atsp,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\izumino\model\komono\atsp.x
+atspGreen,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\izumino\model\komono\atspGreen.x
 tunnelL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\izumino\model\tunnel\tunnelL2.x
 tunnelT,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\izumino\model\tunnel\tunnelT.x
 tower,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\izumino\model\building\tower.x

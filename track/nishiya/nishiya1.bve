@@ -13,3 +13,13 @@ Repeater['バラスト軌道新横浜線下り'].End();
 $distance_0 + 100 + 365;
 # ここまでR1100
 # ここから自線と合流
+
+
+
+
+
+$distance_nishiya + 2090;
+Structure['GradualDiminution_Ps'].Put($track_nishiya1, -2,0,0, 0,0,0, $tilt_none, 0); # R1000に見える
+
+$distance_nishiya + 2115;
+Structure['Curve_P'].Put($track_nishiya1, -2,0,0, 0,0,0, $tilt_none, 0); # R1000に見える
