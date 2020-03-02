@@ -2,25 +2,90 @@ BveTs Map 2.02:UTF-8
 
 # 西谷出発信号機
 $distance_0 + 113;
-# 駅間最高速度
-# 86km/hでP接近点灯
-Beacon.Put($beacon_max, $section_atsp, 90); // 相鉄PI
-Beacon.Put($beacon_turnout, $section_atsp, 0080); // JRPI
+# 羽沢横浜国大までの最高速度 86km/hでP接近点灯
+Beacon.Put($beacon_max, $section_atsp, 90); // unic/ATS_SO, unic/snp2
+Beacon.Put($beacon_turnout, $section_atsp, 0080); // ct/ATSP, rock_on/snp(75でP接近,80で動作)
 # Beacon.Put($beacon_strict, $section_atsp, 01111); // 効かず
 
 # ATS-P 85m手前 の直前
 $distance_nishiya + 2139;
 # 駅間最高速度おわり
-Beacon.Put($beacon_turnout_delete, $section_atsp, 80); // JRPI
-
-
-
-
-
-$distance_nishiya + 2901;
-# 線区最高速度 95km/h
+Beacon.Put($beacon_turnout_delete, $section_atsp, 0080);
+# 武蔵小杉までの最高速度 95km/h
 # プレイヤーが意識しやすいように96でP点灯させる
 # 実際の運転士は95までしか出さない
+Beacon.Put($beacon_max, $section_atsp, 100); // unic/snp2
+
+$distance_nishiya + 2185;
+# 分岐パターン発生
+Beacon.Put($beacon_turnout, $section_atsp, 50045);
+
+$distance_nishiya + 2275;
+# 新横浜線から分岐
+SpeedLimit.Begin(45);
+Structure['SpeedLimL'].Put($track_approach, -2.5,-1.3,-0.1, 0,0,0, $tilt_none, 0);
+Structure['SpeedLim4'].Put($track_approach, -2.6,-1.3,-0.2, 0,0,0, $tilt_none, 0);
+Structure['SpeedLim5'].Put($track_approach, -2.4,-1.3,-0.2, 0,0,0, $tilt_none, 0);
+Structure['SpeedLimPole'].Put($track_approach, -2.5,-1,0, 0,0,0, $tilt_none, 0);
+
+$distance_nishiya + 2299;
+SpeedLimit.End();
+
+$distance_nishiya + 2300;
+# アプローチ部の曲線群
+SpeedLimit.Begin(45);
+Structure['SpeedLim'].Put($track_approach, -2.5,-0.3,-0.1, 0,0,0, $tilt_none, 0);
+Structure['SpeedLim4'].Put($track_approach, -2.6,-0.3,-0.2, 0,0,0, $tilt_none, 0);
+Structure['SpeedLim5'].Put($track_approach, -2.4,-0.3,-0.2, 0,0,0, $tilt_none, 0);
+Structure['SpeedLimPole'].Put($track_approach, -2.5,0,0, 0,0,0, $tilt_none, 0);
+
+$distance_nishiya + 2550;
+SpeedLimit.End();
+Structure['SpeedLimEnd'].Put($track_approach, -2.5,-0.3,0, 0,0,0, $tilt_none, 0);
+Structure['SpeedLimPole'].Put($track_approach, -2.5,0,0, 0,0,0, $tilt_none, 0);
+
+$distance_nishiya + 2665;
+Structure['SpeedLim'].Put($track_approach, -2.5,-1.3,-0.1, 0,0,0, $tilt_none, 0);
+Structure['SpeedLim4'].Put($track_approach, -2.6,-1.3,-0.2, 0,0,0, $tilt_none, 0);
+Structure['SpeedLim5'].Put($track_approach, -2.4,-1.3,-0.2, 0,0,0, $tilt_none, 0);
+Structure['SpeedLimPole'].Put($track_approach, -2.5,-1,0, 0,0,0, $tilt_none, 0);
+
+$distance_nishiya + 2675;
+# 羽沢線へ合流
+SpeedLimit.Begin(45);
+
+$distance_nishiya + 2700;
+SpeedLimit.End();
+
+$distance_nishiya + 2900;
+Beacon.Put($beacon_turnout_delete, $section_atsp, 50045);
+
+$distance_nishiya + 2901;
+Beacon.Put($beacon_turnout, $section_atsp, 1090);
+
+$distance_nishiya + 2902;
+Beacon.Put($beacon_signal, $section_atsp, $data_none);
+
+# ～港北トンネル～
+
+$distance_tsurumi - 2776;
+Beacon.Put($beacon_turnout_delete, $section_atsp, 1090);
+
+$distance_tsurumi - 2775;
+# 曲線パターン発生
+Beacon.Put($beacon_turnout, $section_atsp, 600090);
+
+$distance_tsurumi - 2175;
+# 生見尾トンネル出口の左カーブ
+SpeedLimit.Begin(90);
+
+$distance_tsurumi - 1625;
+SpeedLimit.End();
+
+$distance_tsurumi - 1425;
+Beacon.Put($beacon_turnout_delete, $section_atsp, 600090);
+
+$distance_tsurumi - 1424;
 Beacon.Put($beacon_turnout, $section_atsp, 1090);
 Beacon.Put($beacon_signal, $section_atsp, $data_none);
 
