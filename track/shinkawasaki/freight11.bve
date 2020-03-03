@@ -3,10 +3,22 @@ BveTs Map 2.02:UTF-8
 0;
 $track_freight11 = 111;
 
-$distance_0 + 16850;
+$distance_0 + 16810;
 Track[$track_freight11].X.Interpolate();
 Track[$track_freight11].X.Interpolate(5);
 Repeater['着発11バラスト軌道'].Begin($track_freight11, 0,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastTR_K_5a');
+
+$distance_0 + 16860;
+Repeater['着発10バラスト軌道'].Begin($track_freight11, 4,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastTR_K_5a');
+
+$distance_0 + 16905;
+Repeater['着発9バラスト軌道'].Begin($track_freight11, 8,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastTR_K_5a');
+
+$distance_0 + 16955;
+Repeater['着発8バラスト軌道'].Begin($track_freight11, 12,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastTR_K_5a');
+
+$distance_0 + 17000;
+Repeater['着発7バラスト軌道'].Begin($track_freight11, 16,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastTR_K_5a');
 
 $distance_0 + 17650;
 Repeater['着発11バラスト軌道'].End();
