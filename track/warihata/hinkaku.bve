@@ -6,9 +6,9 @@ $track_hinkaku = 0;
 $distance_shinagawa - 17760;
 Repeater['上りバラスト軌道'].Begin0($track_hinkaku, $tilt_all, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
 Repeater['上り左バラスト'].Begin($track_hinkaku, 0,0,0, -0.1,0,10, $tilt_gradient, 5, 4.5, 'Bl_CraBalL_5m');
-Repeater['鶴見中線1'].Begin($track_hinkaku, 4,0,0, 0,0,0, $tilt_gradient, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
-Repeater['鶴見中線2'].Begin($track_hinkaku, 8,0,0, 0,0,0, $tilt_gradient, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
-Repeater['鶴見中線3'].Begin($track_hinkaku, 12,0,0, 0,0,0, $tilt_gradient, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
+Repeater['鶴見中線1'].Begin($track_hinkaku, 5,0,0, 0,0,0, $tilt_gradient, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
+Repeater['鶴見中線2'].Begin($track_hinkaku, 9,0,0, 0,0,0, $tilt_gradient, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
+Repeater['鶴見中線3'].Begin($track_hinkaku, 13,0,0, 0,0,0, $tilt_gradient, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
 
 $distance_shinagawa - 17600;
 Structure['kilopost36ky'].Put($track_hinkaku, 1.8,-0.3,0, 0,90,0, $tilt_none, 0);
@@ -330,28 +330,25 @@ Curve.Interpolate();
 $distance_shinagawa - 14075;
 # R=不明 C=不明 CCL=不明 TCL=不明
 Curve.Interpolate(0, -0.03);
-Curve.Interpolate(-1000, -0.03);
-
-$distance_shinagawa - 14050;
-Curve.Interpolate(-1000, -0.03);
-Curve.Interpolate(0, -0.03);
+Curve.Interpolate(-1200, -0.03);
 
 $distance_shinagawa - 14025;
-Curve.Interpolate(0, 0);
+Curve.Interpolate(-1200, -0.03);
+Curve.Interpolate(0, -0.03);
 
 $distance_shinagawa - 14000;
-Curve.Interpolate();
+Curve.Interpolate(0, 0);
 
 $distance_shinagawa - 13975;
 # R=不明 C=不明 CCL=不明 TCL=不明
 Curve.Interpolate(0, 0.03);
-Curve.Interpolate(1000, 0.03);
-
-$distance_shinagawa - 13950;
-Curve.Interpolate(1000, 0.03);
-Curve.Interpolate(0, 0.03);
+Curve.Interpolate(1200, 0.03);
 
 $distance_shinagawa - 13925;
+Curve.Interpolate(1200, 0.03);
+Curve.Interpolate(0, 0.03);
+
+$distance_shinagawa - 13900;
 Curve.Interpolate(0, 0);
 
 $distance_shinagawa - 13787;
@@ -359,3 +356,8 @@ Gradient.Interpolate();
 
 $distance_shinagawa - 13783;
 Gradient.Interpolate(1);
+
+$distance_shinagawa - 13700;
+Repeater['上り右バラスト'].End();
+
+# ここからshinkawasakiエリア

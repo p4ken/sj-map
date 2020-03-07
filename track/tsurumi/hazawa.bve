@@ -70,15 +70,15 @@ $distance_tsurumi - 516;
 Gradient.Interpolate(0.4);
 
 $distance_tsurumi - 485;
-Structure['stop_02'].Put($track_hazawa, 4,0,-5, 0,180,0, $tilt_none, 0);
-Repeater['鶴見中線1'].Begin($track_hazawa, 4,0,0, 0,0,0, $tilt_gradient, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
+Structure['stop_02'].Put($track_hazawa, 5,0,-5, 0,180,0, $tilt_none, 0);
+Repeater['鶴見中線1'].Begin($track_hazawa, 5,0,0, 0,0,0, $tilt_gradient, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
 
 $distance_tsurumi - 450;
-Repeater['鶴見中線2'].Begin($track_hazawa, 8,0,0, 0,0,0, $tilt_gradient, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
+Repeater['鶴見中線2'].Begin($track_hazawa, 9,0,0, 0,0,0, $tilt_gradient, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
 
 $distance_tsurumi - 400;
 Structure['kilopost34ky'].Put($track_hazawa, 1.8,-0.3,0, 0,90,0, $tilt_none, 0);
-Repeater['鶴見中線3'].Begin($track_hazawa, 12,0,0, 0,0,0, $tilt_gradient, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
+Repeater['鶴見中線3'].Begin($track_hazawa, 13,0,0, 0,0,0, $tilt_gradient, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
 
 $distance_tsurumi - 375;
 Curve.Interpolate();

@@ -1,0 +1,41 @@
+BveTs Map 2.02:UTF-8
+
+0;
+# 下り本線←←←横須賀線
+
+$distance_shinagawa - 13475;
+Track[$track_opposite].X.Interpolate();
+Track[$track_opposite].X.Interpolate(9, 400);
+
+$distance_shinagawa - 13375;
+Track[$track_opposite].X.Interpolate(22);
+Track[$track_opposite].X.Interpolate(22, 0);
+
+$distance_shinagawa - 13125;
+Track[$track_opposite].X.Interpolate(85, -500);
+
+$distance_shinagawa - 13025;
+Track[$track_opposite].X.Interpolate(94, 0);
+
+$distance_shinagawa - 12500;
+Track[$track_opposite].X.Interpolate(90, 0);
+Repeater['下りバラスト軌道'].End();
+Repeater['下り架線'].End();
+Repeater['下り左バラスト1'].End();
+
+
+
+
+
+
+
+
+# 新川崎駅の脇
+
+
+
+
+
+
+
+

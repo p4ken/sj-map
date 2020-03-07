@@ -32,6 +32,9 @@ Repeater['羽沢線の擁壁L柵'].End();
 Repeater['羽沢線の擁壁R柵'].End();
 Track[$track_takashima].X.Interpolate( , 2000);
 
+$distance_tsurumi - 825;
+Track[$track_takashima].X.Interpolate(-1, -300);
+
 $distance_tsurumi - 800;
 # 羽沢線に合流
 Track[$track_takashima].X.Interpolate(0);

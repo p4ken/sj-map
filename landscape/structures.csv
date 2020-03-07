@@ -149,6 +149,7 @@ BallastTR_K_5a,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds
 Bl_CraBalL_25,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Rail\Ballast01\Bl_CraBalL_25.x
 Bl_CraBalL_5m,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Rail\Ballast01\Bl_CraBalL_5m.x
 Bl_CraBalR_5m,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Rail\Ballast01\Bl_CraBalR_5m.x
+DBallast_5m,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Rail\Ballast11\DBallast_5m.x
 Slab2S5m,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Rail\Slab01\Slab2S5m.x
 Slab8m,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Rail\Slab01\Slab8m.x
 point1L,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Rail\Point\point1L.x
@@ -285,6 +286,7 @@ shadow_f1,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_
 shadow_f2,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\shadow_f2.x
 shadow_f3,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\shadow_f3.x
 
+stop_01,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\umikaze81\stop\stop_01.x
 stop_02,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\umikaze81\stop\stop_02.x
 stop_03,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\umikaze81\stop\stop_03.x
 

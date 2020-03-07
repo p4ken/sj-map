@@ -1,0 +1,30 @@
+BveTs Map 2.02:UTF-8
+
+0;
+$track_departure9 = 44; # 着発9 左へくねくねと本線へ合流
+Track[$track_departure9].Cant.SetCenter($cant_inside_fall);
+Track[$track_departure9].Cant.SetGauge($gauge);
+
+$distance_shinagawa - 11825;
+Track[$track_departure9].X.Interpolate();
+Track[$track_departure9].X.Interpolate(13, -220); # 10番分岐
+Repeater['着発9出発バラスト軌道'].Begin($track_departure9, 0,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastTR_K_5a');
+
+$distance_shinagawa - 11801;
+Track[$track_departure9].X.Interpolate(11.5, -1200);
+
+$distance_shinagawa - 11775;
+Track[$track_departure9].X.Interpolate(8.5, 250);
+
+$distance_shinagawa - 11748;
+Track[$track_departure9].X.Interpolate(6, 0);
+Track[$track_departure9].Cant.Interpolate();
+
+$distance_shinagawa - 11680;
+Track[$track_departure9].X.Interpolate(1, 308); # 12番
+Track[$track_departure9].Cant.Interpolate(-0.02); # チラつき防止
+
+$distance_shinagawa - 11655;
+Track[$track_departure9].X.Interpolate(0);
+Repeater['着発9出発バラスト軌道'].End(); # 合流
+

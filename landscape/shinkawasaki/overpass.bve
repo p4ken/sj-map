@@ -31,12 +31,12 @@ Structure['GroundShadow'].Put($track_hinkaku, 20,0.4,0, 0,0,0 ,$tilt_none, 5);
 Structure['GroundShadow'].Put($track_hinkaku, 20,0.4,0, 0,0,0 ,$tilt_none, 5);
 Structure['GroundShadow'].Put($track_hinkaku, 20,0.4,0, 0,0,0 ,$tilt_none, 5);
 
-$distance_0 + 17800;
+$distance_0 + 17850;
 # 御幸跨線橋
 Structure['OverpassR'].Put(    $track_hinkaku, 0,0,-10, 0,0,0, $tilt_none, 5);
 Structure['Overpass'].Put(     $track_hinkaku, 0,0,-10, 0,0,0, $tilt_none, 5);
 Structure['OverpassL'].Put(    $track_hinkaku, 0,0,-10, 0,0,0, $tilt_none, 5);
-Structure['OverpassPier'].Put( $track_hinkaku,17,0,-10, 0,0,0, $tilt_none, 5);
+Structure['OverpassPier'].Put( $track_hinkaku,21,0,-10, 0,0,0, $tilt_none, 5);
 Structure['OverpassDikeR'].Put($track_hinkaku,35,0,-10, 0,0,0 ,$tilt_none, 5);
 
 Structure['GroundShadow'].Put($track_hinkaku, 20,0.4,0, 0,0,0 ,$tilt_none, 5);

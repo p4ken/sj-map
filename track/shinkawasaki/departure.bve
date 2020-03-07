@@ -1,0 +1,83 @@
+BveTs Map 2.02:UTF-8
+
+0;
+$track_departure = 46; # 見た目用 本線～着発6～工事中の新出発線
+
+$distance_0 + 16550;
+Track[$track_departure].X.Interpolate();
+Track[$track_departure].X.Interpolate(6);
+Structure['stop_02'].Put($track_departure, 0,0,0, 0,180,0, $tilt_none, 0);
+Repeater['機待14バラスト軌道'].Begin($track_departure, 0,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastTR_K_5a');
+
+$distance_0 + 16740;
+Track[$track_departure].X.Interpolate();
+Track[$track_departure].X.Interpolate(6, 260);
+Repeater['着発6バラスト軌道'].Begin($track_departure, -6,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastTR_K_5a');
+
+$distance_0 + 16860;
+Repeater['着発10バラスト軌道'].Begin($track_hinkaku, 9,0,0, 0,0,0, $tilt_none, 5, 5, 'BallastTR_K_5a');
+
+$distance_0 + 16905;
+Repeater['着発9バラスト軌道'].Begin($track_hinkaku, 13,0,0, 0,0,0, $tilt_none, 5, 5, 'BallastTR_K_5a');
+
+$distance_0 + 16955;
+Repeater['着発8バラスト軌道'].Begin($track_hinkaku, 17,0,0, 0,0,0, $tilt_none, 5, 5, 'BallastTR_K_5a');
+
+$distance_0 + 17000;
+Repeater['着発7バラスト軌道'].Begin($track_hinkaku, 21,0,0, 0,0,0, $tilt_none, 5, 5, 'BallastTR_K_5a');
+
+$distance_0 + 16762;
+Track[$track_departure].X.Interpolate(6.9, 0);
+
+$distance_0 + 17045; # dx * 11.75
+Track[$track_departure].X.Interpolate(31);
+
+$distance_shinagawa - 11825;
+Track[$track_departure].X.Interpolate(31, -1200);
+Repeater['着発10バラスト軌道'].End();
+Repeater['着発10バラスト軌道'].Begin($track_departure, -22,0,0, 0,0,0, $tilt_none, 5, 5, 'BallastTR_K_5a');
+Repeater['着発9バラスト軌道'].End();
+Repeater['着発9バラスト軌道'].Begin($track_departure, -18,0,0, 0,0,0, $tilt_none, 5, 5, 'BallastTR_K_5a');
+Repeater['着発8バラスト軌道'].End();
+Repeater['着発8バラスト軌道'].Begin($track_departure, -14,0,0, 0,0,0, $tilt_none, 5, 5, 'BallastTR_K_5a');
+Repeater['着発7バラスト軌道'].End();
+Repeater['着発7バラスト軌道'].Begin($track_departure, -10,0,0, 0,0,0, $tilt_none, 5, 5, 'BallastTR_K_5a');
+Repeater['着発6バラスト軌道'].End();
+Repeater['出発線西バラスト軌道'].Begin($track_departure, -6,0,0, 0,0,0, $tilt_none, 5, 5, 'BallastPC_K_5a');
+Repeater['出発線東バラスト軌道'].Begin($track_departure, 0,0,0, 0,0,0, $tilt_none, 5, 5, 'BallastPC_K_5a');
+
+$distance_shinagawa - 11775;
+Repeater['着発9バラスト軌道'].End();
+
+$distance_shinagawa - 11740;
+Repeater['着発8バラスト軌道'].End();
+
+$distance_shinagawa - 11755;
+Repeater['着発10バラスト軌道'].End();
+
+$distance_shinagawa - 11700;
+Repeater['着発7バラスト軌道'].End();
+
+$distance_shinagawa - 11725;
+Track[$track_departure].X.Interpolate(26, 0);
+
+$distance_shinagawa - 11549;
+Track[$track_departure].X.Interpolate(12,0);
+
+$distance_0 + 17800;
+Repeater['出発線東バラスト軌道'].End();
+Repeater['機待14バラスト軌道'].End();
+Repeater['新出発線バラスト軌道'].Begin($track_departure, 0,0,0, 0,0,0, $tilt_none, 5, 5, 'DBallast_5m');
+
+$distance_shinagawa - 11499;
+Track[$track_departure].X.Interpolate(7, 214); # 10番
+
+$distance_shinagawa - 11475;
+Track[$track_departure].X.Interpolate(6, 0);
+Repeater['出発線西バラスト軌道'].End(); # 本線へ合流した
+
+$distance_shinagawa - 11035;
+# あと一歩で武蔵野貨物線へつながりそう
+Repeater['新出発線バラスト軌道'].End();
+Structure['stop_01'].Put($track_departure, 0,0,-2, 0,0,0, $tilt_none, 0);
+

@@ -68,10 +68,10 @@ Structure['Gp_DL'].Put($track_tokaido, 1.8,-0.3,0, 0,180,0, $tilt_none, 0);
 
 $distance_shinagawa - 17135;
 Track[$track_tokaido].Y.Interpolate();
-Repeater['鶴見中線1つづき'].Begin($track_tokaido, 15,0,0, 0,0,0, $tilt_gradient, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
-Repeater['鶴見中線2つづき'].Begin($track_tokaido, 19,0,0, 0,0,0, $tilt_gradient, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
-Repeater['鶴見中線2つづき右バラスト1'].Begin($track_tokaido, 19.5,-0.2,-5, 0,0,0, $tilt_all, 5, 4.5, 'Bl_CraBalR_5m');
-Repeater['鶴見中線2つづき右バラスト2'].Begin($track_tokaido, 22.2,-0.2,-5, 0,0,0, $tilt_all, 5, 4.5, 'Bl_CraBalR_5m');
+Repeater['鶴見中線1つづき'].Begin($track_tokaido, 16,0,0, 0,0,0, $tilt_gradient, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
+Repeater['鶴見中線2つづき'].Begin($track_tokaido, 20,0,0, 0,0,0, $tilt_gradient, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
+Repeater['鶴見中線2つづき右バラスト1'].Begin($track_tokaido, 20.5,-0.2,-5, 0,0,0, $tilt_all, 5, 4.5, 'Bl_CraBalR_5m');
+Repeater['鶴見中線2つづき右バラスト2'].Begin($track_tokaido, 23.2,-0.2,-5, 0,0,0, $tilt_all, 5, 4.5, 'Bl_CraBalR_5m');
 
 $distance_shinagawa - 17100;
 Structure['Gp_LD'].Put($track_tokaido, 1.8,-0.3,0, 0,180,0, $tilt_none, 0);
@@ -84,9 +84,9 @@ Repeater['東海道貨物線下り橋梁R'].Begin($track_tokaido, 19,0,0 ,0,0,0,
 Repeater['東海道貨物線上り橋梁床'].Begin($track_tokaido, 16,-0.3,0 ,0,0,0, $tilt_gradient, 10, 10, 'conc_10m');
 Repeater['東海道貨物線上り橋梁R'].Begin($track_tokaido, 15,0,0 ,0,0,0, $tilt_gradient, 10, 10, 'blue10_bL');
 Repeater['鶴見中線1つづき'].End();
-Repeater['鶴見中線1つづき'].Begin($track_tokaido, 15,0,0, 0,0,0, $tilt_gradient, 5, 5, '_BridgeRail_5');
+Repeater['鶴見中線1つづき'].Begin($track_tokaido, 16,0,0, 0,0,0, $tilt_gradient, 5, 5, '_BridgeRail_5');
 Repeater['鶴見中線2つづき'].End();
-Repeater['鶴見中線2つづき'].Begin($track_tokaido, 19,0,0, 0,0,0, $tilt_gradient, 5, 5, '_BridgeRail_5');
+Repeater['鶴見中線2つづき'].Begin($track_tokaido, 20,0,0, 0,0,0, $tilt_gradient, 5, 5, '_BridgeRail_5');
 Repeater['鶴見中線2つづき右バラスト1'].End();
 Repeater['鶴見中線2つづき右バラスト2'].End();
 
@@ -116,9 +116,9 @@ Repeater['京浜東北線下り橋梁床'].End();
 Repeater['京浜東北線上り橋梁L'].End();
 
 Repeater['鶴見中線1つづき'].End();
-Repeater['鶴見中線1つづき'].Begin($track_tokaido, 15,0,0, 0,0,0, $tilt_gradient, 2, 2, 'BallastPC_K_5a', 'BallastPC_K_5b');
+Repeater['鶴見中線1つづき'].Begin($track_tokaido, 16,0,0, 0,0,0, $tilt_gradient, 2, 2, 'BallastPC_K_5a', 'BallastPC_K_5b');
 Repeater['鶴見中線2つづき'].End();
-Repeater['鶴見中線2つづき'].Begin($track_tokaido, 19,0,0, 0,0,0, $tilt_gradient, 2, 2, 'BallastPC_K_5a', 'BallastPC_K_5b');
+Repeater['鶴見中線2つづき'].Begin($track_tokaido, 20,0,0, 0,0,0, $tilt_gradient, 2, 2, 'BallastPC_K_5a', 'BallastPC_K_5b');
 Repeater['東海道線右グリーンマット'].Begin($track_tokaido, 0,0,2, 0,0,0, $tilt_gradient, 25, 25, 'Rside_Grass');
 
 Repeater['東海道線下り'].End();

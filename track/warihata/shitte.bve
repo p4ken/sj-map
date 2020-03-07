@@ -1,0 +1,53 @@
+BveTs Map 2.02:UTF-8
+
+0;
+$track_shitte = 40;
+
+$distance_shinagawa - 14275;
+Track[$track_shitte].X.Interpolate();
+Track[$track_shitte].X.Interpolate(25, 300);
+Repeater['尻手短絡線バラスト軌道'].Begin($track_shitte, 0,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastTR_K_5a');
+
+$distance_shinagawa - 14225;
+Track[$track_shitte].X.Interpolate(18, 0);
+
+$distance_shinagawa - 14050;
+Track[$track_shitte].X.Interpolate(6.5, 308); # 12番
+
+$distance_shinagawa - 14025;
+Repeater['尻手短絡線バラスト軌道'].End();
+
+$distance_shinagawa - 14025;
+Track[$track_shitte].X.Interpolate(6 ,0); # 下り本線と併用
+
+$distance_shinagawa - 13975;
+Track[$track_shitte].X.Interpolate(8, -1200); # 下り本線と併用
+
+$distance_shinagawa - 13926;
+Track[$track_shitte].X.Interpolate(9, -308); # 12番
+Repeater['尻手短絡線バラスト軌道'].Begin($track_shitte, 0,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastTR_K_5a');
+
+$distance_shinagawa - 13900;
+Track[$track_shitte].X.Interpolate(8, 0);
+Structure['stop_03'].Put($track_opposite, -4,0,-5, 0,180,0, $tilt_none, 0);
+Repeater['尻手安全側線バラスト軌道'].Begin($track_opposite, -4,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastTR_K_5a');
+
+$distance_shinagawa - 13876;
+Track[$track_shitte].X.Interpolate(6, 308);
+
+$distance_shinagawa - 13850;
+Track[$track_shitte].X.Interpolate(5, 0);
+Repeater['尻手安全側線バラスト軌道'].End();
+
+$distance_shinagawa - 13475;
+Track[$track_shitte].X.Interpolate(5, 450);
+
+$distance_shinagawa - 13375;
+Track[$track_shitte].X.Interpolate(15.8, 0);
+
+$distance_shinagawa - 13125;
+Track[$track_shitte].X.Interpolate(70, -500);
+
+$distance_shinagawa - 13025;
+Track[$track_shitte].X.Interpolate(75, 0);
+Repeater['尻手短絡線バラスト軌道'].End();

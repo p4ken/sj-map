@@ -1,6 +1,8 @@
 BveTs Map 2.02:UTF-8
 
 # 現地調査 13K700mから
+$distance_shinagawa - 13700;
+Repeater['上り右バラスト'].Begin($track_hinkaku, 0.2,0,0, -0.1,0,0, $tilt_gradient, 4.8, 4.8, 'Bl_CraBalR_5m');
 
 $distance_shinagawa - 13574;
 Gradient.Interpolate();
@@ -198,11 +200,12 @@ Curve.Interpolate(0, -0.030);
 
 $distance_shinagawa - 11109;
 Curve.Interpolate(0, 0);
-Curve.Interpolate(-547);
+Curve.Interpolate(-547, -0.01); # チラつき防止カント
 
 $distance_shinagawa - 11075;
 Curve.Interpolate();
 Curve.Interpolate(0);
+Repeater['上り右バラスト'].End();
 
 $distance_shinagawa - 11050;
 #R=1200 C=不明

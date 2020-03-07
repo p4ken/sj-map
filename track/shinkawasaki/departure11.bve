@@ -1,0 +1,31 @@
+BveTs Map 2.02:UTF-8
+
+0;
+$track_departure11 = 41; # 着発11 右へくねくねと出発線へ合流していく
+
+$distance_0 + 16798.5;
+Track[$track_departure11].X.Interpolate();
+Track[$track_departure11].X.Interpolate(4, -214);
+Repeater['着発11バラスト軌道'].Begin($track_departure11, 0,0,0, 0,0,0, $tilt_none, 5, 5, 'BallastTR_K_5a');
+
+distance + 24;
+Track[$track_departure11].X.Interpolate(5);
+
+$distance_shinagawa - 11893;
+Track[$track_departure11].X.Interpolate(5, 250); # 35km/hなので10番分岐
+
+$distance_shinagawa - 11869;
+Track[$track_departure11].X.Interpolate(6, 0);
+
+$distance_shinagawa - 11849;
+Track[$track_departure11].X.Interpolate(8, -214);
+
+$distance_shinagawa - 11825;
+Track[$track_departure11].X.Interpolate(9, 250);
+
+$distance_shinagawa - 11801;
+Track[$track_departure11].X.Interpolate(9.7, -1200);
+
+$distance_shinagawa - 11600 - 1.5;
+Track[$track_departure11].X.Interpolate(10.2, 0);
+Repeater['着発11バラスト軌道'].End();

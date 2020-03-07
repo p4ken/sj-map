@@ -25,16 +25,16 @@ $distance_tsurumi - 550;
 $distance_tsurumi - 450;
 Track[$track_opposite].X.Interpolate(12, -500);
 
-$distance_tsurumi - 400;
-Track[$track_opposite].X.Interpolate(16, 0);
+$distance_tsurumi - 350;
+Track[$track_opposite].X.Interpolate(17, 0);
 
 
 $distance_shinagawa - 17500;
-Track[$track_opposite].X.Interpolate(12);
+Track[$track_opposite].X.Interpolate(13);
 
 $distance_shinagawa - 17425;
 # 右カーブここまで
-Track[$track_opposite].X.Interpolate(12);
+Track[$track_opposite].X.Interpolate(13);
 
 
 
@@ -167,44 +167,15 @@ Track[$track_opposite].X.Interpolate(5.3, 0);
 
 
 $distance_shinagawa - 14075;
-Track[$track_opposite].X.Interpolate();
-Track[$track_opposite].X.Interpolate(5.3, 1000);
-
-$distance_shinagawa - 14050;
-Track[$track_opposite].X.Interpolate(5.6);
-Track[$track_opposite].X.Interpolate(5.6 ,0);
+Track[$track_opposite].X.Interpolate(5, 1200);
 
 $distance_shinagawa - 14025;
-Track[$track_opposite].X.Interpolate(6.2);
+Track[$track_opposite].X.Interpolate(6 ,0);
 
 $distance_shinagawa - 13975;
-Track[$track_opposite].X.Interpolate(7.4);
-Track[$track_opposite].X.Interpolate(7.4, -1000);
+Track[$track_opposite].X.Interpolate(8, -1200);
 
-$distance_shinagawa - 13950;
-Track[$track_opposite].X.Interpolate(7.7);
-Track[$track_opposite].X.Interpolate(7.7, 0);
+$distance_shinagawa - 13925;
+Track[$track_opposite].X.Interpolate(9, 0);
 
-$distance_shinagawa - 13900;
-Structure['stop_03'].Put($track_opposite, -3.7,0,-5, 0,180,0, $tilt_none, 0);
-Repeater['中線バラスト軌道'].Begin($track_opposite, -3.7,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastTR_K_5a');
-
-$distance_shinagawa - 13475;
-Track[$track_opposite].X.Interpolate();
-Track[$track_opposite].X.Interpolate(7.7, 400);
-
-$distance_shinagawa - 13375;
-Track[$track_opposite].X.Interpolate(20.5);
-Track[$track_opposite].X.Interpolate(20.5, 0);
-
-$distance_shinagawa - 13125;
-Track[$track_opposite].X.Interpolate(83);
-Track[$track_opposite].X.Interpolate(83, -500);
-
-$distance_shinagawa - 13025;
-Track[$track_opposite].X.Interpolate(92.5);
-Track[$track_opposite].X.Interpolate(92.5, 0);
-Repeater['中線バラスト軌道'].End();
-Repeater['下りバラスト軌道'].End();
-Repeater['下り架線'].End();
-Repeater['下り左バラスト1'].End();
+# shinkawasaki/down へ
