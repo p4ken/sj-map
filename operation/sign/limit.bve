@@ -1,0 +1,33 @@
+BveTs Map 2.02:UTF-8
+
+$distance_nishiya + 2275;
+Structure['45kmph_L_hL'].Put($track_approach, -2.5,0.5,-0.4, 0,0,0, $tilt_none, 0);
+# Structure['SpeedLimPole_B'].Put($track_approach, -2.8,-0.6,0, 0,0,0, $tilt_none, 0);
+
+$distance_nishiya + 2300 + 10; # 近すぎでくどいので
+Structure['45kmph_hL'].Put($track_approach, -2.5,0.5,-0.4, 0,0,0, $tilt_none, 0);
+# Structure['SpeedLimPole_B'].Put($track_approach, -2.8,-0.6,0, 0,0,0, $tilt_none, 0);
+
+$distance_nishiya + 2550;
+Structure['limit_end_hL'].Put($track_approach, -2.5,0.5,-0.4, 0,0,0, $tilt_none, 0);
+Structure['SpeedLimPole_B'].Put($track_approach, -2.8,-0.6,0, 0,0,0, $tilt_none, 0);
+
+$distance_nishiya + 2610;
+Structure['limit_end_hL'].Put($track_kamotsu, -2.5,0.5,-0.4, 0,0,0, $tilt_none, 0);
+Structure['SpeedLimPole_B'].Put($track_kamotsu, -2.8,-0.8,0, 0,0,0, $tilt_none, 0);
+
+$distance_nishiya + 2665;
+Structure['45kmph_hL'].Put($track_approach, -2.5,0.5,-0.4, 0,0,0, $tilt_none, 0);
+Structure['SpeedLimPole_B'].Put($track_approach, -2.8,-0.6,0, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 17660;
+Structure['45kmph_hL'].Put($track_departure9, 2.5,0.5,-0.4, 0,0,0, $tilt_none, 0);
+Structure['SpeedLimPole_B'].Put($track_departure9, 2.2,-0.6,0, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 18250;
+Structure['60kmph_L_hL'].Put($track_hinkaku, -2.5,1,-0.4, 0,0,0, $tilt_none, 0);
+Structure['SpeedLimPole_B'].Put($track_hinkaku, -2.8,-0.2,0, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 18920;
+Structure['45kmph_hL'].Put($track_hinkaku, -3.15,1.2,-0.4, 0,0,0, $tilt_none, 0);
+

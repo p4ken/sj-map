@@ -1,0 +1,618 @@
+﻿BveTs Map 2.02:UTF-8
+
+# 初期化
+0;
+$signal_R = 0;
+$signal_YY = 1;
+$signal_Y = 2;
+$signal_YG = 3;
+$signal_G = 4;
+Section.SetSpeedLimit(0,25,55,75);
+Section.Begin($signal_R, $signal_Y, $signal_YG, $signal_G);
+Beacon.Put($beacon_signal, $section_atsp, $data_none);
+
+# 延長地上子 実測約2.7m
+$distance_0 + 100; # 10R停止位置
+Structure['atsp'].Put($track_nishiya4, 0,-0.1,0, 0,0,0, $tilt_none, 0);
+distance - 1.4;
+# Beacon.Put($beacon_stop, $section_atsp, $data_none); # これがあるとJRPI車両が非常ブレーキになる
+distance + 2.8;
+Beacon.Put($beacon_stop, $section_atsp, $data_none);
+
+# 出発(4灯YG)
+$distance_0 + 113;
+Section.Begin($signal_R, $signal_Y, $signal_YG, $signal_G);
+Signal['signal4yg'].Put(0, $track_nishiya4, -1.8,4.8);
+Structure['sig_arm4_p4ken'].Put($track_nishiya4, -2.3,4.8,0, 0,-90,0, $tilt_none, 0);
+Structure['sig_pole'].Put($track_nishiya4, -2.3,0,0, 0,0,0, $tilt_none, 0);
+Structure['出発横_hL'].Put($track_nishiya4, -2.0,2.8,-0.5, 0,0,0, $tilt_none, 0);
+
+
+$distance_0 + 115;
+Structure['atspGreen'].Put($track_nishiya4, 0,-0.1,0, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 120;
+Structure['atspGreen'].Put($track_nishiya4, 0,-0.1,0, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 220; # 180m手前
+Beacon.Put($beacon_signal, $section_atsp, $data_none);
+Structure['atsp'].Put($track_nishiya4, 0,-0.1,0, 0,0,0, $tilt_none, 0);
+
+# 中継
+$distance_0 + 260;
+Signal['signalrep'].Put(1, $track_nishiya4, -1.8,4.1);
+
+$distance_0 + 315; # 85m手前
+Beacon.Put($beacon_signal, $section_atsp, $data_none);
+Structure['atsp'].Put($track_nishiya4, 0,-0.1,0, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 370; # 30m手前
+Beacon.Put($beacon_signal, $section_atsp, $data_none);
+Structure['atsp'].Put($track_nishiya4, 0,-0.1,0, 0,0,0, $tilt_none, 0);
+
+# 閉塞(4灯YG)
+$distance_0 + 400;
+Section.Begin($signal_R, $signal_Y, $signal_YG, $signal_G);
+Signal['signal4yg'].Put(0, $track_nishiya4, -1.8,4.1);
+Structure['sig_arm4_p4ken'].Put($track_nishiya4, -2.3,4.1,0, 0,-90,0, $tilt_none, 0);
+Structure['3004_hL'].Put($track_nishiya4, -1.6,2.5,-0.1, 0,0,0, $tilt_none, 0);
+
+
+$distance_0 + 560; # 180m手前
+Beacon.Put($beacon_signal, $section_atsp, $data_none);
+Structure['atsp'].Put($track_nishiya4, 0,-0.1,0, 0,0,0, $tilt_none, 0);
+
+# 中継
+$distance_0 + 600;
+Signal['signalrep'].Put(1, $track_nishiya4, -2.2,3.9);
+
+# 中継
+$distance_0 + 680;
+Signal['signalrep'].Put(1, $track_nishiya4, -2.2,3.9);
+
+$distance_0 + 655; # 85m手前
+Beacon.Put($beacon_signal, $section_atsp, $data_none);
+Structure['atsp'].Put($track_nishiya4, 0,-0.1,0, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 710; # 30m手前
+Beacon.Put($beacon_signal, $section_atsp, $data_none);
+Structure['atsp'].Put($track_nishiya4, 0,-0.1,0, 0,0,0, $tilt_none, 0);
+
+# 閉塞(4灯YG)
+$distance_0 + 740;
+Section.Begin($signal_R, $signal_Y, $signal_YG, $signal_G);
+Signal['signal4yg'].Put(0, $track_nishiya4, -2.3,3.6);
+Structure['3008_hL'].Put($track_nishiya4, -2.05,2.0,-0.1, 0,0,0, $tilt_none, 0);
+
+
+# 中継
+$distance_0 + 990;
+Signal['signalrep'].Put(1, $track_nishiya4, -2.2,3.9);
+
+$distance_0 + 1000; # 180m手前
+Beacon.Put($beacon_signal, $section_atsp, $data_none);
+Structure['atsp'].Put($track_nishiya4, 0,-0.1,0, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 1095; # 85m手前
+Beacon.Put($beacon_signal, $section_atsp, $data_none);
+Structure['atsp'].Put($track_nishiya4, 0,-0.1,0, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 1150; # 30m手前
+Beacon.Put($beacon_signal, $section_atsp, $data_none);
+Structure['atsp'].Put($track_nishiya4, 0,-0.1,0, 0,0,0, $tilt_none, 0);
+
+# 閉塞 (4灯YG)
+$distance_0 + 1180;
+Section.Begin($signal_R, $signal_Y, $signal_YG, $signal_G);
+Signal['signal4yg'].Put(0, $track_nishiya4, -2.3,3.2);
+Structure['3010_hL'].Put($track_nishiya4, -2.05,1.6,-0.1, 0,0,0, $tilt_none, 0);
+
+
+$distance_0 + 1270; # 180m手前
+Beacon.Put($beacon_signal, $section_atsp, $data_none);
+Structure['atsp'].Put($track_nishiya4, 0,-0.1,0, 0,0,0, $tilt_none, 0);
+
+# 中継
+$distance_0 + 1320;
+Signal['signalrep'].Put(1, $track_nishiya4, -2.1,3.2);
+
+$distance_0 + 1365; # 85m手前
+Beacon.Put($beacon_signal, $section_atsp, $data_none);
+Structure['atsp'].Put($track_nishiya4, 0,-0.1,0, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 1420; # 30m手前
+Beacon.Put($beacon_signal, $section_atsp, $data_none);
+Structure['atsp'].Put($track_nishiya4, 0,-0.1,0, 0,0,0, $tilt_none, 0);
+
+# 閉塞 (4灯YG)
+$distance_0 + 1450;
+Section.Begin($signal_R, $signal_Y, $signal_YG, $signal_G);
+Signal['signal4yg'].Put(0, $track_nishiya4, -2.1,3.9);
+Structure['3014_hL'].Put($track_nishiya4, -1.9,2.3,-0.1, 0,0,0, $tilt_none, 0);
+
+
+$distance_0 + 1540; # 180m手前
+Beacon.Put($beacon_signal, $section_atsp, $data_none);
+Structure['atsp'].Put($track_nishiya4, 0,-0.1,0, 0,0,0, $tilt_none, 0);
+
+# 中継
+$distance_0 + 1590;
+# 制限固定表示
+Signal['signalrep_1'].Put(1, $track_nishiya4, -2.1,3.9);
+
+$distance_0 + 1635; # 85m手前
+Beacon.Put($beacon_signal, $section_atsp, $data_none);
+Structure['atsp'].Put($track_nishiya4, 0,-0.1,0, 0,0,0, $tilt_none, 0);
+
+# 中継
+$distance_0 + 1650;
+# 制限固定表示
+Signal['signalrep_1'].Put(1, $track_nishiya4, -2.1,3.9);
+
+$distance_0 + 1690; # 30m手前
+Beacon.Put($beacon_signal, $section_atsp, $data_none);
+Structure['atsp'].Put($track_nishiya4, 0,-0.1,0, 0,0,0, $tilt_none, 0);
+
+# 第1場内(4灯YG)
+$distance_0 + 1720;
+# YG固定表示 (PIによる制動を回避)
+Section.Begin($signal_G);
+Signal['signal4yg_YG'].Put(0, $track_nishiya4, -2.1,3.9);
+Structure['第1場内_hL'].Put($track_nishiya4, -1.8,2.3,-0.1, 0,0,0, $tilt_none, 0);
+SpeedLimit.Begin(65); # JRと異なる
+
+
+$distance_0 + 1760; # 180m手前
+Beacon.Put($beacon_signal, $section_atsp, $data_none);
+Structure['atsp'].Put($track_nishiya4, 0,-0.1,0, 0,0,0, $tilt_none, 0);
+
+# 中継
+$distance_0 + 1780;
+# 制限固定表示
+Signal['signalrep_1'].Put(1, $track_nishiya4, -2.1,3.9);
+
+$distance_0 + 1855; # 85m手前
+Beacon.Put($beacon_signal, $section_atsp, $data_none);
+Structure['atsp'].Put($track_nishiya4, 0,-0.1,0, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 1910; # 30m手前
+Beacon.Put($beacon_signal, $section_atsp, $data_none);
+Structure['atsp'].Put($track_nishiya4, 0,-0.1,0, 0,0,0, $tilt_none, 0);
+
+# 第2場内(4灯YY)
+$distance_0 + 1940;
+# Y固定表示 (PIによる制動を回避)
+Section.Begin($signal_G);
+Signal['signal4yy_Y'].Put(0, $track_nishiya4, -2.1,3.9);
+Structure['第2場内_hL'].Put($track_nishiya4, -1.8,2.3,-0.1, 0,0,0, $tilt_none, 0);
+SpeedLimit.Begin(45); # JRと異なる
+
+$distance_0 + 2025;
+# 誤通過防止
+Beacon.Put($beacon_station, 1, 200); // 羽沢横浜国大 停車
+# Y固定表示の制限は出発信号で終える
+SpeedLimit.End();
+
+$distance_0 + 2045; # 180m手前
+Beacon.Put($beacon_signal, $section_atsp, $data_none);
+Structure['atsp'].Put($track_nishiya4, 0,-0.1,0, 0,0,0, $tilt_none, 0);
+
+# 130m手前は置かれていない
+
+$distance_0 + 2140; # 85m手前
+Beacon.Put($beacon_signal, $section_atsp, $data_none);
+Structure['atsp'].Put($track_nishiya4, 0,-0.1,0, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 2175; # 50m手前
+Beacon.Put($beacon_signal, $section_atsp, $data_none);
+Structure['atsp'].Put($track_nishiya4, 0,-0.1,0, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 2200;
+Beacon.Put($beacon_signal, $section_atsp, $data_none); // rock_on/snp
+
+$distance_0 + 2205; # 仕様上は25m手前のはず
+Beacon.Put($beacon_stop, $section_atsp, $data_none);
+Structure['atsp'].Put($track_nishiya4, 0,-0.1,0, 0,0,0, $tilt_none, 0);
+
+# 2JR出(4灯YY)
+$distance_0 + 2225;
+Section.Begin($signal_R, $signal_Y, $signal_YG, $signal_G);
+Signal['signal4yy'].Put(0, $track_hinkaku, -2.8,3.5);
+Structure['SigPole2'].Put($track_hinkaku, -2.8,-0.5,0, 0,0,0, $tilt_none, 0);
+Structure['2JR出_hL'].Put($track_hinkaku, -2.65,3.7,-0.1, 0,0,0, $tilt_none, 0);
+Structure['SigPole2'].Put($track_opposite, 2.5,-0.5,0, 0,0,0, $tilt_none, 0);
+Structure['signal4yy0'].Put($track_hinkaku, 1.8,5.1,0, 0,0,0, $tilt_none, 0);
+Structure['signal4yy0'].Put($track_opposite, 2.7,4.1,0, 0,0,0, $tilt_none, 0);
+Structure['signal4yy0'].Put($track_opposite, 2.2,3.0,0, 0,0,0, $tilt_none, 0);
+Structure['1JR出_hL'].Put($track_opposite, 2.8,1.2,-0.4, 0,0,0, $tilt_none, 0);
+
+# 誤通過防止
+$distance_0 + 2470;
+# Beacon.Put($beacon_station, 1, -1); // (相鉄PIの場合)
+
+$distance_0 + 2330;
+Beacon.Put($beacon_signal, $section_atsp, $data_none);
+Structure['atspGreen'].Put($track_hinkaku, 0,-0.1,0, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 2335;
+Structure['atspGreen'].Put($track_hinkaku, 0,-0.1,0, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 2345;
+Structure['atsp'].Put($track_hinkaku, 0,-0.1,0, 0,0,0, $tilt_none, 0);
+Structure['atspGreen'].Put($track_shinyokohama, 0,-0.1,0, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 2350;
+Structure['atsp'].Put($track_hinkaku, 0,-0.1,0, 0,0,0, $tilt_none, 0);
+Structure['atspGreen'].Put($track_shinyokohama, 0,-0.1,0, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 2360;
+Structure['atsp'].Put($track_hinkaku, 0,-0.1,0, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 2450; # 180m手前
+Beacon.Put($beacon_signal, $section_atsp, $data_none);
+Structure['atsp'].Put($track_hinkaku, 0,-0.1,0, 0,0,0, $tilt_none, 0);
+
+# 中継
+$distance_0 + 2525;
+Signal['signalrep'].Put(1, $track_hinkaku, -2.6,4.8);
+Structure['sig_pole'].Put($track_hinkaku, -2.7,0,0, 0,60,0, $tilt_none, 0);
+
+$distance_0 + 2545; # 85m手前
+Beacon.Put($beacon_signal, $section_atsp, $data_none);
+Structure['atsp'].Put($track_hinkaku, 0,-0.1,0, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 2600; # 30m手前
+Beacon.Put($beacon_signal, $section_atsp, $data_none);
+Structure['atsp'].Put($track_hinkaku, 0,-0.1,0, 0,0,0, $tilt_none, 0);
+
+# 場内(3灯)
+$distance_0 + 2630;
+Section.Begin($signal_R, $signal_Y, $signal_G);
+Signal['signal3'].Put(0, $track_hinkaku, -2.3,4.5);
+Structure['sig_arm3'].Put($track_hinkaku, -2.3,4.5,0, 0,-15,0, $tilt_none, 0);
+Structure['sig_pole'].Put($track_hinkaku, -2.3,-0.2,0, 0,0,0, $tilt_none, 0);
+Structure['場内_hL'].Put($track_hinkaku, -2.15,4.6,-0.4, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 2770;
+Structure['SigPole2'].Put($track_opposite, -2,-0.2,0, 0,0,0, $tilt_none, 0);
+Structure['signal30'].Put($track_opposite, -2,4.5,0, 0,0,0, $tilt_none, 0);
+Structure['7番出_hL'].Put($track_opposite, -1.95,4.6,-0.4, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 3000; # 600m手前
+Beacon.Put($beacon_signal, $section_atsp, $data_none);
+Structure['atsp'].Put($track_hinkaku, 0,-0.1,0, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 3006;
+Structure['atsp'].Put($track_hinkaku, 0,-0.1,0, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 3024;
+Structure['atsp'].Put($track_hinkaku, 0,-0.1,0, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 3030;
+Structure['atsp'].Put($track_hinkaku, 0,-0.1,0, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 3420; # 180m手前
+Beacon.Put($beacon_signal, $section_atsp, $data_none);
+Structure['atsp'].Put($track_hinkaku, 0,-0.1,0, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 3515; # 85m手前
+Beacon.Put($beacon_signal, $section_atsp, $data_none);
+Structure['atsp'].Put($track_hinkaku, 0,-0.1,0, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 3570; # 30m手前
+Beacon.Put($beacon_signal, $section_atsp, $data_none);
+Structure['atsp'].Put($track_hinkaku, 0,-0.1,0, 0,0,0, $tilt_none, 0);
+
+# 7(3灯)
+$distance_0 + 3600;
+Section.Begin($signal_R, $signal_Y, $signal_G);
+Signal['signal3'].Put(0, $track_hinkaku, -2.2,4.8);
+Structure['sig_arm3'].Put($track_hinkaku, -2.7,4.8,0, 0,-90,0, $tilt_none, 0);
+Structure['sig_pole'].Put($track_hinkaku, -2.7,0,0, 0,0,0, $tilt_none, 0);
+Structure['7_hL'].Put($track_hinkaku, -2.5,3.2,-0.7, 0,0,0, $tilt_none, 0);
+
+
+$distance_tsurumi -	7150; # 180m手前
+Beacon.Put($beacon_signal, $section_atsp, $data_none);
+Structure['atsp'].Put($track_hinkaku, 0,-0.1,0, 0,0,0, $tilt_none, 0);
+
+$distance_tsurumi -	7055; # 85m手前
+Beacon.Put($beacon_signal, $section_atsp, $data_none);
+Structure['atsp'].Put($track_hinkaku, 0,-0.1,0, 0,0,0, $tilt_none, 0);
+
+$distance_tsurumi -	7000; # 30m手前
+Beacon.Put($beacon_signal, $section_atsp, $data_none);
+Structure['atsp'].Put($track_hinkaku, 0,-0.1,0, 0,0,0, $tilt_none, 0);
+
+# 閉塞
+$distance_tsurumi -	6970;
+Section.Begin($signal_R, $signal_Y, $signal_G);
+Signal['signal3'].Put(0, $track_hinkaku, -1.8,3.8);
+Structure['6_hL'].Put($track_hinkaku, -1.7,2.3,-0.7, 0,0,0, $tilt_none, 0);
+
+
+$distance_tsurumi -	5862; # 180m手前
+Beacon.Put($beacon_signal, $section_atsp, $data_none);
+Structure['atsp'].Put($track_hinkaku, 0,-0.1,0, 0,0,0, $tilt_none, 0);
+
+$distance_tsurumi -	5767; # 85m手前
+Beacon.Put($beacon_signal, $section_atsp, $data_none);
+Structure['atsp'].Put($track_hinkaku, 0,-0.1,0, 0,0,0, $tilt_none, 0);
+
+$distance_tsurumi -	5712; # 30m手前
+Beacon.Put($beacon_signal, $section_atsp, $data_none);
+Structure['atsp'].Put($track_hinkaku, 0,-0.1,0, 0,0,0, $tilt_none, 0);
+
+# 閉塞
+$distance_tsurumi -	5682;
+Section.Begin($signal_R, $signal_Y, $signal_G);
+Signal['signal3'].Put(0, $track_hinkaku, -1.8,3.8);
+Structure['5_hL'].Put($track_hinkaku, -1.7,2.3,-0.7, 0,0,0, $tilt_none, 0);
+
+$distance_tsurumi -	5262; # 180m手前
+Beacon.Put($beacon_signal, $section_atsp, $data_none);
+Structure['atsp'].Put($track_hinkaku, 0,-0.1,0, 0,0,0, $tilt_none, 0);
+
+$distance_tsurumi -	5167; # 85m手前
+Beacon.Put($beacon_signal, $section_atsp, $data_none);
+Structure['atsp'].Put($track_hinkaku, 0,-0.1,0, 0,0,0, $tilt_none, 0);
+
+$distance_tsurumi -	5112; # 30m手前
+Beacon.Put($beacon_signal, $section_atsp, $data_none);
+Structure['atsp'].Put($track_hinkaku, 0,-0.1,0, 0,0,0, $tilt_none, 0);
+
+# 閉塞
+$distance_tsurumi -	5082;
+Section.Begin($signal_R, $signal_Y, $signal_G);
+Signal['signal3'].Put(0, $track_hinkaku, -1.8,3.8);
+Structure['4_hL'].Put($track_hinkaku, -1.7,2.3,-0.7, 0,0,0, $tilt_none, 0);
+
+$distance_tsurumi -	4689; # 180m手前
+Beacon.Put($beacon_signal, $section_atsp, $data_none);
+Structure['atsp'].Put($track_hinkaku, 0,-0.1,0, 0,0,0, $tilt_none, 0);
+
+$distance_tsurumi -	4594; # 85m手前
+Beacon.Put($beacon_signal, $section_atsp, $data_none);
+Structure['atsp'].Put($track_hinkaku, 0,-0.1,0, 0,0,0, $tilt_none, 0);
+
+$distance_tsurumi -	4539; # 30m手前
+Beacon.Put($beacon_signal, $section_atsp, $data_none);
+Structure['atsp'].Put($track_hinkaku, 0,-0.1,0, 0,0,0, $tilt_none, 0);
+
+# 閉塞
+$distance_tsurumi -	4509;
+Section.Begin($signal_R, $signal_Y, $signal_G);
+Signal['signal3'].Put(0, $track_hinkaku, -1.8,3.8);
+Structure['3_hL'].Put($track_hinkaku, -1.7,2.3,-0.7, 0,0,0, $tilt_none, 0);
+
+$distance_tsurumi -	3578; # 180m手前
+Beacon.Put($beacon_signal, $section_atsp, $data_none);
+Structure['atsp'].Put($track_hinkaku, 0,-0.1,0, 0,0,0, $tilt_none, 0);
+
+$distance_tsurumi -	3483; # 85m手前
+Beacon.Put($beacon_signal, $section_atsp, $data_none);
+Structure['atsp'].Put($track_hinkaku, 0,-0.1,0, 0,0,0, $tilt_none, 0);
+
+$distance_tsurumi -	3428; # 30m手前
+Beacon.Put($beacon_signal, $section_atsp, $data_none);
+Structure['atsp'].Put($track_hinkaku, 0,-0.1,0, 0,0,0, $tilt_none, 0);
+
+# 閉塞
+$distance_tsurumi -	3398;
+Section.Begin($signal_R, $signal_Y, $signal_G);
+Signal['signal3'].Put(0, $track_hinkaku, -2.0,3.3);
+Structure['2_hL'].Put($track_hinkaku, -1.9,1.9,-0.7, 0,0,0, $tilt_none, 0);
+
+# 中継
+$distance_tsurumi -	2587;
+Signal['signalrep'].Put(1, $track_hinkaku, -2.0,2.7);
+
+$distance_tsurumi -	2478; # 180m手前
+Beacon.Put($beacon_signal, $section_atsp, $data_none);
+Structure['atsp'].Put($track_hinkaku, 0,-0.1,0, 0,0,0, $tilt_none, 0);
+
+$distance_tsurumi -	2383; # 85m手前
+Beacon.Put($beacon_signal, $section_atsp, $data_none);
+Structure['atsp'].Put($track_hinkaku, 0,-0.1,0, 0,0,0, $tilt_none, 0);
+
+$distance_tsurumi -	2328; # 30m手前
+Beacon.Put($beacon_signal, $section_atsp, $data_none);
+Structure['atsp'].Put($track_hinkaku, 0,-0.1,0, 0,0,0, $tilt_none, 0);
+
+# 閉塞
+$distance_tsurumi -	2298;
+Section.Begin($signal_R, $signal_Y, $signal_G);
+Signal['signal3'].Put(0, $track_hinkaku, -1.8,3.8);
+Structure['1_hL'].Put($track_hinkaku, -1.7,2.3,-0.7, 0,0,0, $tilt_none, 0);
+
+# 閉塞(4灯YG)
+$distance_0 + 10470;
+Section.Begin($signal_R, $signal_Y, $signal_YG, $signal_G);
+Signal['signal4yg'].Put(0, $track_hinkaku, -2.3,4.8);
+# Structure['sig_arm4_p4ken'].Put($track_hinkaku, -2.3,4.8,0, 0,0,0, $tilt_none, 0);
+Structure['sig_pole'].Put($track_hinkaku, -2.3,0,0, 0,0,0, $tilt_none, 0);
+Structure['貨一場_hL'].Put($track_hinkaku, -2.15,4.9,-0.1, 0,0,0, $tilt_none, 0);
+
+# 閉塞(4灯YY)
+$distance_0 + 10810;
+Section.Begin($signal_R, $signal_Y, $signal_G);
+Signal['signal4yy'].Put(0, $track_hinkaku, 2.3,4.8);
+Structure['sig_arm4_p4ken'].Put($track_hinkaku, 2.3,4.8,0, 0,0,0, $tilt_none, 0);
+Structure['sig_pole'].Put($track_hinkaku, 2.3,0,0, 0,0,0, $tilt_none, 0);
+Structure['貨本二場_hL'].Put($track_hinkaku, 2.45,4.9,-0.1, 0,0,0, $tilt_none, 0);
+Structure['signal4yy0'].Put($track_hinkaku, 2.7,3.1,0, 0,0,0, $tilt_none, 0);
+Structure['sig_arm4_p4ken'].Put($track_hinkaku, 2.3,3.1,0, 0,-90,0, $tilt_none, 0);
+Structure['中3二場_hL'].Put($track_hinkaku, 2.85,3.1,-0.5, 0,0,0, $tilt_none, 0);
+
+# 出発
+$distance_shinagawa - 17400;
+Section.Begin($signal_R, $signal_Y, $signal_G);
+Signal['signal3'].Put(0, $track_hinkaku, -5.3,5.1,0, 0,-20,0, $tilt_none, 0);
+Structure['sig_arm3'].Put($track_hinkaku, -4.8,5.1,0, 0,70,0, $tilt_none, 0);
+Structure['sig_pole'].Put($track_hinkaku, -4.8,0,0, 0,-20,0, $tilt_none, 0);
+Structure['品鶴出_hL'].Put($track_hinkaku, -5.0,3.1,-0.6, 0,-20,0, $tilt_none, 0);
+Structure['sig_arm3'].Put($track_hinkaku, -4.8,4.5,0, 0,-70,0, $tilt_none, 0);
+Structure['signal30'].Put($track_hinkaku, -4.35,4.5,0, 0,-20,0, $tilt_none, 0);
+Structure['塩浜出_hL'].Put($track_hinkaku, -4.2,4.5,-0.6, 0,-20,0, $tilt_none, 0);
+
+Structure['SigPole2'].Put($track_hinkaku, 2.5,0,0, 0,0,0, $tilt_none, 0);
+Structure['signal30'].Put($track_hinkaku, 2.5,4.8,0, 0,0,0, $tilt_none, 0);
+Structure['中3出_hL'].Put($track_hinkaku, 2.65,4.9,-0.3, 0,0,0, $tilt_none, 0);
+
+# 閉塞
+$distance_0 + 12650;
+Section.Begin($signal_R, $signal_Y, $signal_G);
+Signal['signal3'].Put(0, $track_hinkaku, -2.5,4.8);
+Structure['sig_arm3'].Put($track_hinkaku, -2.3,4.8,0, 0,90,0, $tilt_none, 0);
+Structure['sig_pole'].Put($track_hinkaku, -2.3,0,0, 0,0,0, $tilt_none, 0);
+Structure['3_hL'].Put($track_hinkaku, -2.2,3.0,-0.1, 0,0,0, $tilt_none, 0);
+
+# 中継
+$distance_0 + 12880;
+Signal['signalrep'].Put(1, $track_hinkaku, -2.3,5.3);
+Structure['SigPole2'].Put($track_hinkaku, -2.3,0.5,0, 0,0,0, $tilt_none, 0);
+
+# 閉塞
+$distance_0 + 12990;
+Section.Begin($signal_R, $signal_Y, $signal_G);
+Signal['signal3'].Put(0, $track_hinkaku, 3.5,4.8);
+Structure['sig_pole'].Put($track_hinkaku, 3.5,0,0, 0,0,0, $tilt_none, 0);
+Structure['2_hL'].Put($track_hinkaku, 3.6,3.0,-0.1, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 13750;
+Structure['SigPole2'].Put($track_yokosuka, -6.5,0.5,0, 0,0,0, $tilt_none, 0);
+Structure['signal4yg4'].Put($track_yokosuka, -6.5,4.8,0, 0,0,0, $tilt_none, 0);
+Structure['須_hL'].Put($track_yokosuka, -6.3,4.9,-0.1, 0,0,0, $tilt_none, 0);
+
+# 閉塞
+$distance_0 + 14400;
+Section.Begin($signal_R, $signal_Y, $signal_G);
+Signal['signal3'].Put(0, $track_hinkaku, -3.3,4.8);
+Structure['sig_pole'].Put($track_hinkaku, -3.3,0,0, 0,0,0, $tilt_none, 0);
+Structure['1_hL'].Put($track_hinkaku, -3.2,2.9,-0.1, 0,0,0, $tilt_none, 0);
+
+# 場内
+$distance_shinagawa - 14105;
+Section.Begin($signal_R, $signal_Y, $signal_G);
+Signal['signal3'].Put(0, $track_hinkaku, -3.2,5.2);
+Structure['sig_arm3'].Put($track_hinkaku, -2.8,5.2,0, 0,60,0, $tilt_none, 0);
+Structure['sig_pole'].Put($track_hinkaku, -2.8,0,0, 0,0,0, $tilt_none, 0);
+Structure['本一場_hL'].Put($track_hinkaku, -2.95,3.2,-0.7, 0,0,0, $tilt_none, 0);
+Structure['sig_arm4_p4ken'].Put($track_hinkaku, -2.8,3.6,0, 0,-60,0, $tilt_none, 0);
+Structure['signal4yy0'].Put($track_hinkaku, -2.3,3.6,0, 0,0,0, $tilt_none, 0);
+Structure['中一場_hL'].Put($track_hinkaku, -2.5,2.0,-0.7, 0,0,0, $tilt_none, 0);
+
+# 中継
+$distance_0 + 15950;
+Signal['signalrep'].Put(1, $track_hinkaku, 4,4.8,0, 0,10,0, $tilt_none, 0);
+Structure['sig_pole'].Put($track_hinkaku, 4,0,0, 0,10,0, $tilt_none, 0);
+
+# 場内
+$distance_shinagawa - 13130;
+Section.Begin($signal_R, $signal_Y, $signal_G);
+Signal['signal3'].Put(0, $track_hinkaku, 2.8,4.8);
+Structure['sig_pole'].Put($track_hinkaku, 2.8,0,0, 0,5,0, $tilt_none, 0);
+Structure['本二場_hL'].Put($track_hinkaku, 2.85,4.8,-0.5, 0,0,0, $tilt_none, 0);
+
+# 中継
+$distance_0 + 16340;
+Signal['signalrep'].Put(1, $track_hinkaku, -3,4.8,0, 0,-10,0, $tilt_none, 0);
+Structure['sig_pole'].Put($track_hinkaku, -3,0,0, 0,-10,0, $tilt_none, 0);
+
+# 場内
+$distance_shinagawa - 12720;
+Section.Begin($signal_R, $signal_Y, $signal_G);
+Signal['signal3'].Put(0, $track_hinkaku, -3.8,5.3);
+Structure['sig_pole'].Put($track_hinkaku, -3.8,0,0, 0,0,0, $tilt_none, 0);
+Structure['本三場_hL'].Put($track_hinkaku, -3.65,5.3,-0.5, 0,0,0, $tilt_none, 0);
+Structure['signal4yy0'].Put($track_hinkaku, -3.3,3.8,-0.5, 0,0,0, $tilt_none, 0);
+Structure['sig_arm4_p4ken'].Put($track_hinkaku, -3.8,3.8,0, 0,-90,0, $tilt_none, 0);
+Structure['9_10_11場_hL'].Put($track_hinkaku, -3.0,3.8,-0.5, 0,0,0, $tilt_none, 0);
+Structure['sig_pole'].Put($track_hinkaku, -2.8,-1,0, 0,0,0, $tilt_none, 0);
+Structure['signal4yy0'].Put($track_hinkaku, -2.3,3.8,0, 0,0,0, $tilt_none, 0);
+Structure['sig_arm4_p4ken'].Put($track_hinkaku, -2.8,3.8,0, 0,-90,0, $tilt_none, 0);
+Structure['7_8場_hL'].Put($track_hinkaku, -2.15,3.8,-0.5, 0,0,0, $tilt_none, 0);
+Structure['sig_pole'].Put($track_hinkaku, 2.5,-1,0, 0,0,0, $tilt_none, 0);
+Structure['signal4yy0'].Put($track_hinkaku, 2.5,3.8,0, 0,0,0, $tilt_none, 0);
+Structure['5_6場_hL'].Put($track_hinkaku, 2.65,3.8,-0.5, 0,0,0, $tilt_none, 0);
+
+# 出発
+$distance_shinagawa - 11880;
+Section.Begin($signal_R, $signal_Y, $signal_G);
+Signal['signal3'].Put(0, $track_hinkaku, -2.3,4.8);
+Structure['sig_pole'].Put($track_hinkaku, -2.3,0,0, 0,0,0, $tilt_none, 0);
+Structure['本一出_hL'].Put($track_hinkaku, -2.1,4.8,-0.5, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 17445;
+Structure['11出_hL'].Put($track_departure11, -1.9,7.2,-0.5, 0,0,0, $tilt_none, 0);
+Structure['signal30'].Put($track_departure11,-2,7.2,0, 0,0,0, $tilt_none, 0);
+Structure['10出_hL'].Put($track_departure11, 2.1,7.2,-0.5, 0,0,0, $tilt_none, 0);
+Structure['signal30'].Put($track_departure11, 2,7.2,0, 0,0,0, $tilt_none, 0);
+
+# 出発
+$distance_shinagawa - 11390;
+Section.Begin($signal_R, $signal_Y, $signal_G);
+Structure['sig_pole'].Put($track_hinkaku, -2.5,0,0, 0,0,0, $tilt_none, 0);
+Structure['signal4yg0'].Put($track_hinkaku, -2.4,5,0, 0,0,0, $tilt_none, 0);
+Structure['武2出_hL'].Put($track_hinkaku, -2.25,5,-0.5, 0,0,0, $tilt_none, 0);
+Signal['signal3'].Put(0, $track_hinkaku, -2.9,3.2);
+Structure['sig_arm3'].Put($track_hinkaku, -2.5,3.2,0, 0,45,0, $tilt_none, 0);
+Structure['品二出_hL'].Put($track_hinkaku, -2.7,3.2,-0.5, 0,0,0, $tilt_none, 0);
+
+# 中継
+$distance_0 + 18635;
+Signal['signalrep'].Put(1, $track_hinkaku, -2.5,4.8,0, 0,-10,0, $tilt_none, 0);
+Structure['sig_pole'].Put($track_hinkaku, -2.5,0,0, 0,-10,0, $tilt_none, 0);
+Structure['hakko'].Put($track_hinkaku, -2.2,0,2, 0,-10,0, $tilt_none, 0);
+
+# 閉塞(無名)
+$distance_0 + 18770;
+Section.Begin($signal_R, $signal_Y, $signal_G);
+Signal['signal3'].Put(0, $track_hinkaku, -3,4.8,0, 0,-10,0, $tilt_none, 0);
+Structure['sig_pole'].Put($track_hinkaku, -3,0,0, 0,-10,0, $tilt_none, 0);
+
+# 中継
+$distance_0 + 18920;
+Signal['signalrep'].Put(1, $track_hinkaku, -3.5,4.8,0, 0,-10,0, $tilt_none, 0);
+Structure['sig_pole'].Put($track_hinkaku, -3.5,0,0, 0,-10,0, $tilt_none, 0);
+
+# 閉塞
+$distance_0 + 19120;
+Section.Begin($signal_R, $signal_Y, $signal_G);
+Signal['Sig5b_LED'].Put(0, $track_hinkaku, -2.5,4.5,0, 0,0,0, $tilt_none, 0);
+Structure['sig_pole'].Put($track_hinkaku, -3.0,-0.5,0, 0,0,0, $tilt_none, 0);
+Structure['Back_Arm_MU'].Put($track_hinkaku, -3.0,4.7,0, 0,-90,0, $tilt_none, 0);
+Structure['Back_Arm_MD'].Put($track_hinkaku, -3.0,3.0,0, 0,-90,0, $tilt_none, 0);
+Structure['14_hL'].Put($track_hinkaku, -2.8,2.4,-0.1, 0,0,0, $tilt_none, 0);
+
+# 閉塞
+$distance_0 + 19320;
+Section.Begin($signal_R, $signal_Y, $signal_G);
+Signal['signal4yy'].Put(0, $track_hinkaku, -3,4.8,0, 0,0,0, $tilt_none, 0);
+Structure['sig_pole'].Put($track_hinkaku, -3,0,0, 0,0,0, $tilt_none, 0);
+Structure['Back_Arm_SU'].Put($track_hinkaku, -3,5,0, 0,0,0, $tilt_none, 0);
+Structure['Back_Arm_SD'].Put($track_hinkaku, -3,3.5,0, 0,0,0, $tilt_none, 0);
+Structure['13_hL'].Put($track_hinkaku, -2.85,2.8,-0.1, 0,0,0, $tilt_none, 0);
+
+# 中継
+$distance_0 + 19450;
+Signal['signalrep'].Put(1, $track_hinkaku, -3,4.8,0, 0,-10,0, $tilt_none, 0);
+Structure['sig_pole'].Put($track_hinkaku, -3,0,0, 0,-10,0, $tilt_none, 0);
+
+# 閉塞
+$distance_0 + 19530;
+Section.Begin($signal_R, $signal_Y, $signal_G);
+Signal['signal4yy'].Put(0, $track_hinkaku, -2.5,4.8,0, 0,0,0, $tilt_none, 0);
+Structure['sig_pole'].Put($track_hinkaku, -3,0,0, 0,0,0, $tilt_none, 0);
+Structure['Back_Arm_MU'].Put($track_hinkaku, -3.0,4.95,0, 0,-90,0, $tilt_none, 0);
+Structure['Back_Arm_MD'].Put($track_hinkaku, -3.0,3.5,0, 0,-90,0, $tilt_none, 0);
+Structure['12_hL'].Put($track_hinkaku, -2.85,2.8,-0.1, 0,0,0, $tilt_none, 0);
+
+
+
+100000;
+Section.Begin(0);
+Section.Begin(0);
+Section.Begin(0);
+Section.Begin(0);
+Section.Begin(0);

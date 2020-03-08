@@ -11,11 +11,11 @@ Track[$track_wild].X.Interpolate();
 Track[$track_wild].X.Interpolate(6.2, -3000);
 Repeater['保線区バラスト軌道'].Begin($track_wild, 0,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastTR_K_5a');
 
-$distance_0 + 18600;
-Track[$track_wild].X.Interpolate(10, -1000);
+$distance_0 + 18400;
+Track[$track_wild].X.Interpolate(11, 0);
 
-$distance_0 + 18700;
-Track[$track_wild].X.Interpolate(8,0);
+$distance_0 + 18600;
+Track[$track_wild].X.Interpolate(13,-1000);
 Track[$track_wild].Cant.Interpolate();
 Track[$track_wild].Cant.Interpolate(-0.02); # チラつき防止カント
 Track[$track_wild].Y.Interpolate();
@@ -26,8 +26,8 @@ Structure['point2R'].Put($track_hinkaku, 0.53,0.01,0, 0,0,0, $tilt_all, 0);
 $distance_0 + 18799.3;
 Structure['point2R'].Put($track_hinkaku, 0.59,0.01,0, 0,180,0, $tilt_all, 0);
 
-$distance_0 + 18800;
-Track[$track_wild].X.Interpolate(1, 308);
+$distance_0 + 18780;
+Track[$track_wild].X.Interpolate(3, 308);
 Track[$track_wild].Y.Interpolate(-0.01);
 
 $distance_0 + 18820;

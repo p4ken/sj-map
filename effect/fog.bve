@@ -13,22 +13,22 @@ Structure['huku_c1_lp'].Put($track_kohoku, 0,0,500, 0,90,0, $tilt_gradient, 5);
 Structure['huku_c1_lp'].Put($track_kohoku, 5,0,500, 0,90,0, $tilt_gradient, 5);
 
 $distance_0 + 3730;
-Fog.Interpolate(0.005, 0, 0, 0);
+# Fog.Interpolate(0.005, 0, 0, 0);
 Structure['huku_c1_lp'].Put($track_kohoku,-5,0,500, 0,90,0, $tilt_gradient, 5);
 Structure['huku_c1_lp'].Put($track_kohoku, 0,0,500, 0,90,0, $tilt_gradient, 5);
 Structure['huku_c1_lp'].Put($track_kohoku, 5,0,500, 0,90,0, $tilt_gradient, 5);
 
-$distance_0 + 9700;
+$distance_0 + 9650;
 Fog.Interpolate();
 
-$distance_0 + 9850;
+$distance_0 + 9700;
 Fog.Interpolate(0,0,0,0);
 
-$distance_0 + 9895;
+$distance_0 + 9845;
 Fog.Interpolate(0.002,1,1,1);
 
-$distance_0 + 9900;
+$distance_0 + 9920;
 Fog.Interpolate();
 
-$distance_0 + 9930;
-Fog.Interpolate(0,0,0,0);
+$distance_0 + 9970;
+Fog.Interpolate(0,1,1,1);

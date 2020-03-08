@@ -3,8 +3,10 @@ BveTs Map 2.02:UTF-8
 $distance_0 + 13120;
 Repeater['横須賀線下り架線'].Begin($track_yokosuka, 0,0,0, 0,0,0, $tilt_gradient, 50, 50, 'kasen50S');
 Repeater['横須賀線上り架線'].Begin($track_yokosuka, -4,0,0, 0,0,0, $tilt_gradient, 50, 50, 'kasen50S');
-Repeater['下り架線'].Begin($track_opposite, 0,0,0, 0,0,0, $tilt_gradient, 50, 50, 'kasen50S');
 Repeater['上り架線'].Begin($track_hinkaku, 0,0,0, 0,0,0, $tilt_gradient, 50, 50, 'kasen50S');
+Repeater['下り架線'].Begin($track_opposite, 0,0,0, 0,0,0, $tilt_gradient, 50, 50, 'kasen50S');
+Repeater['上り碍子'].Begin($track_hinkaku, 0,0,0, 0,0,0, $tilt_none, 0, 50, 'chokasen_gaisi');
+Repeater['下り碍子'].Begin($track_opposite, 0,0,0, 0,0,0, $tilt_none, 0, 50, 'chokasen_gaisi');
 Repeater['横須賀線架線柱'].Begin($track_yokosuka, -1,0.5,0, 0,0,0, $tilt_none, 0, 50, 'PoleTrs06A');
 Repeater['架線柱'].Begin($track_hinkaku, 0.5,0,0, 0,0,0, $tilt_none, 0, 50, 'PoleTrs08A');
 
@@ -60,8 +62,6 @@ $distance_0 + 15620;
 Repeater['架線柱'].End();
 Repeater['下り架線'].End();
 Repeater['上り架線'].End();
+Repeater['下り碍子'].End();
+Repeater['上り碍子'].End();
 # shinkawasakiへ続く
-
-$distance_0 + 18920;
-Repeater['横須賀線架線柱'].End();
-Structure['PoleTrs07A'].Put($track_yokosuka, -3,0,0, 0,0,0, $tilt_none, 0);

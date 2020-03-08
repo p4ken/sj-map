@@ -1,0 +1,55 @@
+BveTs Map 2.02:UTF-8
+
+$distance_0 + 18645;
+# shinkawasakiより
+Repeater['上り架線'].Begin($track_hinkaku, 0,0,0, 0,0,0, $tilt_gradient, 50, 50, 'kasen50S');
+
+$distance_0 + 18695;
+Repeater['上り碍子'].Begin($track_hinkaku, 0,0,0, 0,0,0, $tilt_none, 0, 50, 'chokasen_gaisi');
+Structure['PoleTrs14A'].Put($track_hinkaku, 7,0,0, 0,0,0, $tilt_gradient, 0);
+
+$distance_0 + 18745;
+Structure['PoleTrs11A'].Put($track_hinkaku, 6,0,0, 0,0,0, $tilt_gradient, 0);
+
+$distance_0 + 18795;
+Repeater['上り碍子'].End();
+Structure['Pole1_stlB'].Put($track_hinkaku, 0,0,0, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 18845;
+Structure['Pole1_stlA'].Put($track_hinkaku, 0,0,0, 0,0,0, $tilt_none, 0);
+# 横須賀線はwarihataからはるばる続いている
+Repeater['横須賀線架線柱'].End();
+Structure['PoleTrs07A'].Put($track_yokosuka, -3,0,0, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 18895;
+Structure['PoleTrs08A'].Put($track_hinkaku, 3,0,0, 0,0,0, $tilt_none, 0);
+Repeater['上り碍子'].Begin($track_hinkaku, 0,0,0, 0,0,0, $tilt_none, 0, 50, 'chokasen_gaisi');
+
+$distance_0 + 18945;
+Structure['PoleTrs06A'].Put($track_hinkaku, 2,0,0, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 18995;
+Repeater['横須賀線上り架線'].End();
+Repeater['横須賀線下り架線'].End();
+Structure['PoleTrs06A'].Put($track_hinkaku, 2,0,0, 0,0,0, $tilt_none, 0);
+Repeater['下り架線'].Begin($track_opposite, 0,0,0, 0,0,0, $tilt_gradient, 50, 50, 'kasen50S');
+Repeater['下り碍子'].Begin($track_opposite, 0,0,0, 0,0,0, $tilt_none, 0, 50, 'chokasen_gaisi');
+
+$distance_0 + 19045;
+Structure['PoleTrs06A'].Put($track_hinkaku, 2,0,0, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 19095;
+Structure['PoleTrs06A'].Put($track_hinkaku, 2,0,0, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 19145;
+Structure['PoleTrs08A'].Put($track_hinkaku, 4,0,0, 0,0,0, $tilt_none, 0);
+Repeater['上り碍子'].End();
+Repeater['下り碍子'].End();
+
+$distance_0 + 19195;
+# Repeater['上り架線柱'].Begin($track_hinkaku, 0,0,0, 0,0,0, $tilt_none, 0, 50, 'Pole1_stlB');
+# Repeater['下り架線柱'].Begin($track_opposite, 0,0,0, 0,180,0, $tilt_none, 0, 50, 'Pole1_stlB');
+
+$distance_0 + 19820;
+Repeater['上り架線'].End();
+Repeater['下り架線'].End();

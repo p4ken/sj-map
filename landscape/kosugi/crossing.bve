@@ -1,0 +1,10 @@
+BveTs Map 2.02:UTF-8
+
+$distance_0 + 18680;
+Structure['Cr_barL_100'].Put($track_hinkaku, -3,-0.15,-10, 0,0,3.5, $tilt_none, 0);
+Structure['Cr_barL2_100'].Put($track_hinkaku, -3,-0.15,10, 0,0,3.5, $tilt_none, 0);
+Structure['Cr_seigenL_160'].Put($track_hinkaku, -4,-0.15,0, 0,0,3.5, $tilt_none, 0);
+Structure['Cr_sig2_L'].Put($track_hinkaku, -4,-0.15,7, 0,0,3.5, $tilt_none, 0);
+Structure['Cr_base_160L'].Put($track_hinkaku, -4.8,-0.15,0, 0,0,3.5, $tilt_none, 0);
+Structure['Cr_base_160R'].Put($track_hinkaku, 6,0,0, 0,0,0, $tilt_none, 0);
+Structure['Cr_base_160C'].Put($track_hinkaku, 0,0,0, 0,0,0, $tilt_all, 0);

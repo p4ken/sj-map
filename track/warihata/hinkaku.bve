@@ -28,10 +28,6 @@ Curve.Interpolate();
 $distance_shinagawa - 17375; # 前面展望から
 Curve.Interpolate(0, 0);
 
-$distance_shinagawa - 17370;
-Structure['SigPole2'].Put($track_hinkaku, -2,0,0, 0,0,0, $tilt_none, 0);
-Structure['品鶴出_hL'].Put($track_hinkaku, -1.8,4,-0.5, 0,0,0, $tilt_none, 0);
-
 $distance_shinagawa - 17300;
 Structure['kilopost33ky'].Put($track_hinkaku, -1.8,-0.3,0, 0,90,0, $tilt_none, 0);
 
@@ -319,10 +315,6 @@ Curve.Interpolate(0, 0.03);
 
 $distance_shinagawa - 14475;
 Curve.Interpolate(0, 0);
-
-$distance_shinagawa - 14105;
-Structure['SigPole2'].Put($track_hinkaku, -2,0,0, 0,0,0, $tilt_none, 0);
-Structure['本一場_hL'].Put($track_hinkaku, -1.8,4,-0.5, 0,0,0, $tilt_none, 0);
 
 $distance_shinagawa - 14100;
 Curve.Interpolate();

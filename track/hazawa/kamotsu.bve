@@ -32,10 +32,6 @@ $distance_nishiya + 2775 - 250;
 Track[$track_kamotsu].X.Interpolate(13, 2000);
 Repeater['貨物の外壁'].End();
 
-$distance_nishiya + 2610;
-Structure['SpeedLimEnd'].Put($track_kamotsu, -2.5,-0.8,-0.1, 0,0,0, $tilt_none, 0);
-Structure['SpeedLimPole'].Put($track_kamotsu, -2.5,-0.5,0, 0,0,0, $tilt_none, 0);
-
 $distance_nishiya + 2650;
 # 合流地点を奥にすべきだけど面倒なのでキロポストを手前にずらした
 Structure['kilopost2'].Put($track_kamotsu, -1.8,-0.5,-10, 0,0,-10, $tilt_none, 0);

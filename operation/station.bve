@@ -22,14 +22,14 @@ Station['yokohama_hazawa'].Put($left, $underrun, $overrun);
 $distance_tsurumi - 960;
 Station['kagetsuen_mae'].Put($left, $underrun, $overrun);
 
-$distance_shinagawa - 17370;
+$distance_shinagawa - 17400;
 Station['tsurumi'].Put($left, $underrun, $overrun);
 
-# 参考：鶴見から新鶴見(信)の営業キロは 3.9km
-15100; # 仮。本一場あたり。
+$distance_shinagawa - 14105; # 本一場
 Station['warihata'].Put($left, $underrun, $overrun);
 
-17350; # 仮。本一出あたり。
+# 参考：鶴見から新鶴見(信)の営業キロは 3.9km
+$distance_shinagawa - 11880; # 本一出
 Station['shin_tsurumi'].Put($left, $underrun, $overrun);
 
 # 参考：新鶴見(信)から武蔵小杉の営業キロは 3.9km

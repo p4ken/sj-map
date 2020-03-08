@@ -45,21 +45,90 @@ Repeater['上り架線柱'].Begin($track_hinkaku, 0,0,0, 0,0,0, $tilt_none, 0, 5
 $distance_0 + 16545;
 Repeater['上り架線柱'].End();
 Structure['PoleTrs06B'].Put($track_hinkaku, 1.5,0,0, 0,0,0, $tilt_gradient, 0);
-Structure['chokasen_gaisi'].Put($track_hinkaku, 0,0,0, 0,0,0, $tilt_none, 0);
+Repeater['上り碍子'].Begin($track_hinkaku, 0,0,0, 0,0,0, $tilt_none, 0, 50, 'chokasen_gaisi');
 
 $distance_0 + 16595;
 Structure['PoleTrs07A'].Put($track_hinkaku, 2.5,0,0, 0,0,0, $tilt_gradient, 0);
-Structure['chokasen_gaisi'].Put($track_hinkaku, 0,0,0, 0,0,0, $tilt_none, 0);
 
 $distance_0 + 16645;
 Structure['PoleTrs04A'].Put($track_hinkaku, 0,0,0, 0,0,0, $tilt_gradient, 0);
-Structure['chokasen_gaisi'].Put($track_hinkaku, 0,0,0, 0,0,0, $tilt_none, 0);
 Structure['PoleTrs04A_R'].Put($track_hinkaku, 7,0,0, 0,0,0, $tilt_gradient, 0);
 
 $distance_0 + 16695;
 Structure['PoleTrs04A'].Put($track_hinkaku, 0,0,0, 0,0,0, $tilt_gradient, 0);
-Structure['chokasen_gaisi'].Put($track_hinkaku, 0,0,0, 0,0,0, $tilt_none, 0);
 
 $distance_0 + 16745;
 Structure['PoleTrs04A'].Put($track_hinkaku, 0,0,0, 0,0,0, $tilt_gradient, 0);
-Structure['chokasen_gaisi'].Put($track_hinkaku, 0,0,0, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 16795;
+Structure['PoleTrs06A'].Put($track_hinkaku, 2,0,0, 0,0,0, $tilt_gradient, 0);
+
+$distance_0 + 16845;
+Repeater['上り架線柱'].Begin($track_hinkaku, 4,0,0, 0,0,0, $tilt_none, 0, 50, 'PoleTrs08A');
+
+$distance_0 + 17595;
+Repeater['上り架線柱'].End();
+Repeater['上り架線柱'].Begin($track_hinkaku, 3,0,0, 0,0,0, $tilt_none, 0, 50, 'PoleTrs08A');
+
+$distance_0 + 17745;
+Repeater['上り架線柱'].End();
+Structure['PoleTrs14A'].Put($track_hinkaku, 8,0,0, 0,0,0, $tilt_gradient, 0);
+
+$distance_0 + 17795;
+Structure['PoleTrs11A'].Put($track_hinkaku, 6,0,0, 0,0,0, $tilt_gradient, 0);
+
+$distance_0 + 17895;
+Structure['PoleTrs14A'].Put($track_hinkaku, 8,0,0, 0,0,0, $tilt_gradient, 0);
+
+$distance_0 + 17945;
+Structure['PoleTrs14A'].Put($track_hinkaku, 8,0,0, 0,0,0, $tilt_gradient, 0);
+
+$distance_0 + 17995;
+Structure['PoleTrs11A'].Put($track_hinkaku, 7,0,0, 0,0,0, $tilt_gradient, 0);
+
+$distance_0 + 18045;
+Structure['PoleTrs14A'].Put($track_hinkaku, 9,0,0, 0,0,0, $tilt_gradient, 0);
+
+$distance_0 + 18095;
+Structure['PoleTrs14A'].Put($track_hinkaku, 8,0,0, 0,0,0, $tilt_gradient, 0);
+
+$distance_0 + 18145;
+Structure['PoleTrs14A'].Put($track_hinkaku, 7,0,0, 0,0,0, $tilt_gradient, 0);
+
+$distance_0 + 18195;
+Repeater['上り碍子'].End();
+Structure['Pole1_stlA'].Put($track_hinkaku, 0,0,0, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 18245;
+Repeater['上り碍子'].Begin($track_hinkaku, 0,0,0, 0,0,0, $tilt_none, 0, 50, 'chokasen_gaisi');
+Structure['PoleTrs07A'].Put($track_hinkaku, 2,0,0, 0,0,0, $tilt_gradient, 0);
+
+$distance_0 + 18295;
+Structure['PoleTrs07A'].Put($track_hinkaku, 3,0,0, 0,0,0, $tilt_gradient, 0);
+
+$distance_0 + 18345;
+Structure['PoleTrs06A'].Put($track_hinkaku, 2,0,0, 0,0,0, $tilt_gradient, 0);
+
+$distance_0 + 18395;
+Structure['PoleTrs07A'].Put($track_hinkaku, 2,0,0, 0,0,0, $tilt_gradient, 0);
+
+$distance_0 + 18445;
+Structure['PoleTrs07A'].Put($track_hinkaku, 3,0,0, 0,0,0, $tilt_gradient, 0);
+
+$distance_0 + 18495;
+Repeater['上り碍子'].End();
+Structure['Pole1_stlB'].Put($track_hinkaku, 0,0,0, 0,0,0, $tilt_none, 0);
+Structure['Pole1_stlA'].Put($track_musashino, -12,0,0, 0,180,0, $tilt_none, 0);
+
+$distance_0 + 18545;
+Structure['Pole1_stlB'].Put($track_hinkaku, 0,0,0, 0,0,0, $tilt_none, 0);
+Structure['Pole1_stlA'].Put($track_musashino, -12,0,0, 0,180,0, $tilt_none, 0);
+
+$distance_0 + 18595;
+Structure['Pole1_stlB'].Put($track_hinkaku, 0,0,0, 0,0,0, $tilt_none, 0);
+Structure['Pole1_stlA'].Put($track_musashino, -12,0,0, 0,180,0, $tilt_none, 0);
+
+$distance_0 + 18645;
+Structure['Pole1_stlB'].Put($track_hinkaku, 0,0,0, 0,0,0, $tilt_none, 0);
+# Structure['Pole1_stlA'].Put($track_musashino, -12,0,0, 0,180,0, $tilt_none, 0);
+Repeater['上り架線'].End();

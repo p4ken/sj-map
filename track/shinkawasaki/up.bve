@@ -25,14 +25,12 @@ Structure['Gp_UL'].Put($track_hinkaku, -2.3,-0.3,0, 0,180,-15, $tilt_none, 0);
 $distance_shinagawa - 13400;
 Structure['kilopost34ky'].Put($track_hinkaku, -1.8,-0.3,0, 0,90,0, $tilt_none, 0);
 
-$distance_shinagawa - 13375;
+$distance_shinagawa - 13350;
 Curve.Interpolate(-400, -0.07);
 Curve.Interpolate(0, -0.07);
 
-$distance_shinagawa - 13325;
-Curve.Interpolate(0, 0);
-
 $distance_shinagawa - 13300;
+Curve.Interpolate(0, 0);
 Structure['kilopost33ky'].Put($track_hinkaku, -1.8,-0.3,0, 0,90,0, $tilt_none, 0);
 
 $distance_shinagawa - 13200;
@@ -42,10 +40,6 @@ $distance_shinagawa - 13168;
 # 実際のBTC
 # 緩和省略のためカントだけ逓減する
 Curve.Interpolate();
-
-$distance_shinagawa - 13130;
-Structure['SigPole2'].Put($track_hinkaku, 2,0,0, 0,0,0, $tilt_none, 0);
-Structure['本二場_hL'].Put($track_hinkaku, 2.1,4,-0.5, 0,0,0, $tilt_none, 0);
 
 $distance_shinagawa - 13125;
 # R=400 C=70 CCL=78 TCL=60
@@ -59,15 +53,15 @@ Structure['Curve_P'].Put($track_hinkaku, -1.8,0,0, 0,0,0, $tilt_none, 0); # 実�
 $distance_shinagawa - 13030;
 Structure['Curve_P'].Put($track_hinkaku, -1.8,0,0, 0,180,0, $tilt_none, 0); # 実際のECC
 
-$distance_shinagawa - 13025;
+$distance_shinagawa - 13000;
 Curve.Interpolate(400, 0.070);
 Curve.Interpolate(0, 0.070);
-
-$distance_shinagawa - 13000;
 Structure['kilopost1'].Put($track_hinkaku, -1.8,0,0, 0,0,0, $tilt_none, 0); # 13km
 
 $distance_shinagawa - 12970;
 # 実際のETC
+
+$distance_shinagawa - 12975;
 Curve.Interpolate(0, 0);
 
 $distance_shinagawa - 12900;
@@ -75,10 +69,6 @@ Gradient.Interpolate();
 
 $distance_shinagawa - 12896;
 Gradient.Interpolate(1.5);
-
-$distance_shinagawa - 12720;
-Structure['SigPole2'].Put($track_hinkaku, -2,0,0, 0,0,0, $tilt_none, 0);
-Structure['本三場_hL'].Put($track_hinkaku, -1.8,4,-0.5, 0,0,0, $tilt_none, 0);
 
 $distance_shinagawa - 12550;
 Curve.Interpolate();
@@ -125,10 +115,6 @@ Gradient.Interpolate(1.8);
 $distance_shinagawa - 11900;
 Structure['kilopost39ky'].Put($track_hinkaku, -1.8,-0.3,0, 0,90,0, $tilt_none, 0);
 
-$distance_shinagawa - 11880;
-Structure['SigPole2'].Put($track_hinkaku, -2,0,0, 0,0,0, $tilt_none, 0);
-Structure['本一出_hL'].Put($track_hinkaku, -1.8,4,-0.5, 0,0,0, $tilt_none, 0);
-
 $distance_shinagawa - 11850;
 Curve.Interpolate();
 
@@ -171,10 +157,6 @@ Gradient.Interpolate(0);
 
 $distance_shinagawa - 11500;
 Structure['kilopost2'].Put($track_hinkaku, -1.8,0,0, 0,0,0, $tilt_none, 0);
-
-$distance_shinagawa - 11390;
-Structure['SigPole2'].Put($track_hinkaku, -2,0,0, 0,0,0, $tilt_none, 0);
-Structure['品二出_hL'].Put($track_hinkaku, -1.8,4,-0.5, 0,0,0, $tilt_none, 0);
 
 $distance_shinagawa - 11350;
 Curve.Interpolate();
@@ -245,7 +227,7 @@ $distance_shinagawa - 10731;
 # BTC
 Curve.Interpolate();
 
-$distance_shinagawa - 10675;
+$distance_shinagawa - 10700;
 # R=800 C=45 CCL=50 TCL=73
 # 緩和省略のため円曲線を調整
 Curve.Interpolate(0, 0.045);

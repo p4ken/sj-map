@@ -1,6 +1,7 @@
 BveTs Signal Aspects List 2.00:shift_jis
 
 signal3,signal30,,signal32,,signal34
+,glare30,,glare32,,glare34
 # signal3Dark,signal30Dark,,signal32Dark,,signal34Dark
 
 signal4yg,signal4yg0,,signal4yg2,signal4yg3,signal4yg4
@@ -12,6 +13,9 @@ signal4yy,signal4yy0,signal4yy1,signal4yy2,,signal4yy4
 ,glare4yy0,glare4yy1,glare4yy2,,glare4yy4
 signal4yy_Y,signal4yy0,signal4yy0,signal4yy0,signal4yy0,signal4yy2 # Y固定表示
 ,,,,,glare4yy2
+
+Sig5b_LED,Sig5b0_LED,Sig5b1_LED,Sig5b2_LED,Sig5b3_LED,Sig5b4_LED
+,Flare50,Flare51,Flare52,Flare53,Flare54
 
 signalrep,signalrep0,signalrep1,signalrep1,signalrep1,signalrep4
 signalrep_1,signalrep0,signalrep0,signalrep0,signalrep0,signalrep1 # 制限固定表示

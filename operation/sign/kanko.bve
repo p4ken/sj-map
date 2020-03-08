@@ -1,0 +1,136 @@
+BveTs Map 2.02:UTF-8
+
+$distance_0 + 113;
+Structure['kanko_so_hL'].Put($track_nishiya4, -2.3,2.3,-0.5, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 260;
+Structure['kanko_so_hL'].Put($track_nishiya4, -1.9,2.3,-0.5, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 400;
+Structure['kanko_so_hL'].Put($track_nishiya4, -1.9,2.2,-0.5, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 600;
+Structure['kanko_so_hL'].Put($track_nishiya4, -2.3,2.2,-0.5, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 680;
+Structure['kanko_so_hL'].Put($track_nishiya4, -2.3,2.2,-0.5, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 940;
+Structure['kanko_so_hL'].Put($track_nishiya4, -2.3,2.2,-0.5, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 990;
+Structure['kanko_so_hL'].Put($track_nishiya4, -2.3,2.2,-0.5, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 1180;
+Structure['kanko_so_hL'].Put($track_nishiya4, -2.3,1.3,-0.5, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 1320;
+Structure['kanko_so_hL'].Put($track_nishiya4, -2.3,1.9,-0.5, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 1450;
+Structure['kanko_so_hL'].Put($track_nishiya4, -2.3,1.9,0, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 1590;
+Structure['kanko_so_hL'].Put($track_nishiya4, -2.3,2.5,0, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 1720;
+Structure['kanko_so_hL'].Put($track_nishiya4, -2.3,2.0,0, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 2360;
+Structure['kanko_jr_hL'].Put($track_approach, -2.3,2.0,0, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 2525;
+Structure['kanko_jr_hL'].Put($track_approach, -2.6,2.3,-0.5, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 3000;
+Structure['kanko_jr_hL'].Put($track_approach, -3.25,4.0,-0.5, 0,0,0, $tilt_none, 0);
+
+$distance_tsurumi -	7615;
+Structure['kanko_jr_hL'].Put($track_approach, -2.1,2.0,-0.5, 0,0,0, $tilt_none, 0);
+
+$distance_tsurumi -	6273;
+Structure['kanko_jr_hL'].Put($track_hinkaku, -2.1,2.0,-0.5, 0,0,0, $tilt_none, 0);
+
+$distance_tsurumi -	5682;
+Structure['kanko_jr_hL'].Put($track_hinkaku, -2.0,2.0,0, 0,0,0, $tilt_none, 0);
+
+$distance_tsurumi -	5082;
+Structure['kanko_jr_hL'].Put($track_hinkaku, -2.0,2.0,0, 0,0,0, $tilt_none, 0);
+
+$distance_tsurumi -	4010;
+Structure['kanko_jr_hL'].Put($track_hinkaku, -2.0,2.0,0, 0,0,0, $tilt_none, 0);
+
+$distance_tsurumi -	2850;
+Structure['kanko_jr_hL'].Put($track_hinkaku, -2.0,2.0,0, 0,0,0, $tilt_none, 0);
+
+$distance_tsurumi -	2587;
+Structure['kanko_jr_hL'].Put($track_hinkaku, -2.1,1.4,0, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 10010;
+Structure['kanko_jr_hL'].Put($track_hinkaku, -2.0,2.0,0, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 10420;
+Structure['kanko_jr_hL'].Put($track_hinkaku, -3.25,4.1,-0.5, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 11320;
+Structure['kanko_jr_hL'].Put($track_hinkaku, 1.9,3.8,-0.5, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 12370;
+Structure['kanko_jr_hL'].Put($track_hinkaku, -1.5,5.7,-0.5, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 12670;
+Structure['kanko_jr_hL'].Put($track_hinkaku, 2.5,3.5,-0.5, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 12770;
+Structure['kanko_jr_hL'].Put($track_hinkaku, 2.5,3.5,-0.5, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 13820;
+Structure['kanko_jr_hL'].Put($track_hinkaku, -3.25,3.7,-0.5, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 14570;
+Structure['kanko_jr_hL'].Put($track_hinkaku, -3.25,3.7,-0.5, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 15770;
+Structure['kanko_jr_hL'].Put($track_hinkaku, -3,2.2,-0.2, 0,0,0, $tilt_none, 0);
+Structure['SigPole2'].Put($track_hinkaku, -3.05,-3,0, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 15950;
+Structure['kanko_jr_hL'].Put($track_hinkaku, 3.95,3.0,-0.2, 0,0,0, $tilt_none, 0);
+
+$distance_shinagawa - 13130;
+Structure['kanko_jr_hL'].Put($track_hinkaku, 2.75,3.0,-0.2, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 16340;
+Structure['kanko_jr_hL'].Put($track_hinkaku, -2.95,3.0,-0.2, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 17045;
+Structure['kanko_jr_hL'].Put($track_hinkaku, -3.0,3.5,-0.5, 0,0,0, $tilt_none, 0);
+
+$distance_shinagawa - 11880;
+Structure['kanko_jr_hL'].Put($track_hinkaku, -2.3,3.0,-0.2, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 18445;
+Structure['kanko_jr_hL'].Put($track_hinkaku, -3.15,3.6,-0.2, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 18635;
+Structure['kanko_jr_hL'].Put($track_hinkaku, -2.5,2.8,-0.2, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 18770;
+Structure['kanko_jr_hL'].Put($track_hinkaku, -2.95,2.8,-0.2, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 18920;
+Structure['kanko_jr_hL'].Put($track_hinkaku, -3.45,3.0,-0.2, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 19120;
+Structure['kanko_jr_hL'].Put($track_hinkaku, -3.0,4.8,-0.2, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 19320;
+Structure['kanko_jr_hL'].Put($track_hinkaku, -2.95,2.0,-0.2, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 19450;
+Structure['kanko_jr_hL'].Put($track_hinkaku, -2.95,2.7,-0.2, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 19530;
+Structure['kanko_jr_hL'].Put($track_hinkaku, -2.95,2.0,-0.2, 0,0,0, $tilt_none, 0);
+
+

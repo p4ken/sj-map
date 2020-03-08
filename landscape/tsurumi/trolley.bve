@@ -5,8 +5,10 @@ Structure['PoleTrs06B'].Put($track_kohoku, 2,0,0, 0,0,0, $tilt_none, 0);
 Structure['Pole1_stlB'].Put($track_takashima, 0.08,0,-0.01, 0,180,0, $tilt_none, 0);
 Structure['Pole1_stlB'].Put($track_takashima, 15.92,0,-0.01, 0,0,0, $tilt_none, 0);
 Structure['PoleTrs14A'].Put($track_tokaido, -10,0,0, 0,0,0, $tilt_none, 5);
-Repeater['下り架線'].Begin($track_opposite, 0,0,0, 0,0,0, $tilt_gradient, 50, 50, 'kasen50S');
 Repeater['上り架線'].Begin($track_kohoku, 0,0,0, 0,0,0, $tilt_gradient, 50, 50, 'kasen50S');
+Repeater['下り架線'].Begin($track_opposite, 0,0,0, 0,0,0, $tilt_gradient, 50, 50, 'kasen50S');
+Repeater['上り碍子'].Begin($track_hinkaku, 0,0,0, 0,0,0, $tilt_none, 0, 50, 'chokasen_gaisi');
+Repeater['下り碍子'].Begin($track_opposite, 0,0,0, 0,0,0, $tilt_none, 0, 50, 'chokasen_gaisi');
 Repeater['高島線上り架線'].Begin($track_takashima, 0,0,0, 0,0,0, $tilt_gradient, 50, 50, 'kasen50S');
 Repeater['高島線下り架線'].Begin($track_takashima_r, 0,0,0, 0,0,0, $tilt_gradient, 50, 50, 'kasen50S');
 Repeater['東海道線下り架線'].Begin($track_tokaido, 0,0,0, 0,0,0, $tilt_gradient, 50, 50, 'kasen50S');
@@ -71,6 +73,7 @@ Structure['Pole1_stlA'].Put($track_takashima, 15.92,0,-0.01, 0,0,0, $tilt_none, 
 Structure['PoleTrs14A'].Put($track_tokaido, -10,0,0, 0,0,0, $tilt_none, 5);
 
 distance + 50;
+Repeater['高島線上り碍子'].Begin($track_takashima, 0,0,0, 0,0,0, $tilt_none, 0, 50, 'chokasen_gaisi');
 Structure['PoleTrs08A_R'].Put($track_kohoku, 4,0,0, 0,0,0, $tilt_none, 0);
 Structure['PoleTrs14A'].Put($track_takashima, -9.7,0,0, 0,0,0, $tilt_none, 5);
 
@@ -79,11 +82,13 @@ Structure['PoleTrs08A_R'].Put($track_kohoku, 4,0,0, 0,0,0, $tilt_none, 0);
 Structure['PoleTrs14A'].Put($track_takashima, -9.7,0,0, 0,0,0, $tilt_none, 5);
 
 distance + 50;
+Repeater['上り碍子'].End();
 Structure['Pole1_stlA'].Put($track_kohoku, 0,0,0, 0,180,0, $tilt_none, 0);
 Structure['PoleTrs04A_R'].Put($track_kohoku, 6.2,0,0, 0,0,0, $tilt_none, 0);
 Structure['PoleTrs14A'].Put($track_takashima, -9.7,0,0, 0,0,0, $tilt_none, 5);
 
 distance + 50;
+Repeater['上り碍子'].Begin($track_hinkaku, 0,0,0, 0,0,0, $tilt_none, 0, 50, 'chokasen_gaisi');
 Structure['PoleTrs09A_R'].Put($track_takashima, 5.4,-0.2,0, 0,0,0, $tilt_none, 0);
 Structure['PoleTrs14A'].Put($track_takashima, -15,0,0, 0,0,0, $tilt_none, 5);
 
@@ -95,6 +100,8 @@ Repeater['高島線下り架線'].End();
 distance + 50;
 Structure['PoleTrs14A'].Put($track_kohoku, -15.5,0.2,0, 0,0,0, $tilt_none, 5);
 Structure['PoleTrs06A_R'].Put($track_kohoku, 2.2,-0.2,0, 0,0,0, $tilt_none, 0);
+Repeater['高島線上り架線'].End();
+Repeater['高島線上り碍子'].End();
 
 distance + 50;
 Structure['PoleTrs14A'].Put($track_kohoku, -15.5,0.2,0, 0,0,0, $tilt_none, 5);
@@ -244,6 +251,7 @@ distance + 50;
 Structure['Pole1_stlB'].Put($track_opposite, 0,0,0, 0,0,0, $tilt_none, 0);
 Structure['PoleTrs06A'].Put($track_kohoku, 8,0,0.02, 0,0,0, $tilt_none, 0);
 Structure['Pole1_stlB'].Put($track_kohoku, 0,0,0.02, 0,0,0, $tilt_none, 0);
+Repeater['上り碍子'].End();
 Structure['PoleTrs11A'].Put($track_kohoku, -12.45,0,0, 0,0,0, $tilt_none, 0);
 Structure['PoleTrs04A'].Put($track_yokosuka, -2,0,0, 0,0,0, $tilt_none, 0);
 
@@ -341,3 +349,4 @@ Repeater['横須賀線下り架線'].End();
 Repeater['横須賀線上り架線'].End();
 Repeater['下り架線'].End();
 Repeater['上り架線'].End();
+Repeater['下り碍子'].End();
