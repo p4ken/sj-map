@@ -31,6 +31,9 @@ Curve.Interpolate(0, 0);
 $distance_shinagawa - 17300;
 Structure['kilopost33ky'].Put($track_hinkaku, -1.8,-0.3,0, 0,90,0, $tilt_none, 0);
 
+$distance_shinagawa - 17280;
+Structure['Long_sw'].Put($track_hazawa, 0,0,0, 0,0,0, $tilt_all, 0);
+
 $distance_shinagawa - 17200;
 Structure['kilopost32ky'].Put($track_hinkaku, -1.8,-0.3,0, 0,90,0, $tilt_none, 0);
 
@@ -330,6 +333,7 @@ Curve.Interpolate(0, -0.03);
 
 $distance_shinagawa - 14000;
 Curve.Interpolate(0, 0);
+Structure['Long_sw'].Put($track_hazawa, 0,0,0, 0,0,0, $tilt_all, 0);
 
 $distance_shinagawa - 13975;
 # R=不明 C=不明 CCL=不明 TCL=不明

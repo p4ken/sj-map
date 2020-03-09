@@ -50,6 +50,13 @@ $distance_0 + 19195;
 # Repeater['上り架線柱'].Begin($track_hinkaku, 0,0,0, 0,0,0, $tilt_none, 0, 50, 'Pole1_stlB');
 # Repeater['下り架線柱'].Begin($track_opposite, 0,0,0, 0,180,0, $tilt_none, 0, 50, 'Pole1_stlB');
 
+$distance_0 + 19545;
+Repeater['上り碍子'].Begin($track_hinkaku, 0,0,0, 0,0,0, $tilt_none, 0, 50, 'chokasen_gaisi');
+Repeater['下り碍子'].Begin($track_opposite, 0,0,0, 0,0,0, $tilt_none, 0, 50, 'chokasen_gaisi');
+Repeater['上り架線柱'].Begin($track_hinkaku, 2.5,0,0, 0,0,0, $tilt_none, 0, 50, 'PoleTrs07A');
+
 $distance_0 + 19820;
 Repeater['上り架線'].End();
 Repeater['下り架線'].End();
+Repeater['上り碍子'].End();
+Repeater['下り碍子'].End();

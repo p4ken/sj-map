@@ -1,0 +1,13 @@
+BveTs Map 2.02:UTF-8
+
+$distance -	180;
+Beacon.Put($beacon_signal, $section_atsp, $data_none);
+Structure['atsp'].Put($track_hinkaku, 0,-0.1,0, 0,0,0, $tilt_all, 0);
+
+$distance -	85;
+Beacon.Put($beacon_signal, $section_atsp, $data_none);
+Structure['atsp'].Put($track_hinkaku, 0,-0.1,0, 0,0,0, $tilt_all, 0);
+
+$distance -	30;
+Beacon.Put($beacon_stop, $section_atsp, $data_none);
+Structure['atsp'].Put($track_hinkaku, 0,-0.1,0, 0,0,0, $tilt_all, 0);

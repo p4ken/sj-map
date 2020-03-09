@@ -31,6 +31,24 @@ $distance_nishiya + 2300;
 # アプローチ部の曲線群
 SpeedLimit.Begin(45);
 
+$distance_nishiya + 2310;
+Beacon.Put($beacon_signal, $section_atsp, $data_none);
+Structure['atspGreen'].Put($track_hinkaku, 0,-0.1,0, 0,0,0, $tilt_all, 0);
+
+$distance_nishiya + 2315;
+Structure['atspGreen'].Put($track_hinkaku, 0,-0.1,0, 0,0,0, $tilt_all, 0);
+
+$distance_nishiya + 2325;
+Structure['atsp'].Put($track_hinkaku, 0,-0.1,0, 0,0,0, $tilt_all, 0);
+Structure['atspGreen'].Put($track_shinyokohama, 0,-0.1,0, 0,0,0, $tilt_all, 0);
+
+$distance_nishiya + 2330;
+Structure['atsp'].Put($track_hinkaku, 0,-0.1,0, 0,0,0, $tilt_all, 0);
+Structure['atspGreen'].Put($track_shinyokohama, 0,-0.1,0, 0,0,0, $tilt_all, 0);
+
+$distance_nishiya + 2340;
+Structure['atsp'].Put($track_hinkaku, 0,-0.1,0, 0,0,0, $tilt_all, 0);
+
 $distance_nishiya + 2550;
 SpeedLimit.End();
 
@@ -69,7 +87,48 @@ SpeedLimit.End();
 $distance_tsurumi - 1425;
 Beacon.Put($beacon_turnout_delete, $section_atsp, 600090);
 
+$distance_tsurumi - 770;
+Structure['atsp'].Put($track_hinkaku, 0,-0.1,0, 0,0,0, $tilt_all, 0);
+
+$distance_tsurumi - 775;
+Structure['atsp'].Put($track_hinkaku, 0,-0.1,0, 0,0,0, $tilt_all, 0);
+
 $distance_tsurumi - 1424;
 Beacon.Put($beacon_turnout, $section_atsp, 1090);
 Beacon.Put($beacon_signal, $section_atsp, $data_none);
 
+$distance_shinagawa - 17145;
+Structure['atsp'].Put($track_hinkaku, 0,-0.1,0, 0,0,0, $tilt_all, 0);
+
+$distance_shinagawa - 17140;
+Structure['atsp'].Put($track_hinkaku, 0,-0.1,0, 0,0,0, $tilt_all, 0);
+
+$distance_shinagawa - 13875;
+Structure['atsp'].Put($track_hinkaku, 0,-0.1,0, 0,0,0, $tilt_all, 0);
+
+$distance_shinagawa - 13870;
+Structure['atsp'].Put($track_hinkaku, 0,-0.1,0, 0,0,0, $tilt_all, 0);
+
+$distance_shinagawa - 11870;
+Structure['atsp'].Put($track_hinkaku, 0,-0.1,0, 0,0,0, $tilt_all, 0);
+
+$distance_shinagawa - 11865;
+Structure['atsp'].Put($track_hinkaku, 0,-0.1,0, 0,0,0, $tilt_all, 0);
+
+$distance_shinagawa - 11385;
+Structure['atsp'].Put($track_hinkaku, 0,-0.1,0, 0,0,0, $tilt_all, 0);
+
+$distance_shinagawa - 11380;
+Structure['atsp'].Put($track_hinkaku, 0,-0.1,0, 0,0,0, $tilt_all, 0);
+
+$distance_shinagawa - 11050;
+Structure['atsp'].Put($track_hinkaku, 0,-0.1,0, 0,0,0, $tilt_all, 0);
+
+$distance_shinagawa - 11045;
+Structure['atsp'].Put($track_hinkaku, 0,-0.1,0, 0,0,0, $tilt_all, 0);
+
+$distance_0 + 18960;
+Structure['atsp'].Put($track_hinkaku, 0,-0.1,0, 0,0,0, $tilt_all, 0);
+
+$distance_0 + 18965;
+Structure['atsp'].Put($track_hinkaku, 0,-0.1,0, 0,0,0, $tilt_all, 0);

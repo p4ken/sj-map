@@ -121,7 +121,7 @@ Structure['kanko_jr_hL'].Put($track_hinkaku, -2.95,2.8,-0.2, 0,0,0, $tilt_none, 
 $distance_0 + 18920;
 Structure['kanko_jr_hL'].Put($track_hinkaku, -3.45,3.0,-0.2, 0,0,0, $tilt_none, 0);
 
-$distance_0 + 19120;
+$distance_0 + 19110;
 Structure['kanko_jr_hL'].Put($track_hinkaku, -3.0,4.8,-0.2, 0,0,0, $tilt_none, 0);
 
 $distance_0 + 19320;

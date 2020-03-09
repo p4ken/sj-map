@@ -193,6 +193,7 @@ $distance_shinagawa - 11050;
 #R=1200 C=不明
 Curve.Interpolate(0, 0.05);
 Curve.Interpolate(1400, 0.05);
+Structure['Long_sw'].Put($track_hazawa, 0,0,0, 0,0,0, $tilt_all, 0);
 
 $distance_shinagawa - 11000;
 Structure['kilopost1'].Put($track_hinkaku, -1.8,0,0, 0,0,0, $tilt_none, 0); # 11km

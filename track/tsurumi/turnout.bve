@@ -2,6 +2,7 @@ BveTs Map 2.02:UTF-8
 
 0;
 $track_crossing = 50; # 分岐器 見た目専用
+$track_crossing2 = 51;
 
 $distance_tsurumi - 290;
 Track[$track_crossing].X.Interpolate();
@@ -17,3 +18,47 @@ Track[$track_crossing].X.Interpolate(4, -308);
 $distance_tsurumi - 203;
 Track[$track_crossing].X.Interpolate(5, 0);
 Repeater['中線渡り線バラスト軌道'].End();
+
+$distance_shinagawa - 17338;
+Track[$track_crossing].X.Interpolate();
+Track[$track_crossing].X.Interpolate(0, 308);
+Repeater['右分岐バラスト軌道'].Begin($track_crossing, 5,0,0, 0,0,0.1, $tilt_all, 5, 5, 'BallastPC_K_5a');
+Track[$track_crossing2].X.Interpolate();
+Track[$track_crossing2].X.Interpolate(4, -308);
+Repeater['右合流バラスト軌道'].Begin($track_crossing2, 5,0,0, 0,0,0.1, $tilt_all, 5, 5, 'BallastPC_K_5a');
+
+$distance_shinagawa - 17312;
+Track[$track_crossing].X.Interpolate(1, 0);
+Track[$track_crossing2].X.Interpolate(3, 0);
+
+$distance_shinagawa - 17279;
+Track[$track_crossing].X.Interpolate(3, -308);
+Track[$track_crossing2].X.Interpolate(1, 308);
+
+$distance_shinagawa - 17253;
+Track[$track_crossing].X.Interpolate(4, 0);
+Repeater['右分岐バラスト軌道'].End();
+Track[$track_crossing2].X.Interpolate(0, 0);
+Repeater['右合流バラスト軌道'].End();
+
+$distance_shinagawa - 17240;
+Track[$track_crossing].X.Interpolate();
+Track[$track_crossing].X.Interpolate(0, 308);
+Repeater['右分岐バラスト軌道'].Begin($track_crossing, 0,0,0, 0,0,0.1, $tilt_all, 5, 5, 'BallastPC_K_5a');
+Track[$track_crossing2].X.Interpolate();
+Track[$track_crossing2].X.Interpolate(5, -308);
+Repeater['右合流バラスト軌道'].Begin($track_crossing2, 0,0,0, 0,0,0.1, $tilt_all, 5, 5, 'BallastPC_K_5a');
+
+$distance_shinagawa - 17215;
+Track[$track_crossing].X.Interpolate(1, 0);
+Track[$track_crossing2].X.Interpolate(4, 0);
+
+$distance_shinagawa - 17179;
+Track[$track_crossing].X.Interpolate(4, -308);
+Track[$track_crossing2].X.Interpolate(1, 308);
+
+$distance_shinagawa - 17153;
+Track[$track_crossing].X.Interpolate(5, 0);
+Repeater['右分岐バラスト軌道'].End();
+Track[$track_crossing2].X.Interpolate(0, 0);
+Repeater['右合流バラスト軌道'].End();

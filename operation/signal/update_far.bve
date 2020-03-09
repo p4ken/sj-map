@@ -1,0 +1,5 @@
+BveTs Map 2.02:UTF-8
+
+$distance -	600;
+Beacon.Put($beacon_signal, $section_atsp, $data_none);
+Structure['atsp'].Put($track_hinkaku, 0,-0.1,0, 0,0,0, $tilt_all, 0);

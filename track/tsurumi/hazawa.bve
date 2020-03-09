@@ -95,6 +95,9 @@ Curve.Interpolate(0, 0);
 $distance_tsurumi - 300;
 Structure['kilopost33ky'].Put($track_hazawa, 1.8,-0.3,0, 0,90,0, $tilt_none, 0);
 
+$distance_tsurumi - 230;
+Structure['Long_sw'].Put($track_hazawa, 0,0,0, 0,0,0, $tilt_all, 0);
+
 $distance_tsurumi - 200;
 Structure['kilopost32ky'].Put($track_hazawa, 1.8,-0.3,0, 0,90,0, $tilt_none, 0);
 
