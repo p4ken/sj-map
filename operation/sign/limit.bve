@@ -20,6 +20,12 @@ $distance_nishiya + 2665;
 Structure['45kmph_hL'].Put($track_approach, -2.5,0.5,-0.4, 0,0,0, $tilt_none, 0);
 Structure['SpeedLimPole_B'].Put($track_approach, -2.8,-0.6,0, 0,0,0, $tilt_none, 0);
 
+$distance_0 + 3100;
+# Structure['max95kmph_hL'].Put($track_hinkaku, -3.1,1.5,-0.3, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 3200;
+# Structure['max95kmph_hL'].Put($track_hinkaku, -3.1,1.5,-0.3, 0,0,0, $tilt_none, 0);
+
 $distance_0 + 17660;
 Structure['45kmph_hL'].Put($track_departure9, 2.5,0.5,-0.4, 0,0,0, $tilt_none, 0);
 Structure['SpeedLimPole_B'].Put($track_departure9, 2.2,-0.6,0, 0,0,0, $tilt_none, 0);

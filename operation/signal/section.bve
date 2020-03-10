@@ -8,7 +8,9 @@ $signal_Y = 2;
 $signal_YG = 3;
 $signal_G = 4;
 Section.SetSpeedLimit(0,25,55,75);
-Section.Begin($signal_R, $signal_Y, $signal_YG, $signal_G);
+# Section.SetSpeedLimit(0,25,55,75,95);
+# SpeedLimit.Begin(85);
+Section.Begin($signal_R, $signal_R, $signal_YG, $signal_G);
 Beacon.Put($beacon_signal, $section_atsp, $data_none);
 
 # 延長地上子 実測約2.7m

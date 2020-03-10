@@ -12,9 +12,9 @@ $distance_nishiya + 2139;
 # 駅間最高速度おわり
 Beacon.Put($beacon_turnout_delete, $section_atsp, 0080);
 # 武蔵小杉までの最高速度 95km/h
-# プレイヤーが意識しやすいように96でP点灯させる
+# プレイヤーが意識しやすいように96でP点灯させてもいいかも？ → しかし緩解が90になってしまう(ct/atsp)
 # 実際の運転士は95までしか出さない
-Beacon.Put($beacon_max, $section_atsp, 100); // unic/snp2
+Beacon.Put($beacon_max, $section_atsp, 105); // unic/snp2
 
 $distance_nishiya + 2185;
 # 分岐パターン発生
@@ -32,7 +32,6 @@ $distance_nishiya + 2300;
 SpeedLimit.Begin(45);
 
 $distance_nishiya + 2310;
-Beacon.Put($beacon_signal, $section_atsp, $data_none);
 Structure['atspGreen'].Put($track_hinkaku, 0,-0.1,0, 0,0,0, $tilt_all, 0);
 
 $distance_nishiya + 2315;
@@ -59,33 +58,52 @@ SpeedLimit.Begin(45);
 $distance_nishiya + 2700;
 SpeedLimit.End();
 
+# 2920
 $distance_nishiya + 2900;
 Beacon.Put($beacon_turnout_delete, $section_atsp, 50045);
-
-$distance_nishiya + 2901;
-Beacon.Put($beacon_turnout, $section_atsp, 1090);
-
-$distance_nishiya + 2902;
+distance + 1;
 Beacon.Put($beacon_signal, $section_atsp, $data_none);
+distance + 1;
+Beacon.Put($beacon_turnout, $section_atsp, 1095);
 
 # ～港北トンネル～
 
-$distance_tsurumi - 2776;
-Beacon.Put($beacon_turnout_delete, $section_atsp, 1090);
+# 7020でP接近消灯
 
-$distance_tsurumi - 2775;
+$distance_tsurumi - 2400;
 # 曲線パターン発生
-Beacon.Put($beacon_turnout, $section_atsp, 600090);
+Beacon.Put($beacon_turnout_delete, $section_atsp, 1095);
+distance + 1;
+Beacon.Put($beacon_signal, $section_atsp, $data_none);
+distance + 1;
+Beacon.Put($beacon_turnout, $section_atsp, 100090);
 
-$distance_tsurumi - 2175;
+$distance_tsurumi - 2200;
 # 生見尾トンネル出口の左カーブ
 SpeedLimit.Begin(90);
 
-$distance_tsurumi - 1625;
+$distance_tsurumi - 1600;
 SpeedLimit.End();
 
-$distance_tsurumi - 1425;
-Beacon.Put($beacon_turnout_delete, $section_atsp, 600090);
+$distance_tsurumi - 1400;
+Beacon.Put($beacon_turnout_delete, $section_atsp, 200090);
+distance + 1;
+Beacon.Put($beacon_signal, $section_atsp, $data_none);
+distance + 1;
+Beacon.Put($beacon_turnout, $section_atsp, 1095);
+
+$distance_tsurumi - 1200;
+Beacon.Put($beacon_turnout_delete, $section_atsp, 1095);
+distance + 1;
+Beacon.Put($beacon_signal, $section_atsp, $data_none);
+distance + 1;
+Beacon.Put($beacon_turnout, $section_atsp, 200090);
+
+$distance_tsurumi - 1000;
+SpeedLimit.Begin(90);
+
+$distance_tsurumi - 350;
+SpeedLimit.End();
 
 $distance_tsurumi - 770;
 Structure['atsp'].Put($track_hinkaku, 0,-0.1,0, 0,0,0, $tilt_all, 0);
@@ -93,9 +111,11 @@ Structure['atsp'].Put($track_hinkaku, 0,-0.1,0, 0,0,0, $tilt_all, 0);
 $distance_tsurumi - 775;
 Structure['atsp'].Put($track_hinkaku, 0,-0.1,0, 0,0,0, $tilt_all, 0);
 
-$distance_tsurumi - 1424;
-Beacon.Put($beacon_turnout, $section_atsp, 1090);
-Beacon.Put($beacon_signal, $section_atsp, $data_none);
+$distance_shinagawa - 17475;
+SpeedLimit.Begin(90);
+
+$distance_shinagawa - 17400;
+SpeedLimit.End();
 
 $distance_shinagawa - 17145;
 Structure['atsp'].Put($track_hinkaku, 0,-0.1,0, 0,0,0, $tilt_all, 0);
@@ -103,11 +123,83 @@ Structure['atsp'].Put($track_hinkaku, 0,-0.1,0, 0,0,0, $tilt_all, 0);
 $distance_shinagawa - 17140;
 Structure['atsp'].Put($track_hinkaku, 0,-0.1,0, 0,0,0, $tilt_all, 0);
 
+$distance_shinagawa - 17125;
+SpeedLimit.Begin(90);
+
+$distance_shinagawa - 17125; # 早め
+SpeedLimit.End();
+Beacon.Put($beacon_turnout_delete, $section_atsp, 200090);
+distance + 1;
+Beacon.Put($beacon_signal, $section_atsp, $data_none);
+distance + 1;
+Beacon.Put($beacon_turnout, $section_atsp, 200075);
+
+$distance_shinagawa - 16825;
+SpeedLimit.Begin(75);
+
+$distance_shinagawa - 16225;
+SpeedLimit.End();
+
+$distance_shinagawa - 16025;
+Beacon.Put($beacon_turnout_delete, $section_atsp, 200075);
+distance + 1;
+Beacon.Put($beacon_signal, $section_atsp, $data_none);
+distance + 1;
+Beacon.Put($beacon_turnout, $section_atsp, 1095);
+
 $distance_shinagawa - 13875;
 Structure['atsp'].Put($track_hinkaku, 0,-0.1,0, 0,0,0, $tilt_all, 0);
 
 $distance_shinagawa - 13870;
 Structure['atsp'].Put($track_hinkaku, 0,-0.1,0, 0,0,0, $tilt_all, 0);
+
+$distance_shinagawa - 13725; # 95→75 早め
+SpeedLimit.End();
+Beacon.Put($beacon_turnout_delete, $section_atsp, 1095);
+distance + 1;
+Beacon.Put($beacon_signal, $section_atsp, $data_none);
+distance + 1;
+Beacon.Put($beacon_turnout, $section_atsp, 200075);
+
+$distance_shinagawa - 13475;
+SpeedLimit.Begin(75);
+
+$distance_shinagawa - 13350;
+SpeedLimit.End();
+
+$distance_shinagawa - 13125;
+SpeedLimit.Begin(75);
+
+$distance_shinagawa - 13000;
+SpeedLimit.End();
+
+$distance_shinagawa - 12800;
+Beacon.Put($beacon_turnout_delete, $section_atsp, 200075);
+distance + 1;
+Beacon.Put($beacon_signal, $section_atsp, $data_none);
+distance + 1;
+Beacon.Put($beacon_turnout, $section_atsp, 1095);
+
+$distance_shinagawa - 11625; # 95→60 200m以上早め
+SpeedLimit.End();
+Beacon.Put($beacon_turnout_delete, $section_atsp, 1095);
+distance + 1;
+Beacon.Put($beacon_signal, $section_atsp, $data_none);
+distance + 1;
+Beacon.Put($beacon_turnout, $section_atsp, 200060);
+
+$distance_shinagawa - 11109;
+SpeedLimit.Begin(60);
+
+$distance_shinagawa - 11075;
+SpeedLimit.End();
+
+$distance_shinagawa - 10875; # 60(→95)→45 早め 
+Beacon.Put($beacon_turnout_delete, $section_atsp, 200060);
+distance + 1;
+Beacon.Put($beacon_signal, $section_atsp, $data_none);
+distance + 1;
+Beacon.Put($beacon_turnout, $section_atsp, 350045);
 
 $distance_shinagawa - 11870;
 Structure['atsp'].Put($track_hinkaku, 0,-0.1,0, 0,0,0, $tilt_all, 0);
@@ -126,6 +218,22 @@ Structure['atsp'].Put($track_hinkaku, 0,-0.1,0, 0,0,0, $tilt_all, 0);
 
 $distance_shinagawa - 11045;
 Structure['atsp'].Put($track_hinkaku, 0,-0.1,0, 0,0,0, $tilt_all, 0);
+
+$distance_shinagawa - 10425;
+SpeedLimit.Begin(45);
+
+$distance_shinagawa - 10400;
+SpeedLimit.End();
+
+$distance_shinagawa - 10200;
+Beacon.Put($beacon_turnout_delete, $section_atsp, 450045);
+distance + 1;
+Beacon.Put($beacon_signal, $section_atsp, $data_none);
+distance + 1;
+Beacon.Put($beacon_turnout, $section_atsp, 160075);
+
+$distance_shinagawa - 10039.5;
+SpeedLimit.Begin(75);
 
 $distance_0 + 18960;
 Structure['atsp'].Put($track_hinkaku, 0,-0.1,0, 0,0,0, $tilt_all, 0);
