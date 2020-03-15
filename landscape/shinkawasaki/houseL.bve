@@ -1,0 +1,4 @@
+BveTs Map 2.02:UTF-8
+
+$distance_0 + 17900;
+Structure['house_wide'].Put($track_hinkaku, -15,0,0, 0,0,0, $tilt_none, 0);

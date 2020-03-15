@@ -66,21 +66,3 @@ Structure['buildingRedL'].Put($track_yokosuka, -31,-8,-80, 0,0.1,0, $tilt_none, 
 
 $distance_0 + 14310;
 Structure['buildingL'].Put($track_yokosuka, -38,-3,-80, 0,0.1,0, $tilt_none, 0);
-
-$distance_0 + 15700;
-Structure['buildingL'].Put($track_hinkaku, -30,0,0, 0,0.1,0, $tilt_none, 0);
-Structure['buildingL'].Put($track_hinkaku, -55,0,0, 0,0.1,0, $tilt_none, 0);
-Structure['buildingL'].Put($track_hinkaku, -80,0,0, 0,0.1,0, $tilt_none, 0);
-Structure['buildingL'].Put($track_hinkaku, -105,0,0, 0,0.1,0, $tilt_none, 0);
-distance + 14;
-Structure['buildingL'].Put($track_hinkaku, -30,0,0, 0,0.1,0, $tilt_none, 0);
-distance + 14;
-Structure['buildingL'].Put($track_hinkaku, -30,0,0, 0,0.1,0, $tilt_none, 0);
-distance + 14;
-Structure['buildingL'].Put($track_hinkaku, -30,0,0, 0,0.1,0, $tilt_none, 0);
-distance + 14;
-Structure['buildingL'].Put($track_hinkaku, -30,0,0, 0,0.1,0, $tilt_none, 0);
-distance + 14;
-Structure['buildingL'].Put($track_hinkaku, -30,0,0, 0,0.1,0, $tilt_none, 0);
-distance + 14;
-Structure['buildingL'].Put($track_hinkaku, -30,0,0, 0,0.1,0, $tilt_none, 0);

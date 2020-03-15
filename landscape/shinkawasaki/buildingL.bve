@@ -1,3 +1,178 @@
 BveTs Map 2.02:UTF-8
 
-0;
+$distance_0 + 15600;
+Repeater['左フェンス'].Begin($track_hinkaku, -6,0,0, 0,0,0, $tilt_none, 2, 2, 'FenceWhite');
+
+$distance_0 + 15700;
+Repeater['左道路'].Begin($track_hinkaku, -10.5,-0.5,0, 0.2,0,0, $tilt_none, 5, 5, 'road_070_a', 'road_070_b', 'road_070_c', 'road_070_d');
+Repeater['左道路2'].Begin($track_hinkaku, -13.5,-0.7,0, 0.2,0,0, $tilt_none, 5, 5, 'road_070_a', 'road_070_b', 'road_070_c', 'road_070_d');
+
+# 富士通
+$distance_0 + 15700;
+Structure['buildingMegaL'].Put($track_hinkaku, -18,-5,-10, 0,0,0, $tilt_none, 5);
+
+$distance_0 + 15900;
+Structure['buildingMegaL'].Put($track_hinkaku, -18,-10,-10, 0,-15,0, $tilt_none, 5);
+Repeater['左アスファルト1'].Begin($track_hinkaku, -17,-1.5,0, 0,-90,0, $tilt_none, 5, 4, 'FormCL25');
+
+$distance_0 + 16050;
+Structure['buildingL'].Put($track_hinkaku, -48,-12,-10, 0,-0,0, $tilt_none, 5);
+
+# キャンパス
+$distance_0 + 16100;
+Structure['buildingR'].Put($track_hinkaku, -45,-10,-10, 0,-90,0, $tilt_none, 5);
+$distance_0 + 16145;
+Structure['buildingR'].Put($track_hinkaku, -45,-10,-10, 0,-90,0, $tilt_none, 5);
+$distance_0 + 16190;
+Structure['buildingR'].Put($track_hinkaku, -45,-10,-10, 0,-90,0, $tilt_none, 5);
+$distance_0 + 16235;
+Structure['buildingR'].Put($track_hinkaku, -45,-10,-10, 0,-90,0, $tilt_none, 5);
+$distance_0 + 16280;
+Structure['buildingR'].Put($track_hinkaku, -45,-10,-10, 0,-90,0, $tilt_none, 5);
+
+#
+# マンションエリア
+#
+
+$distance_0 + 16300;
+# レジデンシャルスクエア
+Structure['building_tall'].Put($track_hinkaku, -35,0,0, 0,0,0, $tilt_none, 0);
+Structure['building_tall'].Put($track_hinkaku, -65,0,0, 0,-1,0, $tilt_none, 0);
+Structure['building_tall'].Put($track_hinkaku, -95,0,0, 0,-1,0, $tilt_none, 0);
+Repeater['左アスファルト1'].End();
+$distance_0 + 16330;
+Structure['building_tall'].Put($track_hinkaku, -33,-3,0, 0,10,0, $tilt_none, 0);
+
+$distance_0 + 16380;
+Structure['buildingR'].Put($track_hinkaku, -23,-10,-10, 0,-90,0, $tilt_none, 5);
+
+$distance_0 + 16400;
+Structure['buildingR'].Put($track_hinkaku, -25,-12,-10, 0,-90,0, $tilt_none, 5);
+$distance_0 + 16420;
+Structure['buildingR'].Put($track_hinkaku, -25,-12,-10, 0,-90,0, $tilt_none, 5);
+
+$distance_0 + 16490;
+Structure['building_tall'].Put($track_hinkaku, -35,-3,-30, 0,0,0, $tilt_none, 0);
+Structure['building_tall'].Put($track_hinkaku, -63,0,-30, 0,-1,0, $tilt_none, 0);
+Structure['building_tall'].Put($track_hinkaku, -93,0,-30, 0,-1,0, $tilt_none, 0);
+# Structure['building_tall'].Put($track_hinkaku, -33,-3,0, 0,0,0, $tilt_none, 0);
+
+# 京急ストア
+$distance_0 + 16520;
+Structure['buildingR'].Put($track_hinkaku, -28,-10,-10, 0,-90,0, $tilt_none, 5);
+$distance_0 + 16560;
+Structure['buildingR'].Put($track_hinkaku, -28,-10,-10, 0,-90,0, $tilt_none, 5);
+
+$distance_0 + 16570;
+Repeater['左アスファルト1'].Begin($track_hinkaku, -17,-1.5,0, 0,-90,0, $tilt_none, 5, 4, 'FormCL25');
+
+$distance_0 + 16620;
+# イニシア新川崎
+Structure['building_tall'].Put($track_hinkaku, -33,-28,-30, 0,0,0, $tilt_none, 0);
+Structure['building_tall'].Put($track_hinkaku, -63,-28,-30, 0,-1,0, $tilt_none, 0);
+Structure['building_tall'].Put($track_hinkaku, -93,-28,-30, 0,-1,0, $tilt_none, 0);
+Structure['building_tall'].Put($track_hinkaku, -33,-28,0, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 16740;
+Structure['buildingMegaL'].Put($track_hinkaku, -18,0,-30, 0,0,0, $tilt_none, 5);
+
+$distance_0 + 16885;
+Repeater['左道路'].End();
+Repeater['左道路2'].End();
+Structure['road_0702_a'].Put($track_hinkaku, -10,-0.4,-2.5, 0,90,-0.2, $tilt_none, 2);
+Structure['road_0702_a'].Put($track_hinkaku, -10,-0.4,-9,   0,90,-0.2, $tilt_none, 2);
+Structure['road_0702_a'].Put($track_hinkaku, -15,-0.4,-2.5, 0,90,-0.2, $tilt_none, 2);
+Structure['road_0702_a'].Put($track_hinkaku, -15,-0.4,-9,   0,90,-0.2, $tilt_none, 2);
+Structure['road_0702_a'].Put($track_hinkaku, -20,-0.4,-2.5, 0,90,-0.2, $tilt_none, 2);
+Structure['road_0702_a'].Put($track_hinkaku, -20,-0.4,-9,   0,90,-0.2, $tilt_none, 2);
+Structure['road_0702_a'].Put($track_hinkaku, -25,-0.4,-2.5, 0,90,-0.2, $tilt_none, 2);
+Structure['road_0702_a'].Put($track_hinkaku, -25,-0.4,-9,   0,90,-0.2, $tilt_none, 2);
+Structure['road_0702_a'].Put($track_hinkaku, -30,-0.4,-2.5, 0,90,-0.2, $tilt_none, 2);
+Structure['road_0702_a'].Put($track_hinkaku, -30,-0.4,-9,   0,90,-0.2, $tilt_none, 2);
+Structure['road_0702_a'].Put($track_hinkaku, -35,-0.4,-2.5, 0,90,-0.2, $tilt_none, 2);
+Structure['road_0702_a'].Put($track_hinkaku, -35,-0.4,-9,   0,90,-0.2, $tilt_none, 2);
+Structure['road_0702_a'].Put($track_hinkaku, -40,-0.4,-2.5, 0,90,-0.2, $tilt_none, 2);
+Structure['road_0702_a'].Put($track_hinkaku, -40,-0.4,-9,   0,90,-0.2, $tilt_none, 2);
+
+$distance_0 + 16890;
+Repeater['左アスファルト1'].End();
+Repeater['左アスファルト1'].Begin($track_hinkaku, -7,-1.5,0, 0,-90,0, $tilt_none, 5, 4, 'FormCL25');
+Repeater['左アスファルト2'].Begin($track_hinkaku, -30,-2,0, 0,-90,0, $tilt_none, 5, 4, 'FormCL25');
+
+#
+# 工場エリア
+#
+
+$distance_0 + 16900;
+# 遠景 (三菱ふそう川崎製作所)
+Structure['buildingMegaL'].Put($track_hinkaku, -80,-25,20, 0,0,0, $tilt_none, 5);
+Structure['buildingMegaL'].Put($track_hinkaku, -70,-25,110, 0,0,0, $tilt_none, 5);
+Structure['buildingMegaL'].Put($track_hinkaku, -60,-25,200, 0,0,0, $tilt_none, 5);
+Structure['buildingMegaL'].Put($track_hinkaku, -250,-5,700, 0,0,0, $tilt_none, 5);
+
+$distance_0 + 16980;
+# 共進精機
+Structure['buildingR'].Put($track_hinkaku, -15,-8,-50, 0,-89.5,0, $tilt_none, 5);
+Structure['buildingR'].Put($track_hinkaku, -15,-8,-25, 0,-89.5,0, $tilt_none, 5);
+Structure['buildingR'].Put($track_hinkaku, -15,-8,0, 0,-90,0, $tilt_none, 5);
+
+$distance_0 + 17080;
+# 日本電産
+Structure['buildingR'].Put($track_hinkaku, -20,-4,-50, 0,-89.5,0, $tilt_none, 5);
+Structure['buildingR'].Put($track_hinkaku, -20,-4,-25, 0,-89.5,0, $tilt_none, 5);
+Structure['buildingR'].Put($track_hinkaku, -20,-4,0,   0,-89.5,0, $tilt_none, 5);
+$distance_0 + 17170;
+Structure['buildingR'].Put($track_hinkaku, -20,-4,-50, 0,-89.5,0, $tilt_none, 5);
+Structure['buildingR'].Put($track_hinkaku, -20,-4,-25, 0,-89.5,0, $tilt_none, 5);
+Structure['buildingR'].Put($track_hinkaku, -20,-4,0, 0,-90,0, $tilt_none, 5);
+
+$distance_0 + 17220;
+Structure['FenceWhite'].Put($track_hinkaku, -7,0,0, 0,-90,0, $tilt_none, 5);
+Structure['FenceWhite'].Put($track_hinkaku, -9,0,0, 0,-90,0, $tilt_none, 5);
+Structure['FenceWhite'].Put($track_hinkaku,-11,0,0, 0,-90,0, $tilt_none, 5);
+Structure['FenceWhite'].Put($track_hinkaku,-13,0,0, 0,-90,0, $tilt_none, 5);
+Structure['FenceWhite'].Put($track_hinkaku,-15,0,0, 0,-90,0, $tilt_none, 5);
+Structure['FenceWhite'].Put($track_hinkaku,-17,0,0, 0,-90,0, $tilt_none, 5);
+Structure['FenceWhite'].Put($track_hinkaku,-19,0,0, 0,-90,0, $tilt_none, 5);
+Structure['FenceWhite'].Put($track_hinkaku,-21,0,0, 0,-90,0, $tilt_none, 5);
+Structure['FenceWhite'].Put($track_hinkaku,-23,0,0, 0,-90,0, $tilt_none, 5);
+Structure['FenceWhite'].Put($track_hinkaku,-25,0,0, 0,-90,0, $tilt_none, 5);
+Structure['FenceWhite'].Put($track_hinkaku,-27,0,0, 0,-90,0, $tilt_none, 5);
+Structure['FenceWhite'].Put($track_hinkaku,-29,0,0, 0,-90,0, $tilt_none, 5);
+Structure['FenceWhite'].Put($track_hinkaku,-31,0,0, 0,-90,0, $tilt_none, 5);
+Structure['FenceWhite'].Put($track_hinkaku,-33,0,0, 0,-90,0, $tilt_none, 5);
+
+$distance_0 + 17250;
+Structure['buildingL'].Put($track_hinkaku, -27.5,-6,-13, 0,0,0, $tilt_none, 5);
+Structure['buildingR'].Put($track_hinkaku, -21,-6,0, 0,-90,0, $tilt_none, 5);
+
+$distance_0 + 17370;
+# ミツミネ電子など
+Structure['buildingL'].Put($track_hinkaku, -22.5,-9,-40, 0,0,0, $tilt_none, 5);
+Structure['buildingR'].Put($track_hinkaku, -16,  -9,-25, 0,-89.5,0, $tilt_none, 5);
+Structure['buildingR'].Put($track_hinkaku, -16,  -9,0, 0,-90,0, $tilt_none, 5);
+# 遠景
+Structure['buildingMegaL'].Put($track_hinkaku, -60,-25,-5, 0,0,0, $tilt_none, 5);
+
+$distance_0 + 17405;
+Structure['buildingR'].Put($track_hinkaku, -16,-6,0, 0,-90,0, $tilt_none, 5);
+
+$distance_0 + 17500;
+# 不明
+Structure['buildingR'].Put($track_hinkaku, -15,-9,-50, 0,-89.5,0, $tilt_none, 5);
+Structure['buildingR'].Put($track_hinkaku, -15,-9,-25, 0,-89.5,0, $tilt_none, 5);
+Structure['buildingR'].Put($track_hinkaku, -15,-6,0, 0,-90,0, $tilt_none, 5);
+
+$distance_0 + 17580;
+# 遠景 MITSUBISHI
+Structure['buildingR'].Put($track_hinkaku, -50,-10,0, 0,-90,0, $tilt_none, 5);
+Structure['buildingR'].Put($track_hinkaku, -50,-10,30, 0,-90,0, $tilt_none, 5);
+
+$distance_0 + 17680;
+# 遠景 
+Structure['buildingMegaL'].Put($track_hinkaku, -60,-25,-5, 0,0,0, $tilt_none, 5);
+
+$distance_0 + 17600;
+Repeater['左フェンス'].End();
+
+# 陸橋よりも先は houseL

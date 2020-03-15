@@ -91,6 +91,7 @@ include 'landscape/shinkawasaki/trolley.bve';
 include 'landscape/shinkawasaki/buildingL.bve';
 include 'landscape/shinkawasaki/inside.bve';
 include 'landscape/shinkawasaki/overpass.bve';
+include 'landscape/shinkawasaki/houseL.bve';
 include 'landscape/kosugi/crossing.bve';
 include 'landscape/kosugi/trolley.bve';
 include 'effect/light.bve';
