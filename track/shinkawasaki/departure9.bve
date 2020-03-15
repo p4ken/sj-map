@@ -1,7 +1,7 @@
 BveTs Map 2.02:UTF-8
 
 0;
-$track_departure9 = 44; # 着発9 左へくねくねと本線へ合流
+$track_departure9 = 44; # 左へくねくねと本線へ合流
 Track[$track_departure9].Cant.SetCenter($cant_inside_fall);
 Track[$track_departure9].Cant.SetGauge($gauge);
 

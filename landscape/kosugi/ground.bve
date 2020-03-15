@@ -1,0 +1,7 @@
+BveTs Map 2.02:UTF-8
+
+# 自線が上り坂、地面はほぼ水平 (7m→6m)
+
+$distance_0 + 18690;
+Repeater['砂利L'].Begin($track_ground, 0,0,0, -0.2,0,0, $tilt_gradient, 25, 25,'砂利');
+

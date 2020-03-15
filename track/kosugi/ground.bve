@@ -1,0 +1,13 @@
+BveTs Map 2.02:UTF-8
+
+0;
+$track_ground = 51;
+
+$distance_0 + 18690;
+Track[$track_ground].Y.Interpolate(-0.7, 0);
+
+$distance_0 + 18960;
+Track[$track_ground].Y.Interpolate(-1, 0);
+
+$distance_0 + 19500;
+Track[$track_ground].Y.Interpolate(-9, 0);

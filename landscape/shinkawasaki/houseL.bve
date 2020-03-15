@@ -1,4 +1,37 @@
 BveTs Map 2.02:UTF-8
 
+$distance_0 + 17845;
+Repeater['左フェンス'].Begin($track_hinkaku, -11,0,0, 0,0,0, $tilt_none, 2, 2, 'FenceWhite');
+
+$distance_0 + 17855;
+Repeater['左住宅'].Begin($track_hinkaku, -17,-2,0, 0,0,0, $tilt_none, 10, 10, 'house_wide');
+
 $distance_0 + 17900;
-Structure['house_wide'].Put($track_hinkaku, -15,0,0, 0,0,0, $tilt_none, 0);
+Repeater['左フェンス'].End();
+Repeater['左フェンス'].Begin($track_hinkaku, -16,0,0, 0,0,0, $tilt_none, 2, 2, 'FenceWhite');
+
+Repeater['左住宅'].End();
+Repeater['左住宅'].Begin($track_hinkaku, -22,-2,0, 0,0,0, $tilt_none, 10, 10, 'house_wide');
+
+$distance_0 + 18220;
+Repeater['左住宅'].End();
+
+$distance_0 + 18280;
+Repeater['左フェンス'].End();
+Repeater['左フェンス'].Begin($track_musashino, -23,0,0, 0,0,0, $tilt_none, 2, 2, 'FenceWhite');
+
+$distance_0 + 18460;
+Repeater['左フェンス'].End();
+
+$distance_0 + 18530;
+Repeater['左フェンス'].Begin($track_hinkaku, -4,0,0, 0,0,0, $tilt_none, 2, 2, 'FenceWhite');
+
+$distance_0 + 18665;
+Repeater['左フェンス'].End();
+
+$distance_0 + 18675;
+Repeater['左アスファルト1'].End();
+Repeater['左アスファルト2'].End();
+Repeater['上り左盛土'].End();
+
+# 踏切から先は kosugi

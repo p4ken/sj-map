@@ -96,8 +96,8 @@ Structure['road_0702_a'].Put($track_hinkaku, -40,-0.4,-9,   0,90,-0.2, $tilt_non
 
 $distance_0 + 16890;
 Repeater['左アスファルト1'].End();
-Repeater['左アスファルト1'].Begin($track_hinkaku, -7,-1.5,0, 0,-90,0, $tilt_none, 5, 4, 'FormCL25');
-Repeater['左アスファルト2'].Begin($track_hinkaku, -30,-2,0, 0,-90,0, $tilt_none, 5, 4, 'FormCL25');
+Repeater['左アスファルト1'].Begin($track_hinkaku, -7,-1.5,0, 0,-90,0, $tilt_gradient, 5, 4, 'FormCL25');
+Repeater['左アスファルト2'].Begin($track_hinkaku, -30,-2,0, 0,-90,0, $tilt_gradient, 5, 4, 'FormCL25');
 
 #
 # 工場エリア
@@ -172,7 +172,11 @@ $distance_0 + 17680;
 # 遠景 
 Structure['buildingMegaL'].Put($track_hinkaku, -60,-25,-5, 0,0,0, $tilt_none, 5);
 
-$distance_0 + 17600;
+#
+# 公園
+#
+
+$distance_0 + 17845;
 Repeater['左フェンス'].End();
 
 # 陸橋よりも先は houseL

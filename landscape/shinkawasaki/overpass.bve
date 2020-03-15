@@ -33,6 +33,7 @@ Structure['GroundShadow'].Put($track_hinkaku, 20,0.4,0, 0,0,0 ,$tilt_none, 5);
 
 $distance_0 + 17850;
 # 御幸跨線橋
+Structure['OverpassPier'].Put( $track_hinkaku,-12,0,-10, 0,0,0, $tilt_none, 5);
 Structure['OverpassR'].Put(    $track_hinkaku, 0,0,-10, 0,0,0, $tilt_none, 5);
 Structure['Overpass'].Put(     $track_hinkaku, 0,0,-10, 0,0,0, $tilt_none, 5);
 Structure['OverpassL'].Put(    $track_hinkaku, 0,0,-10, 0,0,0, $tilt_none, 5);
@@ -51,6 +52,7 @@ Structure['GroundShadow'].Put($track_hinkaku, 20,0.4,-10, 0,0,0 ,$tilt_none, 5);
 
 $distance_0 + 18200;
 # 府中街道(斜め)
+Structure['OverpassPier'].Put( $track_hinkaku,-21,0,16, 0,20,0, $tilt_none, 5);
 Structure['OverpassR'].Put(    $track_hinkaku, 0,0,-10, 0,50,0, $tilt_none, 5);
 Structure['Overpass'].Put(     $track_hinkaku, 0,0,-10, 0,50,0, $tilt_none, 5);
 Structure['OverpassL'].Put(    $track_hinkaku, 0,0,-10, 0,50,0, $tilt_none, 5);
