@@ -1,0 +1,34 @@
+BveTs Map 2.02:UTF-8
+
+0;
+$run_long = 0;
+$run_short = 1;
+$run_bridge = 2;
+$run_tunnel = 3;
+
+0;
+RollingNoise.Change($run_long);
+
+$distance_0 + 240; # 西谷トンネル
+RollingNoise.Change($run_tunnel);
+
+$distance_0 + 2200; # 羽沢発車
+RollingNoise.Change($run_long);
+
+$distance_0 + 3700; # 港北トンネル
+RollingNoise.Change($run_tunnel);
+
+$distance_0 + 10060;
+RollingNoise.Change($run_long);
+
+$distance_0 + 12365; # 鶴見川
+RollingNoise.Change($run_bridge);
+
+$distance_0 + 12485;
+RollingNoise.Change($run_long);
+
+$distance_0 + 12785; # 東海道乗越
+RollingNoise.Change($run_bridge);
+
+$distance_0 + 12955;
+RollingNoise.Change($run_short);
