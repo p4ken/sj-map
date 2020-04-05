@@ -1,7 +1,9 @@
 ﻿BveTs Sound List 2.00
 
-arr_hazawa, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sound\sta\3-ARR-HAZAWA+12db-compact.wav
+dep_nishiya, ..\..\sound\sta\nishiya\nishiya-edit-down3db-24kHz-8bit.wav
+arr_hazawa, ..\..\sound\sta\hazawa\arr-11kHz-8bit.wav
+dep_hazawa, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sound\sta\hazawa\dep-trim-fade-up9db-12kHz-16bit.wav
 
-ann_next_hazawa,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sound\ann\haz\next-fade-mono-12kHz-16bit.wav
+ann_next_hazawa,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sound\ann\hazawa\next-fade-mono-12kHz-16bit.wav
 ann_next_musako,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sound\ann\musako\next-mono-fade-12000Hz-16bit.wav
 ann_soon_musako,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sound\ann\musako\soon-mono-12000Hz-16bit.wav

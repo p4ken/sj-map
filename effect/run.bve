@@ -18,6 +18,10 @@ RollingNoise.Change($run_long);
 $distance_0 + 3700; # 港北トンネル
 RollingNoise.Change($run_tunnel);
 
+# 大口シェルター
+
+# 生見尾トンネル
+
 $distance_0 + 10060;
 RollingNoise.Change($run_long);
 
