@@ -180,13 +180,13 @@ Beacon.Put($beacon_signal, $section_atsp, $data_none);
 distance + 1;
 Beacon.Put($beacon_turnout, $section_atsp, 1095);
 
-$distance_shinagawa - 11625; # 95→60 200m以上早め
+$distance_shinagawa - 11575; # 95→60 早め
 SpeedLimit.End();
 Beacon.Put($beacon_turnout_delete, $section_atsp, 1095);
 distance + 1;
 Beacon.Put($beacon_signal, $section_atsp, $data_none);
 distance + 1;
-Beacon.Put($beacon_turnout, $section_atsp, 200060);
+Beacon.Put($beacon_turnout, $section_atsp, 300060);
 
 $distance_shinagawa - 11109;
 SpeedLimit.Begin(60);
