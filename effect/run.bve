@@ -7,16 +7,19 @@ $run_bridge = 2;
 $run_tunnel = 3;
 
 0;
-RollingNoise.Change($run_long);
+RollingNoise.Change($run_short);
 
 $distance_0 + 240; # 西谷トンネル
 RollingNoise.Change($run_tunnel);
 
 $distance_0 + 2200; # 羽沢発車
-RollingNoise.Change($run_long);
+RollingNoise.Change($run_short);
+
+$distance_0 + 2985; # 45km/h制限おわり
+RollingNoise.Change($run_short);
 
 $distance_0 + 3700; # 港北トンネル
-RollingNoise.Change($run_tunnel);
+RollingNoise.Change($run_long);
 
 # 大口シェルター
 
