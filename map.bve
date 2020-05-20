@@ -66,6 +66,7 @@ include 'track/kosugi/ground.bve';
 include 'operation/signal/beacon.bve';
 include 'operation/signal/section.bve';
 include 'operation/signal/limit.bve';
+include 'operation/signal/pass.bve';
 include 'operation/sign/stop.bve';
 include 'operation/sign/limit.bve';
 include 'operation/sign/notice.bve';

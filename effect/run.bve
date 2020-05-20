@@ -16,10 +16,10 @@ $distance_0 + 2200; # 羽沢発車
 RollingNoise.Change($run_short);
 
 $distance_0 + 2985; # 45km/h制限おわり
-RollingNoise.Change($run_short);
+RollingNoise.Change($run_long);
 
 $distance_0 + 3700; # 港北トンネル
-RollingNoise.Change($run_long);
+RollingNoise.Change($run_tunnel);
 
 # 大口シェルター
 

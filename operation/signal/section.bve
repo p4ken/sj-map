@@ -124,8 +124,6 @@ $distance = distance;
 include 'operation/signal/update.bve';
 
 $distance_0 + 2025;
-# 誤通過防止
-Beacon.Put($beacon_station, 1, 200); // 羽沢横浜国大 停車
 # Y固定表示の制限は出発信号で終える
 SpeedLimit.End();
 
@@ -161,10 +159,6 @@ Structure['signal4yy0'].Put($track_hinkaku, 1.8,5.1,0, 0,0,0, $tilt_none, 0);
 Structure['signal4yy0'].Put($track_opposite, 2.7,4.1,0, 0,0,0, $tilt_none, 0);
 Structure['signal4yy0'].Put($track_opposite, 2.2,3.0,0, 0,0,0, $tilt_none, 0);
 Structure['1JR出_hL'].Put($track_opposite, 2.8,1.2,-0.4, 0,0,0, $tilt_none, 0);
-
-# 誤通過防止
-$distance_0 + 2470;
-# Beacon.Put($beacon_station, 1, -1); // (相鉄PIの場合)
 
 # 中継
 $distance_0 + 2525;
