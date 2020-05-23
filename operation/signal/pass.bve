@@ -1,10 +1,8 @@
 BveTs Map 2.02:UTF-8
 
-0;
-
 $distance_0 + 2025;
 # 次は停車次は停車
-# Beacon.Put($beacon_station, 1, 200); // 相鉄PI (JR PIでも大丈夫)
+Beacon.Put($beacon_station, 1, 200); // 相鉄PI (JR PIでも大丈夫)
 Sound['tims_next_stop'].Play();
 
 # 通過通過

@@ -1,6 +1,7 @@
 ﻿BveTs Sound List 2.00:UTF-8
 
-dep_nishiya, ..\..\sound\sta\nishiya\nishiya-edit-down3db-24kHz-8bit+1s+door.wav
+dep_nishiya, ..\..\sound\sta\nishiya\nishiya-edit-down3db-24kHz-8bit.wav
+door_close, ..\..\sound\door\close-trim-mono-8bit.wav
 arr_hazawa, ..\..\sound\sta\hazawa\arr-11kHz-8bit.wav
 dep_hazawa,  ..\..\sound\sta\hazawa\dep-trim-fade-up9db-12kHz-16bit.wav
 arr_musako, ..\..\sound\sta\musako\trim-up12db-fade-8bit-24kHz.wav
@@ -11,3 +12,5 @@ ann_soon_musako, ..\..\sound\ann\musako\soon-mono-12000Hz-16bit.wav
 
 tims_next_stop, ..\..\sound\tims\stop\lowpass-mono-11kHz.wav
 tims_next_pass, ..\..\sound\tims\pass\eq-mono-11kHz.wav
+
+buzzer_next_stop, ..\..\sound\buzzer\conductor\dc-down6db-soon.wav
