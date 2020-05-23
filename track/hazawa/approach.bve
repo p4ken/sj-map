@@ -90,7 +90,9 @@ Repeater['上り直結軌道'].End();
 Structure['BallastPC_K_5a'].Put($track_approach, 0,0,0, 0,0,0, $tilt_all, 5);
 
 $distance_nishiya + 2700;
-# ／| 合流ポイント
+#   ||
+#  /|| 貨物線へ合流
+# / ||
 $distance_tsurumi - 8875;
 
 $distance_tsurumi - 8875;

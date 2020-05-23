@@ -186,7 +186,7 @@ Gradient.Interpolate();
 $distance_nishiya + 2175;
 Repeater['羽沢横浜国大駅ホームドアL'].End();
 Repeater['羽沢横浜国大駅ホームドアR'].End();
-Repeater['コンクリート道床上り'].Begin($track_nishiya4, -3,0,0, 0,0,0, $tilt_all, 25, 25, 'Slab8m');
+Repeater['コンクリート道床上り'].Begin($track_nishiya4, -2.7,0,0, 0,0,0, $tilt_gradient, 25, 25, 'Slab8m');
 
 $distance_nishiya + 2179;
 # 現地写真より
@@ -212,7 +212,8 @@ Structure['wallend'].Put($track_nishiya4, 5,0,0, 0,180,0, $tilt_all, 0);
 $distance_nishiya + 2200;
 Repeater['擁壁L'].End();
 Repeater['擁壁R'].End();
-Repeater['擁壁L'].Begin($track_nishiya4, -2.6,-1,0, 0,0,-90, $tilt_none, 25, 25, 'Slab8m');
+Repeater['擁壁L'].Begin($track_nishiya4, -2.6,-1,0, 0,0,-90, $tilt_none, 24.8, 24.8, 'Slab8m');
+Repeater['上り直結軌道'].End();
 Repeater['上り直結軌道'].Begin0($track_nishiya4, $tilt_all, 5, 5, 'Slab2S5m');
 
 $distance_nishiya + 2210;

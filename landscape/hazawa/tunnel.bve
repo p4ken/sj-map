@@ -1,0 +1,35 @@
+BveTs Map 2.02:UTF-8
+
+$distance_0 + 2420;
+Structure['hazawaT_entrance'].Put($track_shinyokohama, 1.8,0,0, 0,0,0, $tilt_gradient, 10);
+
+$distance_0 + 2422;
+Repeater['羽沢トンネル上ポール柵'].Begin($track_shinyokohama, -2.4,7.5,0, 0,0,0, $tilt_gradient, 5, 5,  'PoleFence02a');
+Structure['PoleFence02a'].Put($track_shinyokohama, 2.6,7.5,0, 0,-90,0, $tilt_gradient, 10);
+Structure['PoleFence02a'].Put($track_shinyokohama, 7.6,7.5,0, 0,-90,0, $tilt_gradient, 10);
+
+$distance_0 + 2380;
+Structure['hazawaT_smoke'].Put($track_shinyokohama, 1.8,0,49.5, 0,0,0, $tilt_gradient, 10);
+
+$distance_0 + 2430;
+Repeater['羽沢トンネル外壁'].Begin($track_shinyokohama, 1.8,0,0, 0,0,0, $tilt_gradient, 5, 5,  'hazawaT_span');
+
+$distance_0 + 2500;
+Structure['hazawaT_black'].Put($track_shinyokohama, 1.8,0,0, 0,0,0, $tilt_gradient, 10);
+
+$distance_0 + 2532;
+Repeater['羽沢トンネル上ポール柵'].End();
+Structure['PoleFence02aE'].Put($track_shinyokohama, -2.4,7.5,0.1, 0,0,0, $tilt_gradient, 0);
+
+$distance_0 + 2560;
+Repeater['羽沢トンネル上フェンス'].Begin($track_shinyokohama, -2.9,6,0, 0,0,0, $tilt_gradient, 5, 5,  'fence_r');
+Structure['fence_r'].Put($track_shinyokohama, 14.8,6,-17, 0,-45,0, $tilt_gradient, 5);
+
+$distance_0 + 2630;
+Repeater['羽沢トンネル外壁'].End();
+Repeater['上り右バラスト1'].Begin($track_approach, 0,-0.5,-1, -0.1,0,0, $tilt_gradient, 5, 4.5, 'Bl_CraBalR_5m');
+
+$distance_0 + 2615;
+Repeater['羽沢トンネル上フェンス'].End();
+$distance_0 + 2660;
+Repeater['上り右バラスト1'].End();

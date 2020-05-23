@@ -18,21 +18,29 @@ Track[$track_shinyokohama].X.Interpolate(1, 0);
 
 $distance_nishiya + 2301;
 # ここから縦曲線 L=117m R=3000m
-$radius_gradient_R3000 = 1 / (1 / -3000 - 1 / 3000);
-Track[$track_shinyokohama].Y.Interpolate(0, $radius_gradient_R3000);
+$gradient_radius = 1 / (1 / -3000 - 1 / 3000);
+Track[$track_shinyokohama].Y.Interpolate(0, $gradient_radius);
 
 $distance_nishiya + 2325;
 Track[$track_shinyokohama].X.Interpolate(3, 0);
 Track[$track_shinyokohama].X.Interpolate(3, -920);
 
 $distance_nishiya + 2379;
-Track[$track_shinyokohama].Y.Interpolate(-2, 0);
+$y = -2;
+Track[$track_shinyokohama].Y.Interpolate($y, 0);
+$gradient = -51.37; # 相対パーミル
 
 $distance_nishiya + 2400;
 Track[$track_shinyokohama].X.Interpolate(6, -920);
 Track[$track_shinyokohama].X.Interpolate(6, 0);
 
-$distance_nishiya + 2525;
-Track[$track_shinyokohama].Y.Interpolate(-9.5, 0);
+$distance_nishiya + 2449;
+$gradient_radius = 3000;
+$y = $y + $gradient/1000*65;
+Track[$track_shinyokohama].Y.Interpolate($y, $gradient_radius);
 Repeater['新横浜線の下り直結軌道'].End();
 Repeater['新横浜線の上り直結軌道'].End();
+
+$distance_nishiya + 2527;
+$y = $y - 2;
+Track[$track_shinyokohama].Y.Interpolate($y, 0);

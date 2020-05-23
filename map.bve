@@ -78,6 +78,7 @@ include 'landscape/hazawa/geoR.bve';
 include 'landscape/hazawa/inside.bve';
 include 'landscape/hazawa/road.bve';
 include 'landscape/hazawa/trolley.bve';
+include 'landscape/hazawa/tunnel.bve';
 include 'landscape/tsurumi/kagetsuen.bve';
 include 'landscape/tsurumi/grass.bve';
 include 'landscape/tsurumi/trolley.bve';
