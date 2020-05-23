@@ -48,6 +48,7 @@ Repeater['武蔵小杉ホーム支柱1列'].Begin($track_kosugi4, 4.5,1.1,0, 0,0
 $distance_shinagawa - 10105;
 Repeater['武蔵小杉ホーム支柱1列'].End();
 Repeater['武蔵小杉4番線ホーム支柱'].Begin($track_kosugi4, 3.5,1.1,0, 0,0,0, $tilt_none, 10, 10, '武蔵小杉4番線ホーム支柱');
+Repeater['武蔵小杉4番線ホーム床中央'].Begin($track_kosugi4, 3,-0.03,0, 0,0,0, $tilt_gradient, 5, 5, '武蔵小杉4番線ホーム床中央');
 
 $distance_shinagawa - 10079;
 Curve.Interpolate();
@@ -64,6 +65,7 @@ Gradient.Interpolate();
 
 $distance_shinagawa - 9892;
 Gradient.Interpolate(10.0);
+Repeater['武蔵小杉4番線ホーム床中央'].End();
 
 $distance_shinagawa - 9865;
 Gradient.Interpolate();

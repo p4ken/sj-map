@@ -1,4 +1,4 @@
-﻿BveTs Structure List 2.00:UTF-8
+BveTs Structure List 2.00:UTF-8
 
 DikeGrs5mL1,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\ACCC\Ground\DikeGrs5mL1.x
 DikeGrs5mL2,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\ACCC\Ground\DikeGrs5mL2.x
@@ -375,6 +375,7 @@ stopN6_hL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sign\stop\stopN6_hL.x
 stopN12_hL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sign\stop\stopN12_hL.x
 西谷T_hL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sign\tunnel\西谷T_hL.x
 武蔵小杉4番線ホーム床, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\building\musashi_kosugi\form4.x
+武蔵小杉4番線ホーム床中央, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\building\musashi_kosugi\form_between.x
 武蔵小杉4番線ホーム支柱, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\building\musashi_kosugi\poll.x
 武蔵小杉4番線ホーム屋根, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\building\musashi_kosugi\roof.x
 港北_hL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sign\tunnel\港北_hL.x
@@ -382,6 +383,7 @@ stopN12_hL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sign\stop\stopN12_hL.x
 koki106_a,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\RON\コキ１０６\koki106_a.x
 
 PoleFence01yellow,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\building\CustomGeneralStr\PoleFence01yellow.x
+SlabS5m_1435mm,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\building\CustomGeneralStr\Rail\Slab01\SlabS5m_1435mm.x
 
 #2-cut,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shadow\2-cut.x
 #2-cut,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shadow\4-choten-b.x

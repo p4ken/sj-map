@@ -9,3 +9,6 @@ Repeater['新幹線の高架底面' ].Begin($track_shinkansen, 0.8,-1.38,0, 0,0,
 Repeater['新幹線の高架底面2' ].Begin($track_shinkansen, -0.1,-1.95,0, 0,0,180, $tilt_gradient, 23, 23, 'Slab8m');
 Repeater['新幹線の高架橋脚L'].Begin($track_shinkansen, -4,0,0, 0,0,0, $tilt_gradient, 20, 20, 'WallUnder_QN_25m_hukusen');
 Repeater['新幹線の高架橋脚R'].Begin($track_shinkansen, 4,0,0, 0,0,0, $tilt_gradient, 20, 20, 'WallUnder_QN_25m_hukusen');
+Repeater['新幹線の軌道ベース'].Begin($track_shinkansen, 0,0,0, 0,0,0, $tilt_all, 20, 20, 'Slab8m');
+Repeater['新幹線の軌道L'].Begin($track_shinkansen, -2.5,-0.3,0, 0,0,0, $tilt_all, 6.6, 6.6, 'SlabS5m_1435mm');
+Repeater['新幹線の軌道R'].Begin($track_shinkansen, 2.5,-0.3,0, 0,0,0, $tilt_all, 6.6, 6.6, 'SlabS5m_1435mm');
