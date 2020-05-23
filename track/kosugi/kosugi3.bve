@@ -35,6 +35,8 @@ Track[$track_kosugi3].X.Interpolate(7.5, 0);
 
 $distance_shinagawa - 10160;
 Repeater['武蔵小杉3番線ホーム床'].Begin($track_kosugi3, 0,0,5, 0,180,0.3, $tilt_gradient, 5, 5, '武蔵小杉4番線ホーム床');
+
+$distance_shinagawa - 10130;
 Repeater['横須賀線下り左バラスト1'].End();
 Repeater['横須賀線下り左バラスト2'].End();
 

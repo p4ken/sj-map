@@ -17,14 +17,56 @@ $distance_0 + 18220;
 Repeater['左住宅'].End();
 
 $distance_0 + 18280;
+Structure['trees13'].Put($track_hinkaku, -22,-3,-30, 0,-60,0, $tilt_none, 0);
+
+$distance_0 + 18285;
+Structure['buildingL'].Put($track_hinkaku, -32,-15,0, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 18290;
 Repeater['左フェンス'].End();
 Repeater['左フェンス'].Begin($track_musashino, -23,0,0, 0,0,0, $tilt_none, 2, 2, 'FenceWhite');
+
+$distance_0 + 18310;
+Structure['buildingL'].Put($track_hinkaku, -27,-10,0, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 18325;
+Repeater['左住宅'].Begin($track_musashino, -31,-2,0, 0,0,0, $tilt_none, 10, 10, 'house_wide');
+
+$distance_0 + 18380;
+Repeater['左住宅'].End();
+
+$distance_0 + 18405;
+Structure['buildingRedR'].Put($track_hinkaku, -24,0,0, 0,-90,0, $tilt_none, 0);
+
+$distance_0 + 18440;
+Structure['buildingL'].Put($track_hinkaku, -27,-0,0, 0,-1,0, $tilt_none, 0);
+
+$distance_0 + 18490;
+Structure['buildingR'].Put($track_hinkaku, -22,-0,0, 0,-60,0, $tilt_none, 0);
+
+$distance_0 + 18525;
+Structure['buildingR'].Put($track_hinkaku, -17,-9,0, 0,-80,0, $tilt_none, 0);
+
+$distance_0 + 18545;
+Repeater['左住宅'].Begin($track_hinkaku, -10,-2,0, 0,0,0, $tilt_none, 13, 10, 'house_wide');
+
+$distance_0 + 18570;
+Repeater['左住宅'].End();
 
 $distance_0 + 18460;
 Repeater['左フェンス'].End();
 
 $distance_0 + 18530;
 Repeater['左フェンス'].Begin($track_hinkaku, -4,0,0, 0,0,0, $tilt_none, 2, 2, 'FenceWhite');
+
+$distance_0 + 18620;
+Structure['buildingR'].Put($track_hinkaku, -45,-0,0, 0,-80,0, $tilt_none, 0);
+
+$distance_0 + 18660;
+Structure['buildingR'].Put($track_hinkaku, -40,-0,0, 0,-80,0, $tilt_none, 0);
+
+$distance_0 + 18680;
+Repeater['左住宅'].Begin($track_hinkaku, -35,-2,0, 0,0,0, $tilt_none, 13, 10, 'house_wide');
 
 $distance_0 + 18665;
 Repeater['左フェンス'].End();
@@ -33,5 +75,8 @@ $distance_0 + 18675;
 Repeater['左アスファルト1'].End();
 Repeater['左アスファルト2'].End();
 Repeater['上り左盛土'].End();
+
+$distance_0 + 18830;
+Repeater['左住宅'].End();
 
 # 踏切から先は kosugi

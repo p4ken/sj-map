@@ -11,10 +11,10 @@ $distance_shinagawa - 13350;
 Track[$track_south].X.Interpolate(20, -1000);
 
 $distance_shinagawa - 13200;
-Repeater['機関区南4バラスト軌道'].Begin($track_hinkaku, 50,0,0, 0,0,0, $tilt_none, 5, 5, 'BallastTR_K_5a');
-Repeater['機関区南5バラスト軌道'].Begin($track_hinkaku, 45,0,0, 0,0,0, $tilt_none, 5, 5, 'BallastTR_K_5a');
-Repeater['機関区南6バラスト軌道'].Begin($track_hinkaku, 40,0,0, 0,0,0, $tilt_none, 5, 5, 'BallastTR_K_5a');
-Repeater['機関区南7バラスト軌道'].Begin($track_hinkaku, 35,0,0, 0,0,0, $tilt_none, 5, 5, 'BallastTR_K_5a');
+Repeater['機関区南7バラスト軌道'].Begin($track_hinkaku, 50,0,0, 0,0,0, $tilt_none, 5, 5, 'BallastTR_K_5a');
+Repeater['機関区南6バラスト軌道'].Begin($track_hinkaku, 45,0,0, 0,0,0, $tilt_none, 5, 5, 'BallastTR_K_5a');
+Repeater['機関区南5バラスト軌道'].Begin($track_hinkaku, 40,0,0, 0,0,0, $tilt_none, 5, 5, 'BallastTR_K_5a');
+Repeater['機関区南4バラスト軌道'].Begin($track_hinkaku, 35,0,0, 0,0,0, $tilt_none, 5, 5, 'BallastTR_K_5a');
 
 $distance_shinagawa - 13150;
 Repeater['機関区南3バラスト軌道'].Begin($track_hinkaku, 30,0,0, 0,0,0, $tilt_none, 5, 5, 'BallastTR_K_5a');

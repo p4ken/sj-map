@@ -98,7 +98,7 @@ Structure['Bl_CraBalL_25'].Put($track_hinkaku,-75,-3.5,-1.9, -5,90,0, $tilt_none
 Repeater['上り橋梁R'].End();
 Repeater['上り橋梁L'].End();
 Repeater['上り橋梁軌道'].End();
-Repeater['上りバラスト軌道'].Begin0($track_hinkaku, $tilt_all, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
+Repeater['上りバラスト軌道'].Begin($track_hinkaku, 0,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
 
 Repeater['上り線路下'].Begin($track_hinkaku, -1.5,-1.5,0, 0,0,-10, $tilt_gradient, 25, 25, 'Wall_QN_R25m');
 Repeater['上り左盛土'].Begin($track_hinkaku, 0.5,0.3,0, 0,0,0, $tilt_gradient, 5, 5, 'DikeGrs5mL1','DikeGrs5mL2','DikeGrs5mL3','DikeGrs5mL4','DikeGrs5mL5','DikeGrs5mL6');

@@ -1,7 +1,96 @@
 BveTs Map 2.02:UTF-8
 
+$distance_0 + 15930;
+Repeater['上り右バラスト2'].Begin($track_hinkaku, 2,0,0, -2,0,0, $tilt_gradient, 5, 4.5, 'Bl_CraBalR_5m');
+$distance_0 + 15945;
+Repeater['上り右バラスト3'].Begin($track_hinkaku, 4.5,0,0, -2,0,0, $tilt_gradient, 5, 4.5, 'Bl_CraBalR_5m');
+$distance_0 + 15960;
+Repeater['上り右バラスト4'].Begin($track_hinkaku, 7,0,0, -2,0,0, $tilt_gradient, 5, 4.5, 'Bl_CraBalR_5m');
+$distance_0 + 15970;
+Repeater['上り右バラスト5'].Begin($track_hinkaku, 9,0,0, -2,0,0, $tilt_gradient, 5, 4.5, 'Bl_CraBalR_5m');
+
+$distance_0 + 15980;
+Repeater['上り右バラスト2'].End();
+Repeater['上り右バラスト3'].End();
+Repeater['上り右バラスト4'].End();
+Repeater['上り右バラスト5'].End();
+# Repeater['機関区グリーンマット'].Begin($track_hinkaku, 6,1,0, -0.1,0,-5, $tilt_gradient, 25, 25, 'Rside_Grass');
+Repeater['機関区グリーンマット'].Begin($track_hinkaku, 6,0.5,0, -0.1,0,-1, $tilt_gradient, 25, 25, 'Rside_Grass');
+
+$distance_0 + 16305;
+# Structure['DD51-842'].Put($track_south, 0,0,18, 0,0,0, $tilt_none, 18);
+# Structure['DD51-842'].Put($track_hinkaku, 26.5,0,18, 0,0,0, $tilt_none, 18);
+# Structure['DD51-842'].Put($track_hinkaku, 35,0,18, 0,0,0, $tilt_none, 18);
+
+$distance_0 + 16345;
+Structure['buildingR'].Put($track_hinkaku, 23,-12,-10, 0,-10,0, $tilt_none, 5);
+Structure['buildingR'].Put($track_hinkaku, 48,-12,0, 0,-10,0, $tilt_none, 5);
+Structure['trees13'].Put($track_hinkaku, 68,-2,-30, 0,-20,0, $tilt_none, 0);
+Structure['trees12'].Put($track_hinkaku, 82,-5,10, 0,-20,0, $tilt_none, 0);
+
+$distance_0 + 16350;
+Structure['buildingR'].Put($track_hinkaku, 20,-15,0, 0,0,0, $tilt_none, 5);
+distance + 18;
+Structure['buildingR'].Put($track_hinkaku, 19,-15,0, 0,0,0, $tilt_none, 5);
+distance + 18;
+Structure['buildingR'].Put($track_hinkaku, 19,-15,0, 0,0,0, $tilt_none, 5);
+distance + 18;
+Structure['buildingR'].Put($track_hinkaku, 20,-15,0, 0,0,0, $tilt_none, 5);
+distance + 18;
+Structure['buildingR'].Put($track_hinkaku, 20,-15,0, 0,0,0, $tilt_none, 5);
+distance + 27;
+Structure['buildingL'].Put($track_hinkaku, 13.5,-12,0, 0,90,0, $tilt_none, 5);
+distance + 25;
+Structure['buildingR'].Put($track_hinkaku, 20,-15,0, 0,0,0, $tilt_none, 5);
+
+$distance_0 + 16550;
+Repeater['機関区グリーンマット'].End();
+
+$distance_0 + 16770;
+Structure['b01'].Put($track_departure, -2.5,-5,0, 0,60,0, $tilt_none, 0);
+distance + 5;
+Structure['b03'].Put($track_departure, -2.5,-4.5,0, 0,60,0, $tilt_none, 0);
+distance + 5;
+Structure['b02'].Put($track_departure, -3,-4,0, 0,60,0, $tilt_none, 0);
+distance + 5;
+Structure['b01'].Put($track_departure, -3,-3,0, 0,60,0, $tilt_none, 0);
+distance + 5;
+Structure['b04'].Put($track_departure, -2.5,-3,0, 0,60,0, $tilt_none, 0);
+distance + 5;
+Structure['b01'].Put($track_departure, -3,-3.5,0, 0,60,0, $tilt_none, 0);
+distance + 5;
+Structure['b02'].Put($track_departure, -3,-2,0, 0,60,0, $tilt_none, 0);
+distance + 5;
+Structure['b03'].Put($track_departure, -3,-4,0, 0,60,0, $tilt_none, 0);
+distance + 5;
+Structure['b03'].Put($track_departure, -3,-4,0, 0,60,0, $tilt_none, 0);
+distance + 5;
+Structure['b04'].Put($track_departure, -3,-4,0, 0,60,0, $tilt_none, 0);
+distance + 5;
+Structure['b02'].Put($track_departure, -3,-4,0, 0,60,0, $tilt_none, 0);
+distance + 5;
+Structure['b01'].Put($track_departure, -3,-4.5,0, 0,60,0, $tilt_none, 0);
+distance + 5;
+Structure['b02'].Put($track_departure, -3,-4.5,0, 0,60,0, $tilt_none, 0);
+
 $distance_0 + 16900;
 Repeater['着発11黄色柵'].Begin($track_hinkaku, 2.5,-0.5,0, 0,0,0, $tilt_none, 0, 5,'saku3_wide');
 
+$distance_0 + 17490;
+Repeater['上り右バラスト2'].Begin($track_hinkaku, 2.5,0,0, -0.1,0,0, $tilt_gradient, 5, 4.5, 'Bl_CraBalR_5m');
+
+$distance_0 + 17580;
+Repeater['着発11左バラスト1'].Begin($track_departure11, -0.5,0,0, -0.1,0,0, $tilt_gradient, 5, 4.5, 'Bl_CraBalL_5m');
+Repeater['着発11左バラスト2'].Begin($track_departure11, -3,0,0, -0.1,0,0, $tilt_gradient, 5, 4.5, 'Bl_CraBalL_5m');
+Repeater['着発11左バラスト3'].Begin($track_departure11, -5.5,0,0, -0.1,0,0, $tilt_gradient, 5, 4.5, 'Bl_CraBalL_5m');
+
+$distance_0 + 17590;
+Repeater['上り右バラスト2'].End();
+
 $distance_0 + 17620;
 Repeater['着発11黄色柵'].End();
+
+$distance_0 + 17800;
+Repeater['着発11左バラスト1'].End();
+Repeater['着発11左バラスト2'].End();
+Repeater['着発11左バラスト3'].End();

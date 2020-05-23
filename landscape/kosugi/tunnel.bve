@@ -1,0 +1,31 @@
+BveTs Map 2.02:UTF-8
+
+# 武蔵野貨物線 小杉トンネル
+
+
+
+
+
+
+$distance_0 + 18680;
+Repeater['上り右バラスト1'].Begin($track_hinkaku, 0,0,0, -0.1,0,0, $tilt_gradient, 5, 4.5, 'Bl_CraBalR_5m');
+Repeater['上り右バラスト2'].Begin($track_hinkaku, 2.5,0,0, -0.1,0,0, $tilt_gradient, 5, 4.5, 'Bl_CraBalR_5m');
+Repeater['上り右バラスト3'].Begin($track_hinkaku, 5,0,0, -0.1,0,0, $tilt_gradient, 5, 4.5, 'Bl_CraBalR_5m');
+
+Repeater['横須賀線左バラスト1'].Begin($track_yokosuka, -4,0,0, -0.1,0,0, $tilt_gradient, 5, 4.5, 'Bl_CraBalL_5m');
+Repeater['横須賀線左バラスト2'].Begin($track_yokosuka, -6.5,0,0, -0.1,0,0, $tilt_gradient, 5, 4.5, 'Bl_CraBalL_5m');
+Repeater['横須賀線左バラスト3'].Begin($track_yokosuka, -9,0,0, -0.1,0,0, $tilt_gradient, 5, 4.5, 'Bl_CraBalL_5m');
+Repeater['横須賀線左バラスト4'].Begin($track_yokosuka, -11.5,0,0, -0.1,0,0, $tilt_gradient, 5, 4.5, 'Bl_CraBalL_5m');
+
+$distance_0 + 18800;
+Repeater['横須賀線左バラスト4'].End();
+Repeater['横須賀線左バラスト3'].End();
+
+$distance_0 + 18850;
+Repeater['横須賀線左バラスト2'].End();
+Repeater['横須賀線左バラスト1'].End();
+Repeater['上り右バラスト3'].End();
+
+$distance_0 + 18900;
+Repeater['上り右バラスト2'].End();
+Repeater['上り右バラスト1'].End();

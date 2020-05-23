@@ -167,6 +167,9 @@ Track[$track_yokosuka].X.Interpolate(30.5);
 
 $distance_shinagawa - 10675;
 Track[$track_yokosuka].X.Interpolate(30, -600);
+# チラつき防止
+Repeater['横須賀線上りバラスト軌道'].End();
+Repeater['横須賀線上りバラスト軌道'].Begin($track_yokosuka, -4,0,0, 0,0,0.1, $tilt_none, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
 
 $distance_shinagawa - 10600;
 Track[$track_yokosuka].X.Interpolate(25, 0);

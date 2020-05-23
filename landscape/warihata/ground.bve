@@ -7,7 +7,7 @@ Repeater['上り左盛土'].Begin($track_hinkaku, -4,0.3,0, 0,0,0, $tilt_gradien
 Repeater['上り右盛土'].Begin($track_opposite, 3,0.3,0, 0,0,0, $tilt_gradient, 5, 4.5, 'DikeGrs5mR1','DikeGrs5mR2','DikeGrs5mR3','DikeGrs5mR4','DikeGrs5mR5','DikeGrs5mR6');
 
 $distance_0 + 13200;
-Repeater['上り右グリーンマット'].Begin($track_opposite, 0,-3,0, 0,0,0, $tilt_gradient, 25, 25, 'Rside_Grass');
+Repeater['上り右グリーンマット'].Begin($track_opposite, 0,-3,0, -0.1,0,0, $tilt_gradient, 25, 25, 'Rside_Grass');
 
 $distance_0 + 13610;
 Repeater['左黄色柵'].Begin($track_hinkaku, -5,0,0, 0,0,0, $tilt_gradient, 5, 5, 'PoleFence01yellow');

@@ -13,6 +13,7 @@ $distance_0 + 16740;
 Track[$track_departure].X.Interpolate();
 Track[$track_departure].X.Interpolate(6, 260);
 Repeater['着発6バラスト軌道'].Begin($track_departure, -6,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastTR_K_5a');
+Repeater['着発6右バラスト'].Begin($track_departure, -6,0,0, -0.1,0,0, $tilt_gradient, 5, 4.5, 'Bl_CraBalR_5m');
 
 $distance_0 + 16860;
 Repeater['着発10バラスト軌道'].Begin($track_hinkaku, 9,0,0, 0,0,0, $tilt_none, 5, 5, 'BallastTR_K_5a');
@@ -34,6 +35,7 @@ Track[$track_departure].X.Interpolate(31);
 
 $distance_shinagawa - 11825;
 Track[$track_departure].X.Interpolate(31, -1200);
+Repeater['着発6右バラスト'].End();
 Repeater['着発10バラスト軌道'].End();
 Repeater['着発10バラスト軌道'].Begin($track_departure, -22,0,0, 0,0,0, $tilt_none, 5, 5, 'BallastTR_K_5a');
 Repeater['着発9バラスト軌道'].End();
@@ -67,6 +69,12 @@ Repeater['出発線西バラスト軌道'].End();
 # チラつき防止の傾き
 Repeater['出発線西バラスト軌道'].Begin($track_departure, -6,0,0, 0,0,0.2, $tilt_none, 5, 5, 'BallastPC_K_5a');
 
+$distance_0 + 17700;
+Repeater['出発線東左バラスト1'].Begin($track_departure, 1,0,0, -0.1,0,0, $tilt_gradient, 5, 4.5, 'Bl_CraBalL_5m');
+Repeater['出発線東左バラスト2'].Begin($track_departure, 0,0,0, -0.1,0,0, $tilt_gradient, 5, 4.5, 'Bl_CraBalL_5m');
+Repeater['出発線東右バラスト1'].Begin($track_departure, -1,0,0, -0.1,0,0, $tilt_gradient, 5, 4.5, 'Bl_CraBalR_5m');
+Repeater['出発線東右バラスト2'].Begin($track_departure, 1.5,0,0, -0.1,0,0, $tilt_gradient, 5, 4.5, 'Bl_CraBalR_5m');
+
 $distance_0 + 17800;
 Repeater['出発線東バラスト軌道'].End();
 Repeater['機待14バラスト軌道'].End();
@@ -82,5 +90,9 @@ Repeater['出発線西バラスト軌道'].End(); # 本線へ合流した
 $distance_shinagawa - 11035;
 # あと一歩で武蔵野貨物線へつながりそう
 Repeater['新出発線バラスト軌道'].End();
+Repeater['出発線東左バラスト1'].End();
+Repeater['出発線東左バラスト2'].End();
+Repeater['出発線東右バラスト1'].End();
+Repeater['出発線東右バラスト2'].End();
 Structure['stop_01'].Put($track_departure, 0,0,-2, 0,0,0, $tilt_none, 0);
 
