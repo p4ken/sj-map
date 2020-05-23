@@ -1,0 +1,34 @@
+BveTs Map 2.02:UTF-8
+
+0;
+$track_opposite = 1;
+
+$distance_tsurumi - 1540;
+Repeater['下りバラスト軌道'].Begin($track_opposite, 0,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
+
+$distance_tsurumi - 960;
+Track[$track_opposite].X.Interpolate();
+
+$distance_tsurumi - 850;
+# 高島線が合流
+Track[$track_opposite].X.Interpolate(6, 0);
+Repeater['下り右バラスト'].Begin($track_opposite, -1.2,0,0, 0,0,0, $tilt_none, 5, 4.5, 'Bl_CraBalR_5m');
+
+$distance_tsurumi - 600;
+# 鶴見線と交差
+# 下り線はETCかつBTC R=-600, TCL=不明, CCL=225, C=不明 らしい
+Track[$track_opposite].X.Interpolate(4, 1000);
+
+$distance_tsurumi - 550;
+# 下り線ECC らしい
+
+$distance_tsurumi - 500;
+Repeater['下り左バラスト'].Begin($track_opposite, -7,0,0, -0.1,0,0, $tilt_gradient, 5, 4.5, 'Bl_CraBalR_5m');
+
+$distance_tsurumi - 450;
+Track[$track_opposite].X.Interpolate(12, -500);
+
+$distance_tsurumi - 350;
+Track[$track_opposite].X.Interpolate(17, 0);
+Repeater['下り左バラスト'].End();
+

@@ -7,7 +7,7 @@ $track_crossing2 = 51;
 $distance_tsurumi - 290;
 Track[$track_crossing].X.Interpolate();
 Track[$track_crossing].X.Interpolate(0, 308);
-Repeater['中線渡り線バラスト軌道'].Begin($track_crossing, 0,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastTR_K_5a');
+Repeater['中線渡り線バラスト軌道'].Begin($track_crossing, 0,0,0, 0,0,0.1, $tilt_all, 5, 5, 'BallastPC_K_5a');
 
 $distance_tsurumi - 265;
 Track[$track_crossing].X.Interpolate(1, 0);

@@ -19,20 +19,29 @@ $distance_tsurumi - 800;
 Track[$track_keihin].X.Interpolate();
 
 $distance_tsurumi - 500;
-Track[$track_keihin].X.Interpolate(-17);
 # 鶴見線と交差後、京浜東北線下りから離れる
+Track[$track_keihin].X.Interpolate(-17);
+Repeater['京浜東北線上り右バラスト2'].Begin($track_keihin, 2.8,0,0, -0.1,0,0, $tilt_gradient, 5, 4.5, 'Bl_CraBalR_5m');
+Repeater['京浜東北線上り右バラスト3'].Begin($track_keihin, 5.5,0,0, -0.1,0,0, $tilt_gradient, 5, 4.5, 'Bl_CraBalR_5m');
+
 
 
 
 $distance_tsurumi;
 Track[$track_keihin].X.Interpolate(-25);
-
+Repeater['京浜東北線上り右バラスト2'].End();
+Repeater['京浜東北線上り右バラスト3'].End();
 
 $distance_shinagawa - 17540;
 Track[$track_keihin].X.Interpolate();
+Repeater['京浜東北線上り右バラスト2'].Begin($track_keihin, 2.8,0,0, -0.1,0,0, $tilt_gradient, 5, 4.5, 'Bl_CraBalR_5m');
+Repeater['京浜東北線上り右バラスト3'].Begin($track_keihin, 5.5,0,0, -0.1,0,0, $tilt_gradient, 5, 4.5, 'Bl_CraBalR_5m');
+
 
 $distance_shinagawa - 17300;
 Track[$track_keihin].X.Interpolate(-23);
+Repeater['京浜東北線上り右バラスト2'].End();
+Repeater['京浜東北線上り右バラスト3'].End();
 
 # 東海道線と同じように地表を進む
 $distance_shinagawa - 17135;

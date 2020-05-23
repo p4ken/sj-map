@@ -134,6 +134,10 @@ Repeater['東海道線下り右バラスト'].Begin($track_tokaido, 0,0,0, -0.1,
 Repeater['東海道線下り右バラスト2'].Begin($track_tokaido, 2.5,0,0, -0.1,0,0, $tilt_gradient, 5, 4.5, 'Bl_CraBalR_5m');
 Repeater['東海道線下り右バラスト3'].Begin($track_tokaido, 5,0,0, -0.1,0,0, $tilt_gradient, 5, 4.5, 'Bl_CraBalR_5m');
 
+$distance_shinagawa - 16860;
+Repeater['京浜東北線左アスファルト1'].Begin($track_tokaido, -12,-1.5,0, 0,-90,0, $tilt_gradient, 5, 4, 'FormCL25');
+Repeater['京浜東北線左アスファルト2'].Begin($track_tokaido, -35,-1.5,0, 0,-90,0, $tilt_gradient, 5, 4, 'FormCL25');
+
 $distance_shinagawa - 16850;
 Track[$track_tokaido].X.Interpolate();
 
@@ -200,6 +204,10 @@ Track[$track_tokaido].Y.Interpolate(-6, 0);
 
 $distance_shinagawa - 16500;
 Repeater['東海道線右グリーンマット'].End();
+
+$distance_shinagawa - 16400;
+Repeater['京浜東北線左アスファルト1'].End();
+Repeater['京浜東北線左アスファルト2'].End();
 
 $distance_shinagawa - 16250;
 # ここから自線ECC

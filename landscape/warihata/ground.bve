@@ -1,6 +1,8 @@
 BveTs Map 2.02:UTF-8
 
 $distance_0 + 12950;
+Structure['DikeGrs5mL1'].Put($track_hinkaku, -3,0,5, 0,-90,0, $tilt_gradient, 5);
+Structure['DikeGrs5mL1'].Put($track_hinkaku, 2,0,5, 0,-90,0, $tilt_gradient, 5);
 Repeater['上り左盛土'].Begin($track_hinkaku, -4,0.3,0, 0,0,0, $tilt_gradient, 5, 4.5, 'DikeGrs5mL1','DikeGrs5mL2','DikeGrs5mL3','DikeGrs5mL4','DikeGrs5mL5','DikeGrs5mL6');
 Repeater['上り右盛土'].Begin($track_opposite, 3,0.3,0, 0,0,0, $tilt_gradient, 5, 4.5, 'DikeGrs5mR1','DikeGrs5mR2','DikeGrs5mR3','DikeGrs5mR4','DikeGrs5mR5','DikeGrs5mR6');
 
