@@ -1,6 +1,0 @@
-BveTs Map 2.02:UTF-8
-
-0;
-include 'map.bve';
-Station.Load('dia/holiday/130M/stations.csv');
-include 'dia/holiday/130M/pretrain.bve';

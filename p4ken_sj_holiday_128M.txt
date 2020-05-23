@@ -1,14 +1,14 @@
 BveTs Scenario 2.00:UTF-8
 
-Title = 土休日130M列車
+Title = 土休日128M列車
 Image = nishiya.jpg
 Author = ぴよ軒
 Comment = 先行列車に詰まります。Ver.1
 
 RouteTitle = 相鉄・JR直通線
-Route = 130M.bve
+Route = 128M.bve
 
-VehicleTitle = 相鉄12000系
+VehicleTitle = E233系7000番台
 Vehicle = ..\..\p4ken\economy\vehicle.ini
 # Vehicle = C:\Users\p4\Documents\BveTs\Scenarios\p4ken\st8000\vehicle.ini
 # Vehicle = ..\..\saha_Common\JRE233\vehicle_6M4T_UTSS.txt
