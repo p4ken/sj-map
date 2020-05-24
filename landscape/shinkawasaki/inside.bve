@@ -94,3 +94,6 @@ $distance_0 + 17800;
 Repeater['着発11左バラスト1'].End();
 Repeater['着発11左バラスト2'].End();
 Repeater['着発11左バラスト3'].End();
+
+$distance_0 + 18300;
+Repeater['武蔵野上り右バラスト'].Begin($track_musashino, -13,0,3, -0.1,0,0, $tilt_gradient, 5, 4.5, 'Bl_CraBalR_5m');

@@ -8,6 +8,10 @@ $distance_0 + 2300;
 Repeater['新横浜線上り架線'].Begin($track_shinyokohama, 0,0,0, 0,0,0, $tilt_gradient, 50, 50, 'kasen50S');
 Repeater['新横浜線下り架線'].Begin($track_shinyokohama, 4,0,0, 0,0,0, $tilt_gradient, 50, 50, 'kasen50S');
 
+$distance_0 + 2500;
+Repeater['新横浜線上り架線'].End();
+Repeater['新横浜線下り架線'].End();
+
 $distance_0 + 2800;
 Structure['PoleTrs14A'].Put($track_approach, 9,0.5,0, 0,0,0, $tilt_none, 0);
 

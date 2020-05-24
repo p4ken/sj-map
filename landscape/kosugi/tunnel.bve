@@ -2,10 +2,45 @@ BveTs Map 2.02:UTF-8
 
 # 武蔵野貨物線 小杉トンネル
 
+$distance_0 + 18200;
+# カント逓減のチラつき除去。
+Repeater['上り左バラスト1'].Begin($track_hinkaku, 2,0,3, -0.1,0,0, $tilt_gradient, 5, 4.5, 'Bl_CraBalL_5m');
 
+$distance_0 + 18320;
+Repeater['上り左バラスト1'].End();
+Repeater['上り右バラスト'].End();
+Repeater['上り右バラスト1'].Begin($track_hinkaku, -2,0,3, -0.1,0,0, $tilt_gradient, 5, 4.5, 'Bl_CraBalR_5m');
 
+$distance_0 + 18470;
+Repeater['武蔵野上り右擁壁1'].Begin($track_hinkaku, 11,0,3, -0.1,180,0, $tilt_gradient, 5, 4.5, 'RouteKitWallR');
+Repeater['武蔵野上り右擁壁2'].Begin($track_hinkaku, 11,-2,3, -0.1,180,0, $tilt_gradient, 5, 4.5, 'RouteKitWallR');
+Repeater['武蔵野下り右擁壁1'].Begin($track_hinkaku, 23,0,3, -0.1,180,0, $tilt_gradient, 5, 4.5, 'RouteKitWallR');
+Repeater['武蔵野下り右擁壁2'].Begin($track_hinkaku, 23,-2,3, -0.1,180,0, $tilt_gradient, 5, 4.5, 'RouteKitWallR');
+Repeater['上り右擁壁'].Begin($track_hinkaku, 0.5,0.2,3, -0.1,0,0, $tilt_gradient, 5, 4.5, 'RouteKitWallR');
+# Repeater['保線区右擁壁'].Begin($track_wild, 0.5,0.2,3, -0.1,0,0, $tilt_gradient, 5, 4.5, 'RouteKitWallR');
 
+$distance_0 + 18500;
+# カント逓減のチラつき除去を兼ねる。
+Repeater['上り右バラスト1'].End();
 
+Repeater['上り右バラスト1'].Begin($track_hinkaku, -2,0,3, -0.1,0,0, $tilt_gradient, 5, 4.5, 'Bl_CraBalR_5m');
+Repeater['武蔵野上り右擁壁3'].Begin($track_hinkaku, 11,-4,3, -0.1,180,0, $tilt_gradient, 5, 4.5, 'RouteKitWallR');
+
+$distance_0 + 18650;
+Structure['entrance1'].Put($track_musashino, -12,-0.7,0, 0,0,0, $tilt_gradient, 0);
+Structure['entrance1'].Put($track_musashino, 0,-0.7,0, 0,0,0, $tilt_gradient, 0);
+
+$distance_0 + 18665;
+Repeater['上り右擁壁'].End();
+
+$distance_0 + 18670;
+Structure['hazawaT_black'].Put($track_musashino, -11,-1.5,0, 0,0,0, $tilt_gradient, 10);
+Structure['hazawaT_black'].Put($track_musashino, 1,-1.5,0, 0,0,0, $tilt_gradient, 10);
+Repeater['保線区右擁壁'].End();
+Repeater['武蔵野上り右擁壁1'].End();
+Repeater['武蔵野上り右擁壁2'].End();
+Repeater['武蔵野下り右擁壁1'].End();
+Repeater['武蔵野下り右擁壁2'].End();
 
 $distance_0 + 18680;
 Repeater['上り右バラスト1'].Begin($track_hinkaku, 0,0,0, -0.1,0,0, $tilt_gradient, 5, 4.5, 'Bl_CraBalR_5m');
