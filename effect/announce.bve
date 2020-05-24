@@ -4,7 +4,7 @@ $distance_nishiya + 190;
 Sound['ann_next_hazawa'].Play();
 
 $distance_0 + 1500;
-Sound['buzzer_next_stop'].Play();
+Sound['buzzer_soon'].Play();
 
 $distance_0 + 2330;
 Sound['ann_next_musako'].Play();

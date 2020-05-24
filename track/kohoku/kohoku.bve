@@ -68,11 +68,11 @@ $distance_tsurumi - 4110;
 Gradient.Interpolate(-3.5);
 
 $distance_tsurumi - 3945;
-Repeater['港北トンネル'].End();
+# Repeater['港北トンネル'].End();
 # ここから地上だけどトンネル
-Repeater['高架トンネルL'].Begin($track_kohoku, -2,0,0, 0,0,0, $tilt_all, 10, 10, 'tunnelL');
-Repeater['高架トンネルT'].Begin($track_kohoku, 0.7,1.6,0, 0,0,0, $tilt_all, 10, 10, 'tunnelT');
-Repeater['高架トンネルR'].Begin($track_kohoku, 5.9,0,10, 0,180,0, $tilt_all, 10, 10, 'tunnelL');
+# Repeater['高架トンネルL'].Begin($track_kohoku, -2,0,0, 0,0,0, $tilt_all, 10, 10, 'tunnelL');
+# Repeater['高架トンネルT'].Begin($track_kohoku, 0.7,1.6,0, 0,0,0, $tilt_all, 10, 10, 'tunnelT');
+# Repeater['高架トンネルR'].Begin($track_kohoku, 5.9,0,10, 0,180,0, $tilt_all, 10, 10, 'tunnelL');
 
 $distance_tsurumi - 3550;
 # R=50000, TCL=不明, CCL=100, C=不明
@@ -83,12 +83,12 @@ Curve.Interpolate(50000, 0.001);
 
 $distance_tsurumi - 3425;
 Curve.Interpolate();
-Repeater['高架トンネルL'].End();
-Repeater['高架トンネルT'].End();
-Repeater['高架トンネルR'].End();
+# Repeater['高架トンネルL'].End();
+# Repeater['高架トンネルT'].End();
+# Repeater['高架トンネルR'].End();
 # ここから生見尾トンネル L=1882m
-Structure['huku_c1_Potal1'].Put($track_kohoku, 1.9,0,0, 0,0,0, $tilt_gradient, 0);
-Repeater['生見尾トンネル'].Begin($track_kohoku, 1.9,0,0, 0,0,0, $tilt_gradient, 5, 5, 'huku_c1_lp');
+# Structure['huku_c1_Potal1'].Put($track_kohoku, 1.9,0,0, 0,0,0, $tilt_gradient, 0);
+# Repeater['生見尾トンネル'].Begin($track_kohoku, 1.9,0,0, 0,0,0, $tilt_gradient, 5, 5, 'huku_c1_lp');
 
 $distance_tsurumi - 3400;
 Curve.Interpolate(0, 0);
@@ -167,5 +167,6 @@ $distance_tsurumi - 1543;
 Gradient.Interpolate();
 
 $distance_tsurumi - 1540;
-Repeater['生見尾トンネル'].End();
+# Repeater['生見尾トンネル'].End();
+Repeater['港北トンネル'].End();
 Repeater['上りバラスト軌道'].End();

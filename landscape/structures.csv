@@ -1,4 +1,4 @@
-﻿BveTs Structure List 2.00:UTF-8
+BveTs Structure List 2.00:UTF-8
 
 DikeGrs5mL1,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\ACCC\Ground\DikeGrs5mL1.x
 DikeGrs5mL2,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\ACCC\Ground\DikeGrs5mL2.x
@@ -316,8 +316,6 @@ Back_Arm_SU,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\FCS\素材データ_色�
 
 atsp,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\izumino\model\komono\atsp.x
 atspGreen,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\izumino\model\komono\atspGreen.x
-tunnelL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\izumino\model\tunnel\tunnelL2.x
-tunnelT,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\izumino\model\tunnel\tunnelT.x
 tower,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\izumino\model\building\tower.x
 saku3_wide,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\izumino\model\komono\saku3_wide.x"
 hazawaT_black, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\building\hazawa_tunnel\hazawaT_black.x

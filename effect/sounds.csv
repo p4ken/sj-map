@@ -13,4 +13,4 @@ ann_soon_musako, ..\..\sound\ann\musako\soon-mono-12000Hz-16bit.wav
 tims_next_stop, ..\..\sound\tims\stop\lowpass-mono-11kHz.wav
 tims_next_pass, ..\..\sound\tims\pass\eq-mono-11kHz.wav
 
-buzzer_next_stop, ..\..\sound\buzzer\conductor\dc-down12db-soon-48kHz.wav
+buzzer_soon, ..\..\sound\buzzer\conductor\dc-down12db-soon-48kHz.wav
