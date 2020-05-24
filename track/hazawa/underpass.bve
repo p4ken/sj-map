@@ -15,7 +15,6 @@ Repeater['下りコンクリート道床'].Begin($track_underpass, 2,0,0, 0,0,0,
 $distance_nishiya + 2200;
 Track[$track_underpass].X.Interpolate(4);
 Repeater['下り直結軌道'].Begin0($track_underpass, $tilt_all, 5, 5, 'Slab2S5m');
-Repeater['擁壁R'].Begin($track_underpass, 3,-1,0, 0,0,90, $tilt_none, 25, 25, 'Slab8m');
 
 $distance_nishiya + 2275;
 $radius_right_R308 = 1 / (1 / 308 - 1 / -308);
@@ -51,7 +50,6 @@ Track[$track_underpass].X.Interpolate(31, -400);
 Track[$track_underpass].Y.Interpolate(-6, -1000);
 Repeater['下りコンクリート道床'].End();
 Repeater['下り直結軌道'].End();
-Repeater['擁壁R'].End();
 
 Repeater['下りバラスト軌道'].Begin($track_underpass, 0,0,0, -0.1,0,0, $tilt_all, 4.5, 4.5, 'BallastPC_K_5a', 'BallastPC_K_5b');
 

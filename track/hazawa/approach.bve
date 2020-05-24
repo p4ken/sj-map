@@ -84,7 +84,6 @@ $distance_nishiya + 2700;
 Curve.Interpolate();
 Curve.Interpolate(0);
 Repeater['コンクリート道床上り'].End();
-Repeater['擁壁L'].End();
 distance - 5;
 Repeater['上り直結軌道'].End();
 Structure['BallastPC_K_5a'].Put($track_approach, 0,0,0, 0,0,0, $tilt_all, 5);
@@ -130,6 +129,12 @@ Repeater['上り右バラスト'].End();
 
 $distance_tsurumi - 8580;
 Structure['Long_sw'].Put($track_approach, 0,0,0, 0,0,0, $tilt_all, 0);
+
+$distance_tsurumi - 8584;
+Gradient.Interpolate();
+
+$distance_tsurumi - 8564;
+Gradient.Interpolate(-10.0);
 
 $distance_tsurumi - 8040;
 Structure['Long_sw'].Put($track_approach, 0,0,0, 0,0,0, $tilt_all, 0);
