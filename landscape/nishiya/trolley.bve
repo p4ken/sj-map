@@ -1,11 +1,32 @@
 BveTs Map 2.02:UTF-8
 
-$distance_0 + 0;
+$distance_0 + 10;
 Repeater['上り架線'].Begin($track_nishiya4, 0,0,0, 0,0,0, $tilt_gradient, 50, 50, 'kasen50S');
 Repeater['本線上り架線'].Begin($track_nishiya3, 0,0,0, 0,0,0, $tilt_gradient, 50, 50, 'kasen50S');
 Repeater['本線下り架線'].Begin($track_nishiya3, 4,0,0, 0,0,0, $tilt_gradient, 50, 50, 'kasen50S');
 # Repeater['下り架線'].Begin($track_nishiya1, 0,0,0, 0,0,0, $tilt_gradient, 50, 50, 'kasen50S');
 
+$distance_0 + 110;
+Structure['PoleTrs08A'].Put($track_nishiya4, 3.5,0,0, 0,0,0, $tilt_none, 0);
+Structure['chokasen_gaisi'].Put($track_nishiya4, 0,0,0, 0,0,0, $tilt_none, 0);
+Repeater['本線上り碍子'].Begin($track_nishiya3, 0,0,0, 0,0,0, $tilt_none, 0, 50, 'chokasen_gaisi');
+Repeater['本線下り碍子'].Begin($track_nishiya3, 4,0,0, 0,0,0, $tilt_none, 0, 50, 'chokasen_gaisi');
+
+$distance_0 + 160;
+Structure['PoleTrs06A'].Put($track_nishiya3, 2.3,0,0, 0,0,0, $tilt_none, 0);
+Structure['Pole1_stlA'].Put($track_nishiya4, 0,0,0, 0,180,0, $tilt_none, 0);
+
+$distance_0 + 210;
+Repeater['本線架線柱'].Begin($track_nishiya3, 2.6,0,0, 0,0,0, $tilt_none, 0, 50, 'PoleTrs06A');
+Structure['Pole1_stlA'].Put($track_nishiya4, 0,0,0, 0,180,0, $tilt_none, 0);
+
+$distance_0 + 260;
+Repeater['上り架線'].End();
+
 $distance_0 + 500;
 Repeater['本線上り架線'].End();
 Repeater['本線下り架線'].End();
+Repeater['本線上り碍子'].End();
+Repeater['本線下り碍子'].End();
+Repeater['本線架線柱'].End();
+Repeater['上り碍子'].End();

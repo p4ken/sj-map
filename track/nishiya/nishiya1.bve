@@ -4,7 +4,7 @@
 $track_nishiya1 = 1;
 
 $distance_0 + 100;
-Track[$track_nishiya1].X.Interpolate(15);
+Track[$track_nishiya1].X.Interpolate(17);
 Repeater['バラスト軌道新横浜線下り'].Begin0($track_nishiya1, $tilt_all, 5, 5, 'BallastPC_K_5a');
 
 $distance_0 + 100 + 100;

@@ -43,6 +43,8 @@ $distance_0 + 515;
 # 本線ここまで-35‰
 Track[$track_nishiya3].Y.Interpolate(10, 0);
 Track[$track_nishiya3].X.Interpolate(40, 0);
+
+$distance_0 + 600;
+Track[$track_nishiya3].X.Interpolate(100, 0);
 Repeater['本線上り'].End();
 Repeater['本線下り'].End();
-

@@ -13,8 +13,8 @@ Repeater['道路'].Begin($track_nishiyaY, -7,-1,0, 0,0,0, $tilt_all, 5, 5, 'road
 
 $distance_0 + 115;
 Repeater['Lフェンス'].End();
-Repeater['擁壁L'].Begin($track_nishiyaY, -4.3,-7,0, -0.1,0.1,0, $tilt_gradient, 5, 4.5, 'hazawaT_wall');
-Repeater['擁壁Lフェンス'].Begin($track_nishiyaY, -4,-1,0, 0,0,0, $tilt_gradient, 25, 25, 'fence_r');
+Repeater['擁壁L'].Begin($track_nishiyaY, -3.8,-7,0, -0.1,0.1,0, $tilt_gradient, 5, 4.5, 'hazawaT_wall');
+Repeater['擁壁Lフェンス'].Begin($track_nishiyaY, -3.5,-1,0, 0,0,0, $tilt_gradient, 25, 25, 'fence_r');
 
 $distance_0 + 120;
 Repeater['擁壁R'].Begin($track_nishiyaY, 3.2,-8.5,0, 0,0.1,0, $tilt_gradient, 5, 4.5, 'hazawaT_wall');

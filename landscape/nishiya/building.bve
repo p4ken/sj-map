@@ -18,10 +18,10 @@ $distance_0 + 330;
 Structure['buildingL'].Put($track_nishiya4, -7,7,0, 0,10,0, $tilt_none, 0);
 
 $distance_0 + 380;
-Structure['buildingL'].Put($track_nishiya4, 2,7,0, 0,20,0, $tilt_none, 0);
+Structure['buildingL'].Put($track_nishiya4, 0,7,0, 0,20,0, $tilt_none, 0);
 
-$distance_0 + 430;
-Structure['buildingL'].Put($track_nishiya4, 17,6,0, 0,20,0, $tilt_none, 0);
+$distance_0 + 480;
+Structure['buildingL'].Put($track_nishiya4, 15,6,0, 0,20,0, $tilt_none, 0);
 
 # 右側
 $distance_0 + 200;
@@ -31,7 +31,10 @@ $distance_0 + 230;
 Structure['buildingRedR'].Put($track_nishiya4, 25,-8,0, 0,0,0, $tilt_none, 0);
 
 $distance_0 + 250;
-Structure['buildingR'].Put($track_nishiya4, 28,-5,0, 0,0,0, $tilt_none, 0);
+Structure['buildingR'].Put($track_nishiya4, 29,-5,0, 0,0,0, $tilt_none, 0);
 
 $distance_0 + 290;
-Structure['buildingR'].Put($track_nishiya4, 30,-5,0, 0,0,0, $tilt_none, 0);
+Structure['buildingR'].Put($track_nishiya4, 31,-5,0, 0,0,0, $tilt_none, 0);
+
+$distance_0 + 340;
+Structure['buildingR'].Put($track_nishiya4, 35,-2,0, 0,0,0, $tilt_none, 0);
