@@ -144,18 +144,18 @@ Structure['atsp'].Put($track_nishiya4, 0,-0.1,0, 0,0,0, $tilt_all, 0);
 $distance_0 + 2200;
 Beacon.Put($beacon_signal, $section_atsp, $data_none); // rock_on/snp
 
-$distance_0 + 2205; # 仕様上は25m手前のはず
+$distance_0 + 2205;
 Beacon.Put($beacon_stop, $section_atsp, $data_none);
 Structure['atsp'].Put($track_nishiya4, 0,-0.1,0, 0,0,0, $tilt_all, 0);
 
 # 2JR出(4灯YY)
-$distance_0 + 2225;
+$distance_0 + 2230;
 Section.Begin($signal_R, $signal_Y, $signal_YG, $signal_G);
 Signal['signal4yy'].Put(0, $track_hinkaku, -2.8,3.5);
 Structure['SigPole2'].Put($track_hinkaku, -2.8,-0.5,0, 0,0,0, $tilt_none, 0);
 Structure['2JR出_hL'].Put($track_hinkaku, -2.65,3.7,-0.1, 0,0,0, $tilt_none, 0);
 Structure['SigPole2'].Put($track_opposite, 2.5,-0.5,0, 0,0,0, $tilt_none, 0);
-Structure['signal4yy0'].Put($track_hinkaku, 1.8,5.1,0, 0,0,0, $tilt_none, 0);
+Structure['signal4yy0'].Put($track_hinkaku, 1.8,5.5,0, 0,0,0, $tilt_none, 0);
 Structure['signal4yy0'].Put($track_opposite, 2.7,4.1,0, 0,0,0, $tilt_none, 0);
 Structure['signal4yy0'].Put($track_opposite, 2.2,3.0,0, 0,0,0, $tilt_none, 0);
 Structure['1JR出_hL'].Put($track_opposite, 2.8,1.2,-0.4, 0,0,0, $tilt_none, 0);

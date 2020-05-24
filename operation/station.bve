@@ -3,32 +3,30 @@ BveTs Map 2.02:UTF-8
 0;
 $left = -1;
 $right = 1;
-$underrun = -5;
-$overrun = 5;
 
 # ほんとうは $distance_nishiya + 110;
 # 今よりも 30m 奥にしたい。
 $distance_0 + 100 + $rand_nishiya;
-Station['nishiya'].Put($right, $underrun, $overrun);
+Station['nishiya'].Put($right, -5, 5);
 
 # 10R停目。キロポストでいうと 2175m くらい。
 # 参考：西谷～羽沢横浜国大の営業キロは 2.1km
 $distance_nishiya + 2175;
-Station['hazawa_yokohama_kokudai'].Put($left, $underrun, $overrun);
+Station['hazawa_yokohama_kokudai'].Put($left, -1, 1);
 
 $distance_nishiya + 2775;
-Station['yokohama_hazawa'].Put($left, $underrun, $overrun);
+Station['yokohama_hazawa'].Put($left, -5, 5);
 
 $distance_shinagawa - 17400;
-Station['tsurumi'].Put($left, $underrun, $overrun);
+Station['tsurumi'].Put($left, -5, 5);
 
 $distance_shinagawa - 14105; # 本一場
-Station['warihata'].Put($left, $underrun, $overrun);
+Station['warihata'].Put($left, -5, 5);
 
 # 参考：鶴見から新鶴見(信)の営業キロは 3.9km
 $distance_shinagawa - 11880; # 本一出
-Station['shin_tsurumi'].Put($left, $underrun, $overrun);
+Station['shin_tsurumi'].Put($left, -5, 5);
 
 # 参考：新鶴見(信)から武蔵小杉の営業キロは 3.9km
 $distance_shinagawa - 9873;
-Station['musashi_kosugi'].Put($right, $underrun, $overrun);
+Station['musashi_kosugi'].Put($right, -5, 5);

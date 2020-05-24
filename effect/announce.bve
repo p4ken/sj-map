@@ -6,10 +6,6 @@ Sound['ann_next_hazawa'].Play();
 $distance_0 + 1500;
 Sound['buzzer_next_stop'].Play();
 
-$distance_nishiya + 2175 + $underrun;
-# これだとオーバーランでも再生してしまう
-# Sound['arr_hazawa'].Play();
-
 $distance_0 + 2330;
 Sound['ann_next_musako'].Play();
 
