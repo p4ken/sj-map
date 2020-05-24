@@ -2,10 +2,6 @@
 
 0;
 $track_nishiya3 = 3;
-$tilt_none = 0;
-$tilt_gradient = 1;
-$tilt_cant = 2;
-$tilt_all = 3;
 
 0;
 Repeater['本線上り'].Begin0($track_nishiya3, $tilt_all, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');

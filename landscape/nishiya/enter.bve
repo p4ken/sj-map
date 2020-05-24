@@ -1,5 +1,7 @@
 BveTs Map 2.02:UTF-8
 
+# トンネル入口
+
 $distance_0 + 0;
 Repeater['上り左バラスト1'].Begin($track_nishiya4, 0,-0.2,0, -0.1,0,0, $tilt_gradient, 5, 5, 'Bl_CraBalL_5m');
 Repeater['上り右バラスト1'].Begin($track_nishiya4, 0,-0.2,0, -0.1,0,0, $tilt_gradient, 5, 5, 'Bl_CraBalR_5m');
@@ -30,10 +32,6 @@ Repeater['上り右バラスト2'].End();
 Structure['entrance1'].Put($track_nishiya4, 0,-0.7,0, 0,0,0, $tilt_all, 0);
 Structure['end1l'].Put($track_nishiya4, -0.3,0,0, 0,0,0, $tilt_gradient, 25);
 Structure['end1r'].Put($track_nishiya4, 0.3,0,0, 0,0,0, $tilt_gradient, 25);
-
-$distance_0 + 265;
-Repeater['箱型トンネルL'].Begin($track_nishiya4, -0.3,0,0, 0,0,0, $tilt_gradient, 25, 25, 'walln1l');
-Repeater['箱型トンネルR単線'].Begin($track_nishiya4, 0.3,0,0, 0,0,0, $tilt_gradient, 25, 25, 'walln1r');
 
 $distance_0 + 290;
 Repeater['擁壁L'].End();

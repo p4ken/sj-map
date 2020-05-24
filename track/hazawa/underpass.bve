@@ -4,17 +4,15 @@
 
 0;
 $track_underpass = 1;
-$tilt_none = 0;
-$tilt_gradient = 1;
-$tilt_cant = 2;
-$tilt_all = 3;
 
 $distance_nishiya + 2175;
 Repeater['下りコンクリート道床'].Begin($track_underpass, 2,0,0, 0,0,0, $tilt_all, 25, 25, 'Slab8m');
 
+$distance_nishiya + 2185;
+Repeater['下り直結軌道'].Begin0($track_underpass, $tilt_all, 5, 5, 'Slab2S5m');
+
 $distance_nishiya + 2200;
 Track[$track_underpass].X.Interpolate(4);
-Repeater['下り直結軌道'].Begin0($track_underpass, $tilt_all, 5, 5, 'Slab2S5m');
 
 $distance_nishiya + 2275;
 $radius_right_R308 = 1 / (1 / 308 - 1 / -308);

@@ -1,6 +1,5 @@
 BveTs Map 2.02:UTF-8
 
-
 $distance_0 + 2206;
 Repeater['擁壁L'].Begin($track_approach, -4,0,0, 0,0,0, $tilt_gradient, 5, 5, 'hazawaT_wall');
 Repeater['擁壁R'].Begin($track_underpass, 4,0,0, 0,0,0, $tilt_gradient, 5, 5, 'hazawaT_wall');

@@ -4,10 +4,10 @@ $distance_0 + 113;
 Structure['kanko_so_hL'].Put($track_nishiya4, -2.75,2.3,-0.5, 0,0,0, $tilt_none, 0);
 
 $distance_0 + 260;
-Structure['kanko_so_hL'].Put($track_nishiya4, -1.9,2.3,-0.5, 0,0,0, $tilt_none, 0);
+Structure['kanko_so_hL'].Put($track_nishiya4, -2.1,2.3,-0.5, 0,0,0, $tilt_none, 0);
 
 $distance_0 + 400;
-Structure['kanko_so_hL'].Put($track_nishiya4, -1.9,2.2,-0.5, 0,0,0, $tilt_none, 0);
+Structure['kanko_so_hL'].Put($track_nishiya4, -2.1,2.2,-0.5, 0,0,0, $tilt_none, 0);
 
 $distance_0 + 600;
 Structure['kanko_so_hL'].Put($track_nishiya4, -2.3,2.2,-0.5, 0,0,0, $tilt_none, 0);

@@ -37,14 +37,14 @@ Structure['atspGreen'].Put($track_nishiya4, 0,-0.1,0, 0,0,0, $tilt_all, 0);
 
 # 中継
 $distance_0 + 260;
-Signal['signalrep'].Put(1, $track_nishiya4, -1.8,4.1);
+Signal['signalrep'].Put(1, $track_nishiya4, -2.0,4.1);
 
 # 閉塞(4灯YG)
 $distance_0 + 400;
 Section.Begin($signal_R, $signal_Y, $signal_YG, $signal_G);
-Signal['signal4yg'].Put(0, $track_nishiya4, -1.8,4.1);
-Structure['sig_arm4_p4ken'].Put($track_nishiya4, -2.3,4.1,0, 0,-90,0, $tilt_none, 0);
-Structure['3004_hL'].Put($track_nishiya4, -1.6,2.5,-0.1, 0,0,0, $tilt_none, 0);
+Signal['signal4yg'].Put(0, $track_nishiya4, -2.0,4.1);
+Structure['sig_arm4_p4ken'].Put($track_nishiya4, -2.5,4.1,0, 0,-90,0, $tilt_none, 0);
+Structure['3004_hL'].Put($track_nishiya4, -1.8,2.5,-0.1, 0,0,0, $tilt_none, 0);
 $distance = distance;
 include 'operation/signal/update.bve';
 
