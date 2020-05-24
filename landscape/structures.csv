@@ -295,6 +295,30 @@ Tc7710,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Kirifuri\STK7000(obj)\Tc7710.
 
 so8000Tc2,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shirasagi_s\st8000o\st8000o\converted files\Tc2+bright20.x
 
+233-1000M1-1, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Jimba\E233Structure_200516\Structures\E233\E233-1000\M1-1.x
+233-1000Tc1-1, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Jimba\E233Structure_200516\Structures\E233\E233-1000\Tc1-1.x
+233-1000Tc10-1, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Jimba\E233Structure_200516\Structures\E233\E233-1000\Tc10-1.x
+233Cooler1_1, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Jimba\E233Structure_200516\Structures\E233\Common\Cooler1_1.x
+233Cooler1_2, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Jimba\E233Structure_200516\Structures\E233\Common\Cooler1_2.x
+233Cover, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Jimba\E233Structure_200516\Structures\E233\Common\Cover.x
+233FMAntenna_1, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Jimba\E233Structure_200516\Structures\E233\Common\FMAntenna_1.x
+233FMAntenna_12, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Jimba\E233Structure_200516\Structures\E233\Common\FMAntenna_12.x
+233FMAntenna_2, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Jimba\E233Structure_200516\Structures\E233\Common\FMAntenna_2.x
+233Head, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Jimba\E233Structure_200516\Structures\E233\Common\Head.x
+233Jumper1, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Jimba\E233Structure_200516\Structures\E233\Common\Jumper1.x
+233Number, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Jimba\E233Structure_200516\Structures\E233\Common\Number\1353K.x
+233RoofTc1, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Jimba\E233Structure_200516\Structures\E233\Common\RoofTc1.x
+233RoofTc10, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Jimba\E233Structure_200516\Structures\E233\Common\RoofTc10.x
+233Skirt1, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Jimba\E233Structure_200516\Structures\E233\Common\Skirt1.x
+233Skirt10, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Jimba\E233Structure_200516\Structures\E233\Common\Skirt10.x
+233UnM1, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Jimba\E233Structure_200516\Structures\E233\Common\UnderM1.x
+233UnM2, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Jimba\E233Structure_200516\Structures\E233\Common\UnderM2.x
+233UnT1, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Jimba\E233Structure_200516\Structures\E233\Common\UnderT1.x
+233UnTc1, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Jimba\E233Structure_200516\Structures\E233\Common\UnderTc1.x
+L-Sakura, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Jimba\E233Structure_200516\Structures\E233\E233-1000\Destination\L-Sakura.x
+PS33_11, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Jimba\E233Structure_200516\Structures\E233\Common\PS33_11.x
+PS33_2, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Jimba\E233Structure_200516\Structures\E233\Common\PS33_2.x
+
 stop_01,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\umikaze81\stop\stop_01.x
 stop_02,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\umikaze81\stop\stop_02.x
 stop_03,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\umikaze81\stop\stop_03.x

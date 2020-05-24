@@ -2,12 +2,18 @@
 
 0;
 $track_tokaido = 14;
+$track_keihin_r = 18;
+$offset_keihin_r = -8;
 
 $distance_tsurumi - 1540;
 Track[$track_tokaido].X.Interpolate();
+Track[$track_keihin_r].X.Interpolate();
 Track[$track_tokaido].X.Interpolate(-13);
+Track[$track_keihin_r].X.Interpolate(-13 + $offset_keihin_r);
 Track[$track_tokaido].Y.Interpolate();
+Track[$track_keihin_r].Y.Interpolate();
 Track[$track_tokaido].Y.Interpolate(5);
+Track[$track_keihin_r].Y.Interpolate(5);
 Repeater['東海道線下り右バラスト'].Begin($track_tokaido, 0,0,-5, -0.1,0,0, $tilt_gradient, 5, 4.5, 'Bl_CraBalR_5m');
 Repeater['東海道線下り'].Begin($track_tokaido, 0,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
 Repeater['東海道線上り'].Begin($track_tokaido, -4,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
@@ -15,15 +21,18 @@ Repeater['京浜東北線下り'].Begin($track_tokaido, -8,0,0, 0,0,0, $tilt_all
 
 $distance_tsurumi - 966;
 Track[$track_tokaido].Y.Interpolate(0);
+Track[$track_keihin_r].Y.Interpolate(0);
 
 $distance_tsurumi - 810;
 Structure['kilopost2'].Put($track_tokaido, 1.8,0,0, 0,180,0, $tilt_none, 0); # 22km
 
 $distance_tsurumi - 800;
 Track[$track_tokaido].X.Interpolate(-9);
+Track[$track_keihin_r].X.Interpolate(-9 + $offset_keihin_r);
 
 $distance_tsurumi - 500;
 Track[$track_tokaido].X.Interpolate(-5);
+Track[$track_keihin_r].X.Interpolate(-5 + $offset_keihin_r);
 
 $distance_tsurumi - 410;
 Structure['kilopost31ky'].Put($track_tokaido, 1.8,-0.3,0, 0,90,0, $tilt_none, 0);
@@ -48,12 +57,14 @@ Structure['kilopost2'].Put($track_tokaido, 1.8,-0.3,0, 0,90,0, $tilt_none, 0);
 
 $distance_shinagawa - 17475;
 Track[$track_tokaido].X.Interpolate(, -1000);
+Track[$track_keihin_r].X.Interpolate(, -1000);
 
 $distance_shinagawa - 17470;
 Structure['kilopost34ky'].Put($track_tokaido, 1.8,-0.3,0, 0,90,0, $tilt_none, 0);
 
 $distance_shinagawa - 17400; # 大雑把
 Track[$track_tokaido].X.Interpolate(-7.5, 2000);
+Track[$track_keihin_r].X.Interpolate(-7.5 + $offset_keihin_r, 2000);
 Repeater['東海道線下り右バラスト2'].Begin($track_tokaido, 1,0,-2, -0.1,0,-10, $tilt_gradient, 5, 4.5, 'Bl_CraBalR_5m');
 Repeater['東海道線下り右バラスト3'].Begin($track_tokaido, 4,0,-4, -0.1,0,-10, $tilt_gradient, 5, 4.5, 'Bl_CraBalR_5m');
 
@@ -62,12 +73,14 @@ Structure['kilopost33ky'].Put($track_tokaido, 1.8,-0.3,0, 0,90,0, $tilt_none, 0)
 
 $distance_shinagawa - 17300; # 大雑把
 Track[$track_tokaido].X.Interpolate(-11, 0);
+Track[$track_keihin_r].X.Interpolate(-11 + $offset_keihin_r, 0);
 
 $distance_shinagawa - 17280;
 Structure['Gp_DL'].Put($track_tokaido, 1.8,-0.3,0, 0,180,0, $tilt_none, 0);
 
 $distance_shinagawa - 17135;
 Track[$track_tokaido].Y.Interpolate();
+Track[$track_keihin_r].Y.Interpolate();
 Repeater['鶴見中線1つづき'].Begin($track_tokaido, 16,0,0, 0,0,0, $tilt_gradient, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
 Repeater['鶴見中線2つづき'].Begin($track_tokaido, 20,0,0, 0,0,0, $tilt_gradient, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
 Repeater['鶴見中線2つづき右バラスト1'].Begin($track_tokaido, 20.5,-0.2,-5, 0,0,0, $tilt_all, 5, 4.5, 'Bl_CraBalR_5m');
@@ -140,9 +153,11 @@ Repeater['京浜東北線左アスファルト2'].Begin($track_tokaido, -35,-1.5
 
 $distance_shinagawa - 16850;
 Track[$track_tokaido].X.Interpolate();
+Track[$track_keihin_r].X.Interpolate();
 
 $distance_shinagawa - 16650;
 Track[$track_tokaido].X.Interpolate(-12, 200);
+Track[$track_keihin_r].X.Interpolate(-12 + $offset_keihin_r, 200);
 $track_calculate = $track_tokaido;
 $x0 = -12;
 $btc = distance;
@@ -164,6 +179,26 @@ include 'track/tc.bve';
 include 'track/tc.bve';
 include 'track/tc.bve';
 
+$track_calculate = $track_keihin_r;
+$x0 = -12 + $offset_keihin_r;
+$btc = distance;
+$ccr = -450;
+$tcl = 50;
+$span = 5;
+$l = 0;
+$tcr = 65535; // 無限大
+$angle = 0;
+$cx = 65535; // 無限大
+include 'track/tc.bve';
+include 'track/tc.bve';
+include 'track/tc.bve';
+include 'track/tc.bve';
+include 'track/tc.bve';
+include 'track/tc.bve';
+include 'track/tc.bve';
+include 'track/tc.bve';
+include 'track/tc.bve';
+include 'track/tc.bve';
 
 # $distance_shinagawa - 16600;
 # $track_calculate = $track_tokaido;
@@ -177,7 +212,9 @@ include 'track/tc.bve';
 
 $distance_shinagawa - 16600;
 Track[$track_tokaido].Y.Interpolate(-6);
+Track[$track_keihin_r].Y.Interpolate(-6);
 Track[$track_tokaido].Y.Interpolate(-6, 4000);
+Track[$track_keihin_r].Y.Interpolate(-6, 4000);
 
 $distance_shinagawa - 16600;
 Structure['DikegrsLh'].Put($track_tokaido, 31,5,0, 0,0,0, $tilt_gradient, 25);
@@ -200,7 +237,9 @@ Structure['DikegrsLh'].Put($track_tokaido, 8,3,0,0,0,10, $tilt_gradient, 25);
 
 $distance_shinagawa - 16540;
 Track[$track_tokaido].Y.Interpolate();
+Track[$track_keihin_r].Y.Interpolate();
 Track[$track_tokaido].Y.Interpolate(-6, 0);
+Track[$track_keihin_r].Y.Interpolate(-6, 0);
 
 $distance_shinagawa - 16500;
 Repeater['東海道線右グリーンマット'].End();
@@ -212,6 +251,7 @@ Repeater['京浜東北線左アスファルト2'].End();
 $distance_shinagawa - 16250;
 # ここから自線ECC
 Track[$track_tokaido].X.Interpolate(175, 0);
+Track[$track_keihin_r].X.Interpolate(175 + $offset_keihin_r, 0);
 Repeater['東海道線下り'].End();
 Repeater['東海道線上り'].End();
 Repeater['京浜東北線下り'].End();
@@ -221,3 +261,4 @@ Repeater['鶴見中線2つづき'].End();
 
 $distance_shinagawa - 16200; # 適当
 Track[$track_tokaido].Y.Interpolate(-2);
+Track[$track_keihin_r].Y.Interpolate(-2);
