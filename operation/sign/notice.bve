@@ -1,4 +1,4 @@
 BveTs Map 2.02:UTF-8
 
-$distance_0 + 2225;
+$distance_0 + 2230;
 Structure['atsp確認_hL'].Put($track_hinkaku, -2.55,1.1,-0.5, 0,0,0, $tilt_none, 0);

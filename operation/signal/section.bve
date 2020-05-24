@@ -24,10 +24,10 @@ Beacon.Put($beacon_stop, $section_atsp, $data_none);
 # 出発(4灯YG)
 $distance_0 + 113;
 Section.Begin($signal_R, $signal_Y, $signal_YG, $signal_G);
-Signal['signal4yg'].Put(0, $track_nishiya4, -1.8,4.8);
-Structure['sig_arm4_p4ken'].Put($track_nishiya4, -2.3,4.8,0, 0,-90,0, $tilt_none, 0);
-Structure['sig_pole'].Put($track_nishiya4, -2.3,0,0, 0,0,0, $tilt_none, 0);
-Structure['出発横_hL'].Put($track_nishiya4, -2.0,2.8,-0.5, 0,0,0, $tilt_none, 0);
+Signal['signal4yg'].Put(0, $track_nishiya4, -2.3,4.8);
+Structure['sig_arm4_p4ken'].Put($track_nishiya4, -2.8,4.8,0, 0,-90,0, $tilt_none, 0);
+Structure['sig_pole'].Put($track_nishiya4, -2.8,0,0, 0,0,0, $tilt_none, 0);
+Structure['出発横_hL'].Put($track_nishiya4, -2.5,2.8,-0.5, 0,0,0, $tilt_none, 0);
 
 $distance_0 + 115;
 Structure['atspGreen'].Put($track_nishiya4, 0,-0.1,0, 0,0,0, $tilt_all, 0);

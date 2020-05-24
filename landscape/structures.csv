@@ -1,4 +1,4 @@
-BveTs Structure List 2.00:UTF-8
+﻿BveTs Structure List 2.00:UTF-8
 
 DikeGrs5mL1,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\ACCC\Ground\DikeGrs5mL1.x
 DikeGrs5mL2,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\ACCC\Ground\DikeGrs5mL2.x
@@ -185,26 +185,26 @@ Wall_QN_L25m,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\W
 Wall_QN_R25m,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Wall\Wall_QN_R25m.x
 WallUnder_QN_25m_hukusen,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Wall\WallUnder_QN_25m_hukusen.x
 
-railn1,C:\Users\p4\Documents\BveTs\Scenarios\shuttle\fukutoshin\structures\rail\railn1.x
-end,C:\Users\p4\Documents\BveTs\Scenarios\shuttle\fukutoshin\structures\sta\end.x
-end2,C:\Users\p4\Documents\BveTs\Scenarios\shuttle\fukutoshin\structures\sta\end2.x
-formcl_st,C:\Users\p4\Documents\BveTs\Scenarios\shuttle\fukutoshin\structures\sta\formcl_st.x
-forml,C:\Users\p4\Documents\BveTs\Scenarios\shuttle\fukutoshin\structures\sta\forml.x
-formr,C:\Users\p4\Documents\BveTs\Scenarios\shuttle\fukutoshin\structures\sta\formr.x
-gate_l,C:\Users\p4\Documents\BveTs\Scenarios\shuttle\fukutoshin\structures\sta\gate_l.x
-gate_r,C:\Users\p4\Documents\BveTs\Scenarios\shuttle\fukutoshin\structures\sta\gate_r.x
-dikep2,C:\Users\p4\Documents\BveTs\Scenarios\shuttle\fukutoshin\structures\wall\dikep2.x
-dikep3,C:\Users\p4\Documents\BveTs\Scenarios\shuttle\fukutoshin\structures\wall\dikep3.x
-end1l,C:\Users\p4\Documents\BveTs\Scenarios\shuttle\fukutoshin\structures\wall\end1l.x
-end1r,C:\Users\p4\Documents\BveTs\Scenarios\shuttle\fukutoshin\structures\wall\end1r.x
-ent1l,C:\Users\p4\Documents\BveTs\Scenarios\shuttle\fukutoshin\structures\wall\ent1l.x
-ent1r,C:\Users\p4\Documents\BveTs\Scenarios\shuttle\fukutoshin\structures\wall\ent1r.x
-shield2a,C:\Users\p4\Documents\BveTs\Scenarios\shuttle\fukutoshin\structures\wall\shield2a.x
-stwalln1r,C:\Users\p4\Documents\BveTs\Scenarios\shuttle\fukutoshin\structures\wall\stwalln1r.x
-wallend,C:\Users\p4\Documents\BveTs\Scenarios\shuttle\fukutoshin\structures\wall\wallend.x
-walln1l,C:\Users\p4\Documents\BveTs\Scenarios\shuttle\fukutoshin\structures\wall\walln1l.x
-walln1r,C:\Users\p4\Documents\BveTs\Scenarios\shuttle\fukutoshin\structures\wall\walln1r.x
-stwalln3l,C:\Users\p4\Documents\BveTs\Scenarios\shuttle\fukutoshin\structures\wall\stwalln3l.x
+railn1,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structures\rail\railn1.x
+end,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structures\sta\end.x
+end2,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structures\sta\end2.x
+formcl_st,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structures\sta\formcl_st.x
+forml,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structures\sta\forml.x
+formr,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structures\sta\formr.x
+gate_l,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structures\sta\gate_l.x
+gate_r,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structures\sta\gate_r.x
+dikep2,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structures\wall\dikep2.x
+dikep3,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structures\wall\dikep3.x
+end1l,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structures\wall\end1l_narrow.x
+end1r,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structures\wall\end1r_narrow.x
+ent1l,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structures\wall\ent1l.x
+ent1r,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structures\wall\ent1r.x
+shield2a,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structures\wall\shield2a.x
+stwalln1r,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structures\wall\stwalln1r.x
+wallend,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structures\wall\wallend.x
+walln1l,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structures\wall\walln1l_narrow.x
+walln1r,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structures\wall\walln1r_narrow.x
+stwalln3l,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structures\wall\stwalln3l.x
 
 GirderBridgeLowL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\RouteKit\Structure\Bridge\GirderBridgeLowL.x
 GirderBridgeLowR,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\RouteKit\Structure\Bridge\GirderBridgeLowR.x
@@ -289,6 +289,11 @@ ctn_5,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\
 shadow_f1,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\shadow_f1.x
 shadow_f2,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\shadow_f2.x
 shadow_f3,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\shadow_f3.x
+
+Tc7500,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Kirifuri\STK7000(obj)\Tc7500.x
+Tc7710,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Kirifuri\STK7000(obj)\Tc7710.x
+
+so8000Tc2,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shirasagi_s\st8000o\st8000o\converted files\Tc2+bright20.x
 
 stop_01,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\umikaze81\stop\stop_01.x
 stop_02,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\umikaze81\stop\stop_02.x

@@ -1,0 +1,14 @@
+BveTs Map 2.02:UTF-8
+
+0;
+$track_nishiyaY = 4;
+
+$distance_0 + 0;
+Track[$track_nishiyaY].Y.Interpolate();
+Track[$track_nishiyaY].Y.Interpolate(0);
+
+$distance_0 + 100;
+Track[$track_nishiyaY].Y.Interpolate(0);
+
+$distance_0 + 240;
+Track[$track_nishiyaY].Y.Interpolate(5);
