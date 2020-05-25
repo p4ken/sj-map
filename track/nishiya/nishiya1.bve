@@ -3,16 +3,23 @@
 0;
 $track_nishiya1 = 1;
 
-$distance_0 + 100;
-Track[$track_nishiya1].X.Interpolate(17);
+$distance_0 + 0;
 Repeater['バラスト軌道新横浜線下り'].Begin0($track_nishiya1, $tilt_all, 5, 5, 'BallastPC_K_5a');
 
-$distance_0 + 100 + 100;
+$distance_0 + 100;
+Track[$track_nishiya1].X.Interpolate(17, -3000);
+
+$distance_0 + 200;
 Repeater['バラスト軌道新横浜線下り'].End();
 
-$distance_0 + 100 + 365;
+$distance_0 + 340;
+Track[$track_nishiya1].X.Interpolate(7.8, 2000);
+
+
+$distance_0 + 465;
 # ここまでR1100
-# ここから自線と合流
+# ここから自線と並走
+Track[$track_nishiya1].X.Interpolate(4, 0);
 
 
 

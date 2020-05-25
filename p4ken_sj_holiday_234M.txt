@@ -1,7 +1,7 @@
 BveTs Scenario 2.00:UTF-8
 
 Title = 土休日234M列車
-Image = nishiya.jpg
+Image = C:\Users\p4\Documents\BveTs\Scenarios\p4ken\png\10_02\1002c_trim_lanczos.png
 Author = ぴよ軒
 Comment = 機敏な運転を楽しめます。Ver.1
 

@@ -73,12 +73,8 @@ Gradient.Interpolate(32);
 $distance_0 + 990;
 Curve.Interpolate();
 
-$distance_0 + 1015;
-Structure['nd-1500'].Put($track_nishiya4, 0,0,0, 0,0,0, $tilt_all, 25);
-
 $distance_0 + 1040;
 Curve.Interpolate(0, 0); #ETC
-Repeater['上り直結軌道'].Begin0($track_nishiya4, $tilt_all, 25, 25, 'railn1');
 
 $distance_0 + 1196;
 Gradient.Interpolate(); #R3000
@@ -96,8 +92,6 @@ Gradient.Interpolate(-10);
 $distance_0 + 1590;
 # R=-600 C=不明 CCL=不明 TCL=不明
 Curve.Interpolate(-600, -0.06);
-# 地上が見通せるので背景を変更
-Background.Change('Bg_fine_summer');
 
 $distance_0 + 1617;
 Gradient.Interpolate(); #R4000

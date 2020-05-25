@@ -190,6 +190,7 @@ nd-750,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structures
 nd750,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structures\rail\curve\nd750.x
 nd1000,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structures\rail\curve\nd1000.x
 nd-1500,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structures\rail\curve\nd-1500.x
+nd-1500,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structures\rail\curve\nd-1500.x
 nd1500,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structures\rail\curve\nd1500.x
 railn1,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structures\rail\railn1.x
 end,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structures\sta\end.x
@@ -197,6 +198,7 @@ end2,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structures\s
 formcl_st,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structures\sta\formcl_st.x
 forml,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structures\sta\forml.x
 formr,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structures\sta\formr.x
+formtan,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structures\sta\formtan.x
 gate_l,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structures\sta\gate_l.x
 gate_r,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structures\sta\gate_r.x
 dikep2,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structures\wall\dikep2.x
@@ -210,7 +212,7 @@ stwalln1r,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structu
 wallend,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structures\wall\wallend.x
 walln1l,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structures\wall\walln1l_narrow.x
 walln1r,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structures\wall\walln1r_narrow.x
-stwalln3l,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structures\wall\stwalln3l.x
+stwalln1l,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structures\wall\stwalln1l.x
 
 GirderBridgeLowL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\RouteKit\Structure\Bridge\GirderBridgeLowL.x
 GirderBridgeLowR,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\RouteKit\Structure\Bridge\GirderBridgeLowR.x

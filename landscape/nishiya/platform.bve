@@ -2,20 +2,29 @@
 
 # 羽沢横浜国大駅ホーム
 
-$distance_0 + 1970;
-Structure['end2'].Put($track_nishiya4, -3.55,0,0, 0,0,0, $tilt_gradient, 25);
+# $distance_0 + 1970;
+# Structure['end2'].Put($track_nishiya4, -3.55,0,0, 0,0,0, $tilt_gradient, 25);
 
-$distance_0 + 1977;
-Structure['end'].Put($track_nishiya4, -3.55,0,0, 0,0,0, $tilt_gradient, 25);
+$distance_0 + 1965 - 24;
+Repeater['羽沢横浜国大駅コンクリート壁L'].Begin($track_nishiya4, -4,0,0, 0,0.1,0, $tilt_gradient, 25, 24, 'stwalln1l');
+Repeater['羽沢横浜国大駅コンクリート壁R'].Begin($track_nishiya4, 8,-0.3,0, 0,0-0.1,0, $tilt_gradient, 25, 24, 'stwalln1r');
 
 $distance_0 + 1980;
+Structure['formtan'].Put($track_nishiya4, -7.2,0,-0.1, 0,0,0, $tilt_gradient, 25);
+Structure['formtan'].Put($track_nishiya1, 0,0,-0.1, 0,0,0, $tilt_gradient, 25);
 Repeater['羽沢横浜国大駅ホーム端L'].Begin0($track_nishiya4, $tilt_gradient, 25, 25, 'forml');
 Repeater['羽沢横浜国大駅ホーム端R'].Begin($track_nishiya4, 4,0,0, 0,0,0, $tilt_gradient, 25, 25, 'formr');
 Repeater['羽沢横浜国大駅ホーム床L'].Begin0($track_nishiya4, $tilt_gradient, 25, 25, 'formcl_st');
-Repeater['羽沢横浜国大駅コンクリートL'].Begin($track_nishiya4, -4,0,0, 0,0,0, $tilt_gradient, 25, 25, 'stwalln3l');
-Repeater['羽沢横浜国大駅コンクリートR'].Begin($track_nishiya4, 8,0,0, 0,0,0, $tilt_gradient, 25, 25, 'stwalln1r');
+
+$distance_0 + 1985;
+Structure['end'].Put($track_nishiya4, -1.8,0,-3, 0,90,0, $tilt_gradient, 25);
+Structure['end'].Put($track_nishiya4, 12.8,0,-3, 0,90,0, $tilt_gradient, 25);
+Structure['end'].Put($track_nishiya4, -3.55,0,2, 0,0,0, $tilt_gradient, 25);
+Structure['end'].Put($track_nishiya4, 4.05,0,2, 0,0,0, $tilt_gradient, 25);
 
 $distance_0 + 1995;
+Structure['gate_l'].Put($track_nishiya4, 0,0,11, 0,0,0, $tilt_gradient, 20);
+Structure['gate_r'].Put($track_nishiya4, 4,0,11, 0,0,0, $tilt_gradient, 20);
 Repeater['羽沢横浜国大駅ホームドアL'].Begin($track_nishiya4, 0,0,20, 0,0,0, $tilt_gradient, 20, 20, 'gate_l');
 Repeater['羽沢横浜国大駅ホームドアR'].Begin($track_nishiya4, 4,0,20, 0,0,0, $tilt_gradient, 20, 20, 'gate_r');
 
@@ -23,14 +32,15 @@ $distance_0 + 2195;
 Repeater['羽沢横浜国大駅ホームドアL'].End();
 Repeater['羽沢横浜国大駅ホームドアR'].End();
 
-$distance_0 + 2200;
-Structure['end'].Put($track_nishiya4, -3.55,0,0, 0,0,0, $tilt_gradient, 25);
+$distance_0 + 2205;
+Structure['end'].Put($track_nishiya4, -3.5,0,-2.7, 0,1,0, $tilt_gradient, 6.8);
+Structure['end'].Put($track_nishiya4, 4,0,-3.2, 0,1,0, $tilt_gradient, 6.8);
 
 $distance_0 + 2205;
 Repeater['羽沢横浜国大駅ホーム端L'].End();
 Repeater['羽沢横浜国大駅ホーム床L'].End();
 Repeater['羽沢横浜国大駅ホーム端R'].End();
-Repeater['羽沢横浜国大駅コンクリートL'].End();
-Repeater['羽沢横浜国大駅コンクリートR'].End();
+Repeater['羽沢横浜国大駅コンクリート壁L'].End();
+Repeater['羽沢横浜国大駅コンクリート壁R'].End();
 Structure['wallend'].Put($track_nishiya4, -1,0,0, 0,0,0, $tilt_all, 0);
 Structure['wallend'].Put($track_nishiya4, 5,0,0, 0,180,0, $tilt_all, 0);

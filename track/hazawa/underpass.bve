@@ -12,6 +12,7 @@ $distance_nishiya + 2185;
 Repeater['下り直結軌道'].Begin0($track_underpass, $tilt_all, 5, 5, 'Slab2S5m');
 
 $distance_nishiya + 2200;
+Track[$track_underpass].X.Interpolate();
 Track[$track_underpass].X.Interpolate(4);
 
 $distance_nishiya + 2275;

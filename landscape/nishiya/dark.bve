@@ -25,15 +25,15 @@ $distance_0 + 340;
 Repeater['下り直結軌道'].Begin0($track_nishiya1, $tilt_all, 25, 25, 'railn1');
 
 $distance_0 + 365;
-Repeater['箱型トンネルR単線'].End();
-# ここから1層2径間 複線箱型トンネル 20m
-Repeater['箱型トンネルR複線'].Begin($track_nishiya4, 4,0,0, 0,0,0, $tilt_gradient, 25, 25, 'walln1r');
-Structure['dikep2'].Put0($track_nishiya4, $tilt_gradient, 25);
 Repeater['上り直結軌道'].Begin0($track_nishiya4, $tilt_all, 25, 25, 'railn1');
 
 $distance_0 + 390;
-# 他線を右へ広げてあげる必要あり
-# Repeater['単線箱型トンネル'].End();
+Repeater['箱型トンネルR単線'].End();
+# ここから1層2径間 複線箱型トンネル 20m
+Repeater['箱型トンネルR複線'].Begin($track_nishiya1, 0,0,0, 0,0,0, $tilt_gradient, 25, 25, 'walln1r');
+
+$distance_0 + 390;
+# Structure['dikep2'].Put0($track_nishiya4, $tilt_gradient, 25);
 # ここから複線箱型トンネル 100m
 
 $distance_0 + 490;
@@ -49,66 +49,94 @@ Repeater['複線シールドトンネル'].Begin0($track_nishiya4, $tilt_gradien
 
 $distance_0 + 565;
 Repeater['上り直結軌道'].End();
+Repeater['下り直結軌道'].End();
 Structure['nd-1500'].Put($track_nishiya4, 0,0,0, 0,0,0, $tilt_all, 25);
+Structure['nd-1500'].Put($track_nishiya1, 0,0,0, 0,0,0, $tilt_all, 25);
 
 $distance_0 + 590;
 Structure['nd-750'].Put($track_nishiya4, 0,0,0, 0,0,0, $tilt_all, 25);
+Structure['nd-750'].Put($track_nishiya1, 0,0,0, 0,0,0, $tilt_all, 25);
 
 $distance_0 + 615;
 Structure['nd-500'].Put($track_nishiya4, 0,0,0, 0,0,0, $tilt_all, 25);
+Structure['nd-500'].Put($track_nishiya1, 0,0,0, 0,0,0, $tilt_all, 25);
 
 $distance_0 + 640;
 Repeater['上り直結軌道'].Begin0($track_nishiya4, $tilt_all, 25, 25, 'nd-500');
+Repeater['下り直結軌道'].Begin0($track_nishiya1, $tilt_all, 25, 25, 'nd-500');
 
 $distance_0 + 990;
 Repeater['上り直結軌道'].End();
+Repeater['下り直結軌道'].End();
 Structure['nd-750'].Put($track_nishiya4, 0,0,0, 0,0,0, $tilt_all, 25);
+Structure['nd-750'].Put($track_nishiya1, 0,0,0, 0,0,0, $tilt_all, 25);
+
+$distance_0 + 1015;
+Structure['nd-1500'].Put($track_nishiya4, 0,0,0, 0,0,0, $tilt_all, 25);
+Structure['nd-1500'].Put($track_nishiya1, 0,0,0, 0,0,0, $tilt_all, 25);
 
 $distance_0 + 1040;
 Repeater['上り直結軌道'].Begin0($track_nishiya4, $tilt_all, 25, 25, 'railn1');
+Repeater['下り直結軌道'].Begin0($track_nishiya1, $tilt_all, 25, 25, 'railn1');
 
 $distance_0 + 1540;
 Repeater['上り直結軌道'].End();
+Repeater['下り直結軌道'].End();
 Structure['railn1'].Put($track_nishiya4, 0,0,0, 0,0,0, $tilt_all, 25);
+Structure['railn1'].Put($track_nishiya1, 0,0,0, 0,0,0, $tilt_all, 25);
 
 $distance_0 + 1565;
 Structure['nd-750'].Put($track_nishiya4, 0,0,0, 0,0,0, $tilt_all, 25);
+Structure['nd-750'].Put($track_nishiya1, 0,0,0, 0,0,0, $tilt_all, 25);
 
 $distance_0 + 1590;
 Repeater['上り直結軌道'].Begin0($track_nishiya4, $tilt_all, 25, 25, 'nd-750');
+Repeater['下り直結軌道'].Begin0($track_nishiya1, $tilt_all, 25, 25, 'nd-750');
 
 $distance_0 + 1790;
 Repeater['上り直結軌道'].End();
+Repeater['下り直結軌道'].End();
 Structure['nd-750'].Put($track_nishiya4, 0,0,0, 0,0,0, $tilt_all, 25);
+Structure['nd-750'].Put($track_nishiya1, 0,0,0, 0,0,0, $tilt_all, 25);
 
 $distance_0 + 1815;
 Structure['railn1'].Put($track_nishiya4, 0,0,0, 0,0,0, $tilt_all, 25);
+Structure['railn1'].Put($track_nishiya1, 0,0,0, 0,0,0, $tilt_all, 25);
 
 $distance_0 + 1840;
 Repeater['上り直結軌道'].Begin0($track_nishiya4, $tilt_all, 25, 25, 'railn1');
-
-$distance_0 + 1955;
-Structure['ent1l'].Put($track_nishiya4, -2,-0,0, 0,0,0, $tilt_all, 25);
-Structure['ent1r'].Put($track_nishiya4, 6,0,0, 0,0,0, $tilt_all, 25);
+Repeater['下り直結軌道'].Begin0($track_nishiya1, $tilt_all, 25, 25, 'railn1');
 
 $distance_0 + 1965;
 Repeater['複線シールドトンネル'].End();
 # （ここはシールド発進立坑）
 # ここから羽沢横浜国大駅
+Structure['ent1l'].Put($track_nishiya4, -2,-0,0, 0,0,0, $tilt_all, 25);
+Structure['ent1r'].Put($track_nishiya4, 6,0,0, 0,0,0, $tilt_all, 25);
+
+$distance_0 + 2000;
+Background.Change('Bg_fine_summer');
 
 $distance_0 + 2080;
 Structure['railn1'].Put($track_nishiya4, 0,0,0, 0,0,0, $tilt_all, 25);
+Structure['railn1'].Put($track_nishiya1, 0,0,0, 0,0,0, $tilt_all, 25);
 
 # レール重複区間（出入口の長さ調整）
 $distance_0 + 2090;
-Repeater['下り直結軌道'].End();
 Repeater['上り直結軌道'].End();
+Repeater['下り直結軌道'].End();
 
 $distance_0 + 2105;
 Structure['nd-1500'].Put($track_nishiya4, 0,0,0, 0,0,0, $tilt_all, 25);
+Structure['nd-1500'].Put($track_nishiya1, 0,0,0, 0,0,0, $tilt_all, 25);
 
 $distance_0 + 2120;
 Structure['kilopost31ky'].Put($track_nishiya4, 2,-0.6,0, 0,90,0, $tilt_none, 0);
 
 $distance_0 + 2130;
 Repeater['上り直結軌道'].Begin0($track_nishiya4, $tilt_all, 25, 25, 'nd-750');
+Repeater['下り直結軌道'].Begin0($track_nishiya1, $tilt_all, 25, 25, 'nd-750');
+
+$distance_0 + 2205 - 1;
+Repeater['上り直結軌道'].End();
+Repeater['下り直結軌道'].End();
