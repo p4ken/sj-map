@@ -1,7 +1,4 @@
 BveTs Map 2.02:UTF-8
 
 0;
-include 'map.bve';
-Station.Load('dia/holiday/234M/stations.csv');
-include 'dia/holiday/234M/pretrain.bve';
-include 'train/keihin/803A.bve';
+include 'dia/holiday/234M/234M.bve';

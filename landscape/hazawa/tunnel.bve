@@ -59,6 +59,9 @@ Repeater['羽沢トンネル外壁'].Begin($track_shinyokohama, 1.8,0,0, 0,0,0, 
 distance - 50;
 Structure['hazawaT_smoke'].Put($track_shinyokohama, 1.8,0,49.5, 0,0,0, $tilt_gradient, 10);
 
+$distance_0 + 2490;
+Structure['hazawaT_black'].Put($track_underpass, 1.8,0,0, 0,0,0, $tilt_gradient, 10);
+
 $distance_0 + 2500;
 Structure['hazawaT_black'].Put($track_shinyokohama, 1.8,0,0, 0,0,0, $tilt_gradient, 10);
 

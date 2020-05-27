@@ -1,0 +1,12 @@
+BveTs Map 2.02:UTF-8
+
+0;
+include 'map.bve';
+Station.Load('dia/holiday/234M/stations.csv');
+include 'dia/holiday/234M/pretrain.bve';
+
+0;
+$init_hour = 10;
+$init_min = 01;
+$init_sec = 59;
+include 'train/keihin/803A.bve';
