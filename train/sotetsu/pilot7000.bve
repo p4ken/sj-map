@@ -1,7 +1,7 @@
 BveTs Map 2.02:UTF-8
 
 # 横浜方からクハ7710＋モハ7125＋モハ7126＋サハ7607＋モハ7127＋モハ7128＋サハ7602＋モハ7107＋モハ7108＋クハ7509
-$distance_0 + 600;
+$distance_0 + 200;
 # Structure['Tc7500'].Put($track_nishiya1, 0,0,10, 0,180,0, $tilt_all, 20);
 # distance + 20;
 # Structure['Tc7710'].Put($track_nishiya1, 0,0,10, 0,180,0, $tilt_all, 20);

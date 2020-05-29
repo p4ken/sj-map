@@ -1,0 +1,17 @@
+BveTs Map 2.02:UTF-8
+
+# Train.Enable() で時刻設定しても「時刻と位置」の見た目に反映されないので、
+# 代わりに最初の Train.Stop() に停車時間を設定することで対処する。
+# その停車時間を算出するための式が下記。
+
+$enable_h = floor($enable_hms / 10000);
+$enable_m = floor($enable_hms % 10000 / 100);
+$enable_s = $enable_hms % 100;
+
+$init_h = floor($init_hms / 10000);
+$init_m = floor($init_hms % 10000 / 100);
+$init_s = $init_hms % 100;
+
+$stop_s = ($enable_h - $init_h) * 3600 +
+          ($enable_m - $init_m) * 60 +
+          ($enable_s - $init_s);

@@ -6,7 +6,8 @@ Station.Load('dia/holiday/234M/stations.csv');
 include 'dia/holiday/234M/pretrain.bve';
 
 0;
-$init_hour = 10;
-$init_min = 01;
-$init_sec = 59;
+$init_hms = 100159;
 include 'train/keihin/803A.bve';
+include 'train/keikyu/915D.bve';
+include 'train/sotetsu/pilot7000.bve';
+include 'train/sotetsu/pilot8000.bve';

@@ -103,6 +103,4 @@ include 'landscape/kosugi/tunnel.bve';
 include 'effect/light.bve';
 include 'effect/fog.bve';
 include 'effect/announce.bve';
-include 'train/sotetsu/pilot7000.bve';
-include 'train/sotetsu/pilot8000.bve';
 include 'train/train.bve';
