@@ -3,6 +3,7 @@
 # 2020/4/11改正
 # 休日49行路
 # 京急車4+4連
+# 915D列車
 # エアポート急行
 # 神奈川新町 10:10
 # 京急鶴見 10:14
@@ -11,10 +12,12 @@
 
 0;
 Train['京急915D'].Load('train\keikyu\N1000-SUS.ini', $track_keikyu, $direction_forward);
+Train['京急915D'].Enable();
+$enable_hms = 101200;
 
 9200;
-Train['京急915D'].Enable();
-Train['京急915D'].Stop($max_a, 0, $max_a, 100);
+include 'train\stop_s.bve';
+Train['京急915D'].Stop($max_a, $stop_s, $max_a, 100);
 
 11430;
 Train['京急915D'].Stop($max_a, 0, $max_a, 100);

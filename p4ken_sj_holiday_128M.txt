@@ -1,7 +1,7 @@
 BveTs Scenario 2.00:UTF-8
 
-Title = 土休日128M列車
-Image = nishiya.jpg
+Title = 廃)土休日128M列車
+Image = C:\Users\p4\Documents\BveTs\Scenarios\p4ken\png\v0\nishiya.jpg
 Author = ぴよ軒
 Comment = 先行列車に詰まります。Ver.1
 

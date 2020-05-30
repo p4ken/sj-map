@@ -1,14 +1,14 @@
 BveTs Scenario 2.00:UTF-8
 
-Title = 土休日234M列車
-Image = C:\Users\p4\Documents\BveTs\Scenarios\p4ken\png\v3\234M_trim_linear.png
+Title = 土休日130M列車
+Image = C:\Users\p4\Documents\BveTs\Scenarios\p4ken\png\v3\130M_trim_linear.png
 Author = ぴよ軒
-Comment = 希少な高速ダイヤです。Ver.1
+Comment = 余裕のある典型的なダイヤです。Ver.1
 
 RouteTitle = 相鉄・JR直通線
-Route = 234M.bve
+Route = 130M.bve
 
-VehicleTitle = E233系7000番台
+VehicleTitle = 相鉄12000系
 Vehicle = ..\..\p4ken\economy\vehicle.ini
 # Vehicle = C:\Users\p4\Documents\BveTs\Scenarios\p4ken\st8000\vehicle.ini
 # Vehicle = ..\..\saha_Common\JRE233\vehicle_6M4T_UTSS.txt
