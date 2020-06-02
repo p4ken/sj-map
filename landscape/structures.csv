@@ -308,6 +308,10 @@ kk1000_M2sc,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shirasagi_s\khk1000N8SUS
 kk1000_M2uc,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shirasagi_s\khk1000N8SUS\khk1000N8SUS\converted files\M2uc.x
 kk1000_T,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shirasagi_s\khk1000N8SUS\khk1000N8SUS\converted files\T.x
 
+M205-1100tr,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\guttittug\205-1100\205-1100\205-1100tsurumi\converted files\M205-1100tr.x
+Mc204-1100tr,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\guttittug\205-1100\205-1100\205-1100tsurumi\converted files\Mc204-1100tr.x
+Tc205-1100tr,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\guttittug\205-1100\205-1100\205-1100tsurumi\converted files\Tc205-1100tr.x
+
 233-1000M1-1, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Jimba\E233Structure_200516\Structures\E233\E233-1000\M1-1.x
 233-1000Tc1-1, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Jimba\E233Structure_200516\Structures\E233\E233-1000\Tc1-1.x
 233-1000Tc10-1, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Jimba\E233Structure_200516\Structures\E233\E233-1000\Tc10-1.x
@@ -341,7 +345,7 @@ Flare51,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\FCS\素材データ_色灯�
 Flare52,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\FCS\素材データ_色灯式信号\FCS_TM\ColorSignal\Flare52.x
 Flare53,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\FCS\素材データ_色灯式信号\FCS_TM\ColorSignal\Flare53.x
 Flare54,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\FCS\素材データ_色灯式信号\FCS_TM\ColorSignal\Flare54.x
-;signal4yy4,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\FCS\素材データ_色灯式信号\FCS_TM\ColorSignal\Sig4byy4_LED.x
+signal4yy4,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\FCS\素材データ_色灯式信号\FCS_TM\ColorSignal\Sig4byy4_LED.x
 Sig5b0_LED,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\FCS\素材データ_色灯式信号\FCS_TM\ColorSignal\Sig5b0_LED.x
 Sig5b1_LED,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\FCS\素材データ_色灯式信号\FCS_TM\ColorSignal\Sig5b1_LED.x
 Sig5b2_LED,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\FCS\素材データ_色灯式信号\FCS_TM\ColorSignal\Sig5b2_LED.x

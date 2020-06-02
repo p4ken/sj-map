@@ -10,3 +10,4 @@ $init_hms = 093324;
 include 'train/sotetsu/pilot7000.bve';
 include 'train/sotetsu/pilot8000.bve';
 include 'train/keikyu/954.bve';
+include 'train/tsurumi/909B.bve';
