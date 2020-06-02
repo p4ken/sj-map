@@ -2,44 +2,58 @@ BveTs Map 2.02:UTF-8
 
 0;
 $track_keikyu = 11;
+$track_keikyu_r = 19;
+$offset_keikyu_r = 4;
 
 0;
 Track[$track_keikyu].X.Interpolate();
+Track[$track_keikyu_r].X.Interpolate();
 Track[$track_keikyu].X.Interpolate(19);
+Track[$track_keikyu_r].X.Interpolate(19 + $offset_keikyu_r);
 Track[$track_keikyu].Y.Interpolate();
+Track[$track_keikyu_r].Y.Interpolate();
 Track[$track_keikyu].Y.Interpolate(5);
+Track[$track_keikyu_r].Y.Interpolate(5);
 
 $distance_tsurumi - 1540;
 Track[$track_keikyu].X.Interpolate();
+Track[$track_keikyu_r].X.Interpolate();
 Track[$track_keikyu].Y.Interpolate();
+Track[$track_keikyu_r].Y.Interpolate();
 Repeater['京急上り'].Begin($track_keikyu, 0,0,0, 0,0,0, $tilt_all, 4.5, 4.5, 'BallastPC_K_5a', 'BallastPC_K_5b');
-Repeater['京急下り'].Begin($track_keikyu, 4,0,0, 0,0,0, $tilt_all, 4.5, 4.5, 'BallastPC_K_5a', 'BallastPC_K_5b');
+Repeater['京急下り'].Begin($track_keikyu_r, 0,0,0, 0,0,0, $tilt_all, 4.5, 4.5, 'BallastPC_K_5a', 'BallastPC_K_5b');
 Repeater['京急上り左バラスト'].Begin($track_keikyu, 0,1,0, 0,0,30, $tilt_none, 5, 4.5, 'Bl_CraBalL_5m');
 
 $distance_tsurumi - 1000;
 
 $distance_tsurumi - 966;
 Track[$track_keikyu].Y.Interpolate(0);
+Track[$track_keikyu_r].Y.Interpolate(0);
 
 $distance_tsurumi - 925;
 Track[$track_keikyu].X.Interpolate();
+Track[$track_keikyu_r].X.Interpolate();
 
 $distance_tsurumi - 600;
 Track[$track_keikyu].X.Interpolate(11, 600);
+Track[$track_keikyu_r].X.Interpolate(11 + $offset_keikyu_r, 600);
 Repeater['京急の高架壁R'].Begin($track_keikyu, 4,0,0, 0,0,0, $tilt_gradient, 25, 20, 'Wall_QN_R25m');
 
 $distance_tsurumi - 575;
 Track[$track_keikyu].Y.Interpolate(, 3000);
+Track[$track_keikyu_r].Y.Interpolate(, 3000);
 Repeater['京急上り左バラスト'].End();
 Repeater['京急の高架壁L'].Begin($track_keikyu, 0,0,0, 0,0,0, $tilt_gradient, 25, 20, 'Wall_QN_L25m');
 
 $distance_tsurumi - 525;
 Track[$track_keikyu].Y.Interpolate(0.5, 0);
+Track[$track_keikyu_r].Y.Interpolate(0.5, 0);
 
 
 
 $distance_tsurumi - 375;
 Track[$track_keikyu].X.Interpolate(50, 0);
+Track[$track_keikyu_r].X.Interpolate(50 + $offset_keikyu_r, 0);
 
 $distance_tsurumi - 225;
 Repeater['京急の高架壁L'].End();
@@ -47,10 +61,13 @@ Repeater['京急の高架壁R'].End();
 
 $distance_tsurumi - 200;
 Track[$track_keikyu].X.Interpolate(120);
+Track[$track_keikyu_r].X.Interpolate(120 + $offset_keikyu_r);
 Track[$track_keikyu].Y.Interpolate(10);
+Track[$track_keikyu_r].Y.Interpolate(10);
 Repeater['京急上り'].End();
 Repeater['京急下り'].End();
 
 
 $distance_tsurumi + 300;
 Track[$track_keikyu].X.Interpolate(400);
+Track[$track_keikyu_r].X.Interpolate(400 + $offset_keikyu_r);

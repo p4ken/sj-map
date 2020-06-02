@@ -1,0 +1,25 @@
+BveTs Map 2.02:UTF-8
+
+# 2020/4/11改正
+# 京急車6連
+# 銀1000=16本,1500vvvf=15本
+# 休日55行路
+# 954列車
+# 京急鶴見 9:45
+# 花月総持寺 9:46
+# 生麦 9:48
+
+0;
+Train['京急954'].Load('train\keikyu\N1000SUS-6.ini', $track_keikyu_r, $direction_down);
+Train['京急954'].Enable();
+$enable_hms = 094530;
+$power_a = 3.5;
+$brake_a = 3.5;
+
+# 対向列車なので逆順
+11430;
+include 'train\stop_s.bve';
+Train['京急954'].Stop($max_a, $stop_s, $max_a, 80);
+
+10735;
+Train['京急954'].Stop($brake_a, $stop_s, $power_a, 100);

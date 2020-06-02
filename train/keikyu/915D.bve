@@ -2,7 +2,8 @@
 
 # 2020/4/11改正
 # 休日49行路
-# 京急車4+4連
+# 京急車4+4連 
+# 銀1000=14本,アルミ1000=12本,ごく稀に1500？,600は無い？
 # 915D列車
 # エアポート急行
 # 神奈川新町 10:10
@@ -11,7 +12,7 @@
 # 実際に現地で並走した。
 
 0;
-Train['京急915D'].Load('train\keikyu\N1000-SUS.ini', $track_keikyu, $direction_forward);
+Train['京急915D'].Load('train\keikyu\N1000SUS-4+4.ini', $track_keikyu, $direction_up);
 Train['京急915D'].Enable();
 $enable_hms = 101200;
 

@@ -7,7 +7,7 @@ BveTs Map 2.02:UTF-8
 # 新子安 10:18
 
 0;
-Train['京浜東北803A'].Load('train/keihin/e233-1000-down.ini', $track_keihin_r, $direction_backward);
+Train['京浜東北803A'].Load('train/keihin/e233-1000-down.ini', $track_keihin_r, $direction_down);
 Train['京浜東北803A'].Enable();
 $enable_hms = 101200;
 $brake_a = 2.5;

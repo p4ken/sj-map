@@ -302,10 +302,11 @@ Tc7500,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Kirifuri\STK7000(obj)\Tc7500.
 Tc7710,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Kirifuri\STK7000(obj)\Tc7710.x
 
 so8000Tc2,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shirasagi_s\st8000o\st8000o\converted files\Tc2+bright20.x
-kk1000_M1s,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shirasagi_s\khk1000N4SUS\khk1000N4SUS\converted files\M1s.x
-kk1000_M1u,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shirasagi_s\khk1000N4SUS\khk1000N4SUS\converted files\M1u.x
-kk1000_M2sc,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shirasagi_s\khk1000N4SUS\khk1000N4SUS\converted files\M2sc.x
-kk1000_M2uc,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shirasagi_s\khk1000N4SUS\khk1000N4SUS\converted files\M2uc.x
+kk1000_M1,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shirasagi_s\khk1000N8SUS\khk1000N8SUS\converted files\M1.x
+kk1000_M1_,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shirasagi_s\khk1000N8SUS\khk1000N8SUS\converted files\M1'.x
+kk1000_M2sc,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shirasagi_s\khk1000N8SUS\khk1000N8SUS\converted files\M2sc.x
+kk1000_M2uc,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shirasagi_s\khk1000N8SUS\khk1000N8SUS\converted files\M2uc.x
+kk1000_T,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shirasagi_s\khk1000N8SUS\khk1000N8SUS\converted files\T.x
 
 233-1000M1-1, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Jimba\E233Structure_200516\Structures\E233\E233-1000\M1-1.x
 233-1000Tc1-1, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Jimba\E233Structure_200516\Structures\E233\E233-1000\Tc1-1.x

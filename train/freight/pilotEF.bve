@@ -1,7 +1,7 @@
 ﻿BveTs Map 2.02:UTF-8
 
 0;
-Train['対向貨物'].Load('train/freight/container.ini', $track_opposite, $direction_backward);
+Train['対向貨物'].Load('train/freight/container.ini', $track_opposite, $direction_down);
 
 $distance_0 + 2700;
 Train['対向貨物'].Stop(1.5, 0, 0, 0);
