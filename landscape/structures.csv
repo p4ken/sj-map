@@ -253,50 +253,53 @@ sig_pole,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\iida\signal_iida\sig_pole\s
 # signal34,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\iida\signal_iida\signal3\signal34.x
 # signal34Dark,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\iida\signal_iida\signal3\signal34Dark.x
 
-shadow_l1,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\ef65_dds\initg_lcset\shadow_l1.x
-65-1000_10,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\ef65_dds\initg_lcset\65-1000_10.x
-65-1000_11_n,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\ef65_dds\initg_lcset\65-1000_11_n.x
-00001,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\00001.x
-05000_00,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\05000_00.x
-05000_01,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\05000_01.x
-05000_10,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\05000_10.x
-05450_0,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\05450_0.x
-05450_1,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\05450_1.x
-05500,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\05500.x
-25000,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\25000.x
-35000_00,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\35000_00.x
-35000_01,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\35000_01.x
-35000_10,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\35000_10.x
-35000_11,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\35000_11.x
-40000,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\40000.x
-55000_0,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\55000_0.x
-55000_1,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\55000_1.x
-80000_0,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\80000_0.x
-80000_1,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\80000_1.x
-90000,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\90000.x
-ctf_1,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\ctf_1.x
-ctf_2-1,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\ctf_2-1.x
-ctf_2-2,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\ctf_2-2.x
-ctf_3-1,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\ctf_3-1.x
-ctf_3-2,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\ctf_3-2.x
-ctf_4,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\ctf_4.x
-ctf_5,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\ctf_5.x
-ctl_1-1,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\ctl_1-1.x
-ctl_1-2,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\ctl_1-2.x
-ctl_2,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\ctl_2.x
-ctl_3-1,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\ctl_3-1.x
-ctl_3-2,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\ctl_3-2.x
-ctl_4,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\ctl_4.x
-ctn_1,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\ctn_1.x
-ctn_2-1,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\ctn_2-1.x
-ctn_2-2,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\ctn_2-2.x
-ctn_3-1,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\ctn_3-1.x
-ctn_3-2,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\ctn_3-2.x
-ctn_4,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\ctn_4.x
-ctn_5,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\ctn_5.x
-shadow_f1,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\shadow_f1.x
-shadow_f2,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\shadow_f2.x
-shadow_f3,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\shadow_f3.x
+# shadow_l1,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\ef65_dds\initg_lcset\shadow_l1.x
+# 65-1000_10,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\ef65_dds\initg_lcset\65-1000_10.x
+# 65-1000_11_n,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\ef65_dds\initg_lcset\65-1000_11_n.x
+# 00001,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\00001.x
+# 05000_00,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\05000_00.x
+# 05000_01,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\05000_01.x
+# 05000_10,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\05000_10.x
+# 05450_0,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\05450_0.x
+# 05450_1,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\05450_1.x
+# 05500,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\05500.x
+# 25000,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\25000.x
+# 35000_00,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\35000_00.x
+# 35000_01,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\35000_01.x
+# 35000_10,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\35000_10.x
+# 35000_11,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\35000_11.x
+# 40000,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\40000.x
+# 55000_0,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\55000_0.x
+# 55000_1,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\55000_1.x
+# 80000_0,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\80000_0.x
+# 80000_1,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\80000_1.x
+# 90000,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\90000.x
+# ctf_1,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\ctf_1.x
+# ctf_2-1,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\ctf_2-1.x
+# ctf_2-2,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\ctf_2-2.x
+# ctf_3-1,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\ctf_3-1.x
+# ctf_3-2,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\ctf_3-2.x
+# ctf_4,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\ctf_4.x
+# ctf_5,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\ctf_5.x
+# ctl_1-1,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\ctl_1-1.x
+# ctl_1-2,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\ctl_1-2.x
+# ctl_2,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\ctl_2.x
+# ctl_3-1,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\ctl_3-1.x
+# ctl_3-2,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\ctl_3-2.x
+# ctl_4,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\ctl_4.x
+# ctn_1,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\ctn_1.x
+# ctn_2-1,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\ctn_2-1.x
+# ctn_2-2,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\ctn_2-2.x
+# ctn_3-1,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\ctn_3-1.x
+# ctn_3-2,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\ctn_3-2.x
+# ctn_4,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\ctn_4.x
+# ctn_5,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\ctn_5.x
+# shadow_f1,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\shadow_f1.x
+# shadow_f2,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\shadow_f2.x
+# shadow_f3,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\freight_dds\freight_dds\initg_fcset\shadow_f3.x
+ef66_66_00, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\ef66_dds\initg_lcset\66_00.x
+ef66_66_01, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\ef66_dds\initg_lcset\66_01.x
+ef66_shadow_l1, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\ef66_dds\initg_lcset\shadow_l1.x
 
 Tc7500,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Kirifuri\STK7000(obj)\Tc7500.x
 Tc7710,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Kirifuri\STK7000(obj)\Tc7710.x
@@ -432,6 +435,8 @@ stopN12_hL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sign\stop\stopN12_hL.x
 
 #DD51-842,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\RON\DD51-800\DD51-800\converted files\DD51-842.x
 koki106_a,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\RON\コキ１０６\koki106_a.x
+koki106_a-empty,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\RON\コキ１０６\koki106_a-empty.x
+koki106_a-19d,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\RON\コキ１０６\koki106_a-19d.x
 
 PoleFence01yellow,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\building\CustomGeneralStr\PoleFence01yellow.x
 SlabS5m_1435mm,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\building\CustomGeneralStr\Rail\Slab01\SlabS5m_1435mm.x
