@@ -11,3 +11,4 @@ include 'train/sotetsu/pilot7000.bve';
 include 'train/sotetsu/pilot8000.bve';
 include 'train/keikyu/954.bve';
 include 'train/freight/5097.bve';
+include 'train/130M/waiting.bve';

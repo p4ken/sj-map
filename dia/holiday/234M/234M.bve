@@ -9,3 +9,4 @@ include 'dia/holiday/234M/pretrain.bve';
 $init_hms = 100159;
 include 'train/keihin/803A.bve';
 include 'train/keikyu/915D.bve';
+include 'train/234M/waiting.bve';

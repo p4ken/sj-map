@@ -39,6 +39,7 @@ Structure['hazawaT_black'].Put($track_musashino, 1,-1.5,0, 0,0,0, $tilt_gradient
 Repeater['保線区右擁壁'].End();
 Repeater['武蔵野上り右擁壁1'].End();
 Repeater['武蔵野上り右擁壁2'].End();
+Repeater['武蔵野上り右擁壁3'].End();
 Repeater['武蔵野下り右擁壁1'].End();
 Repeater['武蔵野下り右擁壁2'].End();
 

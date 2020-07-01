@@ -1,0 +1,17 @@
+BveTs Map 2.02:UTF-8
+
+$distance_0 + 16710; # 機待14
+Structure['EH500_15'].Put($track_departure, 0,0,0, 0,180,0, $tilt_none, 20);
+$distance_0 + 16720;
+Structure['EF652141_1'].Put($track_departure, 0,0,0, 0,180,0, $tilt_none, 20);
+Structure['PS22_DOWN'].Put($track_departure, 0,0,0, 0,180,0, $tilt_none, 20);
+
+$distance_0 + 16720; # 機待13
+Structure['EH500_15'].Put($track_freight13, 0,0,0, 0,180,0, $tilt_none, 20);
+
+$distance_0 + 16770; # 機待11
+Structure['EH500_15'].Put($track_freight13, 8,0,0, 0,180,0, $tilt_none, 20);
+
+$distance_0 + 16760; # 機待10
+Structure['EF652141_1'].Put($track_freight13, 12,0,0, 0,180,0, $tilt_none, 20);
+Structure['PS22_DOWN'].Put($track_freight13, 12,0,0, 0,180,0, $tilt_none, 20);
