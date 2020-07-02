@@ -15,7 +15,7 @@ include 'track/track.bve';
 include 'track/distance.bve';
 include 'effect/random.bve';
 include 'effect/run.bve';
-include 'operation/station.bve';
+include 'operation/station/station.bve';
 include 'track/nishiya/nishiya4.bve';
 include 'track/nishiya/nishiya3.bve';
 include 'track/nishiya/nishiya1.bve';

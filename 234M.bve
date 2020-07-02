@@ -1,4 +1,13 @@
 BveTs Map 2.02:UTF-8
 
 0;
-include 'dia/holiday/234M/234M.bve';
+include 'map.bve';
+Station.Load('operation/station/234M.csv');
+include 'train/234M/pretrain.bve';
+
+$init_hms = 100159;
+include 'train/234M/keihin_down.bve';
+include 'train/234M/keikyu_up.bve';
+include 'train/234M/waiting.bve';
+
+# include 'train/sotetsu/pilot7000.bve';
