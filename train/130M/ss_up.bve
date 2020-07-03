@@ -1,5 +1,30 @@
 BveTs Map 2.02:UTF-8
 
 # 湘南新宿ライン上り
+# 4820Y 列車
+# 始発 平塚 9:11
+# 特別快速 高崎
+# 15両
+# 国府津 E231 or E233
+
+# 横浜発 9:42 (30:52)
+# (生見尾T出口) 9:46 ←(34:47)
+# (国道一号) 9:48 ←(36:54)
+# 武蔵小杉着 9:52 (40:39)
+# 武蔵小杉発 9:53
 
 0;
+# E217で代用
+Train['湘南新宿4820Y列車'].Load('train/yokosuka/e217.ini', $track_yokosuka_r, $direction_up);
+Train['湘南新宿4820Y列車'].Enable();
+$enable_hms = 094600;
+
+$distance_0 + 10000;
+include 'train\stop_s.bve';
+Train['湘南新宿4820Y列車'].Stop(0, $stop_s, $max_a, 100);
+
+$distance_0 + 19500;
+Train['湘南新宿4820Y列車'].Stop(2.5, 50, 2, 90);
+
+$distance_0 + 21500;
+Train['湘南新宿4820Y列車'].Stop(2.5, 0, 2.5, 90);

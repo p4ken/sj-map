@@ -339,6 +339,15 @@ stop_01,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\umikaze81\stop\stop_01.x
 stop_02,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\umikaze81\stop\stop_02.x
 stop_03,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\umikaze81\stop\stop_03.x
 
+e216-1000rTcEnd_Y108,C:\Users\p4\Documents\BveTs\Scenarios\Uchibo20\Structures\TrainStr\e217R\e216-1000TcEnd_Y108.x
+e216-2000rTcEnd,C:\Users\p4\Documents\BveTs\Scenarios\Uchibo20\Structures\TrainStr\e217R\e216-2000TcEnd.x
+e216rM,C:\Users\p4\Documents\BveTs\Scenarios\Uchibo20\Structures\TrainStr\e217R\e216M.x
+e216rTs,C:\Users\p4\Documents\BveTs\Scenarios\Uchibo20\Structures\TrainStr\e217R\e216Ts.x
+e217-2000rTcEnd_Y108,C:\Users\p4\Documents\BveTs\Scenarios\Uchibo20\Structures\TrainStr\e217R\e217-2000TcEnd_Y108.x
+e217rM,C:\Users\p4\Documents\BveTs\Scenarios\Uchibo20\Structures\TrainStr\e217R\e217M.x
+e217rT,C:\Users\p4\Documents\BveTs\Scenarios\Uchibo20\Structures\TrainStr\e217R\e217T.x
+e217rTs,C:\Users\p4\Documents\BveTs\Scenarios\Uchibo20\Structures\TrainStr\e217R\e217Ts.x
+e217rTcTop,C:\Users\p4\Documents\BveTs\Scenarios\Uchibo20\Structures\TrainStr\e217R\e217tctop.x
 EF65headlight,C:\Users\p4\Documents\BveTs\Scenarios\Uchibo20\Structures\TrainStr\EF65_1000\EF65headlight.x
 EF652141_1,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Uchibo20\Structures\TrainStr\EF65_1000\EF652141_1.x
 PS22_DOWN,C:\Users\p4\Documents\BveTs\Scenarios\Uchibo20\Structures\TrainStr\EF65_1000\PS22-DOWN.x

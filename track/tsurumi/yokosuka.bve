@@ -2,33 +2,44 @@
 
 0;
 $track_yokosuka = 12;
+$track_yokosuka_r = 22;
+$offset_yokosuka_r = -4;
 
 $distance_tsurumi - 1540;
 Track[$track_yokosuka].X.Interpolate();
+Track[$track_yokosuka_r].X.Interpolate();
 Track[$track_yokosuka].X.Interpolate(-27);
+Track[$track_yokosuka_r].X.Interpolate(-27 + $offset_yokosuka_r);
 Track[$track_yokosuka].Y.Interpolate();
+Track[$track_yokosuka_r].Y.Interpolate();
 Track[$track_yokosuka].Y.Interpolate(5);
+Track[$track_yokosuka_r].Y.Interpolate(5);
 Repeater['横須賀線上りバラスト軌道'].Begin($track_yokosuka, -4,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastPC_K_5a');
 Repeater['横須賀線下りバラスト軌道'].Begin0($track_yokosuka, $tilt_all, 5, 5, 'BallastPC_K_5a');
 
 $distance_tsurumi - 966;
 Track[$track_yokosuka].Y.Interpolate(0);
+Track[$track_yokosuka_r].Y.Interpolate(0);
 
 $distance_tsurumi - 800;
 # 京浜東北線下りに沿う
 Track[$track_yokosuka].X.Interpolate();
+Track[$track_yokosuka_r].X.Interpolate();
 
 $distance_tsurumi - 500;
 Track[$track_yokosuka].X.Interpolate(-21);
+Track[$track_yokosuka_r].X.Interpolate(-21 + $offset_yokosuka_r);
 
 $distance_tsurumi;
 Track[$track_yokosuka].X.Interpolate(-29);
+Track[$track_yokosuka_r].X.Interpolate(-29 + $offset_yokosuka_r);
 
 
 
 
 $distance_shinagawa - 17135;
 Track[$track_yokosuka].Y.Interpolate();
+Track[$track_yokosuka_r].Y.Interpolate();
 Repeater['横須賀線の高架壁L'].Begin($track_yokosuka, -4,0,0, 0,0,0, $tilt_gradient, 23, 23, 'Wall_QN_L25m');
 Repeater['横須賀線の高架壁R'].Begin0($track_yokosuka, $tilt_gradient, 23, 23, 'Wall_QN_R25m');
 Repeater['横須賀線の高架底面'].Begin($track_yokosuka, -2.7,-1.38,0, 0,0,180, $tilt_gradient, 23, 23, 'Slab8m');
@@ -38,10 +49,12 @@ Repeater['横須賀線の高架橋脚R'].Begin0($track_yokosuka, $tilt_gradient,
 $distance_shinagawa - 16650;
 # 自線はここから左カーブ
 Track[$track_yokosuka].X.Interpolate(-31);
+Track[$track_yokosuka_r].X.Interpolate(-31 + $offset_yokosuka_r);
 
 $distance_shinagawa - 16600;
 # ここから自線は下るが、横須賀線は引き続き上る
 Track[$track_yokosuka].Y.Interpolate();
+Track[$track_yokosuka_r].Y.Interpolate();
 
 $distance_shinagawa - 16400;
 Repeater['横須賀線の高架橋脚R'].End();
@@ -51,6 +64,7 @@ Repeater['横須賀線の高架橋脚L'].End();
 
 $distance_shinagawa - 16325;
 Track[$track_yokosuka].Y.Interpolate(8);
+Track[$track_yokosuka_r].Y.Interpolate(8);
 Repeater['横須賀線の高架底面'].End();
 Repeater['横須賀線の高架底面'].Begin($track_yokosuka, -1.7,-1.38,0, 0,0,180, $tilt_gradient, 23, 23, 'Slab8m');
 
@@ -60,3 +74,4 @@ Repeater['横須賀線の高架橋脚R'].Begin($track_yokosuka, 1,0,0, 0,0,0,$ti
 $distance_shinagawa - 16200;
 # 自線はここまで左カーブ
 Track[$track_yokosuka].X.Interpolate(18);
+Track[$track_yokosuka_r].X.Interpolate(18 + $offset_yokosuka_r);

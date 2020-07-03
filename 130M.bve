@@ -9,3 +9,4 @@ $init_hms = 093324;
 include 'train/130M/keikyu_down.bve';
 include 'train/130M/containers.bve';
 include 'train/130M/waiting.bve';
+include 'train/130M/ss_up.bve';

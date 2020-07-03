@@ -13,11 +13,11 @@ BveTs Map 2.02:UTF-8
 # ほんとうはEF66
 Train['貨物5097列車'].Load('train/freight/ef65+koki.ini', $track_opposite, $direction_down);
 Train['貨物5097列車'].Enable();
-$enable_hms = 094830;
+$enable_hms = 094900;
 
-$distance_0 + 17000;
+$distance_0 + 16000;
 include 'train\stop_s.bve';
-Train['貨物5097列車'].Stop(0, $stop_s, 1, 60);
+Train['貨物5097列車'].Stop(0, $stop_s, 1.5, 60);
 
 #　9:50:21 先頭が富士通手前の橋を通過
 $distance_0 + 3200;
