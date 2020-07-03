@@ -60,3 +60,6 @@ Repeater['上り架線'].End();
 Repeater['下り架線'].End();
 Repeater['上り碍子'].End();
 Repeater['下り碍子'].End();
+
+$distance_0 + 20000;
+Repeater['上り架線柱'].End();
