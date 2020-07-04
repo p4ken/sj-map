@@ -1,4 +1,0 @@
-BveTs Map 2.02:UTF-8
-
-$distance_0 + 250;
-Structure['so8000Tc2'].Put($track_nishiya3, 4,0,0, 0,180,0, $tilt_all, 20);

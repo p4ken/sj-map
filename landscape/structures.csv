@@ -301,8 +301,11 @@ ef66_66_00, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\ef66_dds\initg_lcs
 ef66_66_01, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\ef66_dds\initg_lcset\66_01.x
 ef66_shadow_l1, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\InitG\ef66_dds\initg_lcset\shadow_l1.x
 
-Tc7500,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Kirifuri\STK7000(obj)\Tc7500.x
-Tc7710,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Kirifuri\STK7000(obj)\Tc7710.x
+so7000-T7600,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Kirifuri\STK7000(obj)\T7600-180r.x
+so7000-Tc7500,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Kirifuri\STK7000(obj)\Tc7500-180r.x
+so7000-Tc7710,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Kirifuri\STK7000(obj)\Tc7710-180r.x
+so7000-M7100,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Kirifuri\STK7000(obj)\M7100-180r.x
+so7000-M7100_2,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Kirifuri\STK7000(obj)\M7100_2-180r.x
 
 so8000Tc2,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shirasagi_s\st8000o\converted files\Tc2+bright20.x
 kk1000_M1,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shirasagi_s\khk1000N8SUS\converted files\M1.x

@@ -9,8 +9,4 @@ RouteTitle = 相鉄・JR直通線
 Route = 130M.bve
 
 VehicleTitle = 相鉄12000系
-Vehicle = ..\..\p4ken\economy\vehicle.ini
-# Vehicle = C:\Users\p4\Documents\BveTs\Scenarios\p4ken\st8000\vehicle.ini
-# Vehicle = ..\..\saha_Common\JRE233\vehicle_6M4T_UTSS.txt
-# Vehicle = C:\Users\p4\Documents\BveTs\Scenarios\Rock_On\Train\JR\Formation\tota\T110.txt
-# Vehicle = C:\Users\p4\Documents\BveTs\Scenarios\Kazuma\E233\Formation\keyo\526.txt
+Vehicle = ..\..\p4ken\economy\vehicle-sj.ini
