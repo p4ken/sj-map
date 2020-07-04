@@ -132,15 +132,23 @@ Structure['atsp'].Put($track_hinkaku, 0,-0.1,0, 0,0,0, $tilt_all, 0);
 $distance_shinagawa - 17125;
 SpeedLimit.Begin(90);
 
-$distance_shinagawa - 17125;
-SpeedLimit.End();
+$distance_shinagawa - 17350;
 Beacon.Put($beacon_turnout_delete, $section_atsp, 200090);
 distance + 1;
 Beacon.Put($beacon_signal, $section_atsp, $data_none);
 distance + 1;
 Beacon.Put($beacon_turnout, $section_atsp, 300075);
 
+$distance_shinagawa - 17025;
+SpeedLimit.End();
+
 $distance_shinagawa - 16825;
+SpeedLimit.Begin(90);
+
+$distance_shinagawa - 16700;
+SpeedLimit.End();
+
+$distance_shinagawa - 16600;
 SpeedLimit.Begin(75);
 
 $distance_shinagawa - 16225;
