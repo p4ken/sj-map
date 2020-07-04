@@ -17,7 +17,7 @@ $power_a = 3.5;
 $brake_a = 3.5;
 
 # 対向列車なので逆順
-11430;
+11460;
 include 'train\stop_s.bve';
 Train['京急954'].Stop($max_a, $stop_s, $max_a, 80);
 

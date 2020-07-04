@@ -1,0 +1,41 @@
+BveTs Map 2.02:UTF-8
+
+$distance_0 + 0;
+DrawDistance.Change(1000);
+
+$distance_0 + 200;
+DrawDistance.Change(600);
+
+$distance_0 + 2200;
+DrawDistance.Change(500);
+
+$distance_0 + 2400;
+DrawDistance.Change(2000);
+
+$distance_0 + 3700;
+DrawDistance.Change();
+
+$distance_0 + 9600;
+DrawDistance.Change(800);
+
+$distance_0 + 10700;
+DrawDistance.Change(1000);
+
+$distance_0 + 12400;
+DrawDistance.Change(600);
+
+$distance_0 + 13000;
+DrawDistance.Change(1000);
+
+$distance_0 + 13600;
+DrawDistance.Change(2000);
+
+$distance_0 + 16000;
+DrawDistance.Change(800);
+
+$distance_0 + 16200;
+DrawDistance.Change(2000);
+
+$distance_0 + 19500;
+DrawDistance.Change(400);
+
