@@ -23,7 +23,7 @@ Beacon.Put($beacon_stop, $section_atsp, $data_none);
 
 # 出発(4灯YG)
 $distance_0 + 113;
-Section.Begin($signal_R, $signal_Y, $signal_YG, $signal_G);
+Section.Begin($signal_R, $signal_R, $signal_Y, $signal_YG, $signal_G);
 Signal['signal4yg'].Put(0, $track_nishiya4, -2.3,4.8);
 Structure['sig_arm4_p4ken'].Put($track_nishiya4, -2.8,4.8,0, 0,-90,0, $tilt_none, 0);
 Structure['sig_pole'].Put($track_nishiya4, -2.8,0,0, 0,0,0, $tilt_none, 0);
@@ -41,7 +41,7 @@ Signal['signalrep'].Put(1, $track_nishiya4, -2.0,4.1);
 
 # 閉塞(4灯YG)
 $distance_0 + 400;
-Section.Begin($signal_R, $signal_Y, $signal_YG, $signal_G);
+Section.Begin($signal_R, $signal_R, $signal_Y, $signal_YG, $signal_G);
 Signal['signal4yg'].Put(0, $track_nishiya4, -2.0,4.1);
 Structure['sig_arm4_p4ken'].Put($track_nishiya4, -2.5,4.1,0, 0,-90,0, $tilt_none, 0);
 Structure['3004_hL'].Put($track_nishiya4, -1.8,2.5,-0.1, 0,0,0, $tilt_none, 0);
@@ -58,7 +58,7 @@ Signal['signalrep'].Put(1, $track_nishiya4, -2.2,3.9);
 
 # 閉塞(4灯YG)
 $distance_0 + 740;
-Section.Begin($signal_R, $signal_Y, $signal_YG, $signal_G);
+Section.Begin($signal_R, $signal_R, $signal_Y, $signal_YG, $signal_G);
 Signal['signal4yg'].Put(0, $track_nishiya4, -2.3,3.6);
 Structure['3008_hL'].Put($track_nishiya4, -2.05,2.0,-0.1, 0,0,0, $tilt_none, 0);
 $distance = distance;
@@ -70,7 +70,7 @@ Signal['signalrep'].Put(1, $track_nishiya4, -2.2,3.9);
 
 # 閉塞 (4灯YG)
 $distance_0 + 1180;
-Section.Begin($signal_R, $signal_Y, $signal_YG, $signal_G);
+Section.Begin($signal_R, $signal_R, $signal_Y, $signal_YG, $signal_G);
 Signal['signal4yg'].Put(0, $track_nishiya4, -2.3,3.2);
 Structure['3010_hL'].Put($track_nishiya4, -2.05,1.6,-0.1, 0,0,0, $tilt_none, 0);
 $distance = distance;
@@ -82,7 +82,7 @@ Signal['signalrep'].Put(1, $track_nishiya4, -2.1,3.2);
 
 # 閉塞 (4灯YG)
 $distance_0 + 1450;
-Section.Begin($signal_R, $signal_Y, $signal_YG, $signal_G);
+Section.Begin($signal_R, $signal_R, $signal_Y, $signal_YG, $signal_G);
 Signal['signal4yg'].Put(0, $track_nishiya4, -2.1,3.9);
 Structure['3014_hL'].Put($track_nishiya4, -1.9,2.3,-0.1, 0,0,0, $tilt_none, 0);
 $distance = distance;
@@ -150,7 +150,7 @@ Structure['atsp'].Put($track_nishiya4, 0,-0.1,0, 0,0,0, $tilt_all, 0);
 
 # 2JR出(4灯YY)
 $distance_0 + 2230;
-Section.Begin($signal_R, $signal_Y, $signal_YG, $signal_G);
+Section.Begin($signal_R, $signal_R, $signal_Y, $signal_YG, $signal_G);
 Signal['signal4yy'].Put(0, $track_hinkaku, -2.8,3.5);
 Structure['SigPole2'].Put($track_hinkaku, -2.8,-0.5,0, 0,0,0, $tilt_none, 0);
 Structure['2JR出_hL'].Put($track_hinkaku, -2.65,3.7,-0.1, 0,0,0, $tilt_none, 0);
@@ -167,7 +167,7 @@ Structure['sig_pole'].Put($track_hinkaku, -2.7,0,0, 0,60,0, $tilt_none, 0);
 
 # 場内(3灯)
 $distance_0 + 2630;
-Section.Begin($signal_R, $signal_Y, $signal_G);
+Section.Begin($signal_R, $signal_R, $signal_Y, $signal_G);
 Signal['signal3'].Put(0, $track_hinkaku, -2.3,4.5);
 Structure['sig_arm3'].Put($track_hinkaku, -2.3,4.5,0, 0,-15,0, $tilt_none, 0);
 Structure['sig_pole'].Put($track_hinkaku, -2.3,-0.2,0, 0,0,0, $tilt_none, 0);
@@ -195,7 +195,7 @@ Structure['atsp'].Put($track_hinkaku, 0,-0.1,0, 0,0,0, $tilt_all, 0);
 
 # 7(3灯)
 $distance_0 + 3600;
-Section.Begin($signal_R, $signal_Y, $signal_G);
+Section.Begin($signal_R, $signal_R, $signal_Y, $signal_G);
 Signal['signal3'].Put(0, $track_hinkaku, -2.2,4.8);
 Structure['sig_arm3'].Put($track_hinkaku, -2.7,4.8,0, 0,-90,0, $tilt_none, 0);
 Structure['sig_pole'].Put($track_hinkaku, -2.7,0,0, 0,0,0, $tilt_none, 0);
@@ -205,7 +205,7 @@ include 'operation/signal/update.bve';
 
 # 閉塞
 $distance_tsurumi -	6970;
-Section.Begin($signal_R, $signal_Y, $signal_G);
+Section.Begin($signal_R, $signal_R, $signal_Y, $signal_G);
 Signal['signal3'].Put(0, $track_hinkaku, -1.8,3.8);
 Structure['6_hL'].Put($track_hinkaku, -1.7,2.3,-0.7, 0,0,0, $tilt_none, 0);
 $distance = distance;
@@ -213,7 +213,7 @@ include 'operation/signal/update.bve';
 
 # 閉塞
 $distance_tsurumi -	5682;
-Section.Begin($signal_R, $signal_Y, $signal_G);
+Section.Begin($signal_R, $signal_R, $signal_Y, $signal_G);
 Signal['signal3'].Put(0, $track_hinkaku, -1.8,3.8);
 Structure['5_hL'].Put($track_hinkaku, -1.7,2.3,-0.7, 0,0,0, $tilt_none, 0);
 $distance = distance;
@@ -221,7 +221,7 @@ include 'operation/signal/update.bve';
 
 # 閉塞
 $distance_tsurumi -	5082;
-Section.Begin($signal_R, $signal_Y, $signal_G);
+Section.Begin($signal_R, $signal_R, $signal_Y, $signal_G);
 Signal['signal3'].Put(0, $track_hinkaku, -1.8,3.8);
 Structure['4_hL'].Put($track_hinkaku, -1.7,2.3,-0.7, 0,0,0, $tilt_none, 0);
 $distance = distance;
@@ -229,7 +229,7 @@ include 'operation/signal/update.bve';
 
 # 閉塞
 $distance_tsurumi -	4509;
-Section.Begin($signal_R, $signal_Y, $signal_G);
+Section.Begin($signal_R, $signal_R, $signal_Y, $signal_G);
 Signal['signal3'].Put(0, $track_hinkaku, -1.8,3.8);
 Structure['3_hL'].Put($track_hinkaku, -1.7,2.3,-0.7, 0,0,0, $tilt_none, 0);
 $distance = distance;
@@ -237,7 +237,7 @@ include 'operation/signal/update.bve';
 
 # 閉塞
 $distance_tsurumi -	3398;
-Section.Begin($signal_R, $signal_Y, $signal_G);
+Section.Begin($signal_R, $signal_R, $signal_Y, $signal_G);
 Signal['signal3'].Put(0, $track_hinkaku, -2.0,3.3);
 Structure['2_hL'].Put($track_hinkaku, -1.9,1.9,-0.7, 0,0,0, $tilt_none, 0);
 $distance = distance;
@@ -249,7 +249,7 @@ Signal['signalrep'].Put(1, $track_hinkaku, -2.0,2.7);
 
 # 閉塞
 $distance_tsurumi -	2298;
-Section.Begin($signal_R, $signal_Y, $signal_G);
+Section.Begin($signal_R, $signal_R, $signal_Y, $signal_G);
 Signal['signal3'].Put(0, $track_hinkaku, -1.8,3.8);
 Structure['1_hL'].Put($track_hinkaku, -1.7,2.3,-0.7, 0,0,0, $tilt_none, 0);
 $distance = distance;
@@ -257,7 +257,7 @@ include 'operation/signal/update.bve';
 
 # 閉塞(4灯YG)
 $distance_0 + 10470;
-Section.Begin($signal_R, $signal_Y, $signal_YG, $signal_G);
+Section.Begin($signal_R, $signal_R, $signal_Y, $signal_YG, $signal_G);
 Signal['signal4yg'].Put(0, $track_hinkaku, -2.3,4.8);
 # Structure['sig_arm4_p4ken'].Put($track_hinkaku, -2.3,4.8,0, 0,0,0, $tilt_none, 0);
 Structure['sig_pole'].Put($track_hinkaku, -2.3,0,0, 0,0,0, $tilt_none, 0);
@@ -267,7 +267,7 @@ include 'operation/signal/update.bve';
 
 # 閉塞(4灯YY)
 $distance_0 + 10810;
-Section.Begin($signal_R, $signal_Y, $signal_G);
+Section.Begin($signal_R, $signal_R, $signal_Y, $signal_G);
 Signal['signal4yy'].Put(0, $track_hinkaku, 2.3,4.8);
 Structure['sig_arm4_p4ken'].Put($track_hinkaku, 2.3,4.8,0, 0,0,0, $tilt_none, 0);
 Structure['sig_pole'].Put($track_hinkaku, 2.3,0,0, 0,0,0, $tilt_none, 0);
@@ -280,7 +280,7 @@ include 'operation/signal/update.bve';
 
 # 出発
 $distance_shinagawa - 17400;
-Section.Begin($signal_R, $signal_Y, $signal_G);
+Section.Begin($signal_R, $signal_R, $signal_Y, $signal_G);
 Signal['signal3'].Put(0, $track_hinkaku, -5.3,5.1,0, 0,-20,0, $tilt_none, 0);
 Structure['sig_arm3'].Put($track_hinkaku, -4.8,5.1,0, 0,70,0, $tilt_none, 0);
 Structure['sig_pole'].Put($track_hinkaku, -4.8,0,0, 0,-20,0, $tilt_none, 0);
@@ -298,7 +298,7 @@ Structure['中3出_hL'].Put($track_hinkaku, 2.65,4.9,-0.3, 0,0,0, $tilt_none, 0)
 
 # 閉塞
 $distance_0 + 12650;
-Section.Begin($signal_R, $signal_Y, $signal_G);
+Section.Begin($signal_R, $signal_R, $signal_Y, $signal_G);
 Signal['signal3'].Put(0, $track_hinkaku, -2.5,4.8);
 Structure['sig_arm3'].Put($track_hinkaku, -2.3,4.8,0, 0,90,0, $tilt_none, 0);
 Structure['sig_pole'].Put($track_hinkaku, -2.3,0,0, 0,0,0, $tilt_none, 0);
@@ -314,7 +314,7 @@ Structure['SigPole2'].Put($track_hinkaku, -2.3,0.5,0, 0,0,0, $tilt_none, 0);
 
 # 閉塞
 $distance_0 + 12990;
-Section.Begin($signal_R, $signal_Y, $signal_G);
+Section.Begin($signal_R, $signal_R, $signal_Y, $signal_G);
 Signal['signal3'].Put(0, $track_hinkaku, 3.5,4.8);
 Structure['sig_pole'].Put($track_hinkaku, 3.5,0,0, 0,0,0, $tilt_none, 0);
 Structure['2_hL'].Put($track_hinkaku, 3.6,3.0,-0.1, 0,0,0, $tilt_none, 0);
@@ -329,7 +329,7 @@ Structure['須_hL'].Put($track_yokosuka, -6.3,4.9,-0.1, 0,0,0, $tilt_none, 0);
 
 # 閉塞
 $distance_0 + 14400;
-Section.Begin($signal_R, $signal_Y, $signal_G);
+Section.Begin($signal_R, $signal_R, $signal_Y, $signal_G);
 Signal['signal3'].Put(0, $track_hinkaku, -3.3,4.8);
 Structure['sig_pole'].Put($track_hinkaku, -3.3,0,0, 0,0,0, $tilt_none, 0);
 Structure['1_hL'].Put($track_hinkaku, -3.2,2.9,-0.1, 0,0,0, $tilt_none, 0);
@@ -338,7 +338,7 @@ include 'operation/signal/update.bve';
 
 # 場内
 $distance_shinagawa - 14105;
-Section.Begin($signal_R, $signal_Y, $signal_G);
+Section.Begin($signal_R, $signal_R, $signal_Y, $signal_G);
 Signal['signal3'].Put(0, $track_hinkaku, -3.2,5.2);
 Structure['sig_arm3'].Put($track_hinkaku, -2.8,5.2,0, 0,60,0, $tilt_none, 0);
 Structure['sig_pole'].Put($track_hinkaku, -2.8,0,0, 0,0,0, $tilt_none, 0);
@@ -356,7 +356,7 @@ Structure['sig_pole'].Put($track_hinkaku, 4,0,0, 0,10,0, $tilt_none, 0);
 
 # 場内
 $distance_shinagawa - 13130;
-Section.Begin($signal_R, $signal_Y, $signal_G);
+Section.Begin($signal_R, $signal_R, $signal_Y, $signal_G);
 Signal['signal3'].Put(0, $track_hinkaku, 2.8,4.8);
 Structure['sig_pole'].Put($track_hinkaku, 2.8,0,0, 0,5,0, $tilt_none, 0);
 Structure['本二場_hL'].Put($track_hinkaku, 2.85,4.8,-0.5, 0,0,0, $tilt_none, 0);
@@ -371,7 +371,7 @@ Structure['sig_pole'].Put($track_hinkaku, -3,0,0, 0,-10,0, $tilt_none, 0);
 
 # 場内
 $distance_shinagawa - 12720;
-Section.Begin($signal_R, $signal_Y, $signal_G);
+Section.Begin($signal_R, $signal_R, $signal_Y, $signal_G);
 Signal['signal3'].Put(0, $track_hinkaku, -3.8,5.3);
 Structure['sig_pole'].Put($track_hinkaku, -3.8,0,0, 0,0,0, $tilt_none, 0);
 Structure['本三場_hL'].Put($track_hinkaku, -3.65,5.3,-0.5, 0,0,0, $tilt_none, 0);
@@ -391,7 +391,7 @@ Structure['5_6場_hL'].Put($track_hinkaku, 2.65,3.8,-0.5, 0,0,0, $tilt_none, 0);
 
 # 出発
 $distance_shinagawa - 11880;
-Section.Begin($signal_R, $signal_Y, $signal_G);
+Section.Begin($signal_R, $signal_R, $signal_Y, $signal_Y, $signal_Y, $signal_G);
 Signal['signal3'].Put(0, $track_hinkaku, -2.3,4.8);
 Structure['sig_pole'].Put($track_hinkaku, -2.3,0,0, 0,0,0, $tilt_none, 0);
 Structure['本一出_hL'].Put($track_hinkaku, -2.1,4.8,-0.5, 0,0,0, $tilt_none, 0);
@@ -407,7 +407,7 @@ Structure['signal30'].Put($track_departure11, 2,7.2,0, 0,0,0, $tilt_none, 0);
 
 # 出発
 $distance_shinagawa - 11390;
-Section.Begin($signal_R, $signal_Y, $signal_G);
+Section.Begin($signal_R, $signal_Y, $signal_Y, $signal_Y, $signal_G);
 Structure['sig_pole'].Put($track_hinkaku, -2.5,0,0, 0,0,0, $tilt_none, 0);
 Structure['signal4yg0'].Put($track_hinkaku, -2.4,5,0, 0,0,0, $tilt_none, 0);
 Structure['武2出_hL'].Put($track_hinkaku, -2.25,5,-0.5, 0,0,0, $tilt_none, 0);
@@ -425,7 +425,7 @@ Structure['hakko'].Put($track_hinkaku, -2.2,0,2, 0,-10,0, $tilt_none, 0);
 
 # 閉塞(無名)
 $distance_0 + 18770;
-Section.Begin($signal_R, $signal_Y, $signal_G);
+Section.Begin($signal_R, $signal_R, $signal_R, $signal_Y, $signal_G);
 Signal['signal3'].Put(0, $track_hinkaku, -3,4.8,0, 0,-10,0, $tilt_none, 0);
 Structure['sig_pole'].Put($track_hinkaku, -3,0,0, 0,-10,0, $tilt_none, 0);
 $distance = distance + 10;
@@ -436,9 +436,9 @@ $distance_0 + 18920;
 Signal['signalrep'].Put(1, $track_hinkaku, -3.5,4.8,0, 0,-10,0, $tilt_none, 0);
 Structure['sig_pole'].Put($track_hinkaku, -3.5,0,0, 0,-10,0, $tilt_none, 0);
 
-# 閉塞
+# 14閉塞
 $distance_0 + 19110;
-Section.Begin($signal_R, $signal_Y, $signal_G);
+Section.Begin($signal_R, $signal_R, $signal_R, $signal_Y, $signal_G);
 Signal['Sig5b_LED'].Put(0, $track_hinkaku, -2.5,4.5,0, 0,0,0, $tilt_none, 0);
 Structure['sig_pole'].Put($track_hinkaku, -3.0,-0.5,0, 0,0,0, $tilt_none, 0);
 Structure['Back_Arm_MU'].Put($track_hinkaku, -3.0,4.7,0, 0,-90,0, $tilt_none, 0);
@@ -447,9 +447,9 @@ Structure['14_hL'].Put($track_hinkaku, -2.8,2.4,-0.1, 0,0,0, $tilt_none, 0);
 $distance = distance - 10;
 include 'operation/signal/update.bve';
 
-# 閉塞
+# 13閉塞
 $distance_0 + 19320;
-Section.Begin($signal_R, $signal_Y, $signal_G);
+Section.Begin($signal_R, $signal_R, $signal_R, $signal_Y, $signal_G);
 Signal['signal4yy'].Put(0, $track_hinkaku, -3,4.8,0, 0,0,0, $tilt_none, 0);
 Structure['sig_pole'].Put($track_hinkaku, -3,0,0, 0,0,0, $tilt_none, 0);
 Structure['Back_Arm_SU'].Put($track_hinkaku, -3,5,0, 0,0,0, $tilt_none, 0);
@@ -463,9 +463,9 @@ $distance_0 + 19450;
 Signal['signalrep'].Put(1, $track_hinkaku, -3,4.8,0, 0,-10,0, $tilt_none, 0);
 Structure['sig_pole'].Put($track_hinkaku, -3,0,0, 0,-10,0, $tilt_none, 0);
 
-# 閉塞
+# 12閉塞 (武蔵小杉駅)
 $distance_0 + 19530;
-Section.Begin($signal_R, $signal_Y, $signal_G);
+Section.Begin($signal_R, $signal_R, $signal_R, $signal_Y, $signal_G);
 Signal['signal4yy'].Put(0, $track_hinkaku, -2.5,4.8,0, 0,0,0, $tilt_none, 0);
 Structure['sig_pole'].Put($track_hinkaku, -3,0,0, 0,0,0, $tilt_none, 0);
 Structure['Back_Arm_MU'].Put($track_hinkaku, -3.0,4.95,0, 0,-90,0, $tilt_none, 0);
@@ -474,11 +474,19 @@ Structure['12_hL'].Put($track_hinkaku, -2.85,2.8,-0.1, 0,0,0, $tilt_none, 0);
 $distance = distance;
 include 'operation/signal/update.bve';
 
+# 11閉塞相当
+$distance_0 + 19850;
+Section.Begin($signal_R);
+Signal['signal4yy'].Put(0, $track_hinkaku, -2.5,4.8,0, 0,0,0, $tilt_none, 0);
 
+# 10閉塞相当
+$distance_0 + 20150;
+Section.Begin($signal_R);
 
-100000;
-Section.Begin(0);
-Section.Begin(0);
-Section.Begin(0);
-Section.Begin(0);
-Section.Begin(0);
+# 9閉塞相当
+$distance_0 + 20450;
+Section.Begin($signal_R);
+
+# 8閉塞相当
+$distance_0 + 20750;
+Section.Begin($signal_R);

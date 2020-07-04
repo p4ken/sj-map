@@ -1,24 +1,41 @@
 BveTs Map 2.02:UTF-8
 
 $distance_0 + 2250;
-PreTrain.Pass('9:37:46'); # 2JR出 停止→注意
+$t = '9:37:46'; # 2JR出 停止→注意
+PreTrain.Pass($t);
 
 $distance_0 + 2750;
-PreTrain.Pass('9:37:46');
-PreTrain.Pass('9:38:07'); # 2JR出 注意→進行
+PreTrain.Pass($t);
+$t = '9:38:07'; # 2JR出 注意→進行
+PreTrain.Pass($t);
 
-# $distance_shinagawa - 10400; # SSへ合流
-# PreTrain.Pass('8:41:00');
-# PreTrain.Pass('8:55:00');
+$distance_shinagawa - 10400; # SSへ合流
+PreTrain.Pass($t);
 
-# $distance_0 + 19200; # 武蔵小杉 末尾
-# PreTrain.Pass('8:56:30');
-# PreTrain.Pass('8:57:30');
+# 14閉塞
+$distance_0 + 19110;
+PreTrain.Pass('9:51:33');
 
-# $distance_shinagawa - 9873; # 武蔵小杉 先頭
-# PreTrain.Pass('8:58:00');
-# # 横須賀線千葉行き
-# # https://www.jreast-timetable.jp/2005/train/150/150721.html
+$distance_0 + 19320; # 13閉塞
+PreTrain.Pass('9:51:40');
 
-100000;
-PreTrain.Pass('9:38:07');
+# 12閉塞 (武蔵小杉駅)
+$distance_0 + 19530;
+PreTrain.Pass('9:53:05');
+
+# 11閉塞相当
+$distance_0 + 19850;
+PreTrain.Pass('9:53:30'); # 先行列車合わせ
+# PreTrain.Pass('9:53:15'); # 自列車の信号合わせ？
+
+# 10閉塞相当
+$distance_0 + 20150;
+PreTrain.Pass('9:53:42');
+
+# 9閉塞相当
+$distance_0 + 20450;
+PreTrain.Pass('9:53:55');
+
+# 8閉塞相当
+$distance_0 + 20750;
+PreTrain.Pass('9:54:05');
