@@ -150,7 +150,7 @@ Structure['atsp'].Put($track_nishiya4, 0,-0.1,0, 0,0,0, $tilt_all, 0);
 
 # 2JR出(4灯YY)
 $distance_0 + 2230;
-Section.Begin($signal_R, $signal_R, $signal_Y, $signal_YG, $signal_G);
+Section.Begin($signal_R, $signal_Y, $signal_YG, $signal_G);
 Signal['signal4yy'].Put(0, $track_hinkaku, -2.8,3.5);
 Structure['SigPole2'].Put($track_hinkaku, -2.8,-0.5,0, 0,0,0, $tilt_none, 0);
 Structure['2JR出_hL'].Put($track_hinkaku, -2.65,3.7,-0.1, 0,0,0, $tilt_none, 0);
@@ -371,7 +371,7 @@ Structure['sig_pole'].Put($track_hinkaku, -3,0,0, 0,-10,0, $tilt_none, 0);
 
 # 場内
 $distance_shinagawa - 12720;
-Section.Begin($signal_R, $signal_R, $signal_Y, $signal_G);
+Section.Begin($signal_R, $signal_R, $signal_Y, $signal_Y, $signal_Y, $signal_G);
 Signal['signal3'].Put(0, $track_hinkaku, -3.8,5.3);
 Structure['sig_pole'].Put($track_hinkaku, -3.8,0,0, 0,0,0, $tilt_none, 0);
 Structure['本三場_hL'].Put($track_hinkaku, -3.65,5.3,-0.5, 0,0,0, $tilt_none, 0);

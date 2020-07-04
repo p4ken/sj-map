@@ -1,19 +1,20 @@
 BveTs Map 2.02:UTF-8
 
-$distance_0 + 2250;
-$t = '9:37:46'; # 2JR出 停止→注意
-PreTrain.Pass($t);
+# 2JR出(4灯YY)
+$distance_0 + 2230;
+PreTrain.Pass(0);
 
-$distance_0 + 2750;
-PreTrain.Pass($t);
-$t = '9:38:07'; # 2JR出 注意→進行
-PreTrain.Pass($t);
+# 場内(3灯)
+$distance_0 + 2630;
+PreTrain.Pass('9:37:46'); # 停止→注意
 
-$distance_shinagawa - 10400; # SSへ合流
-PreTrain.Pass($t);
+# 7(3灯)
+$distance_0 + 3600;
+PreTrain.Pass('9:38:07'); # 注意→進行
 
 # 14閉塞
 $distance_0 + 19110;
+PreTrain.Pass('9:38:07');
 PreTrain.Pass('9:51:33');
 
 $distance_0 + 19320; # 13閉塞
