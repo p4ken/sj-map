@@ -5,11 +5,13 @@ $track_yokosuka = 12;
 $track_yokosuka_r = 22;
 $offset_yokosuka_r = -4;
 
-$distance_tsurumi - 1540;
+0;
 Track[$track_yokosuka].X.Interpolate();
 Track[$track_yokosuka_r].X.Interpolate();
 Track[$track_yokosuka].X.Interpolate(-27);
 Track[$track_yokosuka_r].X.Interpolate(-27 + $offset_yokosuka_r);
+
+$distance_tsurumi - 1540;
 Track[$track_yokosuka].Y.Interpolate();
 Track[$track_yokosuka_r].Y.Interpolate();
 Track[$track_yokosuka].Y.Interpolate(5);

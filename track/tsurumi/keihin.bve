@@ -3,9 +3,11 @@ BveTs Map 2.02:UTF-8
 0;
 $track_keihin = 16;
 
-$distance_tsurumi - 1540;
+0;
 Track[$track_keihin].X.Interpolate();
 Track[$track_keihin].X.Interpolate(-23);
+
+$distance_tsurumi - 1540;
 Track[$track_keihin].Y.Interpolate();
 Track[$track_keihin].Y.Interpolate(5);
 Repeater['京浜東北線上り'].Begin($track_keihin, 0,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');

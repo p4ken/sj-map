@@ -5,11 +5,15 @@ $track_tokaido = 14;
 $track_keihin_r = 18;
 $offset_keihin_r = -8;
 
-$distance_tsurumi - 1540;
+0;
 Track[$track_tokaido].X.Interpolate();
 Track[$track_keihin_r].X.Interpolate();
 Track[$track_tokaido].X.Interpolate(-13);
 Track[$track_keihin_r].X.Interpolate(-13 + $offset_keihin_r);
+
+$distance_tsurumi - 1540;
+Track[$track_tokaido].X.Interpolate();
+Track[$track_keihin_r].X.Interpolate();
 Track[$track_tokaido].Y.Interpolate();
 Track[$track_keihin_r].Y.Interpolate();
 Track[$track_tokaido].Y.Interpolate(5);
