@@ -3,7 +3,7 @@ BveTs Scenario 2.00:UTF-8
 Title = 土休日234M列車
 Image = C:\Users\p4\Documents\BveTs\Scenarios\p4ken\png\v3\234M_trim_linear.png
 Author = ぴよ軒
-Comment = きびきびと運転する必要があるダイヤです。Ver.1
+Comment = 鶴見から先はきびきびと運転するダイヤです。Ver.1
 
 RouteTitle = 相鉄・JR直通線
 Route = 234M.bve
