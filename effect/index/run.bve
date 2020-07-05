@@ -2,9 +2,10 @@ BveTs Map 2.02:UTF-8
 
 0;
 $run_long = 0;
-$run_short = 1;
-$run_bridge = 2;
-$run_tunnel = 3;
+$run_short = 2;
+$run_bridge = 3;
+$run_tunnel = 4;
+# 京葉線用車両は0,1,2,3
 
 0;
 RollingNoise.Change($run_long);
@@ -15,7 +16,7 @@ RollingNoise.Change($run_tunnel);
 $distance_0 + 2200; # 羽沢発車
 RollingNoise.Change($run_long);
 
-$distance_0 + 3700; # 港北トンネル
+$distance_0 + 3690; # 港北トンネル
 RollingNoise.Change($run_tunnel);
 
 $distance_0 + 7650; # 大口シェルター
