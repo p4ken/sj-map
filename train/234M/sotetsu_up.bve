@@ -4,7 +4,7 @@ BveTs Map 2.02:UTF-8
 include 'train\sotetsu\random.bve';
 Train['相鉄_特急横浜ゆき'].Load($train_path, $track_nishiya3, $direction_up);
 Train['相鉄_特急横浜ゆき'].Enable();
-$enable_hms = 100225;
+$enable_hms = 100224;
 
 $distance_0 + 100;
 include 'train\stop_s.bve';
