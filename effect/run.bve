@@ -24,7 +24,7 @@ $distance_0 + 7650; # 大口シェルター
 $distance_0 + 8170; # 生見尾トンネル
 # RollingNoise.Change($run_tunnel);
 
-$distance_0 + 10060;
+$distance_0 + 10050;
 RollingNoise.Change($run_long);
 
 $distance_0 + 12365; # 鶴見川

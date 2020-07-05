@@ -3,7 +3,7 @@
 #,,着00:00:00,発00:00:00,最低停車sec,飛00:00:00,連動,,乗車率,arr音,dep音,再開閉%,再開閉sec
 # 相鉄は5秒単位
 nishiya,西　谷,10:00:00,10:02:30,15,10:01:59,0,,0,dep_nishiya,door_close,0,0
-hazawa_yokohama_kokudai,羽沢横浜国大,10:04:55,10:06:15,59,10:05:10,0,,0,arr_hazawa,dep_hazawa,0,0
+hazawa_yokohama_kokudai,羽沢横浜国大,10:04:55,10:06:15,54,10:05:10,0,,0,arr_hazawa,dep_hazawa,0,0
 # JRは15秒単位
 yokohama_hazawa,横浜羽沢,p,10:07:30,,,0,,0,,,0,0 # 実車TIMS 10:07(秒なし)
 tsurumi,鶴　見,p,10:14:30,,,0,,0,,,0,0 # 前駅からの一例 8分15秒
