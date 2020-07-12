@@ -47,6 +47,7 @@ PoleTrs11A,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Acc
 PoleTrs11A_R,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\E_Poles\PoleTruss\PoleTrs11A_R.x
 PoleTrs14A,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\E_Poles\PoleTruss\PoleTrs14A.x
 FenceWhite,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\Fence\FenceWhite.x
+PoleFence01yellow,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\Fence\PoleFence01yellow_p4ken.x
 PoleFence02a,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\Fence\PoleFence02a.x
 PoleFence02aE,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\Fence\PoleFence02aE.x
 Curve_P,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\Posts\CurvePosts\Curve_P.x
@@ -135,9 +136,6 @@ tree01_S,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Natur
 tree21_S,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Nature\trees_street\tree21_S.x
 tree22_S,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Nature\trees_street\tree22_S.x
 tree23_S,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Nature\trees_street\tree23_S.x
-tree24_S,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Nature\trees_street\tree24_S.x
-tree25_S,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Nature\trees_street\tree25_S.x
-banboo,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Nature\treesB\banboo.x
 trees11,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Nature\treesB\trees11.x
 trees12,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Nature\treesB\trees12.x
 trees13,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Nature\treesB\trees13.x
@@ -155,6 +153,7 @@ Bl_CraBalR_5m,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\
 DBallast_5m,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Rail\Ballast11\DBallast_5m.x
 Slab2S5m,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Rail\Slab01\Slab2S5m.x
 Slab8m,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Rail\Slab01\Slab8m.x
+SlabS5m_1435mm,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Rail\Slab01\SlabS5m_1435mm_p4ken.x
 point1L,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Rail\Point\point1L.x
 point1R,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Rail\Point\point1R.x
 point2L,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Rail\Point\point2L.x
@@ -167,17 +166,11 @@ road_070_a,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Roa
 road_070_b,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Road\road_070_b.x
 road_070_c,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Road\road_070_c.x
 road_070_d,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Road\road_070_d.x
-road_070or_a,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Road\road_070or_a.x
-road_070or_b,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Road\road_070or_b.x
-road_070or_c,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Road\road_070or_c.x
-road_070or_d,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Road\road_070or_d.x
 road_0702_a,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Road\road_0702_a.x
 road_0702_b,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Road\road_0702_b.x
 road_0702_c,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Road\road_0702_c.x
 road_0702_d,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Road\road_0702_d.x
-2go_c1_Potal2,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Tunnel\2go_c1_Potal2.x
 huku_c1_ent,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Tunnel\huku_c1_ent.x
-huku_c1_ext,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Tunnel\huku_c1_ext.x
 huku_c1_lp,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Tunnel\huku_c1_lp.x
 huku_c1_Potal1,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Tunnel\huku_c1_Potal1.x
 Pier,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Wall\Pier.x
@@ -188,8 +181,6 @@ WallUnder_QN_25m_hukusen,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_
 nd-500,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structures\rail\curve\nd-500.x
 nd-750,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structures\rail\curve\nd-750.x
 nd750,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structures\rail\curve\nd750.x
-nd1000,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structures\rail\curve\nd1000.x
-nd-1500,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structures\rail\curve\nd-1500.x
 nd-1500,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structures\rail\curve\nd-1500.x
 nd1500,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structures\rail\curve\nd1500.x
 railn1,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structures\rail\railn1.x
@@ -231,9 +222,7 @@ PlatformCR01S,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\RouteKit\Structure\Sta
 PlatformEndFenceL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\RouteKit\Structure\Station\PlatformEndFenceL.x
 PlatformEndFenceR,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\RouteKit\Structure\Station\PlatformEndFenceR.x
 PlatformL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\RouteKit\Structure\Station\PlatformL.x
-PlatformLStart,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\RouteKit\Structure\Station\PlatformLStart.x
 PlatformR,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\RouteKit\Structure\Station\PlatformR.x
-PlatformRStart,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\RouteKit\Structure\Station\PlatformRStart.x
 RoofL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\RouteKit\Structure\Station\RoofL.x
 RoofPillarL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\RouteKit\Structure\Station\RoofPillarL.x
 RoofPillarR,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\RouteKit\Structure\Station\RoofPillarR.x
@@ -411,13 +400,6 @@ koki106_a,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\RON\koki106\koki106_a.x
 koki106_a-empty,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\RON\koki106\koki106_a-empty.x
 koki106_a-19d,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\RON\koki106\koki106_a-19d.x
 
-PoleFence01yellow,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\building\CustomGeneralStr\PoleFence01yellow.x
-SlabS5m_1435mm,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\building\CustomGeneralStr\Rail\Slab01\SlabS5m_1435mm.x
-
-#2-cut,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shadow\2-cut.x
-#2-cut,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shadow\4-choten-b.x
-#2-cut,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shadow\5-uv.x
-2-cut,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shadow\wall\wall1.x
 buildingRedL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shadow\building\buildingRedL.x
 buildingRedR,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shadow\building\buildingRedR.x
 buildingMegaL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shadow\building\buildingMegaL.x
