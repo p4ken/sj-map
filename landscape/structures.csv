@@ -1,4 +1,4 @@
-﻿BveTs Structure List 2.00:UTF-8
+BveTs Structure List 2.00:UTF-8
 
 DikeGrs5mL1,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\ACCC\Ground\DikeGrs5mL1.x
 DikeGrs5mL2,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\ACCC\Ground\DikeGrs5mL2.x
@@ -259,6 +259,11 @@ so7000-Tc7710,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Kirifuri\STK7000(obj)\
 so7000-M7100,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Kirifuri\STK7000(obj)\M7100-180r.x
 so7000-M7100_2,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Kirifuri\STK7000(obj)\M7100_2-180r.x
 
+kk1000_M1,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shirasagi_s\khk1000N8SUS\converted files\M1.x
+kk1000_M1_,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shirasagi_s\khk1000N8SUS\converted files\M1'.x
+kk1000_M2sc,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shirasagi_s\khk1000N8SUS\converted files\M2sc.x
+kk1000_M2uc,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shirasagi_s\khk1000N8SUS\converted files\M2uc.x
+kk1000_T,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shirasagi_s\khk1000N8SUS\converted files\T.x
 so8000_M,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shirasagi_s\st8000\converted files\M.x
 so8000_T,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shirasagi_s\st8000\converted files\T.x
 so8000_Tc1,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shirasagi_s\st8000\converted files\Tc1.x
@@ -267,11 +272,6 @@ so9000_M,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shirasagi_s\st9707F\convert
 so9000_T,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shirasagi_s\st9707F\converted files\T.x
 so9000_Tc1,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shirasagi_s\st9707F\converted files\Tc1.x
 so9000_Tc2,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shirasagi_s\st9707F\converted files\Tc2.x
-kk1000_M1,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shirasagi_s\khk1000N8SUS\converted files\M1.x
-kk1000_M1_,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shirasagi_s\khk1000N8SUS\converted files\M1'.x
-kk1000_M2sc,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shirasagi_s\khk1000N8SUS\converted files\M2sc.x
-kk1000_M2uc,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shirasagi_s\khk1000N8SUS\converted files\M2uc.x
-kk1000_T,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shirasagi_s\khk1000N8SUS\converted files\T.x
 
 233-1000M1-1, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Jimba\E233Structure_200516\Structures\E233\E233-1000\M1-1.x
 233-1000Tc1-1, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Jimba\E233Structure_200516\Structures\E233\E233-1000\Tc1-1.x
@@ -407,7 +407,6 @@ stopN12_hL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sign\stop\stopN12_hL.x
 武蔵小杉4番線ホーム屋根, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\building\musashi_kosugi\roof.x
 港北_hL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sign\tunnel\港北_hL.x
 
-#DD51-842,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\RON\DD51-800\DD51-800\converted files\DD51-842.x
 koki106_a,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\RON\koki106\koki106_a.x
 koki106_a-empty,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\RON\koki106\koki106_a-empty.x
 koki106_a-19d,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\RON\koki106\koki106_a-19d.x
