@@ -253,11 +253,11 @@ sig_pole,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\iida\signal_iida\sig_pole\s
 # signal34,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\iida\signal_iida\signal3\signal34.x
 # signal34Dark,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\iida\signal_iida\signal3\signal34Dark.x
 
-so7000-T7600,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Kirifuri\STK7000(obj)\T7600-180r.x
-so7000-Tc7500,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Kirifuri\STK7000(obj)\Tc7500-180r.x
-so7000-Tc7710,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Kirifuri\STK7000(obj)\Tc7710-180r.x
-so7000-M7100,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Kirifuri\STK7000(obj)\M7100-180r.x
-so7000-M7100_2,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Kirifuri\STK7000(obj)\M7100_2-180r.x
+so7000-T7600,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Kirifuri\stk7000rotation\7000\T7600.x
+so7000-Tc7500,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Kirifuri\stk7000rotation\7000\Tc7500.x
+so7000-Tc7710,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Kirifuri\stk7000rotation\7000\Tc7700.x
+so7000-M7100,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Kirifuri\stk7000rotation\7000\M7100.x
+so7000-M7100_2,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Kirifuri\stk7000rotation\7000\M7100_2.x
 
 kk1000_M1,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shirasagi_s\khk1000N8SUS\converted files\M1.x
 kk1000_M1_,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shirasagi_s\khk1000N8SUS\converted files\M1'.x
