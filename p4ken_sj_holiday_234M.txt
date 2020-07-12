@@ -6,7 +6,7 @@ Author = ぴよ軒
 Comment = 鶴見から先はきびきびと運転するダイヤです。 (Ver.1)
 
 RouteTitle = 相鉄・JR直通線
-Route = 234M.bve
+Route = 234M.txt
 
 VehicleTitle = E233系7000番台
 Vehicle = ..\..\p4ken\economy\vehicle-sj.ini

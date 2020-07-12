@@ -172,16 +172,16 @@ $l = 0;
 $tcr = 65535; // 無限大
 $angle = 0;
 $cx = 65535; // 無限大
-include 'track/tc.bve';
-include 'track/tc.bve';
-include 'track/tc.bve';
-include 'track/tc.bve';
-include 'track/tc.bve';
-include 'track/tc.bve';
-include 'track/tc.bve';
-include 'track/tc.bve';
-include 'track/tc.bve';
-include 'track/tc.bve';
+include 'track/tc.txt';
+include 'track/tc.txt';
+include 'track/tc.txt';
+include 'track/tc.txt';
+include 'track/tc.txt';
+include 'track/tc.txt';
+include 'track/tc.txt';
+include 'track/tc.txt';
+include 'track/tc.txt';
+include 'track/tc.txt';
 
 $track_calculate = $track_keihin_r;
 $x0 = -12 + $offset_keihin_r;
@@ -193,16 +193,16 @@ $l = 0;
 $tcr = 65535; // 無限大
 $angle = 0;
 $cx = 65535; // 無限大
-include 'track/tc.bve';
-include 'track/tc.bve';
-include 'track/tc.bve';
-include 'track/tc.bve';
-include 'track/tc.bve';
-include 'track/tc.bve';
-include 'track/tc.bve';
-include 'track/tc.bve';
-include 'track/tc.bve';
-include 'track/tc.bve';
+include 'track/tc.txt';
+include 'track/tc.txt';
+include 'track/tc.txt';
+include 'track/tc.txt';
+include 'track/tc.txt';
+include 'track/tc.txt';
+include 'track/tc.txt';
+include 'track/tc.txt';
+include 'track/tc.txt';
+include 'track/tc.txt';
 
 # $distance_shinagawa - 16600;
 # $track_calculate = $track_tokaido;
@@ -210,9 +210,9 @@ include 'track/tc.bve';
 # $r = 450;
 # $span = 5;
 # $bcc = distance;
-# include 'track/cc.bve';
-# include 'track/cc.bve';
-# include 'track/cc.bve';
+# include 'track/cc.txt';
+# include 'track/cc.txt';
+# include 'track/cc.txt';
 
 $distance_shinagawa - 16600;
 Track[$track_tokaido].Y.Interpolate(-6);

@@ -16,7 +16,7 @@ Train['貨物5097列車'].Enable();
 $enable_hms = 094900;
 
 $distance_0 + 16000;
-include 'train\stop_s.bve';
+include 'train\stop_s.txt';
 Train['貨物5097列車'].Stop(0, $stop_s, 1.5, 60);
 
 #　9:50:21 先頭が富士通手前の橋を通過

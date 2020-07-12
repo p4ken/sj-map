@@ -15,7 +15,7 @@ $power_a = 2;
 
 # 対向列車なので逆順で記載する
 $distance_0 + 13100;
-include 'train\stop_s.bve';
+include 'train\stop_s.txt';
 Train['京浜東北803A'].Stop($max_a, $stop_s, $max_a, 60);
 
 $distance_0 + 11800;

@@ -20,7 +20,7 @@ Train['湘南新宿4820Y列車'].Enable();
 $enable_hms = 094620;
 
 $distance_0 + 10000;
-include 'train\stop_s.bve';
+include 'train\stop_s.txt';
 Train['湘南新宿4820Y列車'].Stop(0, $stop_s, $max_a, 110);
 
 $distance_0 + 19500;

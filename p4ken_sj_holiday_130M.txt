@@ -6,7 +6,7 @@ Author = ぴよ軒
 Comment = ゆったりと余裕のあるダイヤです。 相鉄JR直通線らしい運転を楽しめます。 (Ver.1)
 
 RouteTitle = 相鉄・JR直通線
-Route = 130M.bve
+Route = 130M.txt
 
 VehicleTitle = 相鉄12000系
 Vehicle = ..\..\p4ken\economy\vehicle-sj.ini

@@ -1,0 +1,12 @@
+BveTs Map 2.02:UTF-8
+
+0;
+include 'map.txt';
+Station.Load('operation/130M/stations.csv');
+include 'operation/130M/pretrain.txt';
+
+$init_hms = 093324;
+include 'train/130M/keikyu_down.txt';
+include 'train/130M/containers.txt';
+include 'train/130M/waiting.txt';
+include 'train/130M/ss_up.txt';

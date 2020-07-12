@@ -17,7 +17,7 @@ Train['京急915D'].Enable();
 $enable_hms = 101200;
 
 $distance_0 + 9200;
-include 'train\stop_s.bve';
+include 'train\stop_s.txt';
 Train['京急915D'].Stop($max_a, $stop_s, $max_a, 100);
 
 $distance_0 + 11430;
