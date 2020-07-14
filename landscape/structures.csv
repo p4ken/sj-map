@@ -1,416 +1,417 @@
 BveTs Structure List 2.00:UTF-8
 
-DikeGrs5mL1,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\ACCC\Ground\DikeGrs5mL1.x
-DikeGrs5mL2,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\ACCC\Ground\DikeGrs5mL2.x
-DikeGrs5mL3,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\ACCC\Ground\DikeGrs5mL3.x
-DikeGrs5mL4,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\ACCC\Ground\DikeGrs5mL4.x
-DikeGrs5mL5,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\ACCC\Ground\DikeGrs5mL5.x
-DikeGrs5mL6,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\ACCC\Ground\DikeGrs5mL6.x
-DikeGrs5mR1,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\ACCC\Ground\DikeGrs5mR1.x
-DikeGrs5mR2,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\ACCC\Ground\DikeGrs5mR2.x
-DikeGrs5mR3,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\ACCC\Ground\DikeGrs5mR3.x
-DikeGrs5mR4,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\ACCC\Ground\DikeGrs5mR4.x
-DikeGrs5mR5,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\ACCC\Ground\DikeGrs5mR5.x
-DikeGrs5mR6,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\ACCC\Ground\DikeGrs5mR6.x
-Fence6L,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\ACCC\Station\Fence6L.x
-Fence6R,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\ACCC\Station\Fence6R.x
-Form51L,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\ACCC\Station\Form51L.x
-Form51R,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\ACCC\Station\Form51R.x
-FormCL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\ACCC\Station\FormCL.x
-FormCL25,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\ACCC\Station\FormCL25.x
-hakko,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\Cross\CrossAcc\hakko.x
-Cr_barL_100,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\Cross\Cr_barL_100.x
-Cr_barL2_100,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\Cross\Cr_barL2_100.x
-Cr_seigenL_160,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\Cross\Cr_seigenL_160.x
-Cr_sig2_L,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\Cross\Cr_sig2_L.x
-Cr_base_160C,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\Cross\CrossBase\Cr_base_160C.x
-Cr_base_160L,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\Cross\CrossBase\Cr_base_160L.x
-Cr_base_160R,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\Cross\CrossBase\Cr_base_160R.x
-chokasen_gaisi,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\E_Poles\acc\chokasen_gaisi.x
-kasen35S,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\E_Poles\kasen\kasen35S.x
-kasen50S,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\E_Poles\kasen\kasen50S.x
-Pole1_stlA,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\E_Poles\Pole\Pole1_stlA.x
-Pole1_stlB,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\E_Poles\Pole\Pole1_stlB.x
-PoleTrs04A,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\E_Poles\PoleTruss\PoleTrs04A.x
-PoleTrs04A_R,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\E_Poles\PoleTruss\PoleTrs04A_R.x
-PoleTrs05A_R,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\E_Poles\PoleTruss\PoleTrs05A_R.x
-PoleTrs06A,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\E_Poles\PoleTruss\PoleTrs06A.x
-PoleTrs06B,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\E_Poles\PoleTruss\PoleTrs06B.x
-PoleTrs06A_R,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\E_Poles\PoleTruss\PoleTrs06A_R.x
-PoleTrs07A,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\E_Poles\PoleTruss\PoleTrs07A.x
-PoleTrs07A_R,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\E_Poles\PoleTruss\PoleTrs07A_R.x
-PoleTrs08A,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\E_Poles\PoleTruss\PoleTrs08A.x
-PoleTrs08A_R,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\E_Poles\PoleTruss\PoleTrs08A_R.x
-PoleTrs09A,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\E_Poles\PoleTruss\PoleTrs09A.x
-PoleTrs09A_R,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\E_Poles\PoleTruss\PoleTrs09A_R.x
-PoleTrs11A,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\E_Poles\PoleTruss\PoleTrs11A.x
-PoleTrs11A_R,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\E_Poles\PoleTruss\PoleTrs11A_R.x
-PoleTrs14A,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\E_Poles\PoleTruss\PoleTrs14A.x
-FenceWhite,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\Fence\FenceWhite.x
-PoleFence01yellow,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\Fence\PoleFence01yellow_p4ken.x
-PoleFence02a,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\Fence\PoleFence02a.x
-PoleFence02aE,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\Fence\PoleFence02aE.x
-Curve_P,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\Posts\CurvePosts\Curve_P.x
-GradualDiminution_Ps,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\Posts\CurvePosts\GradualDiminution_Ps.x
-Gp_DD,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\Posts\GradientPost\Gp_DD.x
-Gp_DL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\Posts\GradientPost\Gp_DL.x
-Gp_DU,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\Posts\GradientPost\Gp_DU.x
-Gp_LD,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\Posts\GradientPost\Gp_LD.x
-Gp_LU,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\Posts\GradientPost\Gp_LU.x
-Gp_UD,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\Posts\GradientPost\Gp_UD.x
-Gp_UL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\Posts\GradientPost\Gp_UL.x
-Gp_UU,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\Posts\GradientPost\Gp_UU.x
-StopBarUpB,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\Posts\JRK\JRK_stop\StopBarUpB.x
-kilopost1,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\Posts\KiloPosts\kilopost1.x
-kilopost2,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\Posts\KiloPosts\kilopost2.x
-kilopost31ky,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\Posts\KiloPosts\kilopost31ky.x
-kilopost32ky,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\Posts\KiloPosts\kilopost32ky.x
-kilopost33ky,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\Posts\KiloPosts\kilopost33ky.x
-kilopost34ky,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\Posts\KiloPosts\kilopost34ky.x
-kilopost36ky,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\Posts\KiloPosts\kilopost36ky.x
-kilopost37ky,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\Posts\KiloPosts\kilopost37ky.x
-kilopost38ky,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\Posts\KiloPosts\kilopost38ky.x
-kilopost39ky,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\Posts\KiloPosts\kilopost39ky.x
-SpeedLimPole_B,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\Posts\SpeedLimPole_B.x
-SigPole2,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Accessory\Posts\Signal\SigPole2.x
-Bg,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\BG\Bg.x
-Bg_fine_summer,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\BG\Bg_fine_summer.x
-blue10_b_ban,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Bridge\blue10_b_ban.x
-blue10_bL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Bridge\blue10_bL.x
-blue10_bR,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Bridge\blue10_bR.x
-conc_10m,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Bridge\conc_10m.x
-glare30,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Default\glare30.x
-glare32,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Default\glare32.x
-glare34,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Default\glare34.x
-glare4yg0,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Default\glare4yg0.x
-glare4yg2,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Default\glare4yg2.x
-glare4yg3,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Default\glare4yg3.x
-glare4yg4,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Default\glare4yg4.x
-glare4yy0,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Default\glare4yy0.x
-glare4yy1,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Default\glare4yy1.x
-glare4yy2,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Default\glare4yy2.x
-glare4yy4,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Default\glare4yy4.x
-signal30,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Default\signal30.x
-signal32,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Default\signal32.x
-signal34,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Default\signal34.x
-signal4yg0,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Default\signal4yg0.x
-signal4yg2,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Default\signal4yg2.x
-signal4yg3,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Default\signal4yg3.x
-signal4yg4,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Default\signal4yg4.x
-signal4yy0,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Default\signal4yy0.x
-signal4yy1,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Default\signal4yy1.x
-signal4yy2,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Default\signal4yy2.x
-signal4yy4,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Default\signal4yy4.x
-signalrep0,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Default\signalrep0.x
-signalrep1,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Default\signalrep1.x
-signalrep4,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Default\signalrep4.x
-CrDike1La,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Dike\CrDike1La.x
-CrDike1Lb,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Dike\CrDike1Lb.x
-CrDike1Ra,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Dike\CrDike1Ra.x
-CrDike1Rb,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Dike\CrDike1Rb.x
-Dike2Cnc5mL1,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Dike\Dike2Cnc5mL1.x
-Dike2Cnc5mL2,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Dike\Dike2Cnc5mL2.x
-Dike2Cnc5mL3,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Dike\Dike2Cnc5mL3.x
-Dike2Cnc5mL4,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Dike\Dike2Cnc5mL4.x
-Dike2Cnc5mL5,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Dike\Dike2Cnc5mL5.x
-Dike2Cnc5mL6,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Dike\Dike2Cnc5mL6.x
-b01,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Nature\bush\b01.x
-b02,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Nature\bush\b02.x
-b03,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Nature\bush\b03.x
-b04,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Nature\bush\b04.x
-b11m,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Nature\bush\b11m.x
-b12m,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Nature\bush\b12m.x
-b13m,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Nature\bush\b13m.x
-b14m,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Nature\bush\b14m.x
-DikegrsLh,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Nature\Ground\DikegrsLh.x
-DikegrsRh,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Nature\Ground\DikegrsRh.x
-Lside_Grass,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Nature\Ground\Lside_Grass.x
-Rside_Grass,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Nature\Ground\Rside_Grass.x
-GrsWallL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Nature\mount\GrsWallL.x
-GrsWallL2,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Nature\mount\GrsWallL2.x
-GrsWallL3,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Nature\mount\GrsWallL3.x
-river50m_green,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Nature\River\river50m_green.x
-RvGrsL1a,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Nature\River\RvGrsL1a.x
-RvGrsL1b,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Nature\River\RvGrsL1b.x
-tree01_S,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Nature\trees\tree01_S.x
-tree21_S,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Nature\trees_street\tree21_S.x
-tree22_S,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Nature\trees_street\tree22_S.x
-tree23_S,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Nature\trees_street\tree23_S.x
-trees11,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Nature\treesB\trees11.x
-trees12,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Nature\treesB\trees12.x
-trees13,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Nature\treesB\trees13.x
-_BridgeRail_5,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Rail\_BridgeRail_5.x
-Long_sw,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Rail\Long_sw.x
-Rail_5m_R_p4ken,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Rail\Rail_5m_R_p4ken.x
-BallastPC_K_5a,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Rail\Ballast01\BallastPC_K_5a.x
-BallastPC_K_5b,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Rail\Ballast01\BallastPC_K_5b.x
-BallastPC_K_5aD,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Rail\Ballast01\BallastPC_K_5aD.x
-BallastPC_K_5bD,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Rail\Ballast01\BallastPC_K_5bD.x
-BallastTR_K_5a,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Rail\Ballast01\BallastTR_K_5a.x
-Bl_CraBalL_25,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Rail\Ballast01\Bl_CraBalL_25.x
-Bl_CraBalL_5m,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Rail\Ballast01\Bl_CraBalL_5m.x
-Bl_CraBalR_5m,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Rail\Ballast01\Bl_CraBalR_5m.x
-DBallast_5m,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Rail\Ballast11\DBallast_5m.x
-Slab2S5m,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Rail\Slab01\Slab2S5m.x
-Slab8m,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Rail\Slab01\Slab8m.x
-SlabS5m_1435mm,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Rail\Slab01\SlabS5m_1435mm_p4ken.x
-point1L,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Rail\Point\point1L.x
-point1R,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Rail\Point\point1R.x
-point2L,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Rail\Point\point2L.x
-point2R,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Rail\Point\point2R.x
-road_045_a,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Road\road_045_a.x
-road_045_b,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Road\road_045_b.x
-road_045_c,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Road\road_045_c.x
-road_045_d,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Road\road_045_d.x
-road_070_a,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Road\road_070_a.x
-road_070_b,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Road\road_070_b.x
-road_070_c,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Road\road_070_c.x
-road_070_d,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Road\road_070_d.x
-road_0702_a,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Road\road_0702_a.x
-road_0702_b,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Road\road_0702_b.x
-road_0702_c,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Road\road_0702_c.x
-road_0702_d,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Road\road_0702_d.x
-huku_c1_ent,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Tunnel\huku_c1_ent.x
-huku_c1_lp,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Tunnel\huku_c1_lp.x
-huku_c1_Potal1,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Tunnel\huku_c1_Potal1.x
-Pier,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Wall\Pier.x
-Wall_QN_L25m,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Wall\Wall_QN_L25m.x
-Wall_QN_R25m,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Wall\Wall_QN_R25m.x
-WallUnder_QN_25m_hukusen,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\GeneralStr_v099r2_dds\Wall\WallUnder_QN_25m_hukusen.x
+DikeGrs5mL1,..\..\GeneralStr_v099r2_dds\ACCC\Ground\DikeGrs5mL1.x
+DikeGrs5mL2,..\..\GeneralStr_v099r2_dds\ACCC\Ground\DikeGrs5mL2.x
+DikeGrs5mL3,..\..\GeneralStr_v099r2_dds\ACCC\Ground\DikeGrs5mL3.x
+DikeGrs5mL4,..\..\GeneralStr_v099r2_dds\ACCC\Ground\DikeGrs5mL4.x
+DikeGrs5mL5,..\..\GeneralStr_v099r2_dds\ACCC\Ground\DikeGrs5mL5.x
+DikeGrs5mL6,..\..\GeneralStr_v099r2_dds\ACCC\Ground\DikeGrs5mL6.x
+DikeGrs5mR1,..\..\GeneralStr_v099r2_dds\ACCC\Ground\DikeGrs5mR1.x
+DikeGrs5mR2,..\..\GeneralStr_v099r2_dds\ACCC\Ground\DikeGrs5mR2.x
+DikeGrs5mR3,..\..\GeneralStr_v099r2_dds\ACCC\Ground\DikeGrs5mR3.x
+DikeGrs5mR4,..\..\GeneralStr_v099r2_dds\ACCC\Ground\DikeGrs5mR4.x
+DikeGrs5mR5,..\..\GeneralStr_v099r2_dds\ACCC\Ground\DikeGrs5mR5.x
+DikeGrs5mR6,..\..\GeneralStr_v099r2_dds\ACCC\Ground\DikeGrs5mR6.x
+Fence6L,..\..\GeneralStr_v099r2_dds\ACCC\Station\Fence6L.x
+Fence6R,..\..\GeneralStr_v099r2_dds\ACCC\Station\Fence6R.x
+Form51L,..\..\GeneralStr_v099r2_dds\ACCC\Station\Form51L.x
+Form51R,..\..\GeneralStr_v099r2_dds\ACCC\Station\Form51R.x
+FormCL,..\..\GeneralStr_v099r2_dds\ACCC\Station\FormCL.x
+FormCL25,..\..\GeneralStr_v099r2_dds\ACCC\Station\FormCL25.x
+hakko,..\..\GeneralStr_v099r2_dds\Accessory\Cross\CrossAcc\hakko.x
+Cr_barL_100,..\..\GeneralStr_v099r2_dds\Accessory\Cross\Cr_barL_100.x
+Cr_barL2_100,..\..\GeneralStr_v099r2_dds\Accessory\Cross\Cr_barL2_100.x
+Cr_seigenL_160,..\..\GeneralStr_v099r2_dds\Accessory\Cross\Cr_seigenL_160.x
+Cr_sig2_L,..\..\GeneralStr_v099r2_dds\Accessory\Cross\Cr_sig2_L.x
+Cr_base_160C,..\..\GeneralStr_v099r2_dds\Accessory\Cross\CrossBase\Cr_base_160C.x
+Cr_base_160L,..\..\GeneralStr_v099r2_dds\Accessory\Cross\CrossBase\Cr_base_160L.x
+Cr_base_160R,..\..\GeneralStr_v099r2_dds\Accessory\Cross\CrossBase\Cr_base_160R.x
+chokasen_gaisi,..\..\GeneralStr_v099r2_dds\Accessory\E_Poles\acc\chokasen_gaisi.x
+kasen35S,..\..\GeneralStr_v099r2_dds\Accessory\E_Poles\kasen\kasen35S.x
+kasen50S,..\..\GeneralStr_v099r2_dds\Accessory\E_Poles\kasen\kasen50S.x
+Pole1_stlA,..\..\GeneralStr_v099r2_dds\Accessory\E_Poles\Pole\Pole1_stlA.x
+Pole1_stlB,..\..\GeneralStr_v099r2_dds\Accessory\E_Poles\Pole\Pole1_stlB.x
+PoleTrs04A,..\..\GeneralStr_v099r2_dds\Accessory\E_Poles\PoleTruss\PoleTrs04A.x
+PoleTrs04A_R,..\..\GeneralStr_v099r2_dds\Accessory\E_Poles\PoleTruss\PoleTrs04A_R.x
+PoleTrs05A_R,..\..\GeneralStr_v099r2_dds\Accessory\E_Poles\PoleTruss\PoleTrs05A_R.x
+PoleTrs06A,..\..\GeneralStr_v099r2_dds\Accessory\E_Poles\PoleTruss\PoleTrs06A.x
+PoleTrs06B,..\..\GeneralStr_v099r2_dds\Accessory\E_Poles\PoleTruss\PoleTrs06B.x
+PoleTrs06A_R,..\..\GeneralStr_v099r2_dds\Accessory\E_Poles\PoleTruss\PoleTrs06A_R.x
+PoleTrs07A,..\..\GeneralStr_v099r2_dds\Accessory\E_Poles\PoleTruss\PoleTrs07A.x
+PoleTrs07A_R,..\..\GeneralStr_v099r2_dds\Accessory\E_Poles\PoleTruss\PoleTrs07A_R.x
+PoleTrs08A,..\..\GeneralStr_v099r2_dds\Accessory\E_Poles\PoleTruss\PoleTrs08A.x
+PoleTrs08A_R,..\..\GeneralStr_v099r2_dds\Accessory\E_Poles\PoleTruss\PoleTrs08A_R.x
+PoleTrs09A,..\..\GeneralStr_v099r2_dds\Accessory\E_Poles\PoleTruss\PoleTrs09A.x
+PoleTrs09A_R,..\..\GeneralStr_v099r2_dds\Accessory\E_Poles\PoleTruss\PoleTrs09A_R.x
+PoleTrs11A,..\..\GeneralStr_v099r2_dds\Accessory\E_Poles\PoleTruss\PoleTrs11A.x
+PoleTrs11A_R,..\..\GeneralStr_v099r2_dds\Accessory\E_Poles\PoleTruss\PoleTrs11A_R.x
+PoleTrs14A,..\..\GeneralStr_v099r2_dds\Accessory\E_Poles\PoleTruss\PoleTrs14A.x
+FenceWhite,..\..\GeneralStr_v099r2_dds\Accessory\Fence\FenceWhite.x
+PoleFence01yellow,..\..\GeneralStr_v099r2_dds\Accessory\Fence\PoleFence01yellow_p4ken.x
+PoleFence02a,..\..\GeneralStr_v099r2_dds\Accessory\Fence\PoleFence02a.x
+PoleFence02aE,..\..\GeneralStr_v099r2_dds\Accessory\Fence\PoleFence02aE.x
+Curve_P,..\..\GeneralStr_v099r2_dds\Accessory\Posts\CurvePosts\Curve_P.x
+GradualDiminution_Ps,..\..\GeneralStr_v099r2_dds\Accessory\Posts\CurvePosts\GradualDiminution_Ps.x
+Gp_DD,..\..\GeneralStr_v099r2_dds\Accessory\Posts\GradientPost\Gp_DD.x
+Gp_DL,..\..\GeneralStr_v099r2_dds\Accessory\Posts\GradientPost\Gp_DL.x
+Gp_DU,..\..\GeneralStr_v099r2_dds\Accessory\Posts\GradientPost\Gp_DU.x
+Gp_LD,..\..\GeneralStr_v099r2_dds\Accessory\Posts\GradientPost\Gp_LD.x
+Gp_LU,..\..\GeneralStr_v099r2_dds\Accessory\Posts\GradientPost\Gp_LU.x
+Gp_UD,..\..\GeneralStr_v099r2_dds\Accessory\Posts\GradientPost\Gp_UD.x
+Gp_UL,..\..\GeneralStr_v099r2_dds\Accessory\Posts\GradientPost\Gp_UL.x
+Gp_UU,..\..\GeneralStr_v099r2_dds\Accessory\Posts\GradientPost\Gp_UU.x
+StopBarUpB,..\..\GeneralStr_v099r2_dds\Accessory\Posts\JRK\JRK_stop\StopBarUpB.x
+kilopost1,..\..\GeneralStr_v099r2_dds\Accessory\Posts\KiloPosts\kilopost1.x
+kilopost2,..\..\GeneralStr_v099r2_dds\Accessory\Posts\KiloPosts\kilopost2.x
+kilopost31ky,..\..\GeneralStr_v099r2_dds\Accessory\Posts\KiloPosts\kilopost31ky.x
+kilopost32ky,..\..\GeneralStr_v099r2_dds\Accessory\Posts\KiloPosts\kilopost32ky.x
+kilopost33ky,..\..\GeneralStr_v099r2_dds\Accessory\Posts\KiloPosts\kilopost33ky.x
+kilopost34ky,..\..\GeneralStr_v099r2_dds\Accessory\Posts\KiloPosts\kilopost34ky.x
+kilopost36ky,..\..\GeneralStr_v099r2_dds\Accessory\Posts\KiloPosts\kilopost36ky.x
+kilopost37ky,..\..\GeneralStr_v099r2_dds\Accessory\Posts\KiloPosts\kilopost37ky.x
+kilopost38ky,..\..\GeneralStr_v099r2_dds\Accessory\Posts\KiloPosts\kilopost38ky.x
+kilopost39ky,..\..\GeneralStr_v099r2_dds\Accessory\Posts\KiloPosts\kilopost39ky.x
+SpeedLimPole_B,..\..\GeneralStr_v099r2_dds\Accessory\Posts\SpeedLimPole_B.x
+SigPole2,..\..\GeneralStr_v099r2_dds\Accessory\Posts\Signal\SigPole2.x
+Bg,..\..\GeneralStr_v099r2_dds\BG\Bg.x
+Bg_fine_summer,..\..\GeneralStr_v099r2_dds\BG\Bg_fine_summer.x
+blue10_b_ban,..\..\GeneralStr_v099r2_dds\Bridge\blue10_b_ban.x
+blue10_bL,..\..\GeneralStr_v099r2_dds\Bridge\blue10_bL.x
+blue10_bR,..\..\GeneralStr_v099r2_dds\Bridge\blue10_bR.x
+conc_10m,..\..\GeneralStr_v099r2_dds\Bridge\conc_10m.x
+glare30,..\..\GeneralStr_v099r2_dds\Default\glare30.x
+glare32,..\..\GeneralStr_v099r2_dds\Default\glare32.x
+glare34,..\..\GeneralStr_v099r2_dds\Default\glare34.x
+glare4yg0,..\..\GeneralStr_v099r2_dds\Default\glare4yg0.x
+glare4yg2,..\..\GeneralStr_v099r2_dds\Default\glare4yg2.x
+glare4yg3,..\..\GeneralStr_v099r2_dds\Default\glare4yg3.x
+glare4yg4,..\..\GeneralStr_v099r2_dds\Default\glare4yg4.x
+glare4yy0,..\..\GeneralStr_v099r2_dds\Default\glare4yy0.x
+glare4yy1,..\..\GeneralStr_v099r2_dds\Default\glare4yy1.x
+glare4yy2,..\..\GeneralStr_v099r2_dds\Default\glare4yy2.x
+glare4yy4,..\..\GeneralStr_v099r2_dds\Default\glare4yy4.x
+signal30,..\..\GeneralStr_v099r2_dds\Default\signal30.x
+signal32,..\..\GeneralStr_v099r2_dds\Default\signal32.x
+signal34,..\..\GeneralStr_v099r2_dds\Default\signal34.x
+signal4yg0,..\..\GeneralStr_v099r2_dds\Default\signal4yg0.x
+signal4yg2,..\..\GeneralStr_v099r2_dds\Default\signal4yg2.x
+signal4yg3,..\..\GeneralStr_v099r2_dds\Default\signal4yg3.x
+signal4yg4,..\..\GeneralStr_v099r2_dds\Default\signal4yg4.x
+signal4yy0,..\..\GeneralStr_v099r2_dds\Default\signal4yy0.x
+signal4yy1,..\..\GeneralStr_v099r2_dds\Default\signal4yy1.x
+signal4yy2,..\..\GeneralStr_v099r2_dds\Default\signal4yy2.x
+signal4yy4,..\..\GeneralStr_v099r2_dds\Default\signal4yy4.x
+signalrep0,..\..\GeneralStr_v099r2_dds\Default\signalrep0.x
+signalrep1,..\..\GeneralStr_v099r2_dds\Default\signalrep1.x
+signalrep4,..\..\GeneralStr_v099r2_dds\Default\signalrep4.x
+CrDike1La,..\..\GeneralStr_v099r2_dds\Dike\CrDike1La.x
+CrDike1Lb,..\..\GeneralStr_v099r2_dds\Dike\CrDike1Lb.x
+CrDike1Ra,..\..\GeneralStr_v099r2_dds\Dike\CrDike1Ra.x
+CrDike1Rb,..\..\GeneralStr_v099r2_dds\Dike\CrDike1Rb.x
+Dike2Cnc5mL1,..\..\GeneralStr_v099r2_dds\Dike\Dike2Cnc5mL1.x
+Dike2Cnc5mL2,..\..\GeneralStr_v099r2_dds\Dike\Dike2Cnc5mL2.x
+Dike2Cnc5mL3,..\..\GeneralStr_v099r2_dds\Dike\Dike2Cnc5mL3.x
+Dike2Cnc5mL4,..\..\GeneralStr_v099r2_dds\Dike\Dike2Cnc5mL4.x
+Dike2Cnc5mL5,..\..\GeneralStr_v099r2_dds\Dike\Dike2Cnc5mL5.x
+Dike2Cnc5mL6,..\..\GeneralStr_v099r2_dds\Dike\Dike2Cnc5mL6.x
+b01,..\..\GeneralStr_v099r2_dds\Nature\bush\b01.x
+b02,..\..\GeneralStr_v099r2_dds\Nature\bush\b02.x
+b03,..\..\GeneralStr_v099r2_dds\Nature\bush\b03.x
+b04,..\..\GeneralStr_v099r2_dds\Nature\bush\b04.x
+b11m,..\..\GeneralStr_v099r2_dds\Nature\bush\b11m.x
+b12m,..\..\GeneralStr_v099r2_dds\Nature\bush\b12m.x
+b13m,..\..\GeneralStr_v099r2_dds\Nature\bush\b13m.x
+b14m,..\..\GeneralStr_v099r2_dds\Nature\bush\b14m.x
+DikegrsLh,..\..\GeneralStr_v099r2_dds\Nature\Ground\DikegrsLh.x
+DikegrsRh,..\..\GeneralStr_v099r2_dds\Nature\Ground\DikegrsRh.x
+Lside_Grass,..\..\GeneralStr_v099r2_dds\Nature\Ground\Lside_Grass.x
+Rside_Grass,..\..\GeneralStr_v099r2_dds\Nature\Ground\Rside_Grass.x
+GrsWallL,..\..\GeneralStr_v099r2_dds\Nature\mount\GrsWallL.x
+GrsWallL2,..\..\GeneralStr_v099r2_dds\Nature\mount\GrsWallL2.x
+GrsWallL3,..\..\GeneralStr_v099r2_dds\Nature\mount\GrsWallL3.x
+river50m_green,..\..\GeneralStr_v099r2_dds\Nature\River\river50m_green.x
+RvGrsL1a,..\..\GeneralStr_v099r2_dds\Nature\River\RvGrsL1a.x
+RvGrsL1b,..\..\GeneralStr_v099r2_dds\Nature\River\RvGrsL1b.x
+tree01_S,..\..\GeneralStr_v099r2_dds\Nature\trees\tree01_S.x
+tree21_S,..\..\GeneralStr_v099r2_dds\Nature\trees_street\tree21_S.x
+tree22_S,..\..\GeneralStr_v099r2_dds\Nature\trees_street\tree22_S.x
+tree23_S,..\..\GeneralStr_v099r2_dds\Nature\trees_street\tree23_S.x
+trees11,..\..\GeneralStr_v099r2_dds\Nature\treesB\trees11.x
+trees12,..\..\GeneralStr_v099r2_dds\Nature\treesB\trees12.x
+trees13,..\..\GeneralStr_v099r2_dds\Nature\treesB\trees13.x
+_BridgeRail_5,..\..\GeneralStr_v099r2_dds\Rail\_BridgeRail_5.x
+Long_sw,..\..\GeneralStr_v099r2_dds\Rail\Long_sw.x
+Rail_5m_R_p4ken,..\..\GeneralStr_v099r2_dds\Rail\Rail_5m_R_p4ken.x
+BallastPC_K_5a,..\..\GeneralStr_v099r2_dds\Rail\Ballast01\BallastPC_K_5a.x
+BallastPC_K_5b,..\..\GeneralStr_v099r2_dds\Rail\Ballast01\BallastPC_K_5b.x
+BallastPC_K_5aD,..\..\GeneralStr_v099r2_dds\Rail\Ballast01\BallastPC_K_5aD.x
+BallastPC_K_5bD,..\..\GeneralStr_v099r2_dds\Rail\Ballast01\BallastPC_K_5bD.x
+BallastTR_K_5a,..\..\GeneralStr_v099r2_dds\Rail\Ballast01\BallastTR_K_5a.x
+Bl_CraBalL_25,..\..\GeneralStr_v099r2_dds\Rail\Ballast01\Bl_CraBalL_25.x
+Bl_CraBalL_5m,..\..\GeneralStr_v099r2_dds\Rail\Ballast01\Bl_CraBalL_5m.x
+Bl_CraBalR_5m,..\..\GeneralStr_v099r2_dds\Rail\Ballast01\Bl_CraBalR_5m.x
+DBallast_5m,..\..\GeneralStr_v099r2_dds\Rail\Ballast11\DBallast_5m.x
+Slab2S5m,..\..\GeneralStr_v099r2_dds\Rail\Slab01\Slab2S5m.x
+Slab8m,..\..\GeneralStr_v099r2_dds\Rail\Slab01\Slab8m.x
+SlabS5m_1435mm,..\..\GeneralStr_v099r2_dds\Rail\Slab01\SlabS5m_1435mm_p4ken.x
+point1L,..\..\GeneralStr_v099r2_dds\Rail\Point\point1L.x
+point1R,..\..\GeneralStr_v099r2_dds\Rail\Point\point1R.x
+point2L,..\..\GeneralStr_v099r2_dds\Rail\Point\point2L.x
+point2R,..\..\GeneralStr_v099r2_dds\Rail\Point\point2R.x
+road_045_a,..\..\GeneralStr_v099r2_dds\Road\road_045_a.x
+road_045_b,..\..\GeneralStr_v099r2_dds\Road\road_045_b.x
+road_045_c,..\..\GeneralStr_v099r2_dds\Road\road_045_c.x
+road_045_d,..\..\GeneralStr_v099r2_dds\Road\road_045_d.x
+road_070_a,..\..\GeneralStr_v099r2_dds\Road\road_070_a.x
+road_070_b,..\..\GeneralStr_v099r2_dds\Road\road_070_b.x
+road_070_c,..\..\GeneralStr_v099r2_dds\Road\road_070_c.x
+road_070_d,..\..\GeneralStr_v099r2_dds\Road\road_070_d.x
+road_0702_a,..\..\GeneralStr_v099r2_dds\Road\road_0702_a.x
+road_0702_b,..\..\GeneralStr_v099r2_dds\Road\road_0702_b.x
+road_0702_c,..\..\GeneralStr_v099r2_dds\Road\road_0702_c.x
+road_0702_d,..\..\GeneralStr_v099r2_dds\Road\road_0702_d.x
+huku_c1_ent,..\..\GeneralStr_v099r2_dds\Tunnel\huku_c1_ent.x
+huku_c1_lp,..\..\GeneralStr_v099r2_dds\Tunnel\huku_c1_lp.x
+huku_c1_Potal1,..\..\GeneralStr_v099r2_dds\Tunnel\huku_c1_Potal1.x
+Pier,..\..\GeneralStr_v099r2_dds\Wall\Pier.x
+Wall_QN_L25m,..\..\GeneralStr_v099r2_dds\Wall\Wall_QN_L25m.x
+Wall_QN_R25m,..\..\GeneralStr_v099r2_dds\Wall\Wall_QN_R25m.x
+WallUnder_QN_25m_hukusen,..\..\GeneralStr_v099r2_dds\Wall\WallUnder_QN_25m_hukusen.x
 
-nd-500,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structures\rail\curve\nd-500.x
-nd-750,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structures\rail\curve\nd-750.x
-nd750,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structures\rail\curve\nd750.x
-nd-1500,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structures\rail\curve\nd-1500.x
-nd1500,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structures\rail\curve\nd1500.x
-railn1,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structures\rail\railn1.x
-end,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structures\sta\end.x
-end2,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structures\sta\end2.x
-formcl_st,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structures\sta\formcl_st.x
-forml,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structures\sta\forml.x
-formr,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structures\sta\formr.x
-formtan,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structures\sta\formtan.x
-gate_l,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structures\sta\gate_l.x
-gate_r,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structures\sta\gate_r.x
-dikep2,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structures\wall\dikep2.x
-dikep3,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structures\wall\dikep3.x
-end1l,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structures\wall\end1l_narrow.x
-end1r,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structures\wall\end1r_narrow.x
-ent1l,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structures\wall\ent1l.x
-ent1r,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structures\wall\ent1r.x
-shield2a,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structures\wall\shield2a.x
-stwalln1r,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structures\wall\stwalln1r.x
-wallend,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structures\wall\wallend.x
-walln1l,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structures\wall\walln1l_narrow.x
-walln1r,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structures\wall\walln1r_narrow.x
-stwalln1l,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shuttle\fukutoshin\structures\wall\stwalln1l.x
+nd-500,..\..\shuttle\fukutoshin\structures\rail\curve\nd-500.x
+nd-750,..\..\shuttle\fukutoshin\structures\rail\curve\nd-750.x
+nd750,..\..\shuttle\fukutoshin\structures\rail\curve\nd750.x
+nd-1500,..\..\shuttle\fukutoshin\structures\rail\curve\nd-1500.x
+nd1500,..\..\shuttle\fukutoshin\structures\rail\curve\nd1500.x
+railn1,..\..\shuttle\fukutoshin\structures\rail\railn1.x
+end,..\..\shuttle\fukutoshin\structures\sta\end.x
+end2,..\..\shuttle\fukutoshin\structures\sta\end2.x
+formcl_st,..\..\shuttle\fukutoshin\structures\sta\formcl_st.x
+forml,..\..\shuttle\fukutoshin\structures\sta\forml.x
+formr,..\..\shuttle\fukutoshin\structures\sta\formr.x
+formtan,..\..\shuttle\fukutoshin\structures\sta\formtan.x
+gate_l,..\..\shuttle\fukutoshin\structures\sta\gate_l.x
+gate_r,..\..\shuttle\fukutoshin\structures\sta\gate_r.x
+dikep2,..\..\shuttle\fukutoshin\structures\wall\dikep2.x
+dikep3,..\..\shuttle\fukutoshin\structures\wall\dikep3.x
+end1l,..\..\shuttle\fukutoshin\structures\wall\end1l_narrow.x
+end1r,..\..\shuttle\fukutoshin\structures\wall\end1r_narrow.x
+ent1l,..\..\shuttle\fukutoshin\structures\wall\ent1l.x
+ent1r,..\..\shuttle\fukutoshin\structures\wall\ent1r.x
+shield2a,..\..\shuttle\fukutoshin\structures\wall\shield2a.x
+stwalln1r,..\..\shuttle\fukutoshin\structures\wall\stwalln1r.x
+wallend,..\..\shuttle\fukutoshin\structures\wall\wallend.x
+walln1l,..\..\shuttle\fukutoshin\structures\wall\walln1l_narrow.x
+walln1r,..\..\shuttle\fukutoshin\structures\wall\walln1r_narrow.x
+stwalln1l,..\..\shuttle\fukutoshin\structures\wall\stwalln1l.x
 
-GirderBridgeLowL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\RouteKit\Structure\Bridge\GirderBridgeLowL.x
-GirderBridgeLowR,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\RouteKit\Structure\Bridge\GirderBridgeLowR.x
-RouteKitWallR,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\RouteKit\Structure\Bridge\WallR.x
-GroundShadow,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\RouteKit\Structure\Ground\GroundShadow.x
-Overpass,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\RouteKit\Structure\Overpass\Overpass.x
-OverpassDikeL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\RouteKit\Structure\Overpass\OverpassDikeL.x
-OverpassDikeR,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\RouteKit\Structure\Overpass\OverpassDikeR.x
-OverpassPier,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\RouteKit\Structure\Overpass\OverpassPier.x
-OverpassL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\RouteKit\Structure\Overpass\OverpassL.x
-OverpassR,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\RouteKit\Structure\Overpass\OverpassR.x
-FenceStepStartL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\RouteKit\Structure\Station\FenceStepStartL.x
-FenceStepStartR,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\RouteKit\Structure\Station\FenceStepStartR.x
-PlatformCL01S,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\RouteKit\Structure\Station\PlatformCL01.x
-PlatformCR01S,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\RouteKit\Structure\Station\PlatformCR01.x
-PlatformEndFenceL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\RouteKit\Structure\Station\PlatformEndFenceL.x
-PlatformEndFenceR,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\RouteKit\Structure\Station\PlatformEndFenceR.x
-PlatformL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\RouteKit\Structure\Station\PlatformL.x
-PlatformR,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\RouteKit\Structure\Station\PlatformR.x
-RoofL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\RouteKit\Structure\Station\RoofL.x
-RoofPillarL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\RouteKit\Structure\Station\RoofPillarL.x
-RoofPillarR,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\RouteKit\Structure\Station\RoofPillarR.x
-RoofR,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\RouteKit\Structure\Station\RoofR.x
-StationBridgeR,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\RouteKit\Structure\Station\StationBridgeR.x
-UpstairsEnterL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\RouteKit\Structure\Station\UpstairsEnterL.x
-UpstairsExitL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\RouteKit\Structure\Station\UpstairsExitL.x
+GirderBridgeLowL,..\..\tomari\RouteKit\Structure\Bridge\GirderBridgeLowL.x
+GirderBridgeLowR,..\..\tomari\RouteKit\Structure\Bridge\GirderBridgeLowR.x
+RouteKitWallR,..\..\tomari\RouteKit\Structure\Bridge\WallR.x
+GroundShadow,..\..\tomari\RouteKit\Structure\Ground\GroundShadow.x
+Overpass,..\..\tomari\RouteKit\Structure\Overpass\Overpass.x
+OverpassDikeL,..\..\tomari\RouteKit\Structure\Overpass\OverpassDikeL.x
+OverpassDikeR,..\..\tomari\RouteKit\Structure\Overpass\OverpassDikeR.x
+OverpassPier,..\..\tomari\RouteKit\Structure\Overpass\OverpassPier.x
+OverpassL,..\..\tomari\RouteKit\Structure\Overpass\OverpassL.x
+OverpassR,..\..\tomari\RouteKit\Structure\Overpass\OverpassR.x
+FenceStepStartL,..\..\tomari\RouteKit\Structure\Station\FenceStepStartL.x
+FenceStepStartR,..\..\tomari\RouteKit\Structure\Station\FenceStepStartR.x
+PlatformCL01S,..\..\tomari\RouteKit\Structure\Station\PlatformCL01.x
+PlatformCR01S,..\..\tomari\RouteKit\Structure\Station\PlatformCR01.x
+PlatformEndFenceL,..\..\tomari\RouteKit\Structure\Station\PlatformEndFenceL.x
+PlatformEndFenceR,..\..\tomari\RouteKit\Structure\Station\PlatformEndFenceR.x
+PlatformL,..\..\tomari\RouteKit\Structure\Station\PlatformL.x
+PlatformR,..\..\tomari\RouteKit\Structure\Station\PlatformR.x
+RoofL,..\..\tomari\RouteKit\Structure\Station\RoofL.x
+RoofPillarL,..\..\tomari\RouteKit\Structure\Station\RoofPillarL.x
+RoofPillarR,..\..\tomari\RouteKit\Structure\Station\RoofPillarR.x
+RoofR,..\..\tomari\RouteKit\Structure\Station\RoofR.x
+StationBridgeR,..\..\tomari\RouteKit\Structure\Station\StationBridgeR.x
+UpstairsEnterL,..\..\tomari\RouteKit\Structure\Station\UpstairsEnterL.x
+UpstairsExitL,..\..\tomari\RouteKit\Structure\Station\UpstairsExitL.x
 
-fence_r,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\iida\iida_common\fence\fence_r.x
-sig_arm3,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\iida\signal_iida\sig_arm\sig_arm3.x
-sig_arm4_p4ken,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\iida\signal_iida\sig_arm\sig_arm4_p4ken.x
-sig_pole,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\iida\signal_iida\sig_pole\sig_pole.x
-# signal30,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\iida\signal_iida\signal3\signal30.x
-# signal30Dark,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\iida\signal_iida\signal3\signal30Dark.x
-# signal32,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\iida\signal_iida\signal3\signal32.x
-# signal32Dark,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\iida\signal_iida\signal3\signal32Dark.x
-# signal34,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\iida\signal_iida\signal3\signal34.x
-# signal34Dark,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\iida\signal_iida\signal3\signal34Dark.x
+fence_r,..\..\iida-hosenku\iida_common\fence\fence_r.x
+sig_arm3,..\..\iida-hosenku\signal_iida\sig_arm\sig_arm3.x
+sig_arm4_p4ken,..\..\iida-hosenku\signal_iida\sig_arm\sig_arm4_p4ken.x
+sig_pole,..\..\iida-hosenku\signal_iida\sig_pole\sig_pole.x
+# signal30,..\..\iida-hosenku\signal_iida\signal3\signal30.x
+# signal30Dark,..\..\iida-hosenku\signal_iida\signal3\signal30Dark.x
+# signal32,..\..\iida-hosenku\signal_iida\signal3\signal32.x
+# signal32Dark,..\..\iida-hosenku\signal_iida\signal3\signal32Dark.x
+# signal34,..\..\iida-hosenku\signal_iida\signal3\signal34.x
+# signal34Dark,..\..\iida-hosenku\signal_iida\signal3\signal34Dark.x
 
-so7000-T7600,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Kirifuri\stk7000rotation\7000\T7600.x
-so7000-Tc7500,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Kirifuri\stk7000rotation\7000\Tc7500.x
-so7000-Tc7710,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Kirifuri\stk7000rotation\7000\Tc7700.x
-so7000-M7100,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Kirifuri\stk7000rotation\7000\M7100.x
-so7000-M7100_2,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Kirifuri\stk7000rotation\7000\M7100_2.x
+so7000-T7600,..\..\Kirifuri\stk7000rotation\7000\T7600.x
+so7000-Tc7500,..\..\Kirifuri\stk7000rotation\7000\Tc7500.x
+so7000-Tc7710,..\..\Kirifuri\stk7000rotation\7000\Tc7700.x
+so7000-M7100,..\..\Kirifuri\stk7000rotation\7000\M7100.x
+so7000-M7100_2,..\..\Kirifuri\stk7000rotation\7000\M7100_2.x
 
-kk1000_M1,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shirasagi_s\khk1000N8SUS\converted files\M1.x
-kk1000_M1_,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shirasagi_s\khk1000N8SUS\converted files\M1'.x
-kk1000_M2sc,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shirasagi_s\khk1000N8SUS\converted files\M2sc.x
-kk1000_M2uc,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shirasagi_s\khk1000N8SUS\converted files\M2uc.x
-kk1000_T,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shirasagi_s\khk1000N8SUS\converted files\T.x
-so8000_M,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shirasagi_s\st8000\converted files\M.x
-so8000_T,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shirasagi_s\st8000\converted files\T.x
-so8000_Tc1,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shirasagi_s\st8000\converted files\Tc1.x
-so8000_Tc2,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shirasagi_s\st8000\converted files\Tc2.x
-so9000_M,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shirasagi_s\st9707F\converted files\M.x
-so9000_T,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shirasagi_s\st9707F\converted files\T.x
-so9000_Tc1,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shirasagi_s\st9707F\converted files\Tc1.x
-so9000_Tc2,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shirasagi_s\st9707F\converted files\Tc2.x
+kk1000_M1,..\..\shirasagi\khk1000N8SUS\converted files\M1.x
+kk1000_M1_,..\..\shirasagi\khk1000N8SUS\converted files\M1'.x
+kk1000_M2sc,..\..\shirasagi\khk1000N8SUS\converted files\M2sc.x
+kk1000_M2uc,..\..\shirasagi\khk1000N8SUS\converted files\M2uc.x
+kk1000_T,..\..\shirasagi\khk1000N8SUS\converted files\T.x
+so8000_M,..\..\shirasagi\st8000\converted files\M.x
+so8000_T,..\..\shirasagi\st8000\converted files\T.x
+so8000_Tc1,..\..\shirasagi\st8000\converted files\Tc1.x
+so8000_Tc2,..\..\shirasagi\st8000\converted files\Tc2.x
+so9000_M,..\..\shirasagi\st9707F\converted files\M.x
+so9000_T,..\..\shirasagi\st9707F\converted files\T.x
+so9000_Tc1,..\..\shirasagi\st9707F\converted files\Tc1.x
+so9000_Tc2,..\..\shirasagi\st9707F\converted files\Tc2.x
 
-233-1000M1-1, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Jimba\E233Structure_200516\Structures\E233\E233-1000\M1-1.x
-233-1000Tc1-1, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Jimba\E233Structure_200516\Structures\E233\E233-1000\Tc1-1.x
-233-1000Tc10-1, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Jimba\E233Structure_200516\Structures\E233\E233-1000\Tc10-1.x
-233Cooler1_1, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Jimba\E233Structure_200516\Structures\E233\Common\Cooler1_1.x
-233Cooler1_2, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Jimba\E233Structure_200516\Structures\E233\Common\Cooler1_2.x
-233Cover, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Jimba\E233Structure_200516\Structures\E233\Common\Cover.x
-233FMAntenna_1, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Jimba\E233Structure_200516\Structures\E233\Common\FMAntenna_1.x
-233FMAntenna_12, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Jimba\E233Structure_200516\Structures\E233\Common\FMAntenna_12.x
-233FMAntenna_2, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Jimba\E233Structure_200516\Structures\E233\Common\FMAntenna_2.x
-233Head, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Jimba\E233Structure_200516\Structures\E233\Common\Head.x
-233Jumper1, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Jimba\E233Structure_200516\Structures\E233\Common\Jumper1.x
-233Number, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Jimba\E233Structure_200516\Structures\E233\Common\Number\1353K.x
-233RoofTc1, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Jimba\E233Structure_200516\Structures\E233\Common\RoofTc1.x
-233RoofTc10, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Jimba\E233Structure_200516\Structures\E233\Common\RoofTc10.x
-233Skirt1, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Jimba\E233Structure_200516\Structures\E233\Common\Skirt1.x
-233Skirt10, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Jimba\E233Structure_200516\Structures\E233\Common\Skirt10.x
-233UnM1, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Jimba\E233Structure_200516\Structures\E233\Common\UnderM1.x
-233UnM2, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Jimba\E233Structure_200516\Structures\E233\Common\UnderM2.x
-233UnT1, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Jimba\E233Structure_200516\Structures\E233\Common\UnderT1.x
-233UnTc1, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Jimba\E233Structure_200516\Structures\E233\Common\UnderTc1.x
-L-Sakura, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Jimba\E233Structure_200516\Structures\E233\E233-1000\Destination\L-Sakura.x
-PS33_11, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Jimba\E233Structure_200516\Structures\E233\Common\PS33_11.x
-PS33_2, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Jimba\E233Structure_200516\Structures\E233\Common\PS33_2.x
+233-1000M1-1, ..\..\Jimba\E233Structure_200516\Structures\E233\E233-1000\M1-1.x
+233-1000Tc1-1, ..\..\Jimba\E233Structure_200516\Structures\E233\E233-1000\Tc1-1.x
+233-1000Tc10-1, ..\..\Jimba\E233Structure_200516\Structures\E233\E233-1000\Tc10-1.x
+233Cooler1_1, ..\..\Jimba\E233Structure_200516\Structures\E233\Common\Cooler1_1.x
+233Cooler1_2, ..\..\Jimba\E233Structure_200516\Structures\E233\Common\Cooler1_2.x
+233Cover, ..\..\Jimba\E233Structure_200516\Structures\E233\Common\Cover.x
+233FMAntenna_1, ..\..\Jimba\E233Structure_200516\Structures\E233\Common\FMAntenna_1.x
+233FMAntenna_12, ..\..\Jimba\E233Structure_200516\Structures\E233\Common\FMAntenna_12.x
+233FMAntenna_2, ..\..\Jimba\E233Structure_200516\Structures\E233\Common\FMAntenna_2.x
+233Head, ..\..\Jimba\E233Structure_200516\Structures\E233\Common\Head.x
+233Jumper1, ..\..\Jimba\E233Structure_200516\Structures\E233\Common\Jumper1.x
+233Number, ..\..\Jimba\E233Structure_200516\Structures\E233\Common\Number\1353K.x
+233RoofTc1, ..\..\Jimba\E233Structure_200516\Structures\E233\Common\RoofTc1.x
+233RoofTc10, ..\..\Jimba\E233Structure_200516\Structures\E233\Common\RoofTc10.x
+233Skirt1, ..\..\Jimba\E233Structure_200516\Structures\E233\Common\Skirt1.x
+233Skirt10, ..\..\Jimba\E233Structure_200516\Structures\E233\Common\Skirt10.x
+233UnM1, ..\..\Jimba\E233Structure_200516\Structures\E233\Common\UnderM1.x
+233UnM2, ..\..\Jimba\E233Structure_200516\Structures\E233\Common\UnderM2.x
+233UnT1, ..\..\Jimba\E233Structure_200516\Structures\E233\Common\UnderT1.x
+233UnTc1, ..\..\Jimba\E233Structure_200516\Structures\E233\Common\UnderTc1.x
+L-Sakura, ..\..\Jimba\E233Structure_200516\Structures\E233\E233-1000\Destination\L-Sakura.x
+PS33_11, ..\..\Jimba\E233Structure_200516\Structures\E233\Common\PS33_11.x
+PS33_2, ..\..\Jimba\E233Structure_200516\Structures\E233\Common\PS33_2.x
 
-stop_01,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\umikaze81\stop\stop_01.x
-stop_02,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\umikaze81\stop\stop_02.x
-stop_03,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\umikaze81\stop\stop_03.x
+stop_01,..\..\Nakano_Kazusa\stop\stop_01.x
+stop_02,..\..\Nakano_Kazusa\stop\stop_02.x
+stop_03,..\..\Nakano_Kazusa\stop\stop_03.x
 
-e216-1000rTcEnd_Y108,C:\Users\p4\Documents\BveTs\Scenarios\Uchibo20\Structures\TrainStr\e217R\e216-1000TcEnd_Y108.x
-e216-2000rTcEnd,C:\Users\p4\Documents\BveTs\Scenarios\Uchibo20\Structures\TrainStr\e217R\e216-2000TcEnd.x
-e216rM,C:\Users\p4\Documents\BveTs\Scenarios\Uchibo20\Structures\TrainStr\e217R\e216M.x
-e216rTs,C:\Users\p4\Documents\BveTs\Scenarios\Uchibo20\Structures\TrainStr\e217R\e216Ts.x
-e217-2000rTcEnd_Y108,C:\Users\p4\Documents\BveTs\Scenarios\Uchibo20\Structures\TrainStr\e217R\e217-2000TcEnd_Y108.x
-e217rM,C:\Users\p4\Documents\BveTs\Scenarios\Uchibo20\Structures\TrainStr\e217R\e217M.x
-e217rT,C:\Users\p4\Documents\BveTs\Scenarios\Uchibo20\Structures\TrainStr\e217R\e217T.x
-e217rTs,C:\Users\p4\Documents\BveTs\Scenarios\Uchibo20\Structures\TrainStr\e217R\e217Ts.x
-e217rTcTop,C:\Users\p4\Documents\BveTs\Scenarios\Uchibo20\Structures\TrainStr\e217R\e217tctop.x
-EF65headlight,C:\Users\p4\Documents\BveTs\Scenarios\Uchibo20\Structures\TrainStr\EF65_1000\EF65headlight.x
-EF652141_1,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Uchibo20\Structures\TrainStr\EF65_1000\EF652141_1.x
-PS22_DOWN,C:\Users\p4\Documents\BveTs\Scenarios\Uchibo20\Structures\TrainStr\EF65_1000\PS22-DOWN.x
-PS22_UP,C:\Users\p4\Documents\BveTs\Scenarios\Uchibo20\Structures\TrainStr\EF65_1000\PS22-UP.x
+e216-1000rTcEnd_Y108,..\..\Uchibo20\Structures\TrainStr\e217R\e216-1000TcEnd_Y108.x
+e216-2000rTcEnd,..\..\Uchibo20\Structures\TrainStr\e217R\e216-2000TcEnd.x
+e216rM,..\..\Uchibo20\Structures\TrainStr\e217R\e216M.x
+e216rTs,..\..\Uchibo20\Structures\TrainStr\e217R\e216Ts.x
+e217-2000rTcEnd_Y108,..\..\Uchibo20\Structures\TrainStr\e217R\e217-2000TcEnd_Y108.x
+e217rM,..\..\Uchibo20\Structures\TrainStr\e217R\e217M.x
+e217rT,..\..\Uchibo20\Structures\TrainStr\e217R\e217T.x
+e217rTs,..\..\Uchibo20\Structures\TrainStr\e217R\e217Ts.x
+e217rTcTop,..\..\Uchibo20\Structures\TrainStr\e217R\e217tctop.x
+EF65headlight,..\..\Uchibo20\Structures\TrainStr\EF65_1000\EF65headlight.x
+EF652141_1,..\..\Uchibo20\Structures\TrainStr\EF65_1000\EF652141_1.x
+PS22_DOWN,..\..\Uchibo20\Structures\TrainStr\EF65_1000\PS22-DOWN.x
+PS22_UP,..\..\Uchibo20\Structures\TrainStr\EF65_1000\PS22-UP.x
 
-EH500_15,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\Karino\railway\object\Seikan\Eh500\converted files\EH500-15.x
+EH500_15,..\..\Karino\railway\object\Seikan\Eh500\converted files\EH500-15.x
 
-Flare50,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\FCS\素材データ_色灯式信号\FCS_TM\ColorSignal\Flare50.x
-Flare51,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\FCS\素材データ_色灯式信号\FCS_TM\ColorSignal\Flare51.x
-Flare52,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\FCS\素材データ_色灯式信号\FCS_TM\ColorSignal\Flare52.x
-Flare53,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\FCS\素材データ_色灯式信号\FCS_TM\ColorSignal\Flare53.x
-Flare54,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\FCS\素材データ_色灯式信号\FCS_TM\ColorSignal\Flare54.x
-;signal4yy4,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\FCS\素材データ_色灯式信号\FCS_TM\ColorSignal\Sig4byy4_LED.x
-Sig5b0_LED,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\FCS\素材データ_色灯式信号\FCS_TM\ColorSignal\Sig5b0_LED.x
-Sig5b1_LED,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\FCS\素材データ_色灯式信号\FCS_TM\ColorSignal\Sig5b1_LED.x
-Sig5b2_LED,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\FCS\素材データ_色灯式信号\FCS_TM\ColorSignal\Sig5b2_LED.x
-Sig5b3_LED,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\FCS\素材データ_色灯式信号\FCS_TM\ColorSignal\Sig5b3_LED.x
-Sig5b4_LED,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\FCS\素材データ_色灯式信号\FCS_TM\ColorSignal\Sig5b4_LED.x
-Back_Arm_MD,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\FCS\素材データ_色灯式信号\FCS_TM\SigPole\Back_Arm_MD.x
-Back_Arm_MU,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\FCS\素材データ_色灯式信号\FCS_TM\SigPole\Back_Arm_MU.x
-Back_Arm_SD,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\FCS\素材データ_色灯式信号\FCS_TM\SigPole\Back_Arm_SD.x
-Back_Arm_SU,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\FCS\素材データ_色灯式信号\FCS_TM\SigPole\Back_Arm_SU.x
+Flare50,..\..\FCS_TM\素材データ_色灯式信号\FCS_TM\ColorSignal\Flare50.x
+Flare51,..\..\FCS_TM\素材データ_色灯式信号\FCS_TM\ColorSignal\Flare51.x
+Flare52,..\..\FCS_TM\素材データ_色灯式信号\FCS_TM\ColorSignal\Flare52.x
+Flare53,..\..\FCS_TM\素材データ_色灯式信号\FCS_TM\ColorSignal\Flare53.x
+Flare54,..\..\FCS_TM\素材データ_色灯式信号\FCS_TM\ColorSignal\Flare54.x
+;signal4yy4,..\..\FCS_TM\素材データ_色灯式信号\FCS_TM\ColorSignal\Sig4byy4_LED.x
+Sig5b0_LED,..\..\FCS_TM\素材データ_色灯式信号\FCS_TM\ColorSignal\Sig5b0_LED.x
+Sig5b1_LED,..\..\FCS_TM\素材データ_色灯式信号\FCS_TM\ColorSignal\Sig5b1_LED.x
+Sig5b2_LED,..\..\FCS_TM\素材データ_色灯式信号\FCS_TM\ColorSignal\Sig5b2_LED.x
+Sig5b3_LED,..\..\FCS_TM\素材データ_色灯式信号\FCS_TM\ColorSignal\Sig5b3_LED.x
+Sig5b4_LED,..\..\FCS_TM\素材データ_色灯式信号\FCS_TM\ColorSignal\Sig5b4_LED.x
+Back_Arm_MD,..\..\FCS_TM\素材データ_色灯式信号\FCS_TM\SigPole\Back_Arm_MD.x
+Back_Arm_MU,..\..\FCS_TM\素材データ_色灯式信号\FCS_TM\SigPole\Back_Arm_MU.x
+Back_Arm_SD,..\..\FCS_TM\素材データ_色灯式信号\FCS_TM\SigPole\Back_Arm_SD.x
+Back_Arm_SU,..\..\FCS_TM\素材データ_色灯式信号\FCS_TM\SigPole\Back_Arm_SU.x
 
-門型_DDS,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\MMD\新幹線架線柱\門型_DDS.x
+門型_DDS,..\..\MMD\新幹線架線柱\門型_DDS.x
 
-砂利,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\建築パース\砂利.x
+砂利,..\..\建築パース\砂利.x
 
-atsp,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\izumino\model\komono\atsp.x
-atspGreen,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\izumino\model\komono\atspGreen.x
-tower,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\izumino\model\building\tower.x
-saku3_wide,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\izumino\model\komono\saku3_wide.x"
-hazawaT_black, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\building\hazawa_tunnel\hazawaT_black.x
-hazawaT_entrance, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\building\hazawa_tunnel\hazawaT_entrance.x
-hazawaT_smoke, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\building\hazawa_tunnel\hazawaT_smoke.x
-hazawaT_span, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\building\hazawa_tunnel\hazawaT_span.x
-hazawaT_wall, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\building\hazawa_tunnel\hazawaT_wall.x
+atsp,..\..\..\izumino\model\komono\atsp.x
+atspGreen,..\..\..\izumino\model\komono\atspGreen.x
+tower,..\..\..\izumino\model\building\tower.x
+saku3_wide,..\..\..\izumino\model\komono\saku3_wide.x"
 
-45kmph_hL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sign\limit\45kmph_hL.x
-45kmph_L_hL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sign\limit\45kmph_L_hL.x
-60kmph_L_hL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sign\limit\60kmph_L_hL.x
-limit_end_hL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sign\limit\limit_end_hL.x
-max95kmph_hL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sign\limit\max95kmph_hL.x
-atsp確認_hL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sign\notice\atsp確認_hL.x
-kanko_jr_hL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sign\notice\kanko_jr_hL.x
-kanko_so_hL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sign\notice\kanko_so_hL.x
-出発横_hL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sign\signal\出発横_hL.x
-3004_hL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sign\signal\3004_hL.x
-3008_hL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sign\signal\3008_hL.x
-3010_hL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sign\signal\3010_hL.x
-3014_hL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sign\signal\3014_hL.x
-第1場内_hL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sign\signal\第1場内_hL.x
-第2場内_hL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sign\signal\第2場内_hL.x
-場内_hL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sign\signal\場内_hL.x
-7番出_hL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sign\signal\7番出_hL.x
-貨本二場_hL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sign\signal\貨本二場_hL.x
-中3二場_hL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sign\signal\中3二場_hL.x
-7_hL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sign\signal\7_hL.x
-6_hL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sign\signal\6_hL.x
-5_hL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sign\signal\5_hL.x
-4_hL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sign\signal\4_hL.x
-3_hL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sign\signal\3_hL.x
-2_hL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sign\signal\2_hL.x
-1_hL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sign\signal\1_hL.x
-1JR出_hL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sign\signal\1JR出_hL.x
-2JR出_hL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sign\signal\2JR出_hL.x
-貨一場_hL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sign\signal\貨一場_hL.x
-品鶴出_hL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sign\signal\品鶴出_hL.x
-塩浜出_hL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sign\signal\塩浜出_hL.x
-中3出_hL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sign\signal\中3出_hL.x
-須_hL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sign\signal\須_hL.x
-本一場_hL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sign\signal\本一場_hL.x
-中一場_hL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sign\signal\中一場_hL.x
-5_6場_hL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sign\signal\5_6場_hL.x
-7_8場_hL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sign\signal\7_8場_hL.x
-9_10_11場_hL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sign\signal\9_10_11場_hL.x
-本二場_hL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sign\signal\本二場_hL.x
-本三場_hL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sign\signal\本三場_hL.x
-本一出_hL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sign\signal\本一出_hL.x
-10出_hL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sign\signal\10出_hL.x
-11出_hL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sign\signal\11出_hL.x
-品二出_hL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sign\signal\品二出_hL.x
-武2出_hL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sign\signal\武2出_hL.x
-14_hL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sign\signal\14_hL.x
-13_hL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sign\signal\13_hL.x
-12_hL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sign\signal\12_hL.x
-stop10_hL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sign\stop\stop10_hL.x
-stop10_so_hL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sign\stop\stop10_so_hL.x
-stop15_hL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sign\stop\stop15_hL.x
-stopN6_hL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sign\stop\stopN6_hL.x
-stopN12_hL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sign\stop\stopN12_hL.x
-西谷T_hL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sign\tunnel\西谷T_hL.x
-武蔵小杉4番線ホーム床, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\building\musashi_kosugi\form4.x
-武蔵小杉4番線ホーム床中央, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\building\musashi_kosugi\form_between.x
-武蔵小杉4番線ホーム支柱, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\building\musashi_kosugi\poll.x
-武蔵小杉4番線ホーム屋根, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\building\musashi_kosugi\roof.x
-港北_hL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\sign\tunnel\港北_hL.x
+hazawaT_black, ..\..\p4ken\building\hazawa_tunnel\hazawaT_black.x
+hazawaT_entrance, ..\..\p4ken\building\hazawa_tunnel\hazawaT_entrance.x
+hazawaT_smoke, ..\..\p4ken\building\hazawa_tunnel\hazawaT_smoke.x
+hazawaT_span, ..\..\p4ken\building\hazawa_tunnel\hazawaT_span.x
+hazawaT_wall, ..\..\p4ken\building\hazawa_tunnel\hazawaT_wall.x
 
-koki106_a,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\RON\koki106\koki106_a.x
-koki106_a-empty,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\RON\koki106\koki106_a-empty.x
-koki106_a-19d,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\RON\koki106\koki106_a-19d.x
+45kmph_hL,..\..\p4ken\sign\limit\45kmph_hL.x
+45kmph_L_hL,..\..\p4ken\sign\limit\45kmph_L_hL.x
+60kmph_L_hL,..\..\p4ken\sign\limit\60kmph_L_hL.x
+limit_end_hL,..\..\p4ken\sign\limit\limit_end_hL.x
+max95kmph_hL,..\..\p4ken\sign\limit\max95kmph_hL.x
+atsp確認_hL,..\..\p4ken\sign\notice\atsp確認_hL.x
+kanko_jr_hL,..\..\p4ken\sign\notice\kanko_jr_hL.x
+kanko_so_hL,..\..\p4ken\sign\notice\kanko_so_hL.x
+出発横_hL,..\..\p4ken\sign\signal\出発横_hL.x
+3004_hL,..\..\p4ken\sign\signal\3004_hL.x
+3008_hL,..\..\p4ken\sign\signal\3008_hL.x
+3010_hL,..\..\p4ken\sign\signal\3010_hL.x
+3014_hL,..\..\p4ken\sign\signal\3014_hL.x
+第1場内_hL,..\..\p4ken\sign\signal\第1場内_hL.x
+第2場内_hL,..\..\p4ken\sign\signal\第2場内_hL.x
+場内_hL,..\..\p4ken\sign\signal\場内_hL.x
+7番出_hL,..\..\p4ken\sign\signal\7番出_hL.x
+貨本二場_hL,..\..\p4ken\sign\signal\貨本二場_hL.x
+中3二場_hL,..\..\p4ken\sign\signal\中3二場_hL.x
+7_hL,..\..\p4ken\sign\signal\7_hL.x
+6_hL,..\..\p4ken\sign\signal\6_hL.x
+5_hL,..\..\p4ken\sign\signal\5_hL.x
+4_hL,..\..\p4ken\sign\signal\4_hL.x
+3_hL,..\..\p4ken\sign\signal\3_hL.x
+2_hL,..\..\p4ken\sign\signal\2_hL.x
+1_hL,..\..\p4ken\sign\signal\1_hL.x
+1JR出_hL,..\..\p4ken\sign\signal\1JR出_hL.x
+2JR出_hL,..\..\p4ken\sign\signal\2JR出_hL.x
+貨一場_hL,..\..\p4ken\sign\signal\貨一場_hL.x
+品鶴出_hL,..\..\p4ken\sign\signal\品鶴出_hL.x
+塩浜出_hL,..\..\p4ken\sign\signal\塩浜出_hL.x
+中3出_hL,..\..\p4ken\sign\signal\中3出_hL.x
+須_hL,..\..\p4ken\sign\signal\須_hL.x
+本一場_hL,..\..\p4ken\sign\signal\本一場_hL.x
+中一場_hL,..\..\p4ken\sign\signal\中一場_hL.x
+5_6場_hL,..\..\p4ken\sign\signal\5_6場_hL.x
+7_8場_hL,..\..\p4ken\sign\signal\7_8場_hL.x
+9_10_11場_hL,..\..\p4ken\sign\signal\9_10_11場_hL.x
+本二場_hL,..\..\p4ken\sign\signal\本二場_hL.x
+本三場_hL,..\..\p4ken\sign\signal\本三場_hL.x
+本一出_hL,..\..\p4ken\sign\signal\本一出_hL.x
+10出_hL,..\..\p4ken\sign\signal\10出_hL.x
+11出_hL,..\..\p4ken\sign\signal\11出_hL.x
+品二出_hL,..\..\p4ken\sign\signal\品二出_hL.x
+武2出_hL,..\..\p4ken\sign\signal\武2出_hL.x
+14_hL,..\..\p4ken\sign\signal\14_hL.x
+13_hL,..\..\p4ken\sign\signal\13_hL.x
+12_hL,..\..\p4ken\sign\signal\12_hL.x
+stop10_hL,..\..\p4ken\sign\stop\stop10_hL.x
+stop10_so_hL,..\..\p4ken\sign\stop\stop10_so_hL.x
+stop15_hL,..\..\p4ken\sign\stop\stop15_hL.x
+stopN6_hL,..\..\p4ken\sign\stop\stopN6_hL.x
+stopN12_hL,..\..\p4ken\sign\stop\stopN12_hL.x
+西谷T_hL,..\..\p4ken\sign\tunnel\西谷T_hL.x
+武蔵小杉4番線ホーム床, ..\..\p4ken\building\musashi_kosugi\form4.x
+武蔵小杉4番線ホーム床中央, ..\..\p4ken\building\musashi_kosugi\form_between.x
+武蔵小杉4番線ホーム支柱, ..\..\p4ken\building\musashi_kosugi\poll.x
+武蔵小杉4番線ホーム屋根, ..\..\p4ken\building\musashi_kosugi\roof.x
+港北_hL,..\..\p4ken\sign\tunnel\港北_hL.x
 
-buildingRedL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shadow\building\buildingRedL.x
-buildingRedR,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shadow\building\buildingRedR.x
-buildingMegaL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shadow\building\buildingMegaL.x
-buildingMegaR,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shadow\building\buildingMegaR.x
-buildingL,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shadow\building\buildingL.x
-buildingR,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shadow\building\buildingR.x
-building_tall,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shadow\building\building_tall.x
-house_wide,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shadow\building\house_wide_roof_shadow.x
-drop_koki, C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shadow\train\dropshadow1.x
-entrance1,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shadow\wall\entrance2.x
-hazawa_tall_L,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shadow\wall\hazawa_tall_L.x
-hazawa_tall_more_L,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shadow\wall\hazawa_tall_more_L.x
-hazawa_tall_more_R,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shadow\wall\hazawa_tall_more_R.x
-hazawa_tall_R,C:\Users\p4\Documents\BveTs\Scenarios\p4ken\shadow\wall\hazawa_tall_R.x
+koki106_a,..\..\RON\koki106\koki106_a.x
+koki106_a-empty,..\..\RON\koki106\koki106_a-empty.x
+koki106_a-19d,..\..\RON\koki106\koki106_a-19d.x
+
+buildingRedL,..\..\p4ken\shadow\building\buildingRedL.x
+buildingRedR,..\..\p4ken\shadow\building\buildingRedR.x
+buildingMegaL,..\..\p4ken\shadow\building\buildingMegaL.x
+buildingMegaR,..\..\p4ken\shadow\building\buildingMegaR.x
+buildingL,..\..\p4ken\shadow\building\buildingL.x
+buildingR,..\..\p4ken\shadow\building\buildingR.x
+building_tall,..\..\p4ken\shadow\building\building_tall.x
+house_wide,..\..\p4ken\shadow\building\house_wide_roof_shadow.x
+drop_koki, ..\..\p4ken\shadow\train\dropshadow1.x
+entrance1,..\..\p4ken\shadow\wall\entrance2.x
+hazawa_tall_L,..\..\p4ken\shadow\wall\hazawa_tall_L.x
+hazawa_tall_more_L,..\..\p4ken\shadow\wall\hazawa_tall_more_L.x
+hazawa_tall_more_R,..\..\p4ken\shadow\wall\hazawa_tall_more_R.x
+hazawa_tall_R,..\..\p4ken\shadow\wall\hazawa_tall_R.x

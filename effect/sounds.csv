@@ -1,16 +1,16 @@
 ﻿BveTs Sound List 2.00:UTF-8
 
-dep_nishiya, ..\..\sound\sta\nishiya\nishiya-edit-down3db-24kHz-8bit.wav
-door_close, ..\..\sound\door\close-trim-mono-8bit.wav
-arr_hazawa, ..\..\sound\sta\hazawa\arr-11kHz-8bit.wav
-dep_hazawa,  ..\..\sound\sta\hazawa\dep-trim-fade-up9db-12kHz-16bit+20sec.wav
-arr_musako, ..\..\sound\sta\musako\trim-up12db-fade-8bit-24kHz.wav
+dep_nishiya, ..\..\p4ken\wav\sta\nishiya\nishiya-edit-down3db-24kHz-8bit.wav
+door_close, ..\..\p4ken\wav\door\close-trim-mono-8bit.wav
+arr_hazawa, ..\..\p4ken\wav\sta\hazawa\arr-11kHz-8bit.wav
+dep_hazawa,  ..\..\p4ken\wav\sta\hazawa\dep-trim-fade-up9db-12kHz-16bit+20sec.wav
+arr_musako, ..\..\p4ken\wav\sta\musako\trim-up12db-fade-8bit-24kHz.wav
 
-ann_next_hazawa, ..\..\sound\ann\hazawa\next-fade-mono-12kHz-16bit.wav
-ann_next_musako, ..\..\sound\ann\musako\next-mono-fade-12000Hz-16bit.wav
-ann_soon_musako, ..\..\sound\ann\musako\soon-mono-12000Hz-16bit.wav
+ann_next_hazawa, ..\..\p4ken\wav\ann\hazawa\next-fade-mono-12kHz-16bit.wav
+ann_next_musako, ..\..\p4ken\wav\ann\musako\next-mono-fade-12000Hz-16bit.wav
+ann_soon_musako, ..\..\p4ken\wav\ann\musako\soon-mono-12000Hz-16bit.wav
 
-tims_next_stop, ..\..\sound\tims\stop\lowpass-mono-11kHz.wav
-tims_next_pass, ..\..\sound\tims\pass\eq-mono-11kHz.wav
+tims_next_stop, ..\..\p4ken\wav\tims\stop\lowpass-mono-11kHz.wav
+tims_next_pass, ..\..\p4ken\wav\tims\pass\eq-mono-11kHz.wav
 
-buzzer_soon, ..\..\sound\buzzer\conductor\dc-down12db-soon-48kHz.wav
+buzzer_soon, ..\..\p4ken\wav\buzzer\conductor\dc-down12db-soon-48kHz.wav
