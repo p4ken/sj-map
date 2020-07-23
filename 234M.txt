@@ -5,7 +5,7 @@ include 'map.txt';
 Station.Load('operation/234M/stations.csv');
 include 'operation/234M/pretrain.txt';
 
-$init_hms = 100159;
+$init_hms = 100158;
 include 'train/234M/keihin_down.txt';
 include 'train/234M/keikyu_up.txt';
 include 'train/234M/waiting.txt';

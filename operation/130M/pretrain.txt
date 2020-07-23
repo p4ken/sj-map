@@ -1,13 +1,8 @@
 BveTs Map 2.02:UTF-8
 
-# 出発(4灯YG)
-$distance_0 + 113;
-PreTrain.Pass('9:33:25');
-
-# 2JR出(4灯YY)
+# 2JR出(4灯YY) 
 $distance_0 + 2230;
-PreTrain.Pass('9:33:25'); # 西谷 停止→進行
-# 西谷でP接近点灯のために必要。
+PreTrain.Pass(0);
 
 # 場内(3灯)
 $distance_0 + 2630;

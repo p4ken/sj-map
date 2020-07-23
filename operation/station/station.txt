@@ -10,11 +10,15 @@ $rand_nishiya = rand(2) - 1;
 # 今よりも 30m 奥にしたい。
 $distance_0 + 100 + $rand_nishiya;
 Station['nishiya'].Put($door_right, -5, 5);
+$distance = distance;
+include 'operation/station/doorR.txt';
 
 # 10R停目。キロポストでいうと 2175m くらい。
 # 参考：西谷～羽沢横浜国大の営業キロは 2.1km
 $distance_nishiya + 2175;
 Station['hazawa_yokohama_kokudai'].Put($door_left, -1, 1);
+$distance = distance;
+include 'operation/station/gateL.txt';
 
 $distance_nishiya + 2775;
 Station['yokohama_hazawa'].Put($door_left, -5, 5);
@@ -32,3 +36,5 @@ Station['shin_tsurumi'].Put($door_left, -5, 5);
 # 参考：新鶴見(信)から武蔵小杉の営業キロは 3.9km
 $distance_shinagawa - 9873;
 Station['musashi_kosugi'].Put($door_right, -5, 5);
+$distance = distance;
+include 'operation/station/doorR.txt';

@@ -35,7 +35,7 @@ $distance_0 + 12485;
 RollingNoise.Change($run_long);
 
 $distance_0 + 12785; # 東海道乗越
-RollingNoise.Change($run_bridge);
+# RollingNoise.Change($run_bridge);
 
-$distance_0 + 12955;
+# $distance_0 + 12955;
 RollingNoise.Change($run_short);

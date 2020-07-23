@@ -1,0 +1,5 @@
+﻿BveTs Map 2.02:UTF-8
+
+$distance - 500;
+Beacon.Put($beacon_door, $section_none, $data_door_r);
+Beacon.Put($beacon_gate, $section_none, $data_gate_none);

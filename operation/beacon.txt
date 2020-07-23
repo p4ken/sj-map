@@ -10,6 +10,24 @@ $beacon_station = 8; // 誤通過防止(相鉄)
 # $beacon_curve = 9; // 曲線パターン発生(JR) 互換性低い。4桁目が必須。
 $beacon_turnout_delete = 16; // 分岐器パターン消去
 
-$section_atsp = -1; // ATS-P共通
+$beacon_door = 300; // ドア開方向
+$beacon_gate = 304; // ホームドア設定
+$beacon_p0 = 400; // ホームドア定位置
+$beacon_link = 401; // ホームドア連携/解除
 
+0;
+$section_atsp = -1; // ATS-P共通
+$section_none = 0; // ホームドア関連
+
+0;
 $data_none = 0; // 指定なし
+
+$data_door_r = 1;
+$data_door_l = 2;
+
+$data_gate_none = 0;
+$data_gate_r = 1;
+$data_gate_l = 2;
+
+$data_link_start = 1;
+$data_link_end = 0;

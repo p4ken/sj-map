@@ -1,0 +1,16 @@
+﻿BveTs Map 2.02:UTF-8
+
+$distance - 1; # 発車できなくなるので暫定的に停止位置内にする
+Beacon.Put($beacon_link, $section_none, $data_link_start);
+
+$distance - 500;
+Beacon.Put($beacon_door, $section_none, $data_door_l);
+Beacon.Put($beacon_gate, $section_none, $data_door_l);
+
+$distance - 1;
+Beacon.Put($beacon_p0, $section_none, $data_none);
+$distance + 1;
+Beacon.Put($beacon_p0, $section_none, $data_none);
+
+$distance + 1; # 発車できなくなるので暫定的に停止位置内にする
+Beacon.Put($beacon_link, $section_none, $data_link_end);

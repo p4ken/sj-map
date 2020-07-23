@@ -10,3 +10,4 @@ Route = 130M.txt
 
 VehicleTitle = 相鉄12000系
 Vehicle = ..\..\so12000\vehicle-sj.ini
+# Vehicle = C:\Users\p4\Documents\BveTs\Scenarios\p4ken\empty\vehicle.ini
