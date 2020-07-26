@@ -242,11 +242,11 @@ sig_pole,..\..\iida-hosenku\signal_iida\sig_pole\sig_pole.x
 # signal34,..\..\iida-hosenku\signal_iida\signal3\signal34.x
 # signal34Dark,..\..\iida-hosenku\signal_iida\signal3\signal34Dark.x
 
-so7000-T7600,..\..\Kirifuri\stk7000rotation\7000\T7600.x
-so7000-Tc7500,..\..\Kirifuri\stk7000rotation\7000\Tc7500.x
-so7000-Tc7710,..\..\Kirifuri\stk7000rotation\7000\Tc7700.x
-so7000-M7100,..\..\Kirifuri\stk7000rotation\7000\M7100.x
-so7000-M7100_2,..\..\Kirifuri\stk7000rotation\7000\M7100_2.x
+so7000-T7600,..\..\Kirifuri\stk7000rotation\T7600.x
+so7000-Tc7500,..\..\Kirifuri\stk7000rotation\Tc7500.x
+so7000-Tc7710,..\..\Kirifuri\stk7000rotation\Tc7700.x
+so7000-M7100,..\..\Kirifuri\stk7000rotation\M7100.x
+so7000-M7100_2,..\..\Kirifuri\stk7000rotation\M7100_2.x
 
 kk1000_M1,..\..\shirasagi\khk1000N8SUS\converted files\M1.x
 kk1000_M1_,..\..\shirasagi\khk1000N8SUS\converted files\M1'.x
@@ -324,7 +324,7 @@ Back_Arm_SU,..\..\FCS_TM\素材データ_色灯式信号\FCS_TM\SigPole\Back_Arm
 
 門型_DDS,..\..\MMD\新幹線架線柱\門型_DDS.x
 
-砂利,..\..\建築パース\砂利.x
+砂利,..\..\p4ken\建築パース\砂利.x
 
 atsp,..\..\..\izumino\model\komono\atsp.x
 atspGreen,..\..\..\izumino\model\komono\atspGreen.x
