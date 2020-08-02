@@ -17,7 +17,7 @@ Repeater['武蔵野上り右擁壁2'].Begin($track_hinkaku, 11,-2,3, -0.1,180,0,
 Repeater['武蔵野下り右擁壁1'].Begin($track_hinkaku, 23,0,3, -0.1,180,0, $tilt_gradient, 5, 4.5, 'RouteKitWallR');
 Repeater['武蔵野下り右擁壁2'].Begin($track_hinkaku, 23,-2,3, -0.1,180,0, $tilt_gradient, 5, 4.5, 'RouteKitWallR');
 Repeater['上り右擁壁'].Begin($track_hinkaku, 0.5,0.2,3, -0.1,0,0, $tilt_gradient, 5, 4.5, 'RouteKitWallR');
-# Repeater['保線区右擁壁'].Begin($track_wild, 0.5,0.2,3, -0.1,0,0, $tilt_gradient, 5, 4.5, 'RouteKitWallR');
+Repeater['保線区右擁壁'].Begin($track_wild, -1,-0.5,3, -0.1,0,0, $tilt_gradient, 5, 4.5, 'RouteKitWallR');
 
 $distance_0 + 18500;
 # カント逓減のチラつき除去を兼ねる。
@@ -34,8 +34,8 @@ $distance_0 + 18665;
 Repeater['上り右擁壁'].End();
 
 $distance_0 + 18670;
-Structure['hazawaT_black'].Put($track_musashino, -11,-1.5,0, 0,0,0, $tilt_gradient, 10);
-Structure['hazawaT_black'].Put($track_musashino, 1,-1.5,0, 0,0,0, $tilt_gradient, 10);
+Structure['hazawaT_black'].Put($track_musashino, -10.5,-1.2,-5, 0,0,0, $tilt_gradient, 10);
+Structure['hazawaT_black'].Put($track_musashino, 1.5,-1.2,-5, 0,0,0, $tilt_gradient, 10);
 Repeater['保線区右擁壁'].End();
 Repeater['武蔵野上り右擁壁1'].End();
 Repeater['武蔵野上り右擁壁2'].End();
