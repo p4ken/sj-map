@@ -7,6 +7,9 @@ Repeater['横浜羽沢駅地面2'].Begin($track_kamotsu_r, 14.5+25,-2,0, 0,90,0,
 Repeater['横浜羽沢駅地面3'].Begin($track_kamotsu_r, 14.5+50,-2,0, 0,90,0, $tilt_none, 5, 4, 'FormCL25');
 Repeater['横浜羽沢駅地面4'].Begin($track_kamotsu_r, 14.5+50,-2,0, 0,90,0, $tilt_none, 5, 4, 'FormCL25');
 
+$distance_0 + 2700;
+Repeater['積みコンテナ'].Begin($track_kamotsu_r, 30,-2,0, 0,0,0, $tilt_none, 5, 5, 'koki106_a-19d');
+
 $distance_0 + 2730;
 Structure['FormCL25'].Put($track_kamotsu_r, 14.5,-0.1-0.4*8,0, -5,90,0, $tilt_none, 5);
 distance + 4.6;
@@ -66,6 +69,9 @@ distance + 4.6;
 Structure['FormCL25'].Put($track_kamotsu_r, 14.5,0.7-0.4*7,0, 5,90,0, $tilt_none, 5);
 distance + 4.6;
 Structure['FormCL25'].Put($track_kamotsu_r, 14.5,0.7-0.4*8,0, 5,90,0, $tilt_none, 5);
+
+$distance_0 + 2750;
+Repeater['積みコンテナ'].End();
 
 $distance_0 + 2810;
 Structure['buildingR'].Put($track_kamotsu_r, 45,-10,0, 0,0,0, $tilt_none, 5);
