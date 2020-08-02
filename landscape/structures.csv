@@ -326,10 +326,10 @@ Back_Arm_SU,..\..\FCS_TM\素材データ_色灯式信号\FCS_TM\SigPole\Back_Arm
 
 砂利,..\..\p4ken\建築パース\砂利.x
 
-atsp,..\..\..\izumino\model\komono\atsp.x
-atspGreen,..\..\..\izumino\model\komono\atspGreen.x
-tower,..\..\..\izumino\model\building\tower.x
-saku3_wide,..\..\..\izumino\model\komono\saku3_wide.x"
+atsp,..\..\p4ken\izumino\model\komono\atsp.x
+atspGreen,..\..\p4ken\izumino\model\komono\atspGreen.x
+tower,..\..\p4ken\izumino\model\building\tower.x
+saku3_wide,..\..\p4ken\izumino\model\komono\saku3_wide.x"
 
 hazawaT_black, ..\..\p4ken\building\hazawa_tunnel\hazawaT_black.x
 hazawaT_entrance, ..\..\p4ken\building\hazawa_tunnel\hazawaT_entrance.x
