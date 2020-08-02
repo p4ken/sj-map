@@ -22,12 +22,11 @@ PreTrain.Pass('9:51:40');
 
 # 12閉塞 (武蔵小杉駅)
 $distance_0 + 19530;
-PreTrain.Pass('9:53:05');
+PreTrain.Pass('9:53:10');
 
 # 11閉塞相当
 $distance_0 + 19850;
-PreTrain.Pass('9:53:30'); # 先行列車合わせ
-# PreTrain.Pass('9:53:15'); # 自列車の信号合わせ？
+PreTrain.Pass('9:53:20'); # 先行列車合わせ
 
 # 10閉塞相当
 $distance_0 + 20150;
