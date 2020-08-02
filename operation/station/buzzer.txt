@@ -1,0 +1,4 @@
+﻿BveTs Map 2.02:UTF-8
+
+$distance_0 + 1500;
+Sound['buzzer_soon'].Play();

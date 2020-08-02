@@ -1,0 +1,28 @@
+﻿BveTs Map 2.02:UTF-8
+
+0;
+$cab_light = 1.0;
+$cab_dark = 0.0;
+
+0;
+CabIlluminance.Interpolate($cab_light);
+
+$distance_0 + 220;
+CabIlluminance.Interpolate();
+$distance_0 + 240; # 西谷トンネル
+CabIlluminance.Interpolate($cab_dark);
+
+$distance_0 + 2200; # 羽沢発車
+CabIlluminance.Interpolate();
+$distance_0 + 2250;
+CabIlluminance.Interpolate($cab_light);
+
+$distance_0 + 3670;
+CabIlluminance.Interpolate();
+$distance_0 + 3690; # 港北トンネル
+CabIlluminance.Interpolate($cab_dark);
+
+$distance_0 + 10030;
+CabIlluminance.Interpolate();
+$distance_0 + 10050; # トンネル出口
+CabIlluminance.Interpolate($cab_light);

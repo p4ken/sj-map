@@ -6,7 +6,7 @@ Beacon.Put($beacon_station, 1, 200); // 相鉄PI (JR PIでも大丈夫)
 Sound['tims_next_stop'].Play();
 
 # 通過通過
-$distance_0 + 2470;
+$distance_0 + 2500;
 #Beacon.Put($beacon_station, 1, -1); // 相鉄PI (JR PIで踏むと停まる)
 Sound['tims_next_pass'].Play();
 
