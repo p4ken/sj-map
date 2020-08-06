@@ -22,6 +22,7 @@ include 'track/hazawa/approach.txt';
 include 'track/hazawa/underpass.txt';
 include 'track/hazawa/kamotsu.txt';
 include 'track/hazawa/kamotsu_r.txt';
+include 'track/hazawa/turnout.txt';
 include 'track/kohoku/kohoku.txt';
 include 'track/kohoku/opposite.txt';
 include 'track/tsurumi/hazawa.txt';

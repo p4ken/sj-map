@@ -1,0 +1,19 @@
+﻿BveTs Map 2.02:UTF-8
+
+0;
+$track_turnout = 50; # 分岐器 見た目専用
+
+$distance_0 + 2240;
+Track[$track_turnout].X.Interpolate();
+Track[$track_turnout].X.Interpolate(4, -138); # 25km/hなので8番
+Repeater['片渡り線直結軌道'].Begin($track_turnout, 0,-0.01,0, 0,0,0, $tilt_gradient, 5, 5, 'Slab2S5m');
+
+distance + 17;
+Track[$track_turnout].X.Interpolate(3.1, 0);
+
+distance + 8 * 2.2;
+Track[$track_turnout].X.Interpolate(0.9, 138);
+
+distance + 17;
+Track[$track_turnout].X.Interpolate(0, 0);
+Repeater['片渡り線直結軌道'].End();

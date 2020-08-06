@@ -1,5 +1,5 @@
 BveTs Map 2.02:UTF-8
 
 0;
-$track_crossing = 50; # 分岐器 見た目専用
+$track_turnout = 50; # 分岐器 見た目専用
 

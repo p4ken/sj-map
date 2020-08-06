@@ -1,31 +1,31 @@
 BveTs Map 2.02:UTF-8
 
 0;
-$track_crossing = 50; # 分岐器 見た目専用
+$track_turnout = 50; # 分岐器 見た目専用
 
 $distance_shinagawa - 14025;
-Track[$track_crossing].X.Interpolate();
-Track[$track_crossing].X.Interpolate(6, -200); # 12番
-Repeater['尻手上り合流バラスト軌道'].Begin($track_crossing, 0,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastTR_K_5a');
+Track[$track_turnout].X.Interpolate();
+Track[$track_turnout].X.Interpolate(6, -200); # 12番
+Repeater['尻手上り合流バラスト軌道'].Begin($track_turnout, 0,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastTR_K_5a');
 
 $distance_shinagawa - 14000;
-Track[$track_crossing].X.Interpolate(5.5, 0);
+Track[$track_turnout].X.Interpolate(5.5, 0);
 
 $distance_shinagawa - 13940;
-Track[$track_crossing].X.Interpolate(1, 308);
+Track[$track_turnout].X.Interpolate(1, 308);
 
 $distance_shinagawa - 13915;
-Track[$track_crossing].X.Interpolate(0, 0);
+Track[$track_turnout].X.Interpolate(0, 0);
 
 $distance_shinagawa - 13912;
-Track[$track_crossing].X.Interpolate(0, 308); # 12番
+Track[$track_turnout].X.Interpolate(0, 308); # 12番
 
 $distance_shinagawa - 13886;
-Track[$track_crossing].X.Interpolate(1, 0);
+Track[$track_turnout].X.Interpolate(1, 0);
 
 $distance_shinagawa - 13850;
-Track[$track_crossing].X.Interpolate(4, -308);
+Track[$track_turnout].X.Interpolate(4, -308);
 
 $distance_shinagawa - 13824;
-Track[$track_crossing].X.Interpolate(5, 0);
+Track[$track_turnout].X.Interpolate(5, 0);
 Repeater['尻手上り合流バラスト軌道'].End();
