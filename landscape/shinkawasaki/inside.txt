@@ -95,5 +95,12 @@ Repeater['着発11左バラスト1'].End();
 Repeater['着発11左バラスト2'].End();
 Repeater['着発11左バラスト3'].End();
 
+$distance_0 + 18253.3;
+Structure['point1L'].Put($track_hinkaku, -0.41,0,0, 0,0,0, $tilt_all, 6);
+
+$distance_0 + 18283.2;
+Structure['point2L'].Put($track_hinkaku, 0.41,0,0, 0,180,0, $tilt_all, 3);
+Structure['point2R'].Put($track_musashino, -13.55,0.01,0, 0,180,0, $tilt_gradient, 3);
+
 $distance_0 + 18300;
 Repeater['武蔵野上り右バラスト'].Begin($track_musashino, -13,0,3, -0.1,0,0, $tilt_gradient, 5, 4.5, 'Bl_CraBalR_5m');

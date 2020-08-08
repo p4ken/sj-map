@@ -1,7 +1,5 @@
 BveTs Map 2.02:UTF-8
 
-# 分岐を境に全トラックを分ける。
-
 0;
 $gauge = 1.067;
 $cant_inside_fall = 0.536;

@@ -20,10 +20,10 @@ Track[$track_wild].Cant.Interpolate();
 Track[$track_wild].Cant.Interpolate(-0.02); # チラつき防止カント
 Track[$track_wild].Y.Interpolate();
 
-$distance_0 + 18796.8;
+$distance_0 + 18795.8;
 # 横取り
 Structure['point2R'].Put($track_hinkaku, 0.53,0.01,0, 0,0,0, $tilt_all, 0);
-$distance_0 + 18799.3;
+distance + 2.8;
 Structure['point2R'].Put($track_hinkaku, 0.59,0.01,0, 0,180,0, $tilt_all, 0);
 
 $distance_0 + 18780;

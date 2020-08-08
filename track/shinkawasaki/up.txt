@@ -182,7 +182,7 @@ Curve.Interpolate(0, -0.030);
 
 $distance_shinagawa - 11109;
 Curve.Interpolate(0, 0);
-Curve.Interpolate(-547, -0.01); # チラつき防止カント
+Curve.Interpolate(-547, 0); # チラつき防止
 
 $distance_shinagawa - 11075;
 Curve.Interpolate();
@@ -256,8 +256,9 @@ Curve.Interpolate(-1000, -0.05);
 Curve.Interpolate(0, -0.05);
 
 $distance_shinagawa - 10425;
-Curve.Interpolate(0, 0);
-Curve.Interpolate(-308);
+# チラつき防止カント
+Curve.Interpolate(0, 0.01);
+Curve.Interpolate(-308, 0.01);
 
 $distance_shinagawa - 10400;
 Curve.Interpolate();

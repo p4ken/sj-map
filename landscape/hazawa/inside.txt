@@ -1,5 +1,12 @@
 BveTs Map 2.02:UTF-8
 
+$distance_0 + 2270.6;
+Structure['point2R'].Put($track_approach, 0.53,0,0, 0,0,0, $tilt_gradient, 3);
+Structure['point2L'].Put($track_turnout, -0.42,0,0, 0,0,0, $tilt_gradient, 3);
+
+$distance_0 + 2289.2;
+Structure['point1R'].Put($track_approach, -0.54,0,0, 0,180,0, $tilt_all, 6);
+
 $distance_0 + 2299.2;
 Structure['point1L'].Put($track_approach, -0.41,0,0.2, 0,-0.3,0, $tilt_all, 0);
 

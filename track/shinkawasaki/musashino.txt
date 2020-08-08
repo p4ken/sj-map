@@ -17,7 +17,12 @@ $distance_0 + 18246;
 $distance_shinagawa - 11109;
 # ここから自線分岐
 Track[$track_musashino].X.Interpolate(13, 547);
-Repeater['武蔵野貨物線上り'].Begin($track_musashino, -13,0,0, 0,0,0, $tilt_gradient, 5, 5, 'BallastPC_K_5a');
+
+$distance_0 + 18251;
+Structure['Rail_5m_R_p4ken'].Put($track_musashino, -13,0,0, 0,0,0, $tilt_gradient, 5);
+
+$distance_0 + 18256;
+Repeater['武蔵野貨物線上り'].Begin($track_musashino, -13,0,0, 0,0,0.1, $tilt_gradient, 5, 5, 'BallastPC_K_5a');
 Repeater['武蔵野下り右バラスト1'].Begin($track_musashino, 0,0,-1, -0.1,0,0, $tilt_gradient, 5, 4.5, 'Bl_CraBalR_5m');
 Repeater['武蔵野下り左バラスト1'].Begin($track_musashino, 0,0,1, -0.1,0,0, $tilt_gradient, 5, 4.5, 'Bl_CraBalL_5m');
 Repeater['武蔵野下り左バラスト2'].Begin($track_musashino,-2.5,0,1, -0.1,0,0, $tilt_gradient, 5, 4.5, 'Bl_CraBalL_5m');

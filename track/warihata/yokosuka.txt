@@ -195,42 +195,6 @@ $distance_shinagawa - 11390;
 Track[$track_yokosuka].X.Interpolate(30.5);
 Track[$track_yokosuka_r].X.Interpolate(30.5 + $offset_yokosuka_r);
 
+# しばし放置
 #
 #
-#
-
-$distance_shinagawa - 10675;
-Track[$track_yokosuka].X.Interpolate(30, -600);
-Track[$track_yokosuka_r].X.Interpolate(30 + $offset_yokosuka_r, -600);
-# チラつき防止
-Repeater['横須賀線上りバラスト軌道'].End();
-Repeater['横須賀線上りバラスト軌道'].Begin($track_yokosuka, -4,0,0, 0,0,0.1, $tilt_none, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
-
-$distance_shinagawa - 10600;
-Track[$track_yokosuka].X.Interpolate(25, 0);
-Track[$track_yokosuka_r].X.Interpolate(25 + $offset_yokosuka_r, 0);
-
-$distance_shinagawa - 10500;
-Track[$track_yokosuka].X.Interpolate(12.2, 1000);
-Track[$track_yokosuka_r].X.Interpolate(12.2 + $offset_yokosuka_r, 1000);
-
-$distance_shinagawa - 10450;
-Track[$track_yokosuka].X.Interpolate(7, 0);
-Track[$track_yokosuka_r].X.Interpolate(7 + $offset_yokosuka_r, 0);
-
-$distance_shinagawa - 10425;
-Track[$track_yokosuka].X.Interpolate(5, 308);
-Track[$track_yokosuka_r].X.Interpolate(5 + $offset_yokosuka_r, 308);
-
-$distance_shinagawa - 10400;
-Track[$track_yokosuka].X.Interpolate(4);
-Track[$track_yokosuka_r].X.Interpolate(4 + $offset_yokosuka_r);
-Repeater['横須賀線上りバラスト軌道'].End();
-Repeater['横須賀線下りバラスト軌道'].End();
-Repeater['横須賀線上り架線'].End();
-Repeater['横須賀線下り架線'].End();
-
-$distance_shinagawa - 10400;
-#   ||
-#  /|| 貨物線が合流
-# / ||

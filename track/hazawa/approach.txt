@@ -82,6 +82,10 @@ Structure['Gp_UL'].Put($track_approach, -2,-0.3,0, 0,180,-15, $tilt_none, 0);
 $distance_nishiya + 2659;
 Gradient.Interpolate(-3.5);
 
+$distance_nishiya + 2650;
+Repeater['上り直結軌道'].End();
+Repeater['上り直結軌道'].Begin($track_nishiya4, 0,0,0, 0,0,0.2, $tilt_all, 5, 5, 'Slab2S5m');
+
 $distance_nishiya + 2675;
 Curve.Interpolate();
 Curve.Interpolate(-308);

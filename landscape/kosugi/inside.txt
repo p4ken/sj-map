@@ -1,0 +1,8 @@
+BveTs Map 2.02:UTF-8
+
+$distance_0 + 18926.9;
+Structure['point2R'].Put($track_hinkaku, 0.53,0,0, 0,0,0, $tilt_gradient, 3);
+Structure['point2L'].Put($track_yokosuka, -4.42,0.01,0, 0,0,0, $tilt_gradient, 3);
+
+distance + 23.3;
+Structure['point1R'].Put($track_hinkaku, -0.56,0,0, 0,180.2,0, $tilt_gradient, 0);
