@@ -1,0 +1,22 @@
+﻿BveTs Map 2.02:UTF-8
+
+# 2020年3月14日改正
+# 成田エクスプレス 6号
+# 6両 (東京で分割)
+# 武蔵小杉 10:14
+# 横浜 10:27
+
+0;
+Train['NEX6号'].Load('train\nex\E259x6.ini', $track_yokosuka, $direction_down);
+Train['NEX6号'].Enable();
+$enable_hms = 101400;
+$brake_a = 2.5;
+$power_a = 2;
+
+# 対向列車なので逆順で記載する
+$distance_0 + 19282; # 武蔵小杉駅
+include 'train\stop_s.txt';
+Train['NEX6号'].Stop($max_a, $stop_s, $power_a, 80);
+
+$distance_0 + 10200;
+Train['NEX6号'].Stop($max_a, 0, $max_a, 0);

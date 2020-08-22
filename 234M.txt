@@ -6,7 +6,8 @@ Station.Load('operation/234M/stations.csv');
 include 'operation/234M/pretrain.txt';
 
 $init_hms = 100158;
-include 'train/234M/keihin_down.txt';
-include 'train/234M/keikyu_up.txt';
-include 'train/234M/waiting.txt';
 include 'train/234M/sotetsu_up.txt';
+include 'train/234M/keikyu_up.txt';
+include 'train/234M/keihin_down.txt';
+include 'train/234M/nex_down.txt';
+include 'train/234M/waiting.txt';
