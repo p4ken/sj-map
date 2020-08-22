@@ -1,12 +1,10 @@
 ﻿BveTs Station List 2.00:UTF-8
 #2019年11月30日改正
 #,,着00:00:00,発00:00:00,最低停車sec,飛00:00:00,連動,,乗車率,arr音,dep音,再開閉%,再開閉sec
-# 相鉄は5秒単位
 nishiya,西　谷,9:33:00,9:33:55,26,9:33:28,1,,0,dep_nishiya,,0,0
 hazawa_yokohama_kokudai,羽沢横浜国大,9:36:05,9:38:45,50,9:37:50,0,,0,arr_hazawa,dep_hazawa,0,0
-# JRは15秒単位
-yokohama_hazawa,横浜羽沢,p,9:40:00,,,0,,0,,,0,0
-tsurumi,鶴　見,p,9:47:15,,,0,,0,,,0,0
+yokohama_hazawa,横浜羽沢,p,,,,0,,0,,,0,0
+tsurumi,鶴　見,p,9:47:00,,,0,,0,,,0,0
 warihata,割　畑,p,,,,0,,0,,,0,0
-shin_tsurumi,新鶴見,p,9:51:30,15,,0,,0,,,0,0
+shin_tsurumi,新鶴見,p,,15,,0,,0,,,0,0
 musashi_kosugi,武蔵小杉,9:55:00,t,40,,0,,0,arr_musako,,0,0
