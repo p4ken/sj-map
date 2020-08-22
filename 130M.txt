@@ -6,6 +6,7 @@ Station.Load('operation/130M/stations.csv');
 include 'operation/130M/pretrain.txt';
 
 $init_hms = 093328;
+include 'train/130M/keihin_down.txt';
 include 'train/130M/keikyu_down.txt';
 include 'train/130M/containers.txt';
 include 'train/130M/waiting.txt';
