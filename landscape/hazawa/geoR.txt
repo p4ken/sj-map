@@ -70,8 +70,11 @@ Structure['FormCL25'].Put($track_kamotsu_r, 14.5,0.7-0.4*7,0, 5,90,0, $tilt_none
 distance + 4.6;
 Structure['FormCL25'].Put($track_kamotsu_r, 14.5,0.7-0.4*8,0, 5,90,0, $tilt_none, 5);
 
-$distance_0 + 2750;
+$distance_0 + 2740;
 Repeater['積みコンテナ'].End();
+Structure['koki106_a-19d'].Put($track_kamotsu_r, 30.5,-2,0, 0,0,0, $tilt_none, 5);
+distance + 5;
+Structure['koki106_a-19d'].Put($track_kamotsu_r, 30,-2,0, 0,0,0, $tilt_none, 5);
 
 $distance_0 + 2810;
 Structure['buildingR'].Put($track_kamotsu_r, 45,-10,0, 0,0,0, $tilt_none, 5);

@@ -1,0 +1,47 @@
+BveTs Map 2.02:UTF-8
+
+0;
+$joint_branch = 0; # 片開き分岐を通過
+$joint_merge = 1; # 片開き合流を通過
+
+$distance_0 + 2270;
+JointNoise.Play($joint_merge);
+
+$distance_0 + 2320;
+JointNoise.Play($joint_branch);
+
+$distance_0 + 2690;
+JointNoise.Play($joint_merge);
+
+$distance_0 + 2955;
+JointNoise.Play($joint_merge);
+
+$distance_0 + 10740;
+JointNoise.Play($joint_merge);
+
+$distance_0 + 11330;
+JointNoise.Play($joint_branch);
+
+$distance_0 + 12135;
+JointNoise.Play($joint_branch);
+
+$distance_0 + 15415;
+JointNoise.Play($joint_merge);
+
+$distance_0 + 15470;
+JointNoise.Play($joint_branch);
+
+$distance_0 + 16765;
+JointNoise.Play($joint_branch);
+
+$distance_0 + 17675;
+JointNoise.Play($joint_merge);
+
+$distance_0 + 17855;
+JointNoise.Play($joint_merge);
+
+$distance_0 + 18280;
+JointNoise.Play($joint_branch);
+
+$distance_0 + 18930;
+JointNoise.Play($joint_merge);
