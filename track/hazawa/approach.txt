@@ -13,7 +13,7 @@ Repeater['上り直結軌道'].Begin0($track_nishiya4, $tilt_all, 5, 5, 'Slab2S5
 
 $distance_nishiya + 2275;
 Curve.Interpolate();
-Curve.Interpolate(-308);
+Curve.Interpolate(-308, -0.01);
 
 $distance_nishiya + 2300;
 # 舵角 -4.76度
