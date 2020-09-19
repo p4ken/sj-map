@@ -312,23 +312,23 @@ EF652141_1,..\..\Uchibo20\Structures\TrainStr\EF65_1000\EF652141_1.x
 PS22_DOWN,..\..\Uchibo20\Structures\TrainStr\EF65_1000\PS22-DOWN.x
 PS22_UP,..\..\Uchibo20\Structures\TrainStr\EF65_1000\PS22-UP.x
 
-EH500_15,..\..\Karino\railway\object\Seikan\Eh500\converted files\EH500-15.x
+EH500_15,..\..\Tksoft\railway\object\Seikan\Eh500\converted files\EH500-15.x
 
-Flare50,..\..\FCS_TM\素材データ_色灯式信号\FCS_TM\ColorSignal\Flare50.x
-Flare51,..\..\FCS_TM\素材データ_色灯式信号\FCS_TM\ColorSignal\Flare51.x
-Flare52,..\..\FCS_TM\素材データ_色灯式信号\FCS_TM\ColorSignal\Flare52.x
-Flare53,..\..\FCS_TM\素材データ_色灯式信号\FCS_TM\ColorSignal\Flare53.x
-Flare54,..\..\FCS_TM\素材データ_色灯式信号\FCS_TM\ColorSignal\Flare54.x
-;signal4yy4,..\..\FCS_TM\素材データ_色灯式信号\FCS_TM\ColorSignal\Sig4byy4_LED.x
-Sig5b0_LED,..\..\FCS_TM\素材データ_色灯式信号\FCS_TM\ColorSignal\Sig5b0_LED.x
-Sig5b1_LED,..\..\FCS_TM\素材データ_色灯式信号\FCS_TM\ColorSignal\Sig5b1_LED.x
-Sig5b2_LED,..\..\FCS_TM\素材データ_色灯式信号\FCS_TM\ColorSignal\Sig5b2_LED.x
-Sig5b3_LED,..\..\FCS_TM\素材データ_色灯式信号\FCS_TM\ColorSignal\Sig5b3_LED.x
-Sig5b4_LED,..\..\FCS_TM\素材データ_色灯式信号\FCS_TM\ColorSignal\Sig5b4_LED.x
-Back_Arm_MD,..\..\FCS_TM\素材データ_色灯式信号\FCS_TM\SigPole\Back_Arm_MD.x
-Back_Arm_MU,..\..\FCS_TM\素材データ_色灯式信号\FCS_TM\SigPole\Back_Arm_MU.x
-Back_Arm_SD,..\..\FCS_TM\素材データ_色灯式信号\FCS_TM\SigPole\Back_Arm_SD.x
-Back_Arm_SU,..\..\FCS_TM\素材データ_色灯式信号\FCS_TM\SigPole\Back_Arm_SU.x
+Flare50,..\..\FCS_TM\FCS_TM\ColorSignal\Flare50.x
+Flare51,..\..\FCS_TM\FCS_TM\ColorSignal\Flare51.x
+Flare52,..\..\FCS_TM\FCS_TM\ColorSignal\Flare52.x
+Flare53,..\..\FCS_TM\FCS_TM\ColorSignal\Flare53.x
+Flare54,..\..\FCS_TM\FCS_TM\ColorSignal\Flare54.x
+;signal4yy4,..\..\FCS_TM\FCS_TM\ColorSignal\Sig4byy4_LED.x
+Sig5b0_LED,..\..\FCS_TM\FCS_TM\ColorSignal\Sig5b0_LED.x
+Sig5b1_LED,..\..\FCS_TM\FCS_TM\ColorSignal\Sig5b1_LED.x
+Sig5b2_LED,..\..\FCS_TM\FCS_TM\ColorSignal\Sig5b2_LED.x
+Sig5b3_LED,..\..\FCS_TM\FCS_TM\ColorSignal\Sig5b3_LED.x
+Sig5b4_LED,..\..\FCS_TM\FCS_TM\ColorSignal\Sig5b4_LED.x
+Back_Arm_MD,..\..\FCS_TM\FCS_TM\SigPole\Back_Arm_MD.x
+Back_Arm_MU,..\..\FCS_TM\FCS_TM\SigPole\Back_Arm_MU.x
+Back_Arm_SD,..\..\FCS_TM\FCS_TM\SigPole\Back_Arm_SD.x
+Back_Arm_SU,..\..\FCS_TM\FCS_TM\SigPole\Back_Arm_SU.x
 
 門型_DDS,..\..\MMD\新幹線架線柱\門型_DDS.x
 
