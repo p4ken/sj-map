@@ -3,7 +3,7 @@ BveTs Scenario 2.00:UTF-8
 Title = 土休日234M列車
 Image = ..\p4ken\png\v3\234M_trim_linear.png
 Author = ぴよ軒
-Comment = 比較的きびきびと運転します。  (ver1.0)
+Comment = 鶴見から先はきびきびと運転します。  (ver1.0)
 
 RouteTitle = 相鉄・JR直通線
 Route = 234M.txt
