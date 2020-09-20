@@ -231,7 +231,6 @@ StationBridgeR,..\..\tomari\RouteKit\Structure\Station\StationBridgeR.x
 UpstairsEnterL,..\..\tomari\RouteKit\Structure\Station\UpstairsEnterL.x
 UpstairsExitL,..\..\tomari\RouteKit\Structure\Station\UpstairsExitL.x
 
-fence_r,..\..\iida-hosenku\iida_common\fence\fence_r.x
 sig_arm3,..\..\iida-hosenku\signal_iida\sig_arm\sig_arm3.x
 sig_arm4_p4ken,..\..\iida-hosenku\signal_iida\sig_arm\sig_arm4_p4ken.x
 sig_pole,..\..\iida-hosenku\signal_iida\sig_pole\sig_pole.x

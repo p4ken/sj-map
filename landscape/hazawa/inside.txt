@@ -47,18 +47,6 @@ Repeater['下り左転落防止柵'].End();
 Repeater['下り左転落防止柵の下半分'].End();
 Structure['PoleFence02aE'].Put($track_kamotsu, 12,-0.2,0.7, 0,0,0, $tilt_gradient, 0);
 
-$distance_0 + 2735;
-Repeater['下り右フェンス'].Begin($track_kamotsu_r, -2.5,-2,0, 0,0,0, $tilt_gradient, 25, 25, 'fence_r');
-
-$distance_0 + 2745;
-Repeater['下り左フェンス'].Begin($track_kamotsu, 12,-2,0, 0,0,0, $tilt_gradient, 25, 25, 'fence_r');
-
-$distance_0 + 2770;
-Repeater['下り左フェンス'].End();
-
-$distance_0 + 2785;
-Repeater['下り右フェンス'].End();
-
 $distance_0 + 2850;
 Repeater['防音壁左'].End();
 Repeater['防音壁左'].Begin($track_approach, -3.7,0,0, 0,0,0, $tilt_gradient, 2, 2, 'hazawa_tall_L');

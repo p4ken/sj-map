@@ -73,13 +73,6 @@ $distance_0 + 2532;
 Repeater['羽沢トンネル上ポール柵'].End();
 Structure['PoleFence02aE'].Put($track_shinyokohama, -2.4,7.5,0.1, 0,0,0, $tilt_gradient, 0);
 
-$distance_0 + 2560;
-Structure['fence_r'].Put($track_shinyokohama, -2.9,6,0, 0,0,0, $tilt_gradient, 5);
-Structure['fence_r'].Put($track_shinyokohama, 14.8,6,-17, 0,-45,0, $tilt_gradient, 5);
-
-$distance_0 + 2585;
-Structure['fence_r'].Put($track_shinyokohama, -2.9,6,0, 0,0,0, $tilt_gradient, 5);
-
 $distance_0 + 2630;
 Repeater['羽沢トンネル外壁'].End();
 Repeater['上り右バラスト1'].Begin($track_approach, 0,-0.5,-1, -0.1,0,0, $tilt_gradient, 5, 4.5, 'Bl_CraBalR_5m');

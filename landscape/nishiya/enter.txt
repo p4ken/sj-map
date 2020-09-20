@@ -7,16 +7,11 @@ Repeater['上り左バラスト1'].Begin($track_nishiya4, 0,-0.2,0, -0.1,0,0, $t
 Repeater['上り右バラスト1'].Begin($track_nishiya4, 0,-0.2,0, -0.1,0,0, $tilt_gradient, 5, 5, 'Bl_CraBalR_5m');
 Repeater['上り右バラスト2'].Begin($track_nishiya4, 2.5,-0.2,0, -0.1,0,0, $tilt_gradient, 5, 5, 'Bl_CraBalR_5m');
 
-$distance_0 + 90;
-Repeater['Lフェンス'].Begin($track_nishiya4, -4,-0.5,-0.2, 0,0,0, $tilt_gradient, 25, 25, 'fence_r');
-
 $distance_0 + 100;
 Repeater['道路'].Begin($track_nishiyaY, -7,-1,0, 0,0,0, $tilt_all, 5, 5, 'road_045_a', 'road_045_b', 'road_045_c', 'road_045_d');
 
 $distance_0 + 115;
-Repeater['Lフェンス'].End();
 Repeater['擁壁L'].Begin($track_nishiyaY, -3.8,-7,0, -0.1,0.1,0, $tilt_gradient, 5, 4.5, 'hazawaT_wall');
-Repeater['擁壁Lフェンス'].Begin($track_nishiyaY, -3.8,-1,0, 0,0,0, $tilt_gradient, 25, 25, 'fence_r');
 
 $distance_0 + 120;
 Repeater['擁壁R'].Begin($track_nishiyaY, 3.2,-8.5,0, 0,0.1,0, $tilt_gradient, 5, 4.5, 'hazawaT_wall');
@@ -35,7 +30,6 @@ Structure['end1r'].Put($track_nishiya4, 0.3,0,0, 0,0,0, $tilt_gradient, 25);
 
 $distance_0 + 290;
 Repeater['擁壁L'].End();
-Repeater['擁壁Lフェンス'].End();
 Repeater['擁壁R'].End();
 Repeater['擁壁Rポール柵'].End();
 
