@@ -1,0 +1,50 @@
+﻿BveTs Map 2.02:UTF-8
+
+$distance_tsurumi - 7895;
+Repeater['港北トンネル'].Begin($track_kohoku, 1.9,0,0, 0,0,0, $tilt_gradient, 5, 5,
+'huku_c1_lp','huku_c1_lp','huku_c1_lp','huku_c1_esc');
+Repeater['ケーブルL'].Begin($track_kohoku, -0.1,0,0, 0,0,0, $tilt_gradient, 5, 5,
+'Tunnel_wireL');
+Repeater['ケーブルR'].Begin($track_kohoku, 3.9,0,0, 0,0,0, $tilt_gradient, 5, 5,
+'Tunnel_wireR');
+
+$distance_tsurumi - 7850;
+Structure['huku_c1_Potal1'].Put($track_kohoku, 1.9,0,-50, 0,0,0, $tilt_all, 0);
+Structure['huku_c1_ent'].Put($track_kohoku, 1.9,0,-50, 0,0,0, $tilt_all, 5);
+Structure['港北_hL'].Put($track_kohoku, -2.6,0.7,-50.1, 0,0,0, $tilt_all, 5);
+
+$distance_tsurumi - 7875;
+Repeater['上り架線'].Begin($track_approach, 0,5.1,0, 0,0,0, $tilt_gradient, 50, 50, 'wire50');
+Repeater['下り架線'].Begin($track_opposite, 0,5.1,0, 0,0,0, $tilt_gradient, 50, 50, 'wire50');
+
+$distance_tsurumi - 7596;
+Repeater['非常電話'].Begin($track_kohoku, -2,0.5,0, 0,0,0, $tilt_none, 0, 300, 't_denwa');
+
+$distance_tsurumi - 3945;
+# Repeater['港北トンネル'].End();
+# ここから地上だけどトンネル
+# Repeater['高架トンネルL'].Begin($track_kohoku, -2,0,0, 0,0,0, $tilt_all, 10, 10, 'tunnelL');
+# Repeater['高架トンネルT'].Begin($track_kohoku, 0.7,1.6,0, 0,0,0, $tilt_all, 10, 10, 'tunnelT');
+# Repeater['高架トンネルR'].Begin($track_kohoku, 5.9,0,10, 0,180,0, $tilt_all, 10, 10, 'tunnelL');
+
+$distance_tsurumi - 3425;
+# Repeater['高架トンネルL'].End();
+# Repeater['高架トンネルT'].End();
+# Repeater['高架トンネルR'].End();
+# ここから生見尾トンネル L=1882m
+# Structure['huku_c1_Potal1'].Put($track_kohoku, 1.9,0,0, 0,0,0, $tilt_gradient, 0);
+# Repeater['生見尾トンネル'].Begin($track_kohoku, 1.9,0,0, 0,0,0, $tilt_gradient, 5, 5, 'huku_c1_lp');
+
+$distance_tsurumi - 1900;
+Repeater['非常電話'].End();
+
+$distance_tsurumi - 1545;
+# Repeater['生見尾トンネル'].End();
+Repeater['港北トンネル'].End();
+Structure['huku_c1_ext'].Put($track_kohoku, 1.9,0,0, 0,0,0, $tilt_gradient, 5);
+Repeater['ケーブルL'].End();
+Repeater['ケーブルR'].End();
+
+$distance_0 + 10070;
+Repeater['上り架線'].End();
+Repeater['下り架線'].End();

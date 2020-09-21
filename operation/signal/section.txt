@@ -238,8 +238,8 @@ include 'operation/signal/update.txt';
 # 閉塞
 $distance_tsurumi -	3398;
 Section.Begin($signal_R, $signal_R, $signal_Y, $signal_G);
-Signal['signal3'].Put(0, $track_hinkaku, -2.0,3.3);
-Structure['2_hL'].Put($track_hinkaku, -1.9,1.9,-0.7, 0,0,0, $tilt_none, 0);
+Signal['signal3'].Put(0, $track_hinkaku, -1.8,3.3);
+Structure['2_hL'].Put($track_hinkaku, -1.7,1.9,-0.7, 0,0,0, $tilt_none, 0);
 $distance = distance;
 include 'operation/signal/update.txt';
 

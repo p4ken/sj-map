@@ -29,6 +29,7 @@ Cr_base_160R,..\..\GeneralStr_v099r2_dds\Accessory\Cross\CrossBase\Cr_base_160R.
 chokasen_gaisi,..\..\GeneralStr_v099r2_dds\Accessory\E_Poles\acc\chokasen_gaisi.x
 kasen35S,..\..\GeneralStr_v099r2_dds\Accessory\E_Poles\kasen\kasen35S.x
 kasen50S,..\..\GeneralStr_v099r2_dds\Accessory\E_Poles\kasen\kasen50S.x
+wire50,..\..\GeneralStr_v099r2_dds\Accessory\E_Poles\kasen\wire50.x
 Pole1_stlA,..\..\GeneralStr_v099r2_dds\Accessory\E_Poles\Pole\Pole1_stlA.x
 Pole1_stlB,..\..\GeneralStr_v099r2_dds\Accessory\E_Poles\Pole\Pole1_stlB.x
 PoleTrs04A,..\..\GeneralStr_v099r2_dds\Accessory\E_Poles\PoleTruss\PoleTrs04A.x
@@ -152,13 +153,13 @@ Bl_CraBalL_25,..\..\GeneralStr_v099r2_dds\Rail\Ballast01\Bl_CraBalL_25.x
 Bl_CraBalL_5m,..\..\GeneralStr_v099r2_dds\Rail\Ballast01\Bl_CraBalL_5m.x
 Bl_CraBalR_5m,..\..\GeneralStr_v099r2_dds\Rail\Ballast01\Bl_CraBalR_5m.x
 DBallast_5m,..\..\GeneralStr_v099r2_dds\Rail\Ballast11\DBallast_5m.x
-Slab2S5m,..\..\GeneralStr_v099r2_dds\Rail\Slab01\Slab2S5m.x
-Slab8m,..\..\GeneralStr_v099r2_dds\Rail\Slab01\Slab8m.x
-SlabS5m_1435mm,..\..\GeneralStr_v099r2_dds\Rail\Slab01\SlabS5m_1435mm_p4ken.x
 point1L,..\..\GeneralStr_v099r2_dds\Rail\Point\point1L.x
 point1R,..\..\GeneralStr_v099r2_dds\Rail\Point\point1R.x
 point2L,..\..\GeneralStr_v099r2_dds\Rail\Point\point2L.x
 point2R,..\..\GeneralStr_v099r2_dds\Rail\Point\point2R.x
+Slab2S5m,..\..\GeneralStr_v099r2_dds\Rail\Slab01\Slab2S5m.x
+Slab8m,..\..\GeneralStr_v099r2_dds\Rail\Slab01\Slab8m.x
+SlabS5m_1435mm,..\..\GeneralStr_v099r2_dds\Rail\Slab01\SlabS5m_1435mm_p4ken.x
 road_045_a,..\..\GeneralStr_v099r2_dds\Road\road_045_a.x
 road_045_b,..\..\GeneralStr_v099r2_dds\Road\road_045_b.x
 road_045_c,..\..\GeneralStr_v099r2_dds\Road\road_045_c.x
@@ -176,6 +177,8 @@ huku_c1_esc,..\..\GeneralStr_v099r2_dds\Tunnel\huku_c1_esc.x
 huku_c1_ext,..\..\GeneralStr_v099r2_dds\Tunnel\huku_c1_ext.x
 huku_c1_lp,..\..\GeneralStr_v099r2_dds\Tunnel\huku_c1_lp.x
 huku_c1_Potal1,..\..\GeneralStr_v099r2_dds\Tunnel\huku_c1_Potal1.x
+Tunnel_wireL,C:\Users\p4\Documents\BveTs\TestRun\Scenarios\p4ken\sj\GeneralStr_v099r2_dds\Tunnel\wireL.x
+Tunnel_wireR,C:\Users\p4\Documents\BveTs\TestRun\Scenarios\p4ken\sj\GeneralStr_v099r2_dds\Tunnel\wireR.x
 Pier,..\..\GeneralStr_v099r2_dds\Wall\Pier.x
 Wall_QN_L25m,..\..\GeneralStr_v099r2_dds\Wall\Wall_QN_L25m.x
 Wall_QN_R25m,..\..\GeneralStr_v099r2_dds\Wall\Wall_QN_R25m.x
