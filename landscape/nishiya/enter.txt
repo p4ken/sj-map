@@ -24,7 +24,7 @@ Repeater['トンネル入口余白隠し'].Begin($track_nishiya4, -1,-0.8,1, 90,
 Repeater['上り左バラスト1'].End();
 Repeater['上り右バラスト1'].End();
 Repeater['上り右バラスト2'].End();
-Structure['entrance1'].Put($track_nishiya4, 0,-0.7,0, 0,0,0, $tilt_all, 0);
+Structure['entrance2'].Put($track_nishiya4, 0,-0.7,0, 0,0,0, $tilt_all, 0);
 Structure['end1l'].Put($track_nishiya4, -0.3,0,0, 0,0,0, $tilt_gradient, 25);
 Structure['end1r'].Put($track_nishiya4, 0.3,0,0, 0,0,0, $tilt_gradient, 25);
 

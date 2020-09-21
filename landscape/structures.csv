@@ -267,29 +267,29 @@ so9000_T,..\..\shirasagi\st9707F\converted files\T.x
 so9000_Tc1,..\..\shirasagi\st9707F\converted files\Tc1.x
 so9000_Tc2,..\..\shirasagi\st9707F\converted files\Tc2.x
 
-233-1000M1-1, ..\..\Jimba\E233Structure_200516\Structures\E233\E233-1000\M1-1.x
-233-1000Tc1-1, ..\..\Jimba\E233Structure_200516\Structures\E233\E233-1000\Tc1-1.x
-233-1000Tc10-1, ..\..\Jimba\E233Structure_200516\Structures\E233\E233-1000\Tc10-1.x
-233Cooler1_1, ..\..\Jimba\E233Structure_200516\Structures\E233\Common\Cooler1_1.x
-233Cooler1_2, ..\..\Jimba\E233Structure_200516\Structures\E233\Common\Cooler1_2.x
-233Cover, ..\..\Jimba\E233Structure_200516\Structures\E233\Common\Cover.x
-233FMAntenna_1, ..\..\Jimba\E233Structure_200516\Structures\E233\Common\FMAntenna_1.x
-233FMAntenna_12, ..\..\Jimba\E233Structure_200516\Structures\E233\Common\FMAntenna_12.x
-233FMAntenna_2, ..\..\Jimba\E233Structure_200516\Structures\E233\Common\FMAntenna_2.x
-233Head, ..\..\Jimba\E233Structure_200516\Structures\E233\Common\Head.x
-233Jumper1, ..\..\Jimba\E233Structure_200516\Structures\E233\Common\Jumper1.x
-233Number, ..\..\Jimba\E233Structure_200516\Structures\E233\Common\Number\1353K.x
-233RoofTc1, ..\..\Jimba\E233Structure_200516\Structures\E233\Common\RoofTc1.x
-233RoofTc10, ..\..\Jimba\E233Structure_200516\Structures\E233\Common\RoofTc10.x
-233Skirt1, ..\..\Jimba\E233Structure_200516\Structures\E233\Common\Skirt1.x
-233Skirt10, ..\..\Jimba\E233Structure_200516\Structures\E233\Common\Skirt10.x
-233UnM1, ..\..\Jimba\E233Structure_200516\Structures\E233\Common\UnderM1.x
-233UnM2, ..\..\Jimba\E233Structure_200516\Structures\E233\Common\UnderM2.x
-233UnT1, ..\..\Jimba\E233Structure_200516\Structures\E233\Common\UnderT1.x
-233UnTc1, ..\..\Jimba\E233Structure_200516\Structures\E233\Common\UnderTc1.x
-L-Sakura, ..\..\Jimba\E233Structure_200516\Structures\E233\E233-1000\Destination\L-Sakura.x
-PS33_11, ..\..\Jimba\E233Structure_200516\Structures\E233\Common\PS33_11.x
-PS33_2, ..\..\Jimba\E233Structure_200516\Structures\E233\Common\PS33_2.x
+233-1000M1-1, ..\..\Jimba\E233\E233-1000\M1-1.x
+233-1000Tc1-1, ..\..\Jimba\E233\E233-1000\Tc1-1.x
+233-1000Tc10-1, ..\..\Jimba\E233\E233-1000\Tc10-1.x
+233Cooler1_1, ..\..\Jimba\E233\Common\Cooler1_1.x
+233Cooler1_2, ..\..\Jimba\E233\Common\Cooler1_2.x
+233Cover, ..\..\Jimba\E233\Common\Cover.x
+233FMAntenna_1, ..\..\Jimba\E233\Common\FMAntenna_1.x
+233FMAntenna_12, ..\..\Jimba\E233\Common\FMAntenna_12.x
+233FMAntenna_2, ..\..\Jimba\E233\Common\FMAntenna_2.x
+233Head, ..\..\Jimba\E233\Common\Head.x
+233Jumper1, ..\..\Jimba\E233\Common\Jumper1.x
+233Number, ..\..\Jimba\E233\Common\Number\1353K.x
+233RoofTc1, ..\..\Jimba\E233\Common\RoofTc1.x
+233RoofTc10, ..\..\Jimba\E233\Common\RoofTc10.x
+233Skirt1, ..\..\Jimba\E233\Common\Skirt1.x
+233Skirt10, ..\..\Jimba\E233\Common\Skirt10.x
+233UnM1, ..\..\Jimba\E233\Common\UnderM1.x
+233UnM2, ..\..\Jimba\E233\Common\UnderM2.x
+233UnT1, ..\..\Jimba\E233\Common\UnderT1.x
+233UnTc1, ..\..\Jimba\E233\Common\UnderTc1.x
+L-Sakura, ..\..\Jimba\E233\E233-1000\Destination\L-Sakura.x
+PS33_11, ..\..\Jimba\E233\Common\PS33_11.x
+PS33_2, ..\..\Jimba\E233\Common\PS33_2.x
 
 e259-M258,..\..\Nakano_Kazusa\e259\converted files\M258.x
 e259-M258-500,..\..\Nakano_Kazusa\e259\converted files\M258-500.x
@@ -340,7 +340,7 @@ Back_Arm_SU,..\..\FCS_TM\FCS_TM\SigPole\Back_Arm_SU.x
 
 atsp,..\..\p4ken\izumino\model\komono\atsp.x
 atspGreen,..\..\p4ken\izumino\model\komono\atspGreen.x
-tower,..\..\p4ken\izumino\model\building\tower.x
+tower,..\..\p4ken\izumino\model\building\tower_dds.x
 saku3_wide,..\..\p4ken\izumino\model\komono\saku3_wide.x"
 
 hazawaT_black, ..\..\p4ken\building\hazawa_tunnel\hazawaT_black.x
@@ -353,7 +353,6 @@ hazawaT_wall, ..\..\p4ken\building\hazawa_tunnel\hazawaT_wall.x
 45kmph_L_hL,..\..\p4ken\sign\limit\45kmph_L_hL.x
 60kmph_L_hL,..\..\p4ken\sign\limit\60kmph_L_hL.x
 limit_end_hL,..\..\p4ken\sign\limit\limit_end_hL.x
-max95kmph_hL,..\..\p4ken\sign\limit\max95kmph_hL.x
 atsp確認_hL,..\..\p4ken\sign\notice\atsp確認_hL.x
 kanko_jr_hL,..\..\p4ken\sign\notice\kanko_jr_hL.x
 kanko_so_hL,..\..\p4ken\sign\notice\kanko_so_hL.x
@@ -409,9 +408,9 @@ stopN12_hL,..\..\p4ken\sign\stop\stopN12_hL.x
 武蔵小杉4番線ホーム屋根, ..\..\p4ken\building\musashi_kosugi\roof.x
 港北_hL,..\..\p4ken\sign\tunnel\港北_hL.x
 
-koki106_a,..\..\RON\koki106\koki106_a.x
-koki106_a-empty,..\..\RON\koki106\koki106_a-empty.x
-koki106_a-19d,..\..\RON\koki106\koki106_a-19d.x
+koki106_a,..\..\RON\koki106\koki106_a_dds.x
+koki106_a-empty,..\..\RON\koki106\koki106_a-empty_dds.x
+koki106_a-19d,..\..\RON\koki106\koki106_a-19d_dds.x
 
 buildingRedL,..\..\p4ken\shadow\building\buildingRedL.x
 buildingRedR,..\..\p4ken\shadow\building\buildingRedR.x
@@ -422,7 +421,7 @@ buildingR,..\..\p4ken\shadow\building\buildingR.x
 building_tall,..\..\p4ken\shadow\building\building_tall.x
 house_wide,..\..\p4ken\shadow\building\house_wide_roof_shadow.x
 drop_koki, ..\..\p4ken\shadow\train\dropshadow1.x
-entrance1,..\..\p4ken\shadow\wall\entrance2.x
+entrance2,..\..\p4ken\shadow\wall\entrance2.x
 hazawa_tall_L,..\..\p4ken\shadow\wall\hazawa_tall_L.x
 hazawa_tall_more_L,..\..\p4ken\shadow\wall\hazawa_tall_more_L.x
 hazawa_tall_more_R,..\..\p4ken\shadow\wall\hazawa_tall_more_R.x

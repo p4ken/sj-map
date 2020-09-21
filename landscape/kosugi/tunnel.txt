@@ -27,8 +27,8 @@ Repeater['上り右バラスト1'].Begin($track_hinkaku, -2,0,3, -0.1,0,0, $tilt
 Repeater['武蔵野上り右擁壁3'].Begin($track_hinkaku, 11,-4,3, -0.1,180,0, $tilt_gradient, 5, 4.5, 'RouteKitWallR');
 
 $distance_0 + 18650;
-Structure['entrance1'].Put($track_musashino, -12,-0.7,0, 0,0,0, $tilt_gradient, 0);
-Structure['entrance1'].Put($track_musashino, 0,-0.7,0, 0,0,0, $tilt_gradient, 0);
+Structure['entrance2'].Put($track_musashino, -12,-0.7,0, 0,0,0, $tilt_gradient, 0);
+Structure['entrance2'].Put($track_musashino, 0,-0.7,0, 0,0,0, $tilt_gradient, 0);
 
 $distance_0 + 18665;
 Repeater['上り右擁壁'].End();
