@@ -177,8 +177,8 @@ huku_c1_esc,..\..\GeneralStr_v099r2_dds\Tunnel\huku_c1_esc.x
 huku_c1_ext,..\..\GeneralStr_v099r2_dds\Tunnel\huku_c1_ext.x
 huku_c1_lp,..\..\GeneralStr_v099r2_dds\Tunnel\huku_c1_lp.x
 huku_c1_Potal1,..\..\GeneralStr_v099r2_dds\Tunnel\huku_c1_Potal1.x
-Tunnel_wireL,C:\Users\p4\Documents\BveTs\TestRun\Scenarios\p4ken\sj\GeneralStr_v099r2_dds\Tunnel\wireL.x
-Tunnel_wireR,C:\Users\p4\Documents\BveTs\TestRun\Scenarios\p4ken\sj\GeneralStr_v099r2_dds\Tunnel\wireR.x
+Tunnel_wireL,..\..\GeneralStr_v099r2_dds\Tunnel\wireL.x
+Tunnel_wireR,..\..\GeneralStr_v099r2_dds\Tunnel\wireR.x
 Pier,..\..\GeneralStr_v099r2_dds\Wall\Pier.x
 Wall_QN_L25m,..\..\GeneralStr_v099r2_dds\Wall\Wall_QN_L25m.x
 Wall_QN_R25m,..\..\GeneralStr_v099r2_dds\Wall\Wall_QN_R25m.x
