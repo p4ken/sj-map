@@ -14,7 +14,11 @@ Structure['huku_c1_ent'].Put($track_kohoku, 1.9,0,-50, 0,0,0, $tilt_all, 5);
 Structure['港北_hL'].Put($track_kohoku, -2.6,0.7,-50.1, 0,0,0, $tilt_all, 5);
 
 $distance_tsurumi - 7895;
-Repeater['港北トンネル'].Begin($track_kohoku, 1.9,0,0, 0,0,0, $tilt_all, 5, 5, 'huku_c1_lp');
+Repeater['港北トンネル'].Begin($track_kohoku, 1.9,0,0, 0,0,0, $tilt_gradient, 5, 5,
+'huku_c1_lp','huku_c1_lp','huku_c1_lp','huku_c1_esc');
+
+$distance_tsurumi - 7596;
+Repeater['非常電話'].Begin($track_kohoku, -2,0.5,0, 0,0,0, $tilt_none, 0, 300, 't_denwa');
 
 $distance_tsurumi - 6996;
 Gradient.Interpolate();
@@ -151,6 +155,9 @@ Gradient.Interpolate();
 $distance_tsurumi - 1914;
 Gradient.Interpolate(-2.0);
 
+$distance_tsurumi - 1900;
+Repeater['非常電話'].End();
+
 $distance_tsurumi - 1772;
 Gradient.Interpolate();
 
@@ -166,7 +173,10 @@ Curve.Interpolate(0, 0);
 $distance_tsurumi - 1543;
 Gradient.Interpolate();
 
-$distance_tsurumi - 1540;
+$distance_tsurumi - 1545;
 # Repeater['生見尾トンネル'].End();
 Repeater['港北トンネル'].End();
+Structure['huku_c1_ext'].Put($track_kohoku, 1.9,0,0, 0,0,0, $tilt_gradient, 5);
+
+$distance_tsurumi - 1540;
 Repeater['上りバラスト軌道'].End();

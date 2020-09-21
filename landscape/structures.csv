@@ -73,6 +73,7 @@ kilopost38ky,..\..\GeneralStr_v099r2_dds\Accessory\Posts\KiloPosts\kilopost38ky.
 kilopost39ky,..\..\GeneralStr_v099r2_dds\Accessory\Posts\KiloPosts\kilopost39ky.x
 SpeedLimPole_B,..\..\GeneralStr_v099r2_dds\Accessory\Posts\SpeedLimPole_B.x
 SigPole2,..\..\GeneralStr_v099r2_dds\Accessory\Posts\Signal\SigPole2.x
+t_denwa,..\..\GeneralStr_v099r2_dds\Accessory\Posts\Tunnel\t_denwa.x
 Bg,..\..\GeneralStr_v099r2_dds\BG\Bg.x
 Bg_fine_summer,..\..\GeneralStr_v099r2_dds\BG\Bg_fine_summer.x
 blue10_b_ban,..\..\GeneralStr_v099r2_dds\Bridge\blue10_b_ban.x
@@ -171,6 +172,8 @@ road_0702_b,..\..\GeneralStr_v099r2_dds\Road\road_0702_b.x
 road_0702_c,..\..\GeneralStr_v099r2_dds\Road\road_0702_c.x
 road_0702_d,..\..\GeneralStr_v099r2_dds\Road\road_0702_d.x
 huku_c1_ent,..\..\GeneralStr_v099r2_dds\Tunnel\huku_c1_ent.x
+huku_c1_esc,..\..\GeneralStr_v099r2_dds\Tunnel\huku_c1_esc.x
+huku_c1_ext,..\..\GeneralStr_v099r2_dds\Tunnel\huku_c1_ext.x
 huku_c1_lp,..\..\GeneralStr_v099r2_dds\Tunnel\huku_c1_lp.x
 huku_c1_Potal1,..\..\GeneralStr_v099r2_dds\Tunnel\huku_c1_Potal1.x
 Pier,..\..\GeneralStr_v099r2_dds\Wall\Pier.x
@@ -318,7 +321,6 @@ Flare51,..\..\FCS_TM\FCS_TM\ColorSignal\Flare51.x
 Flare52,..\..\FCS_TM\FCS_TM\ColorSignal\Flare52.x
 Flare53,..\..\FCS_TM\FCS_TM\ColorSignal\Flare53.x
 Flare54,..\..\FCS_TM\FCS_TM\ColorSignal\Flare54.x
-;signal4yy4,..\..\FCS_TM\FCS_TM\ColorSignal\Sig4byy4_LED.x
 Sig5b0_LED,..\..\FCS_TM\FCS_TM\ColorSignal\Sig5b0_LED.x
 Sig5b1_LED,..\..\FCS_TM\FCS_TM\ColorSignal\Sig5b1_LED.x
 Sig5b2_LED,..\..\FCS_TM\FCS_TM\ColorSignal\Sig5b2_LED.x
