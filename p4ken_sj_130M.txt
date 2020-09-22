@@ -3,7 +3,7 @@ BveTs Scenario 2.00:UTF-8
 Title = 土休日130M列車
 Image = ..\p4ken\png\v3\130M_trim_linear.png
 Author = ぴよ軒
-Comment = ゆったりと余裕のあるダイヤです。 相鉄JR直通線らしい運転を楽しめます。 (ver1.0)
+Comment = ゆったりと余裕のあるダイヤです。 相鉄JR直通線らしい運転を楽しめます。 (ver1.1)
 
 RouteTitle = 相鉄・JR直通線
 Route = 130M.txt
