@@ -118,7 +118,7 @@ $distance_0 + 1940;
 # Y固定表示 (PIによる制動を回避)
 Section.Begin($signal_G);
 Signal['signal4yy_Y'].Put(0, $track_nishiya4, -2.1,3.9);
-Structure['第2場内_hL'].Put($track_nishiya4, -1.8,2.3,-0.1, 0,0,0, $tilt_none, 0);
+Structure['第2場内_hL'].Put($track_nishiya4, -1.8,2.3,-0.2, 0,0,0, $tilt_none, 0);
 SpeedLimit.Begin(45); # JRと異なる
 $distance = distance;
 include 'operation/signal/update.txt';
