@@ -1,5 +1,5 @@
 ﻿BveTs Map 2.02:UTF-8
 
 $distance;
-Train[$train].Stop(0,　0.5, 0, 0);
+Train[$train].Stop(0, 0.5, 0, 0);
 $distance = $distance + 1;
