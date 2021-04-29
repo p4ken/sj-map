@@ -112,3 +112,4 @@ include 'effect/sound/announce.txt';
 include 'effect/sound/run.txt';
 include 'effect/sound/joint.txt';
 include 'effect/sound/flange.txt';
+include 'effect/shock.txt';

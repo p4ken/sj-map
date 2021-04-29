@@ -1,0 +1,5 @@
+﻿BveTs Map 2.02:UTF-8
+
+$distance_0;
+Irregularity.Change(0.0005, 0.001, 0.000,
+                    50,     20,    12.5);
