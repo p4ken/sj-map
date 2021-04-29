@@ -426,3 +426,7 @@ hazawa_tall_L,..\..\p4ken\shadow\wall\hazawa_tall_L.x
 hazawa_tall_more_L,..\..\p4ken\shadow\wall\hazawa_tall_more_L.x
 hazawa_tall_more_R,..\..\p4ken\shadow\wall\hazawa_tall_more_R.x
 hazawa_tall_R,..\..\p4ken\shadow\wall\hazawa_tall_R.x
+
+列選確認灯OFF,..\..\p4ken\signal\pass\列選確認灯OFF.x
+列選確認灯ON1,..\..\p4ken\signal\pass\列選確認灯ON1.x
+列選確認灯ON2,..\..\p4ken\signal\pass\列選確認灯ON2.x
