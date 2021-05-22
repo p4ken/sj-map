@@ -1,0 +1,5 @@
+﻿BveTs Map 2.02:UTF-8
+
+$distance_0 + 33500;
+Structure['53393586_dem_6677'  ].Put($track_up, 0,-22,0, 0,-3,0, $tilt_none, 0);
+Structure['533935863_bldg_6677'].Put($track_up, 0,-22,0, 0,-3,0, $tilt_none, 0);

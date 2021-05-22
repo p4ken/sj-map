@@ -34,8 +34,10 @@ $distance_0 + 16000;
 DrawDistance.Change(800);
 
 $distance_0 + 16200;
-DrawDistance.Change(2000);
+# DrawDistance.Change(2000);
 
-$distance_0 + 19500;
-DrawDistance.Change(400);
+# $distance_0 + 19500;
+# DrawDistance.Change(400);
 
+# $distance_0 + 20000;
+DrawDistance.Change();

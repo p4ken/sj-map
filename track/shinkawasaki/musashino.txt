@@ -58,5 +58,6 @@ $y = $y + 300 * 0.025;
 Track[$track_musashino].Y.Interpolate(0 - $y);
 Repeater['武蔵野貨物線上り'].End();
 Repeater['武蔵野貨物線下り'].End();
+Repeater['武蔵野上り右バラスト'].End();
 Repeater['武蔵野下り右バラスト1'].End();
 Repeater['武蔵野下り左バラスト1'].End();

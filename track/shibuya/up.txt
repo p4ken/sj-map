@@ -1,0 +1,43 @@
+﻿BveTs Map 2.02:UTF-8
+
+0;
+$track_up = 0;
+
+# |  |
+# |[]| 武蔵小杉
+# |  |
+
+$distance_shinagawa - 9500;
+Repeater['上りバラスト軌道'].Begin($track_up, 0,0,0, 0,0,0, $tilt_all, 5, 5, 'BallastPC_K_5a', 'BallastPC_K_5b');
+
+# 渋谷までまとめて左100度くらい R400m L700m
+$distance_0 + 26300;
+Curve.Interpolate();
+
+$distance_0 + 26350;
+Curve.Interpolate(-400, -0.06);
+
+$distance_0 + 27050;
+Curve.Interpolate();
+
+$distance_0 + 27100;
+Curve.Interpolate(0, 0);
+
+# |  |
+# |[]| 恵比寿
+# |  |
+
+$distance_0 + 33300;
+Curve.Interpolate();
+Curve.Interpolate(1500, 0);
+
+$distance_0 + 33500;
+Curve.Interpolate();
+Curve.Interpolate(0, 0);
+
+# |  |
+# |[]| 渋谷
+# |  |
+
+$distance_0 + 34500;
+Repeater['上りバラスト軌道'].End();

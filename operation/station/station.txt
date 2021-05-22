@@ -38,3 +38,28 @@ $distance_shinagawa - 9873;
 Station['musashi_kosugi'].Put($door_right, -5, 5);
 $distance = distance;
 include 'operation/station/doorR.txt';
+
+# 駅間6.4km
+
+$distance_0 + 25800;
+Station['nishi_oi'].Put($door_right, -5, 5);
+
+# 駅間0.5km
+
+$distance_0 + 26300;
+Station['hebikubo'].Put($door_right, -5, 5);
+
+# 駅間2.0km
+
+$distance_0 + 28300;
+Station['osaki'].Put($door_right, -5, 5);
+
+# 駅間3.6km
+
+$distance_0 + 31900;
+Station['ebisu'].Put($door_right, -5, 5);
+
+# 駅間1.6km
+
+$distance_0 + 33500;
+Station['shibuya'].Put($door_right, -5, 5);
