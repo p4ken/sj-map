@@ -334,9 +334,9 @@ Back_Arm_MU,..\..\FCS_TM\FCS_TM\SigPole\Back_Arm_MU.x
 Back_Arm_SD,..\..\FCS_TM\FCS_TM\SigPole\Back_Arm_SD.x
 Back_Arm_SU,..\..\FCS_TM\FCS_TM\SigPole\Back_Arm_SU.x
 
-門型_DDS,..\..\MMD\新幹線架線柱\門型_DDS.x
+門型_DDS,..\..\MMD\shinkansen_pole\mon_DDS.x
 
-砂利,..\..\p4ken\建築パース\砂利.x
+砂利,..\..\p4ken\kenchiku-pers\jari.x
 
 atsp,..\..\p4ken\izumino\model\komono\atsp.x
 atspGreen,..\..\p4ken\izumino\model\komono\atspGreen.x
@@ -353,20 +353,20 @@ hazawaT_wall, ..\..\p4ken\building\hazawa_tunnel\hazawaT_wall.x
 45kmph_L_hL,..\..\p4ken\sign\limit\45kmph_L_hL.x
 60kmph_L_hL,..\..\p4ken\sign\limit\60kmph_L_hL.x
 limit_end_hL,..\..\p4ken\sign\limit\limit_end_hL.x
-atsp確認_hL,..\..\p4ken\sign\notice\atsp確認_hL.x
+atsp確認_hL,..\..\p4ken\sign\notice\atsp_check_hL.x
 kanko_jr_hL,..\..\p4ken\sign\notice\kanko_jr_hL.x
 kanko_so_hL,..\..\p4ken\sign\notice\kanko_so_hL.x
-出発横_hL,..\..\p4ken\sign\signal\出発横_hL.x
+出発横_hL,..\..\p4ken\sign\signal\dep_hL.x
 3004_hL,..\..\p4ken\sign\signal\3004_hL.x
 3008_hL,..\..\p4ken\sign\signal\3008_hL.x
 3010_hL,..\..\p4ken\sign\signal\3010_hL.x
 3014_hL,..\..\p4ken\sign\signal\3014_hL.x
-第1場内_hL,..\..\p4ken\sign\signal\第1場内_hL.x
-第2場内_hL,..\..\p4ken\sign\signal\第2場内_hL.x
-場内_hL,..\..\p4ken\sign\signal\場内_hL.x
-7番出_hL,..\..\p4ken\sign\signal\7番出_hL.x
-貨本二場_hL,..\..\p4ken\sign\signal\貨本二場_hL.x
-中3二場_hL,..\..\p4ken\sign\signal\中3二場_hL.x
+第1場内_hL,..\..\p4ken\sign\signal\sta_1_hL.x
+第2場内_hL,..\..\p4ken\sign\signal\sta_2_hL.x
+場内_hL,..\..\p4ken\sign\signal\sta_hL.x
+7番出_hL,..\..\p4ken\sign\signal\dep_7_hL.x
+貨本二場_hL,..\..\p4ken\sign\signal\sta_freight_2_hL.x
+中3二場_hL,..\..\p4ken\sign\signal\sta_2_mid_3_hL.x
 7_hL,..\..\p4ken\sign\signal\7_hL.x
 6_hL,..\..\p4ken\sign\signal\6_hL.x
 5_hL,..\..\p4ken\sign\signal\5_hL.x
@@ -374,25 +374,25 @@ kanko_so_hL,..\..\p4ken\sign\notice\kanko_so_hL.x
 3_hL,..\..\p4ken\sign\signal\3_hL.x
 2_hL,..\..\p4ken\sign\signal\2_hL.x
 1_hL,..\..\p4ken\sign\signal\1_hL.x
-1JR出_hL,..\..\p4ken\sign\signal\1JR出_hL.x
-2JR出_hL,..\..\p4ken\sign\signal\2JR出_hL.x
-貨一場_hL,..\..\p4ken\sign\signal\貨一場_hL.x
-品鶴出_hL,..\..\p4ken\sign\signal\品鶴出_hL.x
-塩浜出_hL,..\..\p4ken\sign\signal\塩浜出_hL.x
-中3出_hL,..\..\p4ken\sign\signal\中3出_hL.x
-須_hL,..\..\p4ken\sign\signal\須_hL.x
-本一場_hL,..\..\p4ken\sign\signal\本一場_hL.x
-中一場_hL,..\..\p4ken\sign\signal\中一場_hL.x
-5_6場_hL,..\..\p4ken\sign\signal\5_6場_hL.x
-7_8場_hL,..\..\p4ken\sign\signal\7_8場_hL.x
-9_10_11場_hL,..\..\p4ken\sign\signal\9_10_11場_hL.x
-本二場_hL,..\..\p4ken\sign\signal\本二場_hL.x
-本三場_hL,..\..\p4ken\sign\signal\本三場_hL.x
-本一出_hL,..\..\p4ken\sign\signal\本一出_hL.x
-10出_hL,..\..\p4ken\sign\signal\10出_hL.x
-11出_hL,..\..\p4ken\sign\signal\11出_hL.x
-品二出_hL,..\..\p4ken\sign\signal\品二出_hL.x
-武2出_hL,..\..\p4ken\sign\signal\武2出_hL.x
+1JR出_hL,..\..\p4ken\sign\signal\dep_1_jr_hL.x
+2JR出_hL,..\..\p4ken\sign\signal\dep_2_jr_hL.x
+貨一場_hL,..\..\p4ken\sign\signal\sta_freight_1_hL.x
+品鶴出_hL,..\..\p4ken\sign\signal\dep_hinkaku_hL.x
+塩浜出_hL,..\..\p4ken\sign\signal\dep_shiohama_hL.x
+中3出_hL,..\..\p4ken\sign\signal\dep_mid_3_hL.x
+須_hL,..\..\p4ken\sign\signal\su_hL.x
+本一場_hL,..\..\p4ken\sign\signal\sta_main_1_hL.x
+中一場_hL,..\..\p4ken\sign\signal\sta_mid_1_hL.x
+5_6場_hL,..\..\p4ken\sign\signal\sta_5_6_hL.x
+7_8場_hL,..\..\p4ken\sign\signal\sta_7_8_hL.x
+9_10_11場_hL,..\..\p4ken\sign\signal\sta_9_10_11_hL.x
+本二場_hL,..\..\p4ken\sign\signal\sta_main_2_hL.x
+本三場_hL,..\..\p4ken\sign\signal\sta_main_3_hL.x
+本一出_hL,..\..\p4ken\sign\signal\dep_main_1_hL.x
+10出_hL,..\..\p4ken\sign\signal\dep_10_hL.x
+11出_hL,..\..\p4ken\sign\signal\dep_11_hL.x
+品二出_hL,..\..\p4ken\sign\signal\dep_hin_2_hL.x
+武2出_hL,..\..\p4ken\sign\signal\dep_mu_2_hL.x
 14_hL,..\..\p4ken\sign\signal\14_hL.x
 13_hL,..\..\p4ken\sign\signal\13_hL.x
 12_hL,..\..\p4ken\sign\signal\12_hL.x
@@ -401,12 +401,12 @@ stop10_so_hL,..\..\p4ken\sign\stop\stop10_so_hL.x
 stop15_hL,..\..\p4ken\sign\stop\stop15_hL.x
 stopN6_hL,..\..\p4ken\sign\stop\stopN6_hL.x
 stopN12_hL,..\..\p4ken\sign\stop\stopN12_hL.x
-西谷T_hL,..\..\p4ken\sign\tunnel\西谷T_hL.x
+西谷T_hL,..\..\p4ken\sign\tunnel\nishiya_T_hL.x
 武蔵小杉4番線ホーム床, ..\..\p4ken\building\musashi_kosugi\form4.x
 武蔵小杉4番線ホーム床中央, ..\..\p4ken\building\musashi_kosugi\form_between.x
 武蔵小杉4番線ホーム支柱, ..\..\p4ken\building\musashi_kosugi\poll.x
 武蔵小杉4番線ホーム屋根, ..\..\p4ken\building\musashi_kosugi\roof.x
-港北_hL,..\..\p4ken\sign\tunnel\港北_hL.x
+港北_hL,..\..\p4ken\sign\tunnel\kohoku_hL.x
 
 koki106_a,..\..\RON\koki106\koki106_a_dds.x
 koki106_a-empty,..\..\RON\koki106\koki106_a-empty_dds.x
@@ -427,6 +427,6 @@ hazawa_tall_more_L,..\..\p4ken\shadow\wall\hazawa_tall_more_L.x
 hazawa_tall_more_R,..\..\p4ken\shadow\wall\hazawa_tall_more_R.x
 hazawa_tall_R,..\..\p4ken\shadow\wall\hazawa_tall_R.x
 
-列選確認灯OFF,..\..\p4ken\signal\pass\列選確認灯OFF.x
-列選確認灯ON1,..\..\p4ken\signal\pass\列選確認灯ON1.x
-列選確認灯ON2,..\..\p4ken\signal\pass\列選確認灯ON2.x
+列選確認灯OFF,..\..\p4ken\signal\pass\OFF.x
+列選確認灯ON1,..\..\p4ken\signal\pass\ON1.x
+列選確認灯ON2,..\..\p4ken\signal\pass\ON2.x
